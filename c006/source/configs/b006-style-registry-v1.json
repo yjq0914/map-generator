@@ -1,0 +1,8 @@
+{
+  "version": "b006-registry-candidate-v1",
+  "module": "source/b006-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "inheritedRegistry": "source/b005-style-registry.cjs",
+  "explicitCandidate": "diagonal-patrol-turn-encounter",
+  "qualification": "Finite patrol candidate pending terminal decision; every prior call delegated exactly"
+}

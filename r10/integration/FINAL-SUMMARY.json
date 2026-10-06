@@ -1,0 +1,422 @@
+{
+  "schema": "combo-integration-final-summary/1",
+  "experimental_native_trajectories": 40,
+  "trajectory_accounting": {
+    "L1_panel": 24,
+    "L1_controller_diagnostics": 2,
+    "L2_initial": 8,
+    "L2_targeted": 4,
+    "L3_macro": 2
+  },
+  "unit_fixture_rollouts_excluded": true,
+  "short_targeted": [
+    {
+      "id": "new-2701",
+      "outcome": "native-win",
+      "time_s": 31.166666666666668,
+      "horizon_s": 31.166666666666668,
+      "flaps": 49,
+      "contacts": [],
+      "seams_crossed": 4,
+      "seams_total": 4,
+      "sampled_current_geometry_minimum": {
+        "clearance_px": 0.4767346661808176,
+        "tick": 324,
+        "body": "m01-solid-crown-1"
+      },
+      "minimum_scope": "Stored12-tick frames only, not continuous or substep minimum and not a safe range",
+      "y_span": [
+        129.42395833333197,
+        394.5930555555539
+      ],
+      "families": [
+        "cloister",
+        "slider-island",
+        "spring-reception",
+        "tidal-staircase",
+        "cloister"
+      ],
+      "variants": [
+        "alternate",
+        "alternate",
+        "alternate",
+        "base",
+        "alternate"
+      ],
+      "requested_difficulty": "medium",
+      "death": null,
+      "final_state": {
+        "tick": 3740,
+        "x": 4735,
+        "y": 150.99166666666468,
+        "vx": 150,
+        "vy": 37.999999999999886,
+        "terminal": null,
+        "won": true
+      },
+      "map_sha256": "6c3a622cf1da63f27e4896a0a0752204b8acc8ad1060982e704bc6c62b214aa8",
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 36
+      }
+    },
+    {
+      "id": "new-2703",
+      "outcome": "native-win",
+      "time_s": 31.608333333333334,
+      "horizon_s": 31.608333333333334,
+      "flaps": 47,
+      "contacts": [
+        {
+          "tick": 1243,
+          "type": "bounce",
+          "id": "m02-S-reset",
+          "side": "top"
+        }
+      ],
+      "seams_crossed": 4,
+      "seams_total": 4,
+      "sampled_current_geometry_minimum": {
+        "clearance_px": 4.846717224244223,
+        "tick": 1608,
+        "body": "m03-inclined-upper"
+      },
+      "minimum_scope": "Stored12-tick frames only, not continuous or substep minimum and not a safe range",
+      "y_span": [
+        129.57715277777774,
+        443.7840972222228
+      ],
+      "families": [
+        "bellows-question-answer",
+        "spring-reception",
+        "light-cavity",
+        "tidal-staircase",
+        "spring-reception"
+      ],
+      "variants": [
+        "alternate",
+        "alternate",
+        "base",
+        "alternate",
+        "base"
+      ],
+      "requested_difficulty": "medium",
+      "death": null,
+      "final_state": {
+        "tick": 3793,
+        "x": 4801.25,
+        "y": 270.7188194444434,
+        "vx": 150,
+        "vy": 106.33333333333326,
+        "terminal": null,
+        "won": true
+      },
+      "map_sha256": "097f9b4062531d6271f301b8ad273fa38f2579718daa43288cef092e698ccc4e",
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 19
+      }
+    },
+    {
+      "id": "new-701",
+      "outcome": "native-win",
+      "time_s": 31.166666666666668,
+      "horizon_s": 31.166666666666668,
+      "flaps": 49,
+      "contacts": [],
+      "seams_crossed": 4,
+      "seams_total": 4,
+      "sampled_current_geometry_minimum": {
+        "clearance_px": 14.433333333334218,
+        "tick": 1296,
+        "body": "m02-island"
+      },
+      "minimum_scope": "Stored12-tick frames only, not continuous or substep minimum and not a safe range",
+      "y_span": [
+        129.34930555555403,
+        392.2722222222202
+      ],
+      "families": [
+        "cloister",
+        "slider-island",
+        "spring-reception",
+        "tidal-staircase",
+        "cloister"
+      ],
+      "variants": [
+        "base",
+        "alternate",
+        "alternate",
+        "base",
+        "base"
+      ],
+      "requested_difficulty": "easy",
+      "death": null,
+      "final_state": {
+        "tick": 3740,
+        "x": 4735,
+        "y": 151.4472222222199,
+        "vx": 150,
+        "vy": 31.166666666666554,
+        "terminal": null,
+        "won": true
+      },
+      "map_sha256": "5074e61244c0b4afdc020e201b06be0995e0d6dc411c061c6ee2b1f5b0b40009",
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 36
+      }
+    },
+    {
+      "id": "new-708",
+      "outcome": "native-win",
+      "time_s": 31.666666666666668,
+      "horizon_s": 31.666666666666668,
+      "flaps": 47,
+      "contacts": [
+        {
+          "tick": 2637,
+          "type": "bounce",
+          "id": "m04-S-reset",
+          "side": "top"
+        }
+      ],
+      "seams_crossed": 5,
+      "seams_total": 5,
+      "sampled_current_geometry_minimum": {
+        "clearance_px": 5.703267554069967,
+        "tick": 1344,
+        "body": "m02-solid-crown-1"
+      },
+      "minimum_scope": "Stored12-tick frames only, not continuous or substep minimum and not a safe range",
+      "y_span": [
+        129.6083333333331,
+        409.0288194444428
+      ],
+      "families": [
+        "tidal-staircase",
+        "cloister",
+        "slider-island",
+        "spring-reception",
+        "slider-island",
+        "spring-reception"
+      ],
+      "variants": [
+        "base",
+        "alternate",
+        "base",
+        "base",
+        "base",
+        "base"
+      ],
+      "requested_difficulty": "medium",
+      "death": null,
+      "final_state": {
+        "tick": 3800,
+        "x": 4810,
+        "y": 268.9820138888887,
+        "vx": 150,
+        "vy": -112.3333333333335,
+        "terminal": null,
+        "won": true
+      },
+      "map_sha256": "a7951e01f351214e8d5f531f7cbbe3a2db441688310c15720aa0ecac163f0cce",
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 37
+      }
+    }
+  ],
+  "macro": [
+    {
+      "id": "macro-3701",
+      "outcome": "death",
+      "time_s": 6.8,
+      "horizon_s": 120.0,
+      "flaps": 10,
+      "contacts": [],
+      "seams_crossed": 0,
+      "seams_total": 16,
+      "sampled_current_geometry_minimum": {
+        "clearance_px": 0.0,
+        "tick": 816,
+        "body": "m01-roof-3"
+      },
+      "minimum_scope": "Stored12-tick frames only, not continuous or substep minimum and not a safe range",
+      "y_span": [
+        129.6083333333331,
+        289.8277777777768
+      ],
+      "families": [
+        "tidal-staircase",
+        "cloister",
+        "slider-island",
+        "tidal-staircase",
+        "slider-island",
+        "spring-reception",
+        "slider-island",
+        "cloister",
+        "tidal-staircase",
+        "spring-reception",
+        "tidal-staircase",
+        "cloister",
+        "slider-island",
+        "cloister",
+        "tidal-staircase",
+        "slider-island",
+        "tidal-staircase"
+      ],
+      "variants": [
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate",
+        "base",
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate",
+        "alternate"
+      ],
+      "requested_difficulty": "medium",
+      "death": {
+        "tick": 815,
+        "type": "death",
+        "id": "m01-roof-3",
+        "mechanic": "fixed_armor_or_spike",
+        "sourceId": "m01-roof-3"
+      },
+      "final_state": {
+        "tick": 816,
+        "x": 1080,
+        "y": 289.8277777777768,
+        "vx": 150,
+        "vy": 331.83333333333337,
+        "terminal": "death",
+        "won": false
+      },
+      "map_sha256": "65157285610ce25e010745ced15a7f4d09ed789d553a2978e94753cf3c07868b",
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 128
+      }
+    },
+    {
+      "id": "macro-3703",
+      "outcome": "death",
+      "time_s": 10.441666666666666,
+      "horizon_s": 120.0,
+      "flaps": 16,
+      "contacts": [],
+      "seams_crossed": 1,
+      "seams_total": 18,
+      "sampled_current_geometry_minimum": {
+        "clearance_px": -0.23856530441481993,
+        "tick": 1253,
+        "body": "m02-inclined-upper"
+      },
+      "minimum_scope": "Stored12-tick frames only, not continuous or substep minimum and not a safe range",
+      "y_span": [
+        164.3343749999997,
+        441.51111111111055
+      ],
+      "families": [
+        "bellows-question-answer",
+        "light-cavity",
+        "spring-reception",
+        "tidal-staircase",
+        "cloister",
+        "slider-island",
+        "light-cavity",
+        "bellows-question-answer",
+        "spring-reception",
+        "light-cavity",
+        "tidal-staircase",
+        "spring-reception",
+        "bellows-question-answer",
+        "slider-island",
+        "bellows-question-answer",
+        "spring-reception",
+        "slider-island",
+        "tidal-staircase",
+        "light-cavity"
+      ],
+      "variants": [
+        "alternate",
+        "base",
+        "alternate",
+        "alternate",
+        "alternate",
+        "base",
+        "base",
+        "alternate",
+        "base",
+        "base",
+        "alternate",
+        "base",
+        "alternate",
+        "base",
+        "alternate",
+        "base",
+        "base",
+        "alternate",
+        "base"
+      ],
+      "requested_difficulty": "medium",
+      "death": {
+        "tick": 1252,
+        "type": "death",
+        "id": "m02-inclined-upper",
+        "mechanic": "laser_scanner",
+        "sourceId": "m02-inclined-upper"
+      },
+      "final_state": {
+        "tick": 1253,
+        "x": 1626.25,
+        "y": 374.4982638888883,
+        "vx": 150,
+        "vy": -180.6666666666667,
+        "terminal": "death",
+        "won": false
+      },
+      "map_sha256": "f96ae003b8803fadd1de1da231677df1e794da001e9c12a3c70ae5495f7a7126",
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 93
+      }
+    }
+  ],
+  "qualification": "No new qualified families, recipes or continuous safe ranges; no human-play evidence",
+  "scope": "Six callable relational families; output remains explicitly experimental; rhythm/diversity and120s generalization goals remain unmet"
+}

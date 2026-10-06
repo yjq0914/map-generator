@@ -1,0 +1,125 @@
+{
+  "ruleId": "r08-mechanical",
+  "version": 1,
+  "parentRules": [],
+  "theme": "mechanical",
+  "variant": 3,
+  "level": "combo",
+  "predicate": {
+    "y": [
+      245,
+      300
+    ],
+    "vy": [
+      -65,
+      65
+    ],
+    "lead": [
+      -20,
+      20
+    ],
+    "phase": [
+      -0.45,
+      0.45
+    ],
+    "adjacency": [
+      "none",
+      "upper-after",
+      "lower-before"
+    ],
+    "mechanismsAllowed": [
+      "fixed",
+      "vertical-slider"
+    ]
+  },
+  "dependencies": [
+    "engine exact hash",
+    "route-mpc/3-delay-aware",
+    "semantics-v3"
+  ],
+  "conflicts": [
+    "unvalidated interactions",
+    "multi-contact stage composition"
+  ],
+  "supportedEvidence": [
+    "r08-h-v0-h0-main-route",
+    "r08-h-v0-h0-main-route-slow",
+    "r08-h-v0-h0-branch-route",
+    "r08-h-v0-h0-branch-route-slow",
+    "r08-h-v0-h1-main-route",
+    "r08-h-v0-h1-main-route-slow",
+    "r08-h-v0-h1-branch-route",
+    "r08-h-v0-h1-branch-route-slow",
+    "r08-h-v0-h2-main-route",
+    "r08-h-v0-h2-main-route-slow",
+    "r08-h-v0-h2-branch-route",
+    "r08-h-v0-h2-branch-route-slow",
+    "r08-h-v0-h3-main-route",
+    "r08-h-v0-h3-main-route-slow",
+    "r08-h-v0-h3-branch-route",
+    "r08-h-v0-h3-branch-route-slow",
+    "r08-h-v0-h4-main-route",
+    "r08-h-v0-h4-main-route-slow",
+    "r08-h-v0-h4-branch-route",
+    "r08-h-v0-h4-branch-route-slow",
+    "r08-h-v0-h5-main-route",
+    "r08-h-v0-h5-main-route-slow",
+    "r08-h-v0-h5-branch-route",
+    "r08-h-v0-h5-branch-route-slow",
+    "r08-h-v0-h6-main-route",
+    "r08-h-v0-h6-main-route-slow",
+    "r08-h-v0-h6-branch-route",
+    "r08-h-v0-h6-branch-route-slow",
+    "r08-h-v0-h7-main-route",
+    "r08-h-v0-h7-main-route-slow",
+    "r08-h-v0-h7-branch-route",
+    "r08-h-v0-h7-branch-route-slow",
+    "r08-h-v3-h0-main-route",
+    "r08-h-v3-h0-main-route-slow",
+    "r08-h-v3-h0-branch-route",
+    "r08-h-v3-h0-branch-route-slow",
+    "r08-h-v3-h1-main-route",
+    "r08-h-v3-h1-main-route-slow",
+    "r08-h-v3-h1-branch-route",
+    "r08-h-v3-h1-branch-route-slow",
+    "r08-h-v3-h2-main-route",
+    "r08-h-v3-h2-main-route-slow",
+    "r08-h-v3-h2-branch-route",
+    "r08-h-v3-h2-branch-route-slow",
+    "r08-h-v3-h3-main-route",
+    "r08-h-v3-h3-main-route-slow",
+    "r08-h-v3-h3-branch-route",
+    "r08-h-v3-h3-branch-route-slow",
+    "r08-h-v3-h4-main-route",
+    "r08-h-v3-h4-main-route-slow",
+    "r08-h-v3-h4-branch-route",
+    "r08-h-v3-h4-branch-route-slow",
+    "r08-h-v3-h5-main-route",
+    "r08-h-v3-h5-main-route-slow",
+    "r08-h-v3-h5-branch-route",
+    "r08-h-v3-h5-branch-route-slow",
+    "r08-h-v3-h6-main-route",
+    "r08-h-v3-h6-main-route-slow",
+    "r08-h-v3-h6-branch-route",
+    "r08-h-v3-h6-branch-route-slow",
+    "r08-h-v3-h7-main-route",
+    "r08-h-v3-h7-main-route-slow",
+    "r08-h-v3-h7-branch-route",
+    "r08-h-v3-h7-branch-route-slow"
+  ],
+  "counterexamples": [],
+  "exitContract": {
+    "x": 1320,
+    "y": [
+      160,
+      410
+    ],
+    "vy": [
+      -310,
+      300
+    ]
+  },
+  "fallback": "explicit baseline v0 with unvalidated label; never success claim",
+  "adoption": "conditional empirical combo",
+  "continuousGuarantee": false
+}

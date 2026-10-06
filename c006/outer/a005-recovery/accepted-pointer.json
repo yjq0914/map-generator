@@ -1,0 +1,27 @@
+{
+  "schema": "qualified-recovery-operating-pointer/1",
+  "version": "recovery-cumulative-v1",
+  "round": "a005-recovery",
+  "updatedAt": "2026-10-04T18:56:00.695Z",
+  "generator": "source/recovery-generator.cjs",
+  "config": "source/configs/recovery-cumulative-v1.json",
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/a005-recovery/decision.json",
+  "sourceFreeze": "protocols/freezes/a005-recovery-formal-v1.json",
+  "sourceManifestHash": "4e3d0e91a5bd2d0dc0cd098458f4247d5c0065734b75d1917fccd7cf14433352",
+  "artifactManifest": "outer/a005-recovery/artifact-manifest.json",
+  "artifactManifestHash": "f35f8b53a86de3213113fc8f033a7c5b5d451bd309955192c320e90abe13ea6b",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_123a3f89b0588191aeb88266d1a93b6f",
+    "libraryVersion": 21,
+    "sha256": "b37ca51701ce3bcba64fd00d2d2524ae2c6ef91e4c0cc755d6d322478789756b",
+    "bytes": 27746475,
+    "receipt": "protocols/receipts/a005-recovery-qualified-bundle.json"
+  },
+  "qualification": "New unpublished cumulative recovery recipe, finite24six-field-condition fullcourse and2public+2freshheld single-command±1tick profile qualification. Not originala004 byte recovery; no human-fun/arbitrary-composition/natural-route-choice claim.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/a005-recovery/accepted-pointer.json"
+}

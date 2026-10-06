@@ -1,0 +1,19 @@
+{
+  "sourceDir": "integration/runs/four-loops/B3/runs/candidate-701",
+  "sourceFiles": {
+    "result.json": "ad2d6239037a643ebfbd41d4988c243435664b40dc6d37e14fcc5e552a7593ab",
+    "trace.json.gz": "de744bf06d3523b627d5c87145276436559e738a195fb22293d65d29c41c7b30",
+    "inputs.json": "9bad93ed1c52486119547692dea6ce85d8a8bb714235d0c5cdfa78e05e18c6cc",
+    "map.json": "cafeb3b5e2a3ced4230ea83d8eeb1406cd355e2efbf15954f0353341044da4d3"
+  },
+  "hashBound": true,
+  "horizonTicks": 3600,
+  "request": {
+    "seed": 701,
+    "duration_s": 31.5,
+    "difficulty": "easy",
+    "theme": "arcade",
+    "experimental": true,
+    "holdout": false
+  }
+}

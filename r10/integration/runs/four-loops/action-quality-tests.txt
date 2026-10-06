@@ -1,0 +1,14 @@
+test_actual_y_and_flaps_do_not_come_from_guide (integration.tests.test_action_quality_audit.ActionQualityTests.test_actual_y_and_flaps_do_not_come_from_guide) ... ok
+test_b1_read_only_hash_bound_smoke (integration.tests.test_action_quality_audit.ActionQualityTests.test_b1_read_only_hash_bound_smoke) ... ok
+test_clearance_uses_saved_frames_and_discloses_unsupported_shapes (integration.tests.test_action_quality_audit.ActionQualityTests.test_clearance_uses_saved_frames_and_discloses_unsupported_shapes) ... ok
+test_constant_targets_merge_but_keep_policy_and_module_provenance (integration.tests.test_action_quality_audit.ActionQualityTests.test_constant_targets_merge_but_keep_policy_and_module_provenance) ... ok
+test_equal_targets_across_gap_do_not_merge (integration.tests.test_action_quality_audit.ActionQualityTests.test_equal_targets_across_gap_do_not_merge) ... ok
+test_sequence_similarity_is_token_order_sensitive (integration.tests.test_action_quality_audit.ActionQualityTests.test_sequence_similarity_is_token_order_sensitive) ... ok
+test_trace_schema_and_missing_ticks (integration.tests.test_action_quality_audit.ActionQualityTests.test_trace_schema_and_missing_ticks) ... ok
+test_true_even_median (integration.tests.test_action_quality_audit.ActionQualityTests.test_true_even_median) ... ok
+test_unreached_module_keeps_null_y_and_no_fake_action (integration.tests.test_action_quality_audit.ActionQualityTests.test_unreached_module_keeps_null_y_and_no_fake_action) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.783s
+
+OK

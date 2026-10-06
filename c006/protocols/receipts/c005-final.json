@@ -1,0 +1,14 @@
+{
+  "schema": "adaptive-final-round-save/1",
+  "round": "c005",
+  "savedAt": "2026-10-05T15:03:37.883202+00:00",
+  "sourceLibraryFileId": "libfile_674e2225af5c8191b0e6d5730cc844e5",
+  "sourceVersion": 14,
+  "archiveSHA256": "9e5fb61931aaa4e73f54afc1687b89e8ec48f82ecb0dd5959e81804a080e4f36",
+  "bytes": 2865043,
+  "rawLibraryFileId": "libfile_39a8e78d70fc8191946cb19f5844c05b",
+  "rawVersion": 0,
+  "progressLibraryFileId": "libfile_85f35e0e1c2c81918858d737069b5c49",
+  "progressVersion": 6,
+  "remoteBytesVerified": false
+}

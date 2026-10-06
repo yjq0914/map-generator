@@ -1,0 +1,194 @@
+{
+  "ruleId": "r13-whole",
+  "version": 2,
+  "parentRules": [
+    "r10-stage",
+    "r11-stage",
+    "r12-stage"
+  ],
+  "level": "whole",
+  "theme": "wave-mechanical",
+  "pattern": "curriculum",
+  "progression": false,
+  "predicate": {
+    "y": [
+      245,
+      300
+    ],
+    "vy": [
+      -65,
+      65
+    ],
+    "lead": [
+      -20,
+      20
+    ],
+    "phase": [
+      -0.45,
+      0.45
+    ],
+    "adjacency": [
+      "none",
+      "upper-after",
+      "lower-before"
+    ],
+    "mechanismsAllowed": [
+      "fixed",
+      "vertical-slider"
+    ]
+  },
+  "controller": "route-mpc/3+analytic-bridge/2",
+  "compiledFrom": [
+    "r10-stage",
+    "r11-stage",
+    "r12-stage"
+  ],
+  "conflicts": [
+    "spring multi-contact composition",
+    "unqualified combinations",
+    "arbitrary itinerary"
+  ],
+  "exitContract": {
+    "y": [
+      245,
+      300
+    ],
+    "vy": [
+      -65,
+      65
+    ]
+  },
+  "adoption": "whole experimental branch",
+  "globalDefault": false,
+  "supportedEvidence": [
+    "r13-h-v1-h0-main-route",
+    "r13-h-v1-h0-branch-route",
+    "r13-h-v1-h1-main-route",
+    "r13-h-v1-h1-branch-route",
+    "r13-h-v1-h2-main-route",
+    "r13-h-v1-h2-branch-route",
+    "r13-h-v1-h3-main-route",
+    "r13-h-v1-h3-branch-route",
+    "r13-h-v1-h4-main-route",
+    "r13-h-v1-h4-branch-route",
+    "r13-h-v1-h5-main-route",
+    "r13-h-v1-h5-branch-route",
+    "r13-h-v1-h6-main-route",
+    "r13-h-v1-h6-branch-route",
+    "r13-h-v1-h7-main-route",
+    "r13-h-v1-h7-branch-route",
+    "r13-h-v1-h8-main-route",
+    "r13-h-v1-h8-branch-route",
+    "r13-h-v1-h9-main-route",
+    "r13-h-v1-h9-branch-route",
+    "r13-h-v1-h10-main-route",
+    "r13-h-v1-h10-branch-route",
+    "r13-h-v1-h11-main-route",
+    "r13-h-v1-h11-branch-route"
+  ],
+  "comparisonEvidence": [
+    "r13-h-v0-h0-main-route",
+    "r13-h-v0-h0-branch-route",
+    "r13-h-v0-h0-main-H1",
+    "r13-h-v0-h0-main-H1-slow",
+    "r13-h-v0-h1-main-route",
+    "r13-h-v0-h1-branch-route",
+    "r13-h-v0-h1-main-H1",
+    "r13-h-v0-h1-main-H1-slow",
+    "r13-h-v0-h2-main-route",
+    "r13-h-v0-h2-branch-route",
+    "r13-h-v0-h2-main-H1",
+    "r13-h-v0-h2-main-H1-slow",
+    "r13-h-v0-h3-main-route",
+    "r13-h-v0-h3-branch-route",
+    "r13-h-v0-h3-main-H1",
+    "r13-h-v0-h3-main-H1-slow",
+    "r13-h-v0-h4-main-route",
+    "r13-h-v0-h4-branch-route",
+    "r13-h-v0-h4-main-H1",
+    "r13-h-v0-h4-main-H1-slow",
+    "r13-h-v0-h5-main-route",
+    "r13-h-v0-h5-branch-route",
+    "r13-h-v0-h5-main-H1",
+    "r13-h-v0-h5-main-H1-slow",
+    "r13-h-v0-h6-main-route",
+    "r13-h-v0-h6-branch-route",
+    "r13-h-v0-h6-main-H1",
+    "r13-h-v0-h6-main-H1-slow",
+    "r13-h-v0-h7-main-route",
+    "r13-h-v0-h7-branch-route",
+    "r13-h-v0-h7-main-H1",
+    "r13-h-v0-h7-main-H1-slow",
+    "r13-h-v0-h8-main-route",
+    "r13-h-v0-h8-branch-route",
+    "r13-h-v0-h8-main-H1",
+    "r13-h-v0-h8-main-H1-slow",
+    "r13-h-v0-h9-main-route",
+    "r13-h-v0-h9-branch-route",
+    "r13-h-v0-h9-main-H1",
+    "r13-h-v0-h9-main-H1-slow",
+    "r13-h-v0-h10-main-route",
+    "r13-h-v0-h10-branch-route",
+    "r13-h-v0-h10-main-H1",
+    "r13-h-v0-h10-main-H1-slow",
+    "r13-h-v0-h11-main-route",
+    "r13-h-v0-h11-branch-route",
+    "r13-h-v0-h11-main-H1",
+    "r13-h-v0-h11-main-H1-slow"
+  ],
+  "counterexamples": [
+    "r13-h-v1-h0-main-H1",
+    "r13-h-v1-h0-main-H1-slow",
+    "r13-h-v1-h1-main-H1",
+    "r13-h-v1-h1-main-H1-slow",
+    "r13-h-v1-h2-main-H1",
+    "r13-h-v1-h2-main-H1-slow",
+    "r13-h-v1-h3-main-H1",
+    "r13-h-v1-h3-main-H1-slow",
+    "r13-h-v1-h4-main-H1",
+    "r13-h-v1-h4-main-H1-slow",
+    "r13-h-v1-h5-main-H1",
+    "r13-h-v1-h5-main-H1-slow",
+    "r13-h-v1-h6-main-H1",
+    "r13-h-v1-h6-main-H1-slow",
+    "r13-h-v1-h7-main-H1",
+    "r13-h-v1-h7-main-H1-slow",
+    "r13-h-v1-h8-main-H1",
+    "r13-h-v1-h8-main-H1-slow",
+    "r13-h-v1-h9-main-H1",
+    "r13-h-v1-h9-main-H1-slow",
+    "r13-h-v1-h10-main-H1",
+    "r13-h-v1-h10-main-H1-slow",
+    "r13-h-v1-h11-main-H1",
+    "r13-h-v1-h11-main-H1-slow"
+  ],
+  "fallback": "return explicit unsupported result; no implicit easier map",
+  "parentRuleRefs": [
+    {
+      "ruleId": "r10-stage",
+      "version": 2,
+      "sha256": "5193b143ea71a9cd5017bd1a4c0cf1f38ce1e24ded6f2fc8841ee749bae7f160"
+    },
+    {
+      "ruleId": "r11-stage",
+      "version": 2,
+      "sha256": "f02943a913c11b1580cb20d39f1e0f882c255cf7fbb92e29124886875da17d01"
+    },
+    {
+      "ruleId": "r12-stage",
+      "version": 2,
+      "sha256": "222bcc1fe542d117547b45b8a2e235a1d322a0b67f1e26c9da5a6268b8c4ae4f"
+    }
+  ],
+  "amendment": {
+    "at": "2026-10-04T07:12:52.867Z",
+    "kind": "metadata-only correction",
+    "priorVersion": 1,
+    "priorSHA256": "8491db1ca0e945645460ee9e5fc85fce12861073345a80a21dcb540ffa880740",
+    "reason": "Course predicate inherited fixed-only from wave despite actually validated wave+vertical-slider maps; correct description and pin exact dependencies",
+    "physicsChanged": false,
+    "mapsChanged": false,
+    "controllerChanged": false,
+    "thresholdsChanged": false
+  }
+}

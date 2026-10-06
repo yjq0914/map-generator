@@ -1,0 +1,222 @@
+[
+  {
+    "id": "baseline-701",
+    "outcome": "death",
+    "seconds": 14.083333333333334,
+    "families": [
+      "cloister",
+      "slider-island",
+      "light-cavity",
+      "tidal-staircase",
+      "spring-reception"
+    ],
+    "variants": [
+      "base",
+      "alternate",
+      "base",
+      "base",
+      "alternate"
+    ],
+    "unmatched": [],
+    "death": {
+      "tick": 1689,
+      "type": "death",
+      "id": "m03-inclined-upper",
+      "mechanic": "laser_scanner",
+      "sourceId": "m03-inclined-upper"
+    }
+  },
+  {
+    "id": "baseline-702",
+    "outcome": "death",
+    "seconds": 6.8,
+    "families": [
+      "tidal-staircase",
+      "spring-reception",
+      "slider-island",
+      "spring-reception",
+      "bellows-question-answer",
+      "spring-reception"
+    ],
+    "variants": [
+      "alternate",
+      "base",
+      "alternate",
+      "base",
+      "base",
+      "base"
+    ],
+    "unmatched": [],
+    "death": {
+      "tick": 815,
+      "type": "death",
+      "id": "m01-roof-3",
+      "mechanic": "fixed_armor_or_spike",
+      "sourceId": "m01-roof-3"
+    }
+  },
+  {
+    "id": "baseline-703",
+    "outcome": "death",
+    "seconds": 10.3,
+    "families": [
+      "bellows-question-answer",
+      "light-cavity",
+      "slider-island",
+      "spring-reception",
+      "light-cavity",
+      "spring-reception"
+    ],
+    "variants": [
+      "alternate",
+      "base",
+      "base",
+      "base",
+      "base",
+      "base"
+    ],
+    "unmatched": [],
+    "death": {
+      "tick": 1235,
+      "type": "death",
+      "id": "m02-inclined-upper",
+      "mechanic": "laser_scanner",
+      "sourceId": "m02-inclined-upper"
+    }
+  },
+  {
+    "id": "baseline-704",
+    "outcome": "death",
+    "seconds": 23.766666666666666,
+    "families": [
+      "cloister",
+      "slider-island",
+      "light-cavity",
+      "tidal-staircase",
+      "spring-reception"
+    ],
+    "variants": [
+      "base",
+      "base",
+      "alternate",
+      "base",
+      "alternate"
+    ],
+    "unmatched": [],
+    "death": {
+      "tick": 2851,
+      "type": "death",
+      "id": "m04-roof-3",
+      "mechanic": "fixed_armor_or_spike",
+      "sourceId": "m04-roof-3"
+    }
+  },
+  {
+    "id": "baseline-705",
+    "outcome": "alive-prefix-only",
+    "seconds": 30.0,
+    "families": [
+      "tidal-staircase",
+      "spring-reception",
+      "slider-island",
+      "spring-reception",
+      "bellows-question-answer",
+      "spring-reception"
+    ],
+    "variants": [
+      "base",
+      "alternate",
+      "base",
+      "alternate",
+      "alternate",
+      "alternate"
+    ],
+    "unmatched": [],
+    "death": null
+  },
+  {
+    "id": "baseline-706",
+    "outcome": "death",
+    "seconds": 12.7,
+    "families": [
+      "bellows-question-answer",
+      "light-cavity",
+      "spring-reception",
+      "slider-island",
+      "light-cavity",
+      "spring-reception"
+    ],
+    "variants": [
+      "base",
+      "alternate",
+      "base",
+      "alternate",
+      "alternate",
+      "base"
+    ],
+    "unmatched": [],
+    "death": {
+      "tick": 1523,
+      "type": "death",
+      "id": "m02-wide-receiving-cavity:top",
+      "mechanic": "timed_armor_gate",
+      "sourceId": "m02-wide-receiving-cavity"
+    }
+  },
+  {
+    "id": "baseline-707",
+    "outcome": "death",
+    "seconds": 14.083333333333334,
+    "families": [
+      "cloister",
+      "slider-island",
+      "light-cavity",
+      "tidal-staircase",
+      "spring-reception"
+    ],
+    "variants": [
+      "alternate",
+      "alternate",
+      "base",
+      "base",
+      "base"
+    ],
+    "unmatched": [],
+    "death": {
+      "tick": 1689,
+      "type": "death",
+      "id": "m03-inclined-upper",
+      "mechanic": "laser_scanner",
+      "sourceId": "m03-inclined-upper"
+    }
+  },
+  {
+    "id": "baseline-708",
+    "outcome": "death",
+    "seconds": 16.058333333333334,
+    "families": [
+      "cloister",
+      "slider-island",
+      "spring-reception",
+      "light-cavity",
+      "bellows-question-answer",
+      "spring-reception"
+    ],
+    "variants": [
+      "alternate",
+      "base",
+      "alternate",
+      "base",
+      "alternate",
+      "alternate"
+    ],
+    "unmatched": [],
+    "death": {
+      "tick": 1926,
+      "type": "death",
+      "id": "m04-inclined-upper",
+      "mechanic": "laser_scanner",
+      "sourceId": "m04-inclined-upper"
+    }
+  }
+]

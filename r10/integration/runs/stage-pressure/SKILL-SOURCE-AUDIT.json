@@ -1,0 +1,14 @@
+{
+  "schema": "project-skill-source-audit/1",
+  "before_current_checkout_skill_files": [],
+  "before_current_git_history_skill_files": [],
+  "existing_export_pointer": "combo_library.py skill_scripts.guide = SKILL.zh-CN.md (missing)",
+  "provided_recovery_archive": "combo-map-integration-b49054b-source-evidence(1).zip",
+  "provided_recovery_archive_skill_entries": [],
+  "recovery_manifest_scope": "Runnable subset, not entire160candidate historical archive",
+  "conclusion": "Skill body absent from current development source and supplied recovery subset; packaging omission is consistent with evidence. Whether an earlier full original library contained it is unknown and was not inspected.",
+  "created_project_entry": "SKILL.md",
+  "legacy_compatible_entry": "SKILL.zh-CN.md",
+  "personal_skill_installation": false,
+  "consumption": "combo_library.py export entry; README start; stage_pressure_panel.py read-reference and candidate/holdout make load body, retain per-loop snapshot/hash. Reference only, no pressure-axis acceptance gate."
+}

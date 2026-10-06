@@ -1,0 +1,19 @@
+{
+  "sourceDir": "integration/runs/stage-pressure/B1/runs/candidate-705",
+  "sourceFiles": {
+    "result.json": "d80fe59b1048c8e1807598f755e0d9c466cf4b93b87fffc233c47e97b08a6d4b",
+    "trace.json.gz": "c1c3f9ccd9a6b1a758d72ad6a9770591b7f1ee1e6785652ce7d865d10588695a",
+    "inputs.json": "0b375dfeb14bccf52323a1ccc791023f06046a8963353c98aca056344953b7e9",
+    "map.json": "130fd90bd0afb19c96edc9e36be773e04a718946a89c119f950839e17d3a5284"
+  },
+  "hashBound": true,
+  "horizonTicks": 3600,
+  "request": {
+    "seed": 705,
+    "duration_s": 30.3,
+    "difficulty": "easy",
+    "theme": "foundry",
+    "experimental": true,
+    "holdout": false
+  }
+}

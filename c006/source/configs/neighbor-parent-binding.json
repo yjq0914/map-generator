@@ -1,0 +1,10 @@
+{
+  "schema": "prospective-neighbor-parent-binding/1",
+  "status": "durable-accepted",
+  "sourceRoot": ".",
+  "module": "c005-laser-generator.cjs",
+  "round": "c005",
+  "expectedSourceIdentity": "d5e0b7f61e4b511b74e60bca92c9d30b4b8a6de96943dab78090176bce93f68f",
+  "acceptedSnapshot": "outer/c006/accepted-before.json",
+  "acceptedSnapshotSHA256": "4dbd789fe03a184af262a5957a225eef36faa78c2f8142c2c81d75bf04464785"
+}

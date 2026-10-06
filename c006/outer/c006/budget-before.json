@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-05T15:19:08.222Z",
+  "actual": {
+    "requests": 776,
+    "reserves": 776,
+    "commits": 776,
+    "physicalStarts": 776,
+    "ticks": 7862835,
+    "substeps": 15725529,
+    "activeWallSeconds": 3276.50517691,
+    "pending": [],
+    "unreservedRequests": [],
+    "errors": [],
+    "head": "a94f494a87491089fe0fc27c22f8dc4c6d8dcb6c4a29d775d855ab891793e282"
+  },
+  "maximumNewStarts": 196,
+  "maximumNewTicks": 2770836,
+  "budget": {
+    "runs": 3200,
+    "ticks": 38000000,
+    "runnerWallSeconds": 57600,
+    "evidenceBytes": 1073741824,
+    "uniqueRawEvidenceBytes": 1073741824,
+    "entireBatchBytes": 2147483648
+  }
+}

@@ -1,0 +1,1 @@
+{"version":"a009-horizontal-phase-composed-v1","module":"source/a009-composed-generator.cjs","operators":["long-horizontal-occupation","phase-through-or-bypass"],"conflicts":"fail-closed-relative-same-canonical","activation":"explicit"}

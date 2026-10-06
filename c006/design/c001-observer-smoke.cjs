@@ -1,0 +1,16 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),z=require('node:zlib'),assert=require('node:assert/strict');
+const root=path.join(__dirname,'..'),old=path.join(root,'..','lean-twelve-loop');
+const guard=require('./static-engine-guard.cjs'),oldGuard=require(path.join(old,'design/static-engine-guard.cjs'));
+const O=require('./c001-observe.cjs'),S=require(path.join(old,'harness/retention-v3.cjs'));
+const id='b012-candidate-b012-control-00-assigned_main';
+const r=JSON.parse(z.gunzipSync(fs.readFileSync(path.join(old,'evidence/runs',id+'.json.gz'))));
+const m=JSON.parse(z.gunzipSync(fs.readFileSync(path.join(old,r.mapFile)))),t=S.decode(fs.readFileSync(path.join(old,r.traceFile)));
+const plan={selectedRecipes:['H','J','T']};
+const observed=O.inspectUntrustedFixture(m,r,t,plan,m);
+assert.equal(observed.authenticated,false);assert.equal(observed.qualificationBlocked,true);assert.equal(observed.fullQualificationCandidate,false);assert.equal(observed.actualRelationsPassed,true);
+assert(Object.values(observed.reports).every(q=>q.actualRelationPassed));
+const missing=structuredClone(t);missing.bodySamples=missing.bodySamples.filter(f=>f.tick!==0);
+const rejected=O.inspectUntrustedFixture(m,r,missing,plan,m);assert.equal(rejected.actualRelationsPassed,false);assert.equal(rejected.reports.J.actualRelationPassed,false);
+const report={schema:'c001-historical-pure-reducer-smoke/1',sourceFixture:id,positiveHistoricalCases:1,missingFrameNegativeCases:1,newPhysicalExecutions:0,newPhysicalTicks:0,adaptiveGuard:guard.report(),historicalGuard:oldGuard.report(),actualRelations:Object.fromEntries(Object.entries(observed.reports).map(([k,v])=>[k,{status:v.status,actualRelationPassed:v.actualRelationPassed}])),missingFrame:{actualRelationsPassed:rejected.actualRelationsPassed,burstStatus:rejected.reports.J.status,reason:rejected.reports.J.reason},notNewQualification:true};
+fs.writeFileSync(path.join(__dirname,'c001-observer-smoke-results.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));

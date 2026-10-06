@@ -1,0 +1,9 @@
+{
+  "schema": "c003-explicit-accepted-parent-binding/1",
+  "module": "source/c002-subset-generator.cjs",
+  "expectedSourceIdentity": "2cb17b5e38711efca1f3123c9e6dbfe78b5ef9497a16e3f312cee75310c7757e",
+  "acceptedSnapshot": "outer/c003/accepted-before.json",
+  "acceptedSnapshotSHA256": "90bf2f34a50e728f4abbd133dde675ccb06c46873436ff680b2104ac29106ca7",
+  "round": "c002",
+  "status": "explicit durable accepted parent; prospective c003 experiment"
+}

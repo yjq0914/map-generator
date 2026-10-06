@@ -1,0 +1,57 @@
+{
+  "slots": 4,
+  "maximumNewPhysicalStarts": 4,
+  "maximumNewPhysicalTicks": 6036,
+  "sourceWindows": [
+    {
+      "name": "laser",
+      "layer": "combo",
+      "startTick": 0,
+      "endTick": 1509,
+      "forceSourceIds": [
+        "c0-wave-island-0"
+      ]
+    },
+    {
+      "name": "laser",
+      "layer": "combo",
+      "startTick": 0,
+      "endTick": 1509,
+      "forceSourceIds": [
+        "c0-wave-island-0"
+      ]
+    },
+    {
+      "name": "laser",
+      "layer": "combo",
+      "startTick": 0,
+      "endTick": 1509,
+      "forceSourceIds": [
+        "c0-wave-island-0"
+      ]
+    },
+    {
+      "name": "laser",
+      "layer": "combo",
+      "startTick": 0,
+      "endTick": 1509,
+      "forceSourceIds": [
+        "c0-wave-island-0"
+      ]
+    }
+  ],
+  "frozenPureReducerSHA256": "077269fa7e8e349a7c004c0cfbdd5318946e60cd3c239219d7dca7634a495de1",
+  "physics": {
+    "blockedDynamicEngineExports": 45,
+    "forbiddenCalls": 0,
+    "physicalExecutions": 0,
+    "physicalTicks": 0
+  },
+  "requiredFreezeExtras": [
+    "outer/c006/risk/c006-risk-preregistration.json",
+    "outer/c006/risk/c006-risk-baseline.json",
+    "outer/c006/risk/c006-risk-prepare.cjs",
+    "outer/c006/risk/c006-risk-reduce.cjs",
+    "outer/c006/risk/c006-risk-run.cjs"
+  ]
+}

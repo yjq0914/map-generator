@@ -1,0 +1,166 @@
+{
+  "native_trajectory_count": 2,
+  "source_refinement_sha256": {
+    "geometry_v4.py": "270cd874898ba514acfc48cc4a3243786e861934a554fbd39ce8d51d753e74d3",
+    "geometry_v5.py": "d5d80e073d32895a0121adf046e5e20073053ecb29f30ab505dca4d226baaaaf"
+  },
+  "runs": [
+    {
+      "id": "lower-slider-carry-in",
+      "outcome": "native-win",
+      "actual_ticks": 1660,
+      "actual_duration_s": 13.833333333333334,
+      "map_sha256": "99891e4078b0db67d79120a513545e49c5591862c561beafa5f9d4a004091f5c",
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "controller_sha256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+      "trace_sha256": "c9fc6a981bcf35c5a37ca39b1dcfd49ac42f83241eee8852be67dbc426f2c816",
+      "input_sha256": "59efc243a35ea21fecc81740a23298214fcb7a4c28908c00f55bdbbca34911d0",
+      "state_sequence_sha256": "eedb03c949038adea1ccec98b29596a027a334ecee5f331f1fadc3003c931c0e",
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 17
+      },
+      "contacts": [],
+      "sampled_minimum": {
+        "clearance_px": 19.773611111110597,
+        "tick": 1320,
+        "body_id": "m02-island",
+        "state": [
+          1320,
+          1710,
+          384.7736111111106,
+          150,
+          -23.500000000000117
+        ]
+      },
+      "sampled_scope": "saved12-tick body frames only; not continuous minimum or a safe state range",
+      "modules": [
+        {
+          "id": "m01",
+          "family": "cloister",
+          "min_y": 150.1017361111109,
+          "max_y": 391.6055555555554,
+          "entry": [
+            192,
+            300,
+            163.04444444444442,
+            150,
+            147.33333333333323
+          ],
+          "exit": [
+            824,
+            1090,
+            155.21666666666638,
+            150,
+            -98.66666666666681
+          ]
+        },
+        {
+          "id": "m02",
+          "family": "slider-island",
+          "min_y": 160.2934027777773,
+          "max_y": 436.066319444444,
+          "entry": [
+            888,
+            1170,
+            204.92361111111072,
+            150,
+            -269.4999999999999
+          ],
+          "exit": [
+            1532,
+            1975,
+            270.82361111111055,
+            150,
+            -194.33333333333334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spring-receipt-low-answer",
+      "outcome": "native-win",
+      "actual_ticks": 1785,
+      "actual_duration_s": 14.875,
+      "map_sha256": "2eeaee88dc737fc03f325a03cd1ad0b795ccac21797112d54f8ec375e137273e",
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "controller_sha256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+      "trace_sha256": "c09af6342408f3be783b2945312b14ce96f519cae6bf9bf2d6bb65483a760b2e",
+      "input_sha256": "37292eea64bbe0ad1b6e2005180bfa58cd7a0de6ca591c77303b1f6885203e40",
+      "state_sequence_sha256": "99f2cd603bd9bd566fd0e435d401e6c5c4b5ab2df7c501dab724c979e2a96964",
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 7
+      },
+      "contacts": [
+        {
+          "tick": 1243,
+          "type": "bounce",
+          "id": "m02-S-reset",
+          "side": "top"
+        }
+      ],
+      "sampled_minimum": {
+        "clearance_px": 13.215594223712355,
+        "tick": 1656,
+        "body_id": "m02-receipt-answer-roof",
+        "state": [
+          1656,
+          2130,
+          411.1691666666672,
+          150,
+          -44.000000000000114
+        ]
+      },
+      "sampled_scope": "saved12-tick body frames only; not continuous minimum or a safe state range",
+      "modules": [
+        {
+          "id": "m01",
+          "family": "bellows-question-answer",
+          "min_y": 164.3343749999997,
+          "max_y": 378.0631944444439,
+          "entry": [
+            280,
+            410,
+            361.82361111111095,
+            150,
+            242.99999999999963
+          ],
+          "exit": [
+            1140,
+            1485,
+            354.3888888888883,
+            150,
+            215.66666666666637
+          ]
+        },
+        {
+          "id": "m02",
+          "family": "spring-reception",
+          "min_y": 229.214305555556,
+          "max_y": 464.01326388888947,
+          "entry": [
+            1217,
+            1581.25,
+            338.0996527777772,
+            150,
+            229.333333333333
+          ],
+          "exit": [
+            1656,
+            2130,
+            411.1691666666672,
+            150,
+            -44.000000000000114
+          ]
+        }
+      ]
+    }
+  ]
+}

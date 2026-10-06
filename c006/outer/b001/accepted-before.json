@@ -1,0 +1,70 @@
+{
+  "schema": "qualified-recovery-operating-pointer/2",
+  "version": "recovery-cumulative-with-late-phase-composition-v1",
+  "round": "a012",
+  "updatedAt": "2026-10-05T02:46:42.466Z",
+  "generator": "source/a012-style-registry.cjs",
+  "config": "source/configs/a012-style-registry-v1.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    },
+    {
+      "id": "phase-through-or-bypass",
+      "generator": "source/a007-phase-generator-v2.cjs",
+      "config": "source/configs/a007-phase-v2.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a007/decision.json"
+    },
+    {
+      "id": "horizontal-phase-composition",
+      "generator": "source/a009-composed-generator.cjs",
+      "config": "source/configs/a009-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12phaseentrysingle-commandprofiles;explicit only",
+      "decision": "outer/a009/decision.json"
+    },
+    {
+      "id": "phase-late-horizontal-composition",
+      "generator": "source/a010-composed-generator.cjs",
+      "config": "source/configs/a010-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;4target-entry single-command +/-1tick sensitivities; explicit only",
+      "decision": "outer/a010/decision.json"
+    },
+    {
+      "id": "late-phase-late-horizontal-composition",
+      "generator": "source/a012-composed-generator.cjs",
+      "config": "source/configs/a012-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes; prospective collision-footprint usage; zero routine perturbations or replays; explicit only",
+      "decision": "outer/a012/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "recovery-cumulative-with-late-composition-v1",
+    "immutablePointer": "outer/a010/accepted-pointer.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/a012/decision.json",
+  "sourceFreeze": "protocols/freezes/a012-formal-v1.json",
+  "sourceManifestHash": "c489cc502b6680cd770b6c4eb5c87d68875fed10cde2a0393503725bb34f580c",
+  "artifactManifest": "outer/a012/artifact-manifest.json",
+  "artifactManifestHash": "d75f289479276018466a35576f67b65e35b0e7554c9b668ab607a663a85429d9",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_7cf341c4113c8191a993ac011f3c3ad8",
+    "libraryVersion": 70,
+    "sha256": "86892959db35f4f6f68757bb7bbc3442da5f97392d37b44b68c4220e81f74aa8",
+    "bytes": 18630485,
+    "receipt": "protocols/receipts/a012-qualified-bundle.json"
+  },
+  "qualification": "Add explicit late-phase-late-horizontal-composition only. Preserve vertical-default and all four prior explicit styles exactly. Latest ordinary-wave phase and late following selected relationally; finite24conditions and two assigned routes.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/a012/accepted-pointer.json"
+}

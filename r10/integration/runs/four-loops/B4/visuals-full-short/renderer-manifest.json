@@ -1,0 +1,51 @@
+{
+  "schema": "combo-map-renderer/1",
+  "physics_reruns": 0,
+  "clock": "authored",
+  "geometry_contract": "Canonical E.obstacles evaluated separately at each descriptor arrival; not a simultaneous snapshot",
+  "runtime": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/vendor/flappy-runtime.js",
+  "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "files": [
+    "contact-sheet.png",
+    "detail-full-4402.png",
+    "seams-full-4402.png",
+    "terminal-full-4402.png"
+  ],
+  "legend": {
+    "full_filled_circles": "solid whole-circle colliders, with no invented windows",
+    "navy_solid": "stored measured player trace",
+    "gold_dashed": "authored guide only",
+    "inactive_outline": "non-colliding at sampled clock; may be active at other times"
+  },
+  "family_palette": {
+    "bellows-question-answer": "#16788a",
+    "cloister": "#bd6438",
+    "slider-island": "#7069a9",
+    "spring-reception": "#528843",
+    "tidal-staircase": "#a35387"
+  },
+  "maps": [
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B4/finish-checks/full-701/map.json",
+      "sha256": "dd3a69ece958e184714c84b689c07d0d2bba18204da861c1cc9566254c7e962f",
+      "seed": 701,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B4/finish-checks/full-701/trace.json.gz",
+      "trace_sha256": "87f824021fcd5d72e5e34c93fdbdb39c66491932680c05dec0f1c13bdd4b3fb0",
+      "trace_points": 3898,
+      "nominal_extent_s": 32.46979674796748,
+      "geometry": "geometry-full-701.json",
+      "warnings": []
+    },
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B4/finish-checks/full-4402/map.json",
+      "sha256": "23ddd3a02f03da81213ecee50437ea194b4411706f760fcf7b952a6d36a5ca06",
+      "seed": 4402,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B4/finish-checks/full-4402/trace.json.gz",
+      "trace_sha256": "70cdc0ea0b4856f1e3fb6705300ae96b2349567c8af5138cf6a8e2ec6080c766",
+      "trace_points": 3786,
+      "nominal_extent_s": 31.536260162601625,
+      "geometry": "geometry-full-4402.json",
+      "warnings": []
+    }
+  ]
+}

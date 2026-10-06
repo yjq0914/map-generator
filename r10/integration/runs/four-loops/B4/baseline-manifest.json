@@ -1,0 +1,165 @@
+{
+  "schema": "four-loop-arm/1",
+  "bigLoop": 4,
+  "arm": "baseline",
+  "revision": 6,
+  "sources": {
+    "generator.py": "ba95e9fa593d7cfe6e32d6d98b51c68a007f6c36a286fcd36dffedfc08d0397f",
+    "diagnostic.cjs": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+    "run_batch.cjs": "0d5a99050832b8183ed71bcecb1973145b9b3671843db4c5827f4bd18cf818cf",
+    "vendor/flappy-runtime.js": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+    "rules/additional.py": "87f5545b5c5f259a3d9bffdc4bac7e9dcf387de3cb0e09a8f1b4cb0a4b81f80e",
+    "rules/geometry_v4.py": "270cd874898ba514acfc48cc4a3243786e861934a554fbd39ce8d51d753e74d3",
+    "rules/geometry_v5.py": "d5d80e073d32895a0121adf046e5e20073053ecb29f30ab505dca4d226baaaaf",
+    "rules/grammar_v4.py": "f6ef6e82fc057609cb5c37c6b6b7313c12d3998badea7b818280ca23e2969c50",
+    "rules/handoffs_v6.py": "8b37c0ec981a51e6cb10c283fb70be4450e168de8c28dd3d7532dd4ddfecdaab"
+  },
+  "entries": [
+    {
+      "id": "baseline-701",
+      "arm": "baseline",
+      "seed": 701,
+      "pairId": "seed-701",
+      "request": {
+        "seed": 701,
+        "duration_s": 31.5,
+        "difficulty": "easy",
+        "theme": "arcade",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 6,
+      "mapFile": "baseline-maps/baseline-701/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "06577499f0cf6c3b0cd347ab7d5eba5731b358fce57915be950321e1038bffa6"
+    },
+    {
+      "id": "baseline-702",
+      "arm": "baseline",
+      "seed": 702,
+      "pairId": "seed-702",
+      "request": {
+        "seed": 702,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "foundry",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 6,
+      "mapFile": "baseline-maps/baseline-702/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "82abac27aef6f118cdb81cb5e3980ee409c0b5c7dc821eeb5fd417579782836b"
+    },
+    {
+      "id": "baseline-703",
+      "arm": "baseline",
+      "seed": 703,
+      "pairId": "seed-703",
+      "request": {
+        "seed": 703,
+        "duration_s": 31.5,
+        "difficulty": "hard",
+        "theme": "signal",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 6,
+      "mapFile": "baseline-maps/baseline-703/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "5eb90f9c47bbbf477f8fab39c25cd2d3d4440d445abf50493d641f5bdda4270d"
+    },
+    {
+      "id": "baseline-704",
+      "arm": "baseline",
+      "seed": 704,
+      "pairId": "seed-704",
+      "request": {
+        "seed": 704,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "arcade",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 6,
+      "mapFile": "baseline-maps/baseline-704/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "3ecbc1b5be6946ffed4c66c33de57979bdcd5b33e3199c11f2b05515a0f13f31"
+    },
+    {
+      "id": "baseline-705",
+      "arm": "baseline",
+      "seed": 705,
+      "pairId": "seed-705",
+      "request": {
+        "seed": 705,
+        "duration_s": 31.5,
+        "difficulty": "easy",
+        "theme": "foundry",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 6,
+      "mapFile": "baseline-maps/baseline-705/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "770bf266ed3b1b297655dfd4b47e7f818e813d6a2a688756e15112a4f6010154"
+    },
+    {
+      "id": "baseline-706",
+      "arm": "baseline",
+      "seed": 706,
+      "pairId": "seed-706",
+      "request": {
+        "seed": 706,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "signal",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 6,
+      "mapFile": "baseline-maps/baseline-706/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "107962cc38b856dca46b59c0cfe8fd8c8c981c3ae77a0708232d0c7b8d355d7a"
+    },
+    {
+      "id": "baseline-707",
+      "arm": "baseline",
+      "seed": 707,
+      "pairId": "seed-707",
+      "request": {
+        "seed": 707,
+        "duration_s": 31.5,
+        "difficulty": "hard",
+        "theme": "arcade",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 6,
+      "mapFile": "baseline-maps/baseline-707/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "78c6265105e84a1cb8daad920b90d28b36beaffe06a944e4a7d6aa0a54f09ee6"
+    },
+    {
+      "id": "baseline-708",
+      "arm": "baseline",
+      "seed": 708,
+      "pairId": "seed-708",
+      "request": {
+        "seed": 708,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "foundry",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 6,
+      "mapFile": "baseline-maps/baseline-708/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "b33875c04794414b2d1cdda5aa62ed9211e54422c3c1b454244e91d3417e378f"
+    }
+  ],
+  "reuseSourceLoop": 3,
+  "reuseSourceManifestSHA256": "e62e0265f8e74d4a56dbac2df7d399e974b0d8d343cbc00711d7a22812576625"
+}

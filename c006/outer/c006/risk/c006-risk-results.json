@@ -1,0 +1,704 @@
+{
+  "schema": "c006-laser-margin-risk-results/1",
+  "reports": [
+    {
+      "runId": "c006-risk-phase-minus-010",
+      "condition": {
+        "y": 295.0001,
+        "vy": 7.197080291970806,
+        "lead": 15.181818181818182,
+        "phase": -0.06732283464566927,
+        "adjacency": "none",
+        "seed": 2444376036
+      },
+      "sourceManifestHash": "aad76e1d9c8d23fd4373e4408c8ef72fe78221d546e63678558c6dcda13403c7",
+      "mapHash": "bd48d0b753c472148ca54bdeeccfbae86ef62f02a7c3f5ad2980bd6c563c63c4",
+      "resultSHA256": "fa510aa40e692201d61e75a70e6eeb4cc065d317c39ad122e13ef41d7f33737c",
+      "traceSHA256": "20e76e2574148aae57257725ef7a303080e54c0ac08c158e9b192a1485670646",
+      "inputSHA256": "4d6b5e6b755ecf55116d9680b05e0606ce1de009b75a624c6701ff545c329501",
+      "classification": "local_window_survived",
+      "status": "executed",
+      "error": null,
+      "requestedStopTick": 1509,
+      "actualTicks": 1509,
+      "actualSubsteps": 3018,
+      "serializedRunnerWallSeconds": 2.363536199,
+      "finalAlive": true,
+      "sourceReached": true,
+      "sourceFirstTick": 200,
+      "sourcePassageStatus": "observed",
+      "sourceFullExitTick": 313,
+      "sourcePassed": true,
+      "sourceCollisionEvents": [],
+      "minimumActiveCapsuleDistancePx": 9.636454343674998,
+      "activeCrossingSamples": 84,
+      "lifecyclePassed": true,
+      "receiverPassed": true,
+      "nextDemand": [
+        {
+          "sourceId": "c1-press-0-bottom",
+          "status": "observed",
+          "passed": true
+        },
+        {
+          "sourceId": "c1-press-0-top",
+          "status": "observed",
+          "passed": true
+        }
+      ],
+      "remainingOwnerProblems": [],
+      "coverage": {
+        "status": "observed",
+        "fullWindow": true,
+        "missingTicks": 0,
+        "missingSourceTicks": 0,
+        "reachedTick": 1509
+      },
+      "localRelationPassed": true,
+      "deathEvents": [],
+      "inputDifference": {
+        "sourceWindow": {
+          "range": {
+            "startTick": 80,
+            "endTick": 403,
+            "observedEndTick": 403
+          },
+          "status": "observed",
+          "baselineInputs": [
+            144,
+            240,
+            276,
+            360
+          ],
+          "probeInputs": [
+            144,
+            240,
+            300,
+            384
+          ],
+          "changedCommandTicks": [
+            276,
+            300,
+            360,
+            384
+          ],
+          "changedCommandCount": 4,
+          "maxPairedYDifferencePx": 49.19999999999999,
+          "interpretation": "Observed live-controller input difference across one changed physical parameter; not a same-condition parent comparison, causal warning response, or human tolerance"
+        },
+        "wholeLocalWindow": {
+          "range": {
+            "startTick": 0,
+            "endTick": 1509,
+            "observedEndTick": 1509
+          },
+          "status": "observed",
+          "baselineInputs": [
+            60,
+            144,
+            240,
+            276,
+            360,
+            456,
+            528,
+            600,
+            612,
+            624,
+            636,
+            648,
+            660,
+            720,
+            840,
+            924,
+            1026,
+            1110,
+            1158,
+            1236,
+            1320,
+            1404,
+            1488
+          ],
+          "probeInputs": [
+            60,
+            144,
+            240,
+            300,
+            384,
+            468,
+            564,
+            588,
+            600,
+            612,
+            624,
+            636,
+            648,
+            660,
+            720,
+            840,
+            936,
+            1026,
+            1116,
+            1158,
+            1236,
+            1320,
+            1404,
+            1488
+          ],
+          "changedCommandTicks": [
+            276,
+            300,
+            360,
+            384,
+            456,
+            468,
+            528,
+            564,
+            588,
+            924,
+            936,
+            1110,
+            1116
+          ],
+          "changedCommandCount": 13,
+          "maxPairedYDifferencePx": 82.00000000000006,
+          "interpretation": "Observed live-controller input difference across one changed physical parameter; not a same-condition parent comparison, causal warning response, or human tolerance"
+        }
+      },
+      "wholeCourseTaskPassReportedOnly": false,
+      "fullCourseQualification": null,
+      "humanTolerance": null,
+      "fairness": null,
+      "automaticMacroVeto": false
+    },
+    {
+      "runId": "c006-risk-phase-plus-010",
+      "condition": {
+        "y": 295.0001,
+        "vy": 7.197080291970806,
+        "lead": 15.181818181818182,
+        "phase": 0.13267716535433074,
+        "adjacency": "none",
+        "seed": 2444376036
+      },
+      "sourceManifestHash": "aad76e1d9c8d23fd4373e4408c8ef72fe78221d546e63678558c6dcda13403c7",
+      "mapHash": "a288b9d28c7643ca35d928e989ddd43fcfd72966fe2783c0e5348a89a0db404e",
+      "resultSHA256": "825db7594db410a1add834688e0c6c1de50fa2e01a19f6cf980efee3c3754fe0",
+      "traceSHA256": "8bc1f6b67807cd347e186d998642d46448bda9e8caf77c13528591a1f1393bd6",
+      "inputSHA256": "ce6f9e744520df1f5688506f85c44f4ef78d0f7257a45868267560abe5f32186",
+      "classification": "local_window_survived",
+      "status": "executed",
+      "error": null,
+      "requestedStopTick": 1509,
+      "actualTicks": 1509,
+      "actualSubsteps": 3018,
+      "serializedRunnerWallSeconds": 2.031455164,
+      "finalAlive": true,
+      "sourceReached": true,
+      "sourceFirstTick": 200,
+      "sourcePassageStatus": "observed",
+      "sourceFullExitTick": 313,
+      "sourcePassed": true,
+      "sourceCollisionEvents": [],
+      "minimumActiveCapsuleDistancePx": 24.45881098132606,
+      "activeCrossingSamples": 84,
+      "lifecyclePassed": true,
+      "receiverPassed": true,
+      "nextDemand": [
+        {
+          "sourceId": "c1-press-0-bottom",
+          "status": "observed",
+          "passed": true
+        },
+        {
+          "sourceId": "c1-press-0-top",
+          "status": "observed",
+          "passed": true
+        }
+      ],
+      "remainingOwnerProblems": [],
+      "coverage": {
+        "status": "observed",
+        "fullWindow": true,
+        "missingTicks": 0,
+        "missingSourceTicks": 0,
+        "reachedTick": 1509
+      },
+      "localRelationPassed": true,
+      "deathEvents": [],
+      "inputDifference": {
+        "sourceWindow": {
+          "range": {
+            "startTick": 80,
+            "endTick": 403,
+            "observedEndTick": 403
+          },
+          "status": "observed",
+          "baselineInputs": [
+            144,
+            240,
+            276,
+            360
+          ],
+          "probeInputs": [
+            144,
+            252,
+            264,
+            276,
+            288,
+            372
+          ],
+          "changedCommandTicks": [
+            240,
+            252,
+            264,
+            288,
+            360,
+            372
+          ],
+          "changedCommandCount": 6,
+          "maxPairedYDifferencePx": 65.60000000000008,
+          "interpretation": "Observed live-controller input difference across one changed physical parameter; not a same-condition parent comparison, causal warning response, or human tolerance"
+        },
+        "wholeLocalWindow": {
+          "range": {
+            "startTick": 0,
+            "endTick": 1509,
+            "observedEndTick": 1509
+          },
+          "status": "observed",
+          "baselineInputs": [
+            60,
+            144,
+            240,
+            276,
+            360,
+            456,
+            528,
+            600,
+            612,
+            624,
+            636,
+            648,
+            660,
+            720,
+            840,
+            924,
+            1026,
+            1110,
+            1158,
+            1236,
+            1320,
+            1404,
+            1488
+          ],
+          "probeInputs": [
+            60,
+            144,
+            252,
+            264,
+            276,
+            288,
+            372,
+            456,
+            540,
+            600,
+            612,
+            624,
+            636,
+            648,
+            660,
+            720,
+            840,
+            936,
+            1026,
+            1116,
+            1158,
+            1236,
+            1320,
+            1404,
+            1488
+          ],
+          "changedCommandTicks": [
+            240,
+            252,
+            264,
+            288,
+            360,
+            372,
+            528,
+            540,
+            924,
+            936,
+            1110,
+            1116
+          ],
+          "changedCommandCount": 12,
+          "maxPairedYDifferencePx": 65.60000000000008,
+          "interpretation": "Observed live-controller input difference across one changed physical parameter; not a same-condition parent comparison, causal warning response, or human tolerance"
+        }
+      },
+      "wholeCourseTaskPassReportedOnly": false,
+      "fullCourseQualification": null,
+      "humanTolerance": null,
+      "fairness": null,
+      "automaticMacroVeto": false
+    },
+    {
+      "runId": "c006-risk-initial-y-minus-3",
+      "condition": {
+        "y": 292.0001,
+        "vy": 7.197080291970806,
+        "lead": 15.181818181818182,
+        "phase": 0.03267716535433074,
+        "adjacency": "none",
+        "seed": 2444376036
+      },
+      "sourceManifestHash": "aad76e1d9c8d23fd4373e4408c8ef72fe78221d546e63678558c6dcda13403c7",
+      "mapHash": "d42a2d2c0e1d51392107c4ec5d8f5bd271ea02276b202c92464d7ce2f0988363",
+      "resultSHA256": "cf65a4c2f4d6ad2046f0a2a6591cb3da6814cdb4fe7040c26fffc02ef01c5c95",
+      "traceSHA256": "4ac67520adca033152374e98b1a8541ae37a794c5ef889377fb0f5a9a9de2487",
+      "inputSHA256": "7561dd1de2d5610e859bfb0c73080d27a44c8f3823f379d3b684b509379d90b1",
+      "classification": "local_window_survived",
+      "status": "executed",
+      "error": null,
+      "requestedStopTick": 1509,
+      "actualTicks": 1509,
+      "actualSubsteps": 3018,
+      "serializedRunnerWallSeconds": 2.154199626,
+      "finalAlive": true,
+      "sourceReached": true,
+      "sourceFirstTick": 200,
+      "sourcePassageStatus": "observed",
+      "sourceFullExitTick": 313,
+      "sourcePassed": true,
+      "sourceCollisionEvents": [],
+      "minimumActiveCapsuleDistancePx": 24.559890274519013,
+      "activeCrossingSamples": 84,
+      "lifecyclePassed": true,
+      "receiverPassed": true,
+      "nextDemand": [
+        {
+          "sourceId": "c1-press-0-bottom",
+          "status": "observed",
+          "passed": true
+        },
+        {
+          "sourceId": "c1-press-0-top",
+          "status": "observed",
+          "passed": true
+        }
+      ],
+      "remainingOwnerProblems": [],
+      "coverage": {
+        "status": "observed",
+        "fullWindow": true,
+        "missingTicks": 0,
+        "missingSourceTicks": 0,
+        "reachedTick": 1509
+      },
+      "localRelationPassed": true,
+      "deathEvents": [],
+      "inputDifference": {
+        "sourceWindow": {
+          "range": {
+            "startTick": 80,
+            "endTick": 403,
+            "observedEndTick": 403
+          },
+          "status": "observed",
+          "baselineInputs": [
+            144,
+            240,
+            276,
+            360
+          ],
+          "probeInputs": [
+            144,
+            252,
+            264,
+            276,
+            288,
+            372
+          ],
+          "changedCommandTicks": [
+            240,
+            252,
+            264,
+            288,
+            360,
+            372
+          ],
+          "changedCommandCount": 6,
+          "maxPairedYDifferencePx": 62.60000000000008,
+          "interpretation": "Observed live-controller input difference across one changed physical parameter; not a same-condition parent comparison, causal warning response, or human tolerance"
+        },
+        "wholeLocalWindow": {
+          "range": {
+            "startTick": 0,
+            "endTick": 1509,
+            "observedEndTick": 1509
+          },
+          "status": "observed",
+          "baselineInputs": [
+            60,
+            144,
+            240,
+            276,
+            360,
+            456,
+            528,
+            600,
+            612,
+            624,
+            636,
+            648,
+            660,
+            720,
+            840,
+            924,
+            1026,
+            1110,
+            1158,
+            1236,
+            1320,
+            1404,
+            1488
+          ],
+          "probeInputs": [
+            60,
+            144,
+            252,
+            264,
+            276,
+            288,
+            372,
+            456,
+            540,
+            600,
+            624,
+            636,
+            648,
+            660,
+            720,
+            840,
+            936,
+            1026,
+            1110,
+            1158,
+            1248,
+            1332,
+            1416,
+            1488
+          ],
+          "changedCommandTicks": [
+            240,
+            252,
+            264,
+            288,
+            360,
+            372,
+            528,
+            540,
+            612,
+            924,
+            936,
+            1236,
+            1248,
+            1320,
+            1332,
+            1404,
+            1416
+          ],
+          "changedCommandCount": 17,
+          "maxPairedYDifferencePx": 62.60000000000008,
+          "interpretation": "Observed live-controller input difference across one changed physical parameter; not a same-condition parent comparison, causal warning response, or human tolerance"
+        }
+      },
+      "wholeCourseTaskPassReportedOnly": false,
+      "fullCourseQualification": null,
+      "humanTolerance": null,
+      "fairness": null,
+      "automaticMacroVeto": false
+    },
+    {
+      "runId": "c006-risk-initial-y-plus-3",
+      "condition": {
+        "y": 298.0001,
+        "vy": 7.197080291970806,
+        "lead": 15.181818181818182,
+        "phase": 0.03267716535433074,
+        "adjacency": "none",
+        "seed": 2444376036
+      },
+      "sourceManifestHash": "aad76e1d9c8d23fd4373e4408c8ef72fe78221d546e63678558c6dcda13403c7",
+      "mapHash": "69f47b86dbfd0f6de8636b7174689000b8e4af51062ca4914b0ded326e6a6e9e",
+      "resultSHA256": "12cf6b9e727bce5befa7f2fad1df4ef553db52c92a7979e020bdba404f56563e",
+      "traceSHA256": "084a5e6b70bd93d46745b14d9ddca1941704433e2350d1f0198a9b7cf5924c54",
+      "inputSHA256": "bdd92d61dad9335117829ba07f84cd4e573d507be6a9161ce139b12b726df3d9",
+      "classification": "local_window_survived",
+      "status": "executed",
+      "error": null,
+      "requestedStopTick": 1509,
+      "actualTicks": 1509,
+      "actualSubsteps": 3018,
+      "serializedRunnerWallSeconds": 2.082032204,
+      "finalAlive": true,
+      "sourceReached": true,
+      "sourceFirstTick": 200,
+      "sourcePassageStatus": "observed",
+      "sourceFullExitTick": 313,
+      "sourcePassed": true,
+      "sourceCollisionEvents": [],
+      "minimumActiveCapsuleDistancePx": 9.482427612741251,
+      "activeCrossingSamples": 84,
+      "lifecyclePassed": true,
+      "receiverPassed": true,
+      "nextDemand": [
+        {
+          "sourceId": "c1-press-0-bottom",
+          "status": "observed",
+          "passed": true
+        },
+        {
+          "sourceId": "c1-press-0-top",
+          "status": "observed",
+          "passed": true
+        }
+      ],
+      "remainingOwnerProblems": [],
+      "coverage": {
+        "status": "observed",
+        "fullWindow": true,
+        "missingTicks": 0,
+        "missingSourceTicks": 0,
+        "reachedTick": 1509
+      },
+      "localRelationPassed": true,
+      "deathEvents": [],
+      "inputDifference": {
+        "sourceWindow": {
+          "range": {
+            "startTick": 80,
+            "endTick": 403,
+            "observedEndTick": 403
+          },
+          "status": "observed",
+          "baselineInputs": [
+            144,
+            240,
+            276,
+            360
+          ],
+          "probeInputs": [
+            144,
+            240,
+            288,
+            372
+          ],
+          "changedCommandTicks": [
+            276,
+            288,
+            360,
+            372
+          ],
+          "changedCommandCount": 4,
+          "maxPairedYDifferencePx": 27.60000000000008,
+          "interpretation": "Observed live-controller input difference across one changed physical parameter; not a same-condition parent comparison, causal warning response, or human tolerance"
+        },
+        "wholeLocalWindow": {
+          "range": {
+            "startTick": 0,
+            "endTick": 1509,
+            "observedEndTick": 1509
+          },
+          "status": "observed",
+          "baselineInputs": [
+            60,
+            144,
+            240,
+            276,
+            360,
+            456,
+            528,
+            600,
+            612,
+            624,
+            636,
+            648,
+            660,
+            720,
+            840,
+            924,
+            1026,
+            1110,
+            1158,
+            1236,
+            1320,
+            1404,
+            1488
+          ],
+          "probeInputs": [
+            60,
+            144,
+            240,
+            288,
+            372,
+            456,
+            540,
+            600,
+            636,
+            648,
+            660,
+            720,
+            840,
+            924,
+            1020,
+            1110,
+            1158,
+            1236,
+            1320,
+            1404,
+            1488
+          ],
+          "changedCommandTicks": [
+            276,
+            288,
+            360,
+            372,
+            528,
+            540,
+            612,
+            624,
+            1020,
+            1026
+          ],
+          "changedCommandCount": 10,
+          "maxPairedYDifferencePx": 29.800000000000068,
+          "interpretation": "Observed live-controller input difference across one changed physical parameter; not a same-condition parent comparison, causal warning response, or human tolerance"
+        }
+      },
+      "wholeCourseTaskPassReportedOnly": false,
+      "fullCourseQualification": null,
+      "humanTolerance": null,
+      "fairness": null,
+      "automaticMacroVeto": false
+    }
+  ],
+  "completed": true,
+  "scope": "Local diagnostics only; no automatic macro-extension veto",
+  "newPhysicalStarts": 4,
+  "newPhysicalTicks": 6036,
+  "ledger": {
+    "requests": 780,
+    "reserves": 780,
+    "commits": 780,
+    "physicalStarts": 780,
+    "ticks": 7868871,
+    "substeps": 15737601,
+    "activeWallSeconds": 3285.1364001029997,
+    "pending": [],
+    "unreservedRequests": [],
+    "errors": [],
+    "head": "55ebd4b549a7631aa939d31c75486d6991c58004c81e8c4933a5b2c185d3ae50"
+  }
+}

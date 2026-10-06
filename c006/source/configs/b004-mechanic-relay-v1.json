@@ -1,0 +1,17 @@
+{
+  "version": "b004-hammer-warning-turn-relay-v1",
+  "module": "source/b004-mechanic-relay.cjs",
+  "constructionParent": "exact a012 accepted registry default -> recovery-cumulative-v1",
+  "activation": "explicit",
+  "program": {
+    "type": "hammer-warning-turn-relay",
+    "selector": "first-distinct-same-component-hold-island-with-opposite-side-receiver",
+    "hammerRecipe": "b002-early-swinging-hammer-v1",
+    "laserRecipe": "b003-early-diagonal-warning-laser-v2",
+    "requireWarningAfterConservativeHammerExit": true,
+    "stateTransfer": "continuous-from-tick-zero"
+  },
+  "registryBinding": null,
+  "qualification": "unqualified conditional relay construction; new site and combined continuous state require new evidence; b003 acceptance pending",
+  "humanFun": null
+}

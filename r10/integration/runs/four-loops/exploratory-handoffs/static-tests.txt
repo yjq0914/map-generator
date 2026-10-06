@@ -1,0 +1,13 @@
+test_copy_idempotence_and_mechanics (integration.tests.test_handoffs_v6.HandoffsV6Tests.test_copy_idempotence_and_mechanics) ... ok
+test_exactly_two_recorded_probes_and_all_failures_retained (integration.tests.test_handoffs_v6.HandoffsV6Tests.test_exactly_two_recorded_probes_and_all_failures_retained) ... ok
+test_invalid_arguments_and_source_drift_fail_explicitly (integration.tests.test_handoffs_v6.HandoffsV6Tests.test_invalid_arguments_and_source_drift_fail_explicitly) ... ok
+test_light_changes_only_ramp_targets (integration.tests.test_handoffs_v6.HandoffsV6Tests.test_light_changes_only_ramp_targets) ... ok
+test_revision_gate_and_unaffected_families (integration.tests.test_handoffs_v6.HandoffsV6Tests.test_revision_gate_and_unaffected_families) ... ok
+test_revision_six_source_is_frozen (integration.tests.test_handoffs_v6.HandoffsV6Tests.test_revision_six_source_is_frozen) ... ok
+test_same_terminal_tick_review_preserves_correct_death_sources (integration.tests.test_handoffs_v6.HandoffsV6Tests.test_same_terminal_tick_review_preserves_correct_death_sources) ... ok
+test_tidal_changes_only_step_width_and_release_boundary (integration.tests.test_handoffs_v6.HandoffsV6Tests.test_tidal_changes_only_step_width_and_release_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.154s
+
+OK

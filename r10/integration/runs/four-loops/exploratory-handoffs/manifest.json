@@ -1,0 +1,30 @@
+{
+  "schema": "handoff-exploratory-native-probes/1",
+  "status": "preregistered-two-distinct-candidates-no-search",
+  "controller": "relational-source-v3",
+  "controllerSourceSHA256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+  "runtimeSHA256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "continuity": "Full baseline-world map; one createState per probe; no restore or reset; all failures saved",
+  "runs": [
+    {
+      "seed": 701,
+      "id": "light-ramp-701",
+      "sourceMap": "../B1/runs/baseline-701/map.json",
+      "sourceMapSHA256": "2094c7f47cda88c8154dff3e4ffbafd54a3779fbb15e0c09f036c9aea2b02ec7",
+      "mapFile": "light-ramp-701.map.json",
+      "mapFileSHA256": "786ffca3aec7ad29dd2c07ca1eb20216e364b8d3580d21922b652acfd187c6dd",
+      "horizonTicks": 4500,
+      "changes": "Authored light ramp450→255; same geometry and release clock"
+    },
+    {
+      "seed": 702,
+      "id": "tidal-short-step-702",
+      "sourceMap": "../B1/runs/baseline-702/map.json",
+      "sourceMapSHA256": "d5bd9c44cc3982787cdbfedfbfce7f62a3fc27fed40b69ff833a905d558de256",
+      "mapFile": "tidal-short-step-702.map.json",
+      "mapFileSHA256": "23f2a934cc650dc319fbdf266d2e94989aa52af2334f1dcd5ea3ed1eb4746e76",
+      "horizonTicks": 4500,
+      "changes": "Intermediate bank-2 width120→60; release at exact whole-radius tail; remaining roof/aperture unchanged"
+    }
+  ]
+}

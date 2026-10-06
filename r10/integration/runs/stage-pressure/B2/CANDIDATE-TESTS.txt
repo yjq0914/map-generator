@@ -1,0 +1,19 @@
+test_high_notch_middle_sequence_and_truthful_active_grammar_bands (test_notch_handoff_v9.NotchHandoffV9Tests.test_high_notch_middle_sequence_and_truthful_active_grammar_bands) ... ok
+test_historical_v8_record_stays_exact_while_active_view_updates (test_notch_handoff_v9.NotchHandoffV9Tests.test_historical_v8_record_stays_exact_while_active_view_updates) ... ok
+test_ideal_last_flap_checks_are_explicitly_conditional (test_notch_handoff_v9.NotchHandoffV9Tests.test_ideal_last_flap_checks_are_explicitly_conditional) ... ok
+test_observed_failure_provenance_matches_frozen_files (test_notch_handoff_v9.NotchHandoffV9Tests.test_observed_failure_provenance_matches_frozen_files) ... ok
+test_only_bounded_edges_and_matching_guides_change (test_notch_handoff_v9.NotchHandoffV9Tests.test_only_bounded_edges_and_matching_guides_change) ... ok
+test_recursive_exclusion_even_for_unaffected_scope_or_old_revision (test_notch_handoff_v9.NotchHandoffV9Tests.test_recursive_exclusion_even_for_unaffected_scope_or_old_revision) ... ok
+test_revision_gate_and_invalid_or_unexpected_sources (test_notch_handoff_v9.NotchHandoffV9Tests.test_revision_gate_and_invalid_or_unexpected_sources) ... ok
+test_scope_copy_idempotence_and_unchanged_state_clocks (test_notch_handoff_v9.NotchHandoffV9Tests.test_scope_copy_idempotence_and_unchanged_state_clocks) ... ok
+test_all_recipes_copy_idempotence_and_only_three_clock_fields (test_timed_precision_v9.TimedPrecisionV9Tests.test_all_recipes_copy_idempotence_and_only_three_clock_fields) ... ok
+test_cycle_cooldown_and_Q_out_opening_link_preserved_for_all_recipes (test_timed_precision_v9.TimedPrecisionV9Tests.test_cycle_cooldown_and_Q_out_opening_link_preserved_for_all_recipes) ... ok
+test_midpoint_to_radius_tail_is_live_closing_not_unused_reserve (test_timed_precision_v9.TimedPrecisionV9Tests.test_midpoint_to_radius_tail_is_live_closing_not_unused_reserve) ... ok
+test_saved_B1_states_show_changed_occupied_geometry_only_not_native_replay (test_timed_precision_v9.TimedPrecisionV9Tests.test_saved_B1_states_show_changed_occupied_geometry_only_not_native_replay) ... ok
+test_stage_zero_one_other_families_and_revision_eight_are_exact (test_timed_precision_v9.TimedPrecisionV9Tests.test_stage_zero_one_other_families_and_revision_eight_are_exact) ... ok
+test_validation_and_recursive_exclusion_even_when_unaffected (test_timed_precision_v9.TimedPrecisionV9Tests.test_validation_and_recursive_exclusion_even_when_unaffected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.173s
+
+OK

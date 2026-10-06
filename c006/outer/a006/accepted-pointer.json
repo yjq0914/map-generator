@@ -1,0 +1,42 @@
+{
+  "schema": "qualified-recovery-operating-pointer/2",
+  "version": "recovery-cumulative-with-horizontal-style-v1",
+  "round": "a006",
+  "updatedAt": "2026-10-04T21:26:04.334Z",
+  "generator": "source/a006-style-registry.cjs",
+  "config": "source/configs/a006-style-registry-v1.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "recovery-cumulative-v1",
+    "immutablePointer": "outer/a005-recovery/accepted-pointer.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/a006/decision.json",
+  "sourceFreeze": "protocols/freezes/a006-formal-style-v1.json",
+  "sourceManifestHash": "67c77d679e05cfe47e2fd09452bc5337197025f4bdf2819906fda25aa3ba30ef",
+  "artifactManifest": "outer/a006/artifact-manifest.json",
+  "artifactManifestHash": "154e4aba043f5416a23d1670c50037e6ee18d8c9f0ea3eb0c780b5d4cdc26500",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_decc556a75b081918c986855b9d88bf3",
+    "libraryVersion": 25,
+    "sha256": "2dd3b9cfdca6ec5fca7a4b71d9ba0d5d3735d7e4fe3c99521a56874e257f7dfd",
+    "bytes": 19858470,
+    "receipt": "protocols/receipts/a006-qualified-bundle.json"
+  },
+  "qualification": "Explicit long-horizontal-occupation style only; default vertical-default remains byte-identical to accepted recovery-cumulative-v1. Finite24six-field conditions and two separately scoped one-command±1tick profiles; no human-fun, new-strategy or universalnecessity claim.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/a006/accepted-pointer.json"
+}

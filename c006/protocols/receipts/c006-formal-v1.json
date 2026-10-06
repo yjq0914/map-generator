@@ -1,0 +1,11 @@
+{
+  "schema": "adaptive-durable-receipt/1",
+  "status": "succeeded",
+  "libraryFileId": "libfile_674e2225af5c8191b0e6d5730cc844e5",
+  "currentVersion": 16,
+  "archiveSHA256": "a30d3159b4a8f346569c9c84e555e9e2c0dec53c8f94c84a11ca6c20b27e59ed",
+  "sourceManifestHash": "aad76e1d9c8d23fd4373e4408c8ef72fe78221d546e63678558c6dcda13403c7",
+  "freezePath": "protocols/freezes/c006-formal-v1.json",
+  "savedAt": "2026-10-05T15:26:19.006415+00:00",
+  "remoteBytesVerified": false
+}

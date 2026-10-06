@@ -1,0 +1,56 @@
+{
+  "schema": "qualified-recovery-operating-pointer/2",
+  "version": "recovery-cumulative-with-explicit-composition-v1",
+  "round": "a009",
+  "updatedAt": "2026-10-04T23:58:23.031Z",
+  "generator": "source/a009-style-registry.cjs",
+  "config": "source/configs/a009-style-registry-v1.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    },
+    {
+      "id": "phase-through-or-bypass",
+      "generator": "source/a007-phase-generator-v2.cjs",
+      "config": "source/configs/a007-phase-v2.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a007/decision.json"
+    },
+    {
+      "id": "horizontal-phase-composition",
+      "generator": "source/a009-composed-generator.cjs",
+      "config": "source/configs/a009-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12phaseentrysingle-commandprofiles;explicit only",
+      "decision": "outer/a009/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "recovery-cumulative-with-horizontal-phase-styles-v2",
+    "immutablePointer": "outer/a007/accepted-pointer.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/a009/decision.json",
+  "sourceFreeze": "protocols/freezes/a009-formal-v2.json",
+  "sourceManifestHash": "d124443d319218ac0ce69a92837c9509ff7f043f603b46e9f5b61cdb6619054b",
+  "artifactManifest": "outer/a009/artifact-manifest.json",
+  "artifactManifestHash": "02dd00b717d88fa3ba7dcd86c5843709315e7b07f5ccf3babfd722718fdcbf70",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_7cf341c4113c8191a993ac011f3c3ad8",
+    "libraryVersion": 17,
+    "sha256": "c5914ae55e1f16802e16b706a7a402f3e9ae9d2791181058bc0df07378aba27d",
+    "bytes": 21538661,
+    "receipt": "protocols/receipts/a009-qualified-bundle.json"
+  },
+  "qualification": "Explicit horizontal-phase-composition only; old default and independent horizontal/phase outputs retained. 24 finite conditions,48 assigned both effects,44 profiles,2 exact replays. Public phase entry converges, not new perturbed-entry generalization.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/a009/accepted-pointer.json"
+}

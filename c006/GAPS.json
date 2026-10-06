@@ -1,0 +1,95 @@
+[
+  {
+    "id": "laser-tight-clearance-robustness",
+    "state": "still-present",
+    "priority": "high",
+    "scope": "c005 candidate explore-02 assigned_alternate, LT with changed T successor: minimum active capsule clearance1.1993583385478637px. Qualified sampled route witness only; phase/entry robustness, fairness and human input tolerance remain unqualified. Not evidence of desired difficulty or mandate to widen every map.",
+    "evidence": "outer/c005/pair-reports/explore-02-assigned_alternate.json.gz",
+    "runId": "c005-candidate-explore-02-assigned_alternate",
+    "proposedSmallestTest": "Reuse original witness; at most four targeted same-seed phase/initial-y perturbations, real tick0 and source-derived laser/reception window, independently logged and not fresh heldout. No blanket perturbation grid or automatic generator change.",
+    "adoption": "c005 finite conditional scope unchanged"
+  },
+  {
+    "id": "intent-selection",
+    "state": "solved",
+    "scope": "bounded structural request selection over six inherited forms",
+    "evidence": "analysis-v2.json",
+    "adoption": "conditional only"
+  },
+  {
+    "id": "actual-request-response",
+    "state": "solved",
+    "scope": "same-entry H/T/J planned-main behavior differs; relation and body evidence recorded",
+    "evidence": "analysis-v2.json"
+  },
+  {
+    "id": "metadata-source-identity",
+    "state": "solved",
+    "scope": "unique ordinary rectangle identity view; raw original bodies preserved",
+    "evidence": "analysis-amendment-v2.json"
+  },
+  {
+    "id": "theme-independent-mixture",
+    "state": "still-present",
+    "scope": "mean theme score does not prefer compound over bestsingleton without action/cardinality constraint"
+  },
+  {
+    "id": "human-fun-and-natural-choice",
+    "state": "not-exercised",
+    "scope": "no human/UI/visible-only evidence"
+  },
+  {
+    "id": "bounded-subset-composition",
+    "state": "solved",
+    "scope": "B/H/T/J/HT/HJT retained; HJ/JT supported by nine paired map conditions each, two assigned roles; conditional only",
+    "evidence": "outer/c002/analysis.json",
+    "adoption": "conditional only"
+  },
+  {
+    "id": "sparse-request-coverage",
+    "state": "solved",
+    "scope": "existing action/structural semantics select missing two-operator subsets through one generic edit algebra; unchanged scoring and trial frontier",
+    "evidence": "outer/c002/analysis.json"
+  },
+  {
+    "id": "arbitrary-composition-order",
+    "state": "still-present",
+    "scope": "three frozen operators and actual resolved sites only; arbitrary operator libraries, site moves or temporal permutations not qualified"
+  },
+  {
+    "id": "macro-duration",
+    "state": "solved",
+    "scope": "Bounded request-controlled order and integral recovery allocation of complete slots9/10; adjacency none; finite panel only",
+    "evidence": "outer/c003/analysis.json",
+    "adoption": "conditional only"
+  },
+  {
+    "id": "macro-adjacency-extension",
+    "state": "still-present",
+    "scope": "Non-none adjacency has extra carried bodies outside the current three-island recognizer; old macro-null calls remain exact"
+  },
+  {
+    "id": "internal-theme-geometry",
+    "state": "not-exercised",
+    "scope": "Orders existing local symmetry/stagger patterns; does not create new internal patterns"
+  },
+  {
+    "id": "structural-laser-palette",
+    "state": "solved",
+    "scope": "Finite L/HL/LT/HLT companion interface with same accepted optional macro; explicit companion remains necessary",
+    "evidence": "outer/c005/analysis.json",
+    "adoption": "conditional only"
+  },
+  {
+    "id": "laser-successor-current-context",
+    "state": "solved",
+    "scope": "Exact accepted companion and selected exactB successor reconstruction; new actual T second gate/receiver evidence for changed context, strict reads retained",
+    "evidence": "outer/c005/analysis.json",
+    "adoption": "conditional only"
+  },
+  {
+    "id": "single-intent-laser-interface",
+    "state": "still-present",
+    "scope": "c004 research interface needs explicit accepted companion; independent prefix selection does not eliminate that extra caller parameter"
+  }
+]

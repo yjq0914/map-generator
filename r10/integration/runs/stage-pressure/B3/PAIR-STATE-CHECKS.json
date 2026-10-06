@@ -1,0 +1,178 @@
+{
+  "scope": "Read saved native9-column rows exactly, including input-causing-row and authored target; no physics and no evaluator changes.",
+  "paired": [
+    {
+      "before": "integration/runs/stage-pressure/B2/runs/candidate-701",
+      "after": "integration/runs/stage-pressure/B3/runs/candidate-701",
+      "before_result": "alive-prefix-only",
+      "after_result": "alive-prefix-only",
+      "before_seconds": 30.0,
+      "after_seconds": 30.0,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": true,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "16c4531fea9ef9297a7556a82f9c9cd4b6d64b83ab2fc6359c9ec1ac2e0c0e1f",
+      "after_trace_sha256": "9bdb5c10858a35a371e43a2a9d38d8756eb2ed1ac330cb5913f2730d0f956515",
+      "after_spring_contacts": []
+    },
+    {
+      "before": "integration/runs/stage-pressure/B2/runs/candidate-702",
+      "after": "integration/runs/stage-pressure/B3/runs/candidate-702",
+      "before_result": "alive-prefix-only",
+      "after_result": "alive-prefix-only",
+      "before_seconds": 30.0,
+      "after_seconds": 30.0,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": true,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "941e0a68c800ae3b9ec62b58f439153b5f1f389af7bff7915c2c051665584fae",
+      "after_trace_sha256": "95f935bd3b2810e3a77d0f7e59d955dbbf82110adb65b00de05b4395319559dd",
+      "after_spring_contacts": []
+    },
+    {
+      "before": "integration/runs/stage-pressure/B2/runs/candidate-703",
+      "after": "integration/runs/stage-pressure/B3/runs/candidate-703",
+      "before_result": "alive-prefix-only",
+      "after_result": "alive-prefix-only",
+      "before_seconds": 30.0,
+      "after_seconds": 30.0,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": true,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "e1f25ef7779657df1097729b2ddc886ce61dcc824645e5e060fd3f19d13c2981",
+      "after_trace_sha256": "37a35cbbfc2e21bbdfaf8d3b07711b01f49a54bd5d099752c50bde4adda1d795",
+      "after_spring_contacts": [
+        {
+          "tick": 771,
+          "type": "bounce",
+          "id": "m02-S-reset",
+          "side": "top"
+        }
+      ]
+    },
+    {
+      "before": "integration/runs/stage-pressure/B2/runs/candidate-704",
+      "after": "integration/runs/stage-pressure/B3/runs/candidate-704",
+      "before_result": "alive-prefix-only",
+      "after_result": "alive-prefix-only",
+      "before_seconds": 30.0,
+      "after_seconds": 30.0,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": true,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "ae515c44ecd1c2bb310020a218aabd21374fb4010c91ba970ab4bf0561776115",
+      "after_trace_sha256": "6714b360ea41f8a386e82bb6574c91e85e25ab8f8379c7f0237b801dae893cad",
+      "after_spring_contacts": []
+    },
+    {
+      "before": "integration/runs/stage-pressure/B2/runs/candidate-705",
+      "after": "integration/runs/stage-pressure/B3/runs/candidate-705",
+      "before_result": "alive-prefix-only",
+      "after_result": "alive-prefix-only",
+      "before_seconds": 30.0,
+      "after_seconds": 30.0,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": true,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "705b2581c714761f9633d0b49afb510ee8bb015a1b4df0e97e3b32765034e5b1",
+      "after_trace_sha256": "4a85c712e7d8f462f42d206aaae45e5bb3d6046a56063c6d19c0de489f228976",
+      "after_spring_contacts": [
+        {
+          "tick": 3369,
+          "type": "bounce",
+          "id": "m05-S-reset",
+          "side": "top"
+        }
+      ]
+    },
+    {
+      "before": "integration/runs/stage-pressure/B2/runs/candidate-706",
+      "after": "integration/runs/stage-pressure/B3/runs/candidate-706",
+      "before_result": "alive-prefix-only",
+      "after_result": "alive-prefix-only",
+      "before_seconds": 30.0,
+      "after_seconds": 30.0,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": true,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "ff1543f92044cb11c8966ddcb67a58d1cbd38bd65b8d39386833e9917ec684e0",
+      "after_trace_sha256": "33c3464d3fafd77eaf0aafc2dfe1045594cacbe45fb423520bb8b1c4b32041d0",
+      "after_spring_contacts": []
+    },
+    {
+      "before": "integration/runs/stage-pressure/B2/runs/candidate-707",
+      "after": "integration/runs/stage-pressure/B3/runs/candidate-707",
+      "before_result": "alive-prefix-only",
+      "after_result": "alive-prefix-only",
+      "before_seconds": 30.0,
+      "after_seconds": 30.0,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": true,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "9af209ae63f76f3de2f558ebcb3033e7ad97c0185144bf15a6dc4cdde37279a3",
+      "after_trace_sha256": "1d48e1ace2ab7b1621e2a920c4314aa3c871749355313b82f723fac9e4ec141e",
+      "after_spring_contacts": []
+    },
+    {
+      "before": "integration/runs/stage-pressure/B2/runs/candidate-708",
+      "after": "integration/runs/stage-pressure/B3/runs/candidate-708",
+      "before_result": "alive-prefix-only",
+      "after_result": "alive-prefix-only",
+      "before_seconds": 30.0,
+      "after_seconds": 30.0,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": true,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "19b28fd57e6b254bad65a6181a4efe12dd09f97efc7d3609c5fdec3302df3241",
+      "after_trace_sha256": "a53f56df0ee949173bc8fd421837caff7e930aa93a3048b4ef5b488e32fc1ca9",
+      "after_spring_contacts": []
+    }
+  ],
+  "bounded_diagnostics": [
+    {
+      "before": "integration/runs/stage-pressure/B2/runs/holdout-6206",
+      "after": "integration/runs/stage-pressure/B3/diagnostics/known-laser-6206-r10",
+      "before_result": "death",
+      "after_result": "native-win",
+      "before_seconds": 28.633333333333333,
+      "after_seconds": 31.508333333333333,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": false,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "e498c52cd685f3449b415f3cba88f01ac6a386cb3050996594567820131ac940",
+      "after_trace_sha256": "248eaf01398f80558fd5e91471a9f90e50cbb7461e9be69a9ea8d5acee24027a",
+      "after_spring_contacts": []
+    },
+    {
+      "before": "integration/runs/stage-pressure/B3/runs/candidate-708",
+      "after": "integration/runs/stage-pressure/B3/diagnostics/full-tail-708-r10",
+      "before_result": "alive-prefix-only",
+      "after_result": "native-win",
+      "before_seconds": 30.0,
+      "after_seconds": 32.708333333333336,
+      "same_runtime_controller": true,
+      "same_body_coordinates_and_colliders": true,
+      "all_before_rows_equal_after_prefix": true,
+      "before_preterminal_rows_equal_after_prefix": true,
+      "before_trace_sha256": "a53f56df0ee949173bc8fd421837caff7e930aa93a3048b4ef5b488e32fc1ca9",
+      "after_trace_sha256": "2fa93d0a9a4b3425b75fe956744a60fefcf941bb2b114026a3a07d5e893f4f05",
+      "after_spring_contacts": [
+        {
+          "tick": 3674,
+          "type": "bounce",
+          "id": "m05-S-reset",
+          "side": "top"
+        }
+      ]
+    }
+  ]
+}

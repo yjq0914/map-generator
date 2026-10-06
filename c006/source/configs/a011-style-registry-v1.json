@@ -1,0 +1,13 @@
+{
+  "version": "recovery-cumulative-with-seeded-composition-v1",
+  "module": "source/a011-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "explicitStyles": [
+    "long-horizontal-occupation",
+    "phase-through-or-bypass",
+    "horizontal-phase-composition",
+    "phase-late-horizontal-composition",
+    "seeded-relative-composition"
+  ],
+  "composition": "explicit styles only; preserve prior five choices exactly"
+}

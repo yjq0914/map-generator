@@ -1,0 +1,18 @@
+{
+  "version": "a010-phase-late-following-v1",
+  "module": "source/a010-composed-generator.cjs",
+  "operators": [
+    "phase-through-or-bypass",
+    "late-horizontal-occupation"
+  ],
+  "operation": {
+    "type": "following-gate-post-length",
+    "speedRatio": 0.6,
+    "periodSeconds": 3,
+    "crossingPhase": 0,
+    "placementBias": 1,
+    "seedSalt": 0
+  },
+  "conflicts": "fail-closed-relative-same-canonical",
+  "activation": "explicit"
+}

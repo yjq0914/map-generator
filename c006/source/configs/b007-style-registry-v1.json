@@ -1,0 +1,13 @@
+{
+  "version": "b007-registry-candidate-v1",
+  "module": "source/b007-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "parent": {
+    "module": "source/b005-style-registry.cjs",
+    "config": "source/configs/b005-style-registry-v1.json",
+    "moduleSHA256": "89988d0159da3457f741e92d7f1634a8ccb77326841c7bcb9d4b25622e4b043a",
+    "configSHA256": "21613b02ad84e3baa888c980ede893f7fe343b8d8536cd15aea92c267c73c2b0"
+  },
+  "explicitCandidate": "structurally-bound-swing-opposite-receiver",
+  "qualification": "Finite exact-b005 structural binding candidate pending terminal decision; all current cumulative parent calls delegated exactly"
+}

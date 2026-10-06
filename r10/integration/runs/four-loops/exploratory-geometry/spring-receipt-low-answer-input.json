@@ -1,0 +1,688 @@
+{
+  "schema": "flappy-loop-lab/1",
+  "id": "spring-receipt-low-answer",
+  "seed": 1,
+  "width": 2290.4695121951218,
+  "height": 540,
+  "route_id": "main",
+  "units": {
+    "distance": "px",
+    "time": "s",
+    "velocity": "px/s"
+  },
+  "obstacles": [
+    {
+      "id": "m01-Q-in",
+      "mechanic_kind": "timed_armor_gate",
+      "x": 420.0,
+      "y": 375.0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 72.0,
+        "h": 540.0
+      },
+      "effect_region": null,
+      "motion": {
+        "opening_px": 180.0
+      },
+      "timeline": {
+        "start_s": 0.6650000000000003,
+        "warning_s": 0.9,
+        "opening_s": 0.45,
+        "hold_s": 1.25,
+        "closing_s": 0.55,
+        "cooldown_s": 12.0
+      },
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m01-question",
+      "stage_id": "m01-integration-additional-v1"
+    },
+    {
+      "id": "m01-Q-out",
+      "mechanic_kind": "timed_armor_gate",
+      "x": 690.0000000000001,
+      "y": 215.0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 72.0,
+        "h": 540.0
+      },
+      "effect_region": null,
+      "motion": {
+        "opening_px": 160.0
+      },
+      "timeline": {
+        "start_s": 2.365,
+        "warning_s": 0.9,
+        "opening_s": 0.45,
+        "hold_s": 1.45,
+        "closing_s": 0.55,
+        "cooldown_s": 12.0
+      },
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m01-question",
+      "stage_id": "m01-integration-additional-v1"
+    },
+    {
+      "id": "m01-A-in",
+      "mechanic_kind": "timed_armor_gate",
+      "x": 970.5000000000001,
+      "y": 245.0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 96.0,
+        "h": 540.0
+      },
+      "effect_region": null,
+      "motion": {
+        "opening_px": 180.0
+      },
+      "timeline": {
+        "start_s": 4.265,
+        "warning_s": 0.9,
+        "opening_s": 0.45,
+        "hold_s": 1.55,
+        "closing_s": 0.55,
+        "cooldown_s": 12.0
+      },
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m01-answer",
+      "stage_id": "m01-integration-additional-v1"
+    },
+    {
+      "id": "m01-A-out",
+      "mechanic_kind": "timed_armor_gate",
+      "x": 1265.5,
+      "y": 375.0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 210.0,
+        "h": 540.0
+      },
+      "effect_region": null,
+      "motion": {
+        "opening_px": 200.0
+      },
+      "timeline": {
+        "start_s": 6.036666666666666,
+        "warning_s": 0.9,
+        "opening_s": 0.45,
+        "hold_s": 2.7,
+        "closing_s": 0.55,
+        "cooldown_s": 12.0
+      },
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m01-answer",
+      "stage_id": "m01-integration-additional-v1"
+    },
+    {
+      "id": "m02-S-reset",
+      "mechanic_kind": "spring_wall",
+      "route_id": "main",
+      "x": 1590.5,
+      "y": 420,
+      "collider": {
+        "shape": "rectangle",
+        "w": 70,
+        "h": 18
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": false,
+        "bounce_speed_px_s": 450,
+        "cooldown_s": 0.35
+      },
+      "mount": "world",
+      "group_id": "m02-reset-reception",
+      "stage_id": "m02-R19"
+    },
+    {
+      "id": "m02-G-receiver",
+      "mechanic_kind": "timed_armor_gate",
+      "route_id": "main",
+      "x": 1700.469512195122,
+      "y": 286.5143902439024,
+      "collider": {
+        "shape": "rectangle",
+        "w": 120,
+        "h": 540
+      },
+      "effect_region": null,
+      "motion": {
+        "opening_px": 200
+      },
+      "timeline": {
+        "start_s": 9.43979674796748,
+        "warning_s": 0.8,
+        "opening_s": 0.55,
+        "hold_s": 1.1333333333333337,
+        "closing_s": 0.6,
+        "cooldown_s": 3.5
+      },
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m02-reset-reception",
+      "stage_id": "m02-R19"
+    },
+    {
+      "id": "m02-receipt-answer-roof",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 2040.469512195122,
+      "y": 0.0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 80.0,
+        "h": 390.0
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m02-optional-receipt-answer",
+      "stage_id": "m02-integration-geometry-v5"
+    }
+  ],
+  "integration": {
+    "schema": "geometry-v5-probe/1",
+    "status": "experimental",
+    "guide": [
+      {
+        "x": 60,
+        "target_y": 270.0,
+        "until_x": 240.0,
+        "module_id": "m01"
+      },
+      {
+        "x": 240.0,
+        "target_y": 375.0,
+        "until_x": 502.0,
+        "module_id": "m01"
+      },
+      {
+        "x": 502.0,
+        "target_y": 215.0,
+        "until_x": 772.0000000000001,
+        "module_id": "m01"
+      },
+      {
+        "x": 772.0000000000001,
+        "target_y": 245.0,
+        "until_x": 1076.5,
+        "module_id": "m01"
+      },
+      {
+        "x": 1076.5,
+        "target_y": 375.0,
+        "until_x": 1485.5,
+        "module_id": "m01"
+      },
+      {
+        "x": 1485.5,
+        "until_x": 1530.5,
+        "target_y": 330,
+        "module_id": "m02"
+      },
+      {
+        "x": 1530.5,
+        "until_x": 1670.5,
+        "target_y": 415,
+        "policy": "spring-acquire",
+        "module_id": "m02"
+      },
+      {
+        "x": 1670.5,
+        "until_x": 1830.469512195122,
+        "target_y": 311.5143902439024,
+        "policy": "spring-receive",
+        "module_id": "m02"
+      },
+      {
+        "x": 1830.469512195122,
+        "until_x": 2130.4695121951218,
+        "target_y": 460,
+        "module_id": "m02"
+      },
+      {
+        "x": 2130.4695121951218,
+        "until_x": 2290.4695121951218,
+        "target_y": 460,
+        "module_id": "m02",
+        "policy": "terminal-recovery"
+      }
+    ],
+    "modules": [
+      {
+        "id": "m01",
+        "family": "bellows-question-answer",
+        "variant": "alternate",
+        "start_x": 60,
+        "active_start_x": 410.0,
+        "active_end_x": 1485.5,
+        "end_x": 1485.5,
+        "shift_x": 0,
+        "time_shift_s": 0.0,
+        "body_ids": [
+          "m01-Q-in",
+          "m01-Q-out",
+          "m01-A-in",
+          "m01-A-out"
+        ],
+        "source_metadata": {
+          "schema": "additional-relational-fragment/1",
+          "family": "bellows-question-answer",
+          "variant": "extended",
+          "difficulty": "medium",
+          "classification": "candidate_unqualified",
+          "physically_qualified": false,
+          "continuous_safe_range": null,
+          "difficulty_status": "discrete authored recipes; ordering not empirically calibrated",
+          "new_physics_run": false,
+          "sources": [
+            {
+              "candidate_id": "candidate-same-type-bellows",
+              "candidate_version": 3,
+              "author_id": "same-type.bellows",
+              "round": "R05",
+              "record": "records/candidates/candidate-same-type-bellows.v3.json",
+              "payload": "sources/1d509cf664af73f4/concepts.json",
+              "evidence_ids": [
+                "review-r01-same-v2@1",
+                "review-r05-closure@1"
+              ],
+              "scope": "event/geometry timing only; source has no physical cross-chamber transfer witness"
+            }
+          ],
+          "behavioral_verbs": [
+            "descend to low call",
+            "lift into reply",
+            "retain high handoff",
+            "release to low answer",
+            "sustain through thick outlet"
+          ],
+          "native_duration_s": 11.47,
+          "entry": {
+            "initial_player": {
+              "x": 60,
+              "y": 270,
+              "vx": 150,
+              "vy": 0
+            },
+            "accepted_state_box": null
+          },
+          "exit": {
+            "actual_state": null,
+            "desired_target_y": 270,
+            "preserve": [
+              "actual x/y/vx/vy",
+              "world tick and clock",
+              "all earlier live hazards"
+            ]
+          },
+          "guide_scope": "Piecewise control aims on [x, until_x); not a trajectory, clearance proof, input tape, accepted state range, or horizontal waiting instruction",
+          "composition_scope": "Standalone fresh entry only. Translation must retime every clocked descriptor against the persistent world clock; composition must receive actual incoming state.",
+          "action_grammar": "low entry \u2192 high reply \u2192 high handoff \u2192 low answer \u2192 sustain through thick outlet",
+          "theme": "Two wall-bellows chambers, with a low-to-high question and a thicker reversed answer",
+          "mechanics": [
+            "timed_armor_gate"
+          ],
+          "parameters": {
+            "whole_player_front_tail_margin_delta_s": 0.0,
+            "aperture_delta_px": 0.0,
+            "final_gate_extension_px": 90.0
+          },
+          "relations": [
+            "Q-in closing begins exactly when Q-out opening begins",
+            "Q-out closing begins exactly when A-in opening begins; no per-body clock reset",
+            "Opening clocks derive from radius-expanded front/tail occupancy and positive temporal reserves",
+            "The answer reverses the low-to-high question; final gate is thickest and has the longest full-open hold",
+            "Extended final gate adds90px body thickness and0.6s hold/duration; it adds a sustained outlet, not an empty rest"
+          ],
+          "derived": {
+            "events": [
+              {
+                "id": "Q-in",
+                "warning_start_s": 0.6650000000000003,
+                "opening_start_s": 1.5650000000000002,
+                "full_open_start_s": 2.015,
+                "closing_start_s": 3.265,
+                "closed_s": 3.8150000000000004,
+                "whole_player_occupancy_s": [
+                  2.3333333333333335,
+                  2.9466666666666668
+                ],
+                "full_open_front_margin_s": 0.31833333333333336,
+                "full_open_tail_margin_s": 0.31833333333333336,
+                "exclusive_center_band": [
+                  295.0,
+                  455.0
+                ]
+              },
+              {
+                "id": "Q-out",
+                "warning_start_s": 2.365,
+                "opening_start_s": 3.265,
+                "full_open_start_s": 3.7150000000000003,
+                "closing_start_s": 5.165,
+                "closed_s": 5.715,
+                "whole_player_occupancy_s": [
+                  4.133333333333334,
+                  4.746666666666667
+                ],
+                "full_open_front_margin_s": 0.41833333333333333,
+                "full_open_tail_margin_s": 0.41833333333333333,
+                "exclusive_center_band": [
+                  145.0,
+                  285.0
+                ]
+              },
+              {
+                "id": "A-in",
+                "warning_start_s": 4.265,
+                "opening_start_s": 5.165,
+                "full_open_start_s": 5.615,
+                "closing_start_s": 7.165,
+                "closed_s": 7.715,
+                "whole_player_occupancy_s": [
+                  6.003333333333334,
+                  6.776666666666666
+                ],
+                "full_open_front_margin_s": 0.38833333333333336,
+                "full_open_tail_margin_s": 0.38833333333333336,
+                "exclusive_center_band": [
+                  165.0,
+                  325.0
+                ]
+              },
+              {
+                "id": "A-out",
+                "warning_start_s": 6.036666666666666,
+                "opening_start_s": 6.9366666666666665,
+                "full_open_start_s": 7.386666666666667,
+                "closing_start_s": 10.086666666666666,
+                "closed_s": 10.636666666666667,
+                "whole_player_occupancy_s": [
+                  7.97,
+                  9.503333333333334
+                ],
+                "full_open_front_margin_s": 0.5833333333333334,
+                "full_open_tail_margin_s": 0.5833333333333334,
+                "exclusive_center_band": [
+                  285.0,
+                  465.0
+                ]
+              }
+            ],
+            "Q_out_close_equals_A_in_open_s": 5.165,
+            "high_handoff_band_intersection": [
+              165.0,
+              285.0
+            ],
+            "minimum_first_low_to_high_change_px": 10.0,
+            "last_body_radius_clear_x": 1485.5,
+            "radius_clear_recovery_px": 295.0
+          },
+          "limitations": [
+            "Gate warning is CLOSED and lethal; no outside bypass and no horizontal waiting",
+            "Clock coverage is not a reachable y/vy interval or a successful passage",
+            "High handoff is a geometric band intersection only; actual state transfer remains unmeasured",
+            "The first question forces only the reported minimum height change; the full centerline excursion is optional",
+            "The final answer's bands may overlap; descending all the way to its center is an authoring intent",
+            "Future cycles remain live in compositions; no deletion or neutralization of earlier gates",
+            "Difficulty and extension are discrete unqualified adaptations, not inherited source qualification"
+          ],
+          "provider": "integration/bellows-question-answer@1"
+        }
+      },
+      {
+        "id": "m02",
+        "family": "spring-reception",
+        "variant": "alternate",
+        "start_x": 1485.5,
+        "active_start_x": 1580.5,
+        "active_end_x": 2130.4695121951218,
+        "end_x": 2130.4695121951218,
+        "shift_x": 1230.5,
+        "time_shift_s": 8.203333333333333,
+        "body_ids": [
+          "m02-S-reset",
+          "m02-G-receiver",
+          "m02-receipt-answer-roof"
+        ],
+        "source_metadata": {
+          "schema": "candidate-generated-output/1",
+          "status": "unqualified_candidate_output",
+          "provider": "spring-reset-opening-reception@1.0.0",
+          "source": {
+            "path": "sources/0d30489f7e9a174e/emitter.py",
+            "sha256": "0d30489f7e9a174ed99f0c55c4263a65d244671833230d6d231eecc798a22226"
+          },
+          "dependencies": [],
+          "active_eligibility": {
+            "policy": "exclude-force-cores@1",
+            "sha256": "ee3ffa9968b7cc6a07be5e790aec4da2f61c593ce8b8af972be6d8efa9155931",
+            "excluded_mechanics": [
+              "suction_core",
+              "push_pulse_core"
+            ],
+            "inactive_provider_ids": [
+              "carried-speed-gate"
+            ],
+            "active": true,
+            "excluded_mechanics_present": []
+          },
+          "requested_spec": {
+            "gate_width_px": 120
+          },
+          "resolved_spec": {
+            "schema": "spring-opening-spec/1",
+            "bounce_speed_px_s": 450,
+            "gate_width_px": 120,
+            "reference_contact_x": 390,
+            "spring_top_y": 420,
+            "receiver_center_offset_px": 0,
+            "gate_phase_offset_s": 0
+          },
+          "resolved_spec_sha256": "30c57c21fe12527ecd9a04e978a752fac1daba1b3d00968eb645acebb1b25c71",
+          "native_map_sha256": "f55d77f277d75433dc7e792403c1a2712db82f2887a0c0ef1579c1beaf69552f",
+          "parameter_effects": {},
+          "variant_effect": "unclassified-by-provider",
+          "restricted_collision_signature_sha256": null,
+          "historical_exact_map_matches": [],
+          "historical_match_scope": "Exact native-map bytes only; not a new run, accepted entry/tape/state or family qualification. Collision signature is never an evidence lookup key.",
+          "provider_metadata": {
+            "schema": "spring-opening-emission/1",
+            "grammar_id": "spring-reset-opening-reception",
+            "parameterization": "optional-default-reset-to-clocked-aperture",
+            "classification": "candidate",
+            "spec": {
+              "schema": "spring-opening-spec/1",
+              "bounce_speed_px_s": 450,
+              "gate_width_px": 120,
+              "reference_contact_x": 390,
+              "spring_top_y": 420,
+              "receiver_center_offset_px": 0,
+              "gate_phase_offset_s": 0
+            },
+            "derived": {
+              "reference_contact_time_s": 2.2,
+              "reference_contact_x": 390,
+              "conditional_top_reset_y": 409.99,
+              "conditional_top_reset_vy": -450,
+              "reference_freeflight_apex_delay_s": 0.5487804878048781,
+              "reference_freeflight_rise_px": 123.47560975609755,
+              "reference_freeflight_apex_y": 286.5143902439024,
+              "reference_estimate_scope": "continuous gravity reference only; not native integration, no contact or reachability witness",
+              "gate_center_y": 286.5143902439024,
+              "gate_x": 469.969512195122,
+              "gate_full_radius_front_s": 2.6664634146341464,
+              "gate_center_crossing_s": 3.133130081300813,
+              "gate_full_radius_tail_s": 3.59979674796748,
+              "gate_full_open_start_s": 2.5864634146341463,
+              "gate_closing_start_s": 3.71979674796748,
+              "full_open_support_band_y": [
+                216.51439024390243,
+                356.5143902439024
+              ],
+              "full_open_front_margin_s": 0.08000000000000007,
+              "full_open_tail_margin_s": 0.1200000000000001,
+              "reference_contact_to_gate_front_s": 0.4664634146341462,
+              "spring_full_radius_tail_clear_s": 2.533333333333333,
+              "spring_remaining_x_clearance_after_reference_contact_s": 0.33333333333333304,
+              "reference_return_to_reset_height_s": 1.0975609756097562,
+              "reference_flap_overwrite_speed_difference_px_s": 160.0,
+              "reference_held_y_at_gate_front": 289.2925914634146,
+              "reference_immediate_flap_y_at_gate_front": 363.92673780487803,
+              "reference_no_flap_y_at_gate_tail": 583.4481470189702,
+              "gate_first_fully_in_520px_lookahead_s": 0.06646341463414653,
+              "preview_before_warning_s": 1.1699999999999995,
+              "nominal_alive_map_exit_s": 5.533130081300813,
+              "actual_contact": null,
+              "actual_reception_y_vy": null
+            },
+            "relations": {
+              "spring_to_receiver": "gate center=top\u2212R\u2212.01\u2212b\u00b2/(2g)+offset; gate front time=t_reference+.85*b/g; both use a conditional top reset, not an observed event",
+              "whole_width": "hold extends from front\u2212.08 to whole-radius tail+.12; width+2R is included, not only center crossing",
+              "not_arrival_triggered": "gate clock is fixed from authored reference; actual spring contact may be earlier/later/absent. No clock reset, no wait.",
+              "reference_scope": "closed-form constant-gravity quantities are layout estimates, not native discrete trajectories or input feasibility; support bands at expanded front/tail are conservative near corners",
+              "native_spring": "default contact: any circle/body hit can trigger; oldY<spring.y+h/2 chooses top. No descending-only filter or timed-course substitution.",
+              "order": "flap sets vy\u2212290 at tick start; a later spring collision in that tick can override it. A flap on a later tick can override the bounce.",
+              "cooldown": "per source, tick+ceil(.35/DT); active body remains and contact is not automatically retriggered while cooldown is running"
+            },
+            "entry": {
+              "initial_player": {
+                "x": 60,
+                "y": 330,
+                "vx": 150,
+                "vy": 0
+              },
+              "accepted_box": null,
+              "spring_contact_event": null
+            },
+            "exit": {
+              "actual_state": null,
+              "desired_y": [
+                220,
+                340
+              ],
+              "desired_vy": [
+                -150,
+                150
+              ],
+              "clock_if_alive_s": 5.533130081300813,
+              "preserve": [
+                "absolute tick/time",
+                "actual y/vy",
+                "S-reset cooldown tick",
+                "active spring body",
+                "gate period and future warnings"
+              ]
+            },
+            "optional_bypass": "Flap above the spring and enter the same aperture with ordinary cadence. Spring avoidance is legitimate and changes preparation/input history; no claim it is harder or worse until compared. There is no outside bypass around the full-height gate.",
+            "test_question": {
+              "not_run": true,
+              "goal": "Can an actual top-contact tape retain the stronger reset, then catch with a later flap through the entire gate and recover? Compare a post-contact early flap and an avoid-spring tape.",
+              "measure": [
+                "actual first bounce tick, side, x/y/vy and cooldown",
+                "first gate-body overlap y/vy",
+                "whole gate-tail y/vy",
+                "flap times and actual exit state"
+              ],
+              "early_flap_limit": "Only compare after a real bounce and record the next-tick flap. Same-tick input can be overwritten by contact; later flaps may be necessary. Never interpret no-early-flap as no-flap forever.",
+              "controller_sketch": "Observe first actual top bounce; compare retain versus next-tick flap, then use the same declared downstream feedback. An avoidance tape is a separate branch, not a forged no-bounce checkpoint."
+            },
+            "preview_contract": {
+              "native_lookahead_px": 520,
+              "full_gate_in_range_s": 0.06646341463414653,
+              "warning_starts_s": 1.236463414634146,
+              "verified_renderer": false,
+              "gate_warning_closed_lethal": true,
+              "spring_has_no_countdown": true,
+              "rule": "spring and aperture silhouettes appear during approach; do not invent contact-triggered opening cues"
+            },
+            "future_state": {
+              "spring_remains_active": true,
+              "gate_next_warning_s": 7.819796747967479,
+              "world_not_reset": true
+            },
+            "risks": [
+              "actual top contact may not happen at reference x/time",
+              "side or bottom contact uses oldY midpoint and can push downward",
+              "retaining bounce too long can fall into lower gate; an early or late flap may still work under other input histories",
+              "cooldown collision can overlap active spring without a new reset; body is not removed",
+              "full-open clock coverage does not prove y/vy passage",
+              "spring avoidance may be cheaper; compare before claiming gameplay value"
+            ],
+            "measured_bounds": null,
+            "new_physics_run": false,
+            "native_map_sha256": "f55d77f277d75433dc7e792403c1a2712db82f2887a0c0ef1579c1beaf69552f"
+          },
+          "physics_executed": false,
+          "qualification_transferred": false,
+          "limitations": [
+            "Bounce speed must be positive and satisfy coupled author constraints. Reference contact and continuous gravity arc remain hypothetical.",
+            "Default two-sided oldY spring, snap/body/cooldown and full gate clock persist. No mandatory contact or native impulse is inferred from generation.",
+            "A late-gate author-rule rejection may still leave a partial aperture; it is not all-route impossibility."
+          ],
+          "integration_refinements": [
+            {
+              "id": "optional-spring-receipt-low-answer-v1",
+              "first_revision": 5,
+              "changed_bodies": [
+                "receipt-answer-roof"
+              ],
+              "spring_contact": "optional; existing contact or bypass reaches the same unchanged receiver",
+              "relation": "retain original receiver through whole-body tail; then descend into a disjoint lower answer before next phrase",
+              "receiver_radius_clear_x": 599.969512195122,
+              "answer_radius_clear_x": 899.969512195122,
+              "free_descent_distance_px": 200.0,
+              "composed_receiver_center_upper_y": 376.5143902439024,
+              "answer_center_lower_y": 400.0,
+              "minimum_receipt_to_answer_descent_px": 23.485609756097574,
+              "actual_spring_and_gate_descriptors_changed": false,
+              "qualification": "experimental new relationship; geometry disjointness is not a trajectory or safe state box"
+            }
+          ]
+        }
+      }
+    ],
+    "seams": [
+      {
+        "from": "m01",
+        "to": "m02",
+        "from_family": "bellows-question-answer",
+        "to_family": "spring-reception",
+        "x": 1485.5,
+        "next_active_x": 1580.5,
+        "spatial_reserve_px": 95.0
+      }
+    ],
+    "plan": {
+      "actual_duration_s": 14.869796747967479
+    },
+    "state_policy": "one native initialization; no resets, restore, hazard deletion or forced contact"
+  }
+}

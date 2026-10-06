@@ -1,0 +1,50 @@
+test_all_outputs_have_honest_contracts_and_gapless_guides (test_additional.AdditionalFamilies.test_all_outputs_have_honest_contracts_and_gapless_guides) ... ok
+test_bellows_base_reconstructs_compact_source (test_additional.AdditionalFamilies.test_bellows_base_reconstructs_compact_source) ... ok
+test_bellows_event_coupling_whole_body_holds_and_lethal_warning (test_additional.AdditionalFamilies.test_bellows_event_coupling_whole_body_holds_and_lethal_warning) ... ok
+test_bellows_extended_couples_final_depth_to_hold (test_additional.AdditionalFamilies.test_bellows_extended_couples_final_depth_to_hold) ... ok
+test_canonical_runtime_accepts_all_descriptors_without_physics (test_additional.AdditionalFamilies.test_canonical_runtime_accepts_all_descriptors_without_physics) ... ok
+test_discrete_domain_and_fresh_objects (test_additional.AdditionalFamilies.test_discrete_domain_and_fresh_objects) ... ok
+test_tidal_bands_are_actually_disjoint_for_every_recipe (test_additional.AdditionalFamilies.test_tidal_bands_are_actually_disjoint_for_every_recipe) ... ok
+test_tidal_extension_inserts_shelf_without_uniform_scaling (test_additional.AdditionalFamilies.test_tidal_extension_inserts_shelf_without_uniform_scaling) ... ok
+test_tidal_medium_preserves_corrected_source_geometry (test_additional.AdditionalFamilies.test_tidal_medium_preserves_corrected_source_geometry) ... ok
+test_actual_full_map_and_reproducibility (test_generator.GeneratorTests.test_actual_full_map_and_reproducibility) ... ok
+test_difficulty_changes_geometry (test_generator.GeneratorTests.test_difficulty_changes_geometry) ... ok
+test_explicit_experimental (test_generator.GeneratorTests.test_explicit_experimental) ... ok
+test_gate_origin_only (test_generator.GeneratorTests.test_gate_origin_only) ... ok
+test_no_intermediate_state_reset (test_generator.GeneratorTests.test_no_intermediate_state_reset) ... ok
+test_phase_translation (test_generator.GeneratorTests.test_phase_translation) ... ok
+test_policy_recursive (test_generator.GeneratorTests.test_policy_recursive) ... ok
+test_provider_hashes_and_variants (test_generator.GeneratorTests.test_provider_hashes_and_variants) ... ok
+test_theme_changes_choice (test_generator.GeneratorTests.test_theme_changes_choice) ... ok
+test_unsupported_duration_no_truncation (test_generator.GeneratorTests.test_unsupported_duration_no_truncation) ... ok
+test_explicit_palette_and_intent_disclosure (test_reproduction.Reproduction.test_explicit_palette_and_intent_disclosure) ... ok
+test_macro_maps_reproduce (test_reproduction.Reproduction.test_macro_maps_reproduce) ... ok
+test_saved_targeted_maps_reproduce (test_reproduction.Reproduction.test_saved_targeted_maps_reproduce) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.389s
+
+OK
+✔ unchanged c005 closure and canonical runtime authenticate (5.453302ms)
+✔ baseline materializes the real accepted c005 byte-identical map (1651.584017ms)
+✔ excluded mechanics are rejected recursively, including composite metadata (0.625476ms)
+✔ ordinary guide interpolation and explicit release only (0.382627ms)
+✔ native short completion uses one continuous world and retains trace (22.828713ms)
+✔ prefix survival never fabricates a native win (0.929306ms)
+✔ death and unchanged old obstacles survive in evidence (0.983986ms)
+✔ panel admits exactly the declared 8+8+8 with matched nominal targets (0.737492ms)
+✔ scenario aliases preserve actual horizon separate from nominal duration (0.458228ms)
+✔ normalized entry changes cannot mutate saved manifest or its hash (0.33772ms)
+✔ diagnostic source threshold is literal and explicitly incomparable (1.624294ms)
+✔ unknown diagnostic controller mode is refused (0.501522ms)
+✔ relational diagnostic releases only in acquisition or after observed same-module top contact (0.515323ms)
+✔ v3 contact predictor uses actual state and radius-inset geometry (0.787325ms)
+✔ v3 bypass locks only on an actual flap decision without state writes (0.494773ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1765.452496

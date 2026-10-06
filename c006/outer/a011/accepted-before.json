@@ -1,0 +1,63 @@
+{
+  "schema": "qualified-recovery-operating-pointer/2",
+  "version": "recovery-cumulative-with-late-composition-v1",
+  "round": "a010",
+  "updatedAt": "2026-10-05T00:48:11.255Z",
+  "generator": "source/a010-style-registry.cjs",
+  "config": "source/configs/a010-style-registry-v1.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    },
+    {
+      "id": "phase-through-or-bypass",
+      "generator": "source/a007-phase-generator-v2.cjs",
+      "config": "source/configs/a007-phase-v2.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a007/decision.json"
+    },
+    {
+      "id": "horizontal-phase-composition",
+      "generator": "source/a009-composed-generator.cjs",
+      "config": "source/configs/a009-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12phaseentrysingle-commandprofiles;explicit only",
+      "decision": "outer/a009/decision.json"
+    },
+    {
+      "id": "phase-late-horizontal-composition",
+      "generator": "source/a010-composed-generator.cjs",
+      "config": "source/configs/a010-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;4target-entry single-command +/-1tick sensitivities; explicit only",
+      "decision": "outer/a010/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "recovery-cumulative-with-explicit-composition-v1",
+    "immutablePointer": "outer/a009/accepted-pointer.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/a010/decision.json",
+  "sourceFreeze": "protocols/freezes/a010-user-simplified-v2.json",
+  "sourceManifestHash": "ff05d825e52f977c96de3afdd908c4b90900702e6ca1463c401befbe1f9ab30f",
+  "artifactManifest": "outer/a010/artifact-manifest.json",
+  "artifactManifestHash": "b6f860a3505b570c8ccfa4e213607ada54710ae4466927426ec2a07b0fcc6861",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_7cf341c4113c8191a993ac011f3c3ad8",
+    "libraryVersion": 36,
+    "sha256": "5f66b41f4afc40246d202b415ef7799052206ec5d53daf222c47f11d9975c96f",
+    "bytes": 17614575,
+    "receipt": "protocols/receipts/a010-qualified-bundle.json"
+  },
+  "qualification": "Explicit phase-late-horizontal-composition only; preserve vertical-default and all three previous explicit styles exactly. PlacementBias+1 fixed recipe qualifies finite rear-stage contexts, not arbitrary macro-order or full control continuum.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/a010/accepted-pointer.json"
+}

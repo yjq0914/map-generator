@@ -1,0 +1,1083 @@
+{
+  "round": "R05",
+  "lane": "relations",
+  "version": "v1",
+  "status": "new gameplay claims unqualified",
+  "candidates": [
+    {
+      "id": "R05-relations-drop-arrival-order",
+      "version": "v1",
+      "kind": "relation-study",
+      "qualification": "schedule-relation-gameplay-unqualified",
+      "title": "落体接力：按到达排拍，齐落算几拍？",
+      "mechanics": [
+        "warning_drop_spike"
+      ],
+      "question": "同样三枚单发落体，按名义到达顺序排时刻，与一起落下相比，真正留下几次遭遇？",
+      "hypothesis": "将fall时刻按Δx/vx平移，可以重复相同的局部落体遭遇；本例若齐落，后两枚在玩家到达前已清除，所以不能把三枚同时运动记成三次操作。",
+      "intent": "只保留可解释的时序关系；三次危险占用不自动意味着三次新输入。",
+      "theme": "选择从雨幕上方或下方经过，再让同一落体时刻随前进接力；不是地上长出新平台。",
+      "action_grammar": "读第一列警示 → 选择上绕早抬或下绕后收 → 在后两列维持/修改选择 → 中位恢复；两种输入代价待验。",
+      "geometry": {
+        "world_width_px": 1260,
+        "world_height_px": 540,
+        "player_radius_px": 10,
+        "obstacles": [
+          {
+            "id": "D1",
+            "mechanic_kind": "warning_drop_spike",
+            "x": 420,
+            "y": 20,
+            "collider": {
+              "shape": "rectangle",
+              "w": 60,
+              "h": 64
+            },
+            "effect_region": {
+              "x": 420,
+              "y": 0,
+              "w": 60,
+              "h": 540
+            },
+            "motion": null,
+            "timeline": {
+              "warning_s": 0.4,
+              "warning_duration_s": 0.9,
+              "fall_speed_px_s": 200,
+              "landed_duration_s": 0.35
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "D2",
+            "mechanic_kind": "warning_drop_spike",
+            "x": 690,
+            "y": 20,
+            "collider": {
+              "shape": "rectangle",
+              "w": 60,
+              "h": 64
+            },
+            "effect_region": {
+              "x": 690,
+              "y": 0,
+              "w": 60,
+              "h": 540
+            },
+            "motion": null,
+            "timeline": {
+              "warning_s": 2.2,
+              "warning_duration_s": 0.9,
+              "fall_speed_px_s": 200,
+              "landed_duration_s": 0.35
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "D3",
+            "mechanic_kind": "warning_drop_spike",
+            "x": 960,
+            "y": 20,
+            "collider": {
+              "shape": "rectangle",
+              "w": 60,
+              "h": 64
+            },
+            "effect_region": {
+              "x": 960,
+              "y": 0,
+              "w": 60,
+              "h": 540
+            },
+            "motion": null,
+            "timeline": {
+              "warning_s": 4.0,
+              "warning_duration_s": 0.9,
+              "fall_speed_px_s": 200,
+              "landed_duration_s": 0.35
+            },
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "nominal_duration_s": 8
+      },
+      "entry": {
+        "x_px": 60,
+        "vx_px_s": 150,
+        "vy_px_s": 0,
+        "phase_clock": "absolute segment t=0; no reset on arrival",
+        "force_state": "none",
+        "projectiles": [],
+        "cooldowns": {},
+        "verified": false,
+        "y_px": 300,
+        "authored_acceptance_hypothesis": {
+          "y_px": [
+            270,
+            330
+          ],
+          "vy_px_s": [
+            -70,
+            70
+          ]
+        }
+      },
+      "exit": {
+        "x_px": 1260,
+        "vx_px_s": 150,
+        "y_px": 300,
+        "vy_px_s": 0,
+        "authored_acceptance_hypothesis": {
+          "y_px": [
+            250,
+            350
+          ],
+          "vy_px_s": [
+            -100,
+            100
+          ]
+        },
+        "force_state": "none",
+        "projectiles": [],
+        "cooldowns": {},
+        "verified": false
+      },
+      "duration": {
+        "min_s": 6,
+        "recommended_s": 8,
+        "max_s": 12,
+        "scope": "作者片段估计，不是已合格范围",
+        "shorten": "删成两次完整到达关系并保留恢复；不把任一落体落地/清除事件误当退出证明。",
+        "extend": "可接一个真正空间紧凑的齐落宏事件，角色从接力变为一次群落；必须重算占用与恢复，不只增加同样一列。",
+        "nest": "单列是一次预告与经过；两至三列的到达时移构成接力句，齐落应作为一个宏事件另算。"
+      },
+      "parameter_relationships": [
+        "每枚初始top y20，矩形60×64px。警示0.9s后，以200px/s匀速下落；不使用重力加速度。",
+        "warning_s=τ−0.9−(280−20)/200=τ−2.2；τ=(x+30−60)/150。因此到达中心时每枚top均为280px。",
+        "x每次+270px，warning_s每次+1.8s；这保证相同玩家相对时序，不保证玩家y/vy相同。",
+        "落地top=476px，落地0.35s仍致命，随后清除。没有可站立的平台，也不再周期重落。",
+        "单枚与玩家横向包络重叠约τ±0.266667s；该时段top约226.667→333.333，bottom约290.667→397.333。保守上侧中心需y<216.667、下侧需y>407.333。"
+      ],
+      "timeline_events": [
+        {
+          "id": "D1",
+          "warning_start_s": 0.4,
+          "fall_start_s": 1.3,
+          "land_s": 3.58,
+          "clear_s": 3.93,
+          "nominal_x_center_arrival_s": 2.6,
+          "body_x_overlap_interval_s": [
+            2.3333333333333335,
+            2.8666666666666667
+          ],
+          "status_at_nominal_arrival": "falling"
+        },
+        {
+          "id": "D2",
+          "warning_start_s": 2.2,
+          "fall_start_s": 3.1,
+          "land_s": 5.38,
+          "clear_s": 5.7299999999999995,
+          "nominal_x_center_arrival_s": 4.4,
+          "body_x_overlap_interval_s": [
+            4.133333333333334,
+            4.666666666666667
+          ],
+          "status_at_nominal_arrival": "falling"
+        },
+        {
+          "id": "D3",
+          "warning_start_s": 4.0,
+          "fall_start_s": 4.9,
+          "land_s": 7.18,
+          "clear_s": 7.529999999999999,
+          "nominal_x_center_arrival_s": 6.2,
+          "body_x_overlap_interval_s": [
+            5.933333333333334,
+            6.466666666666667
+          ],
+          "status_at_nominal_arrival": "falling"
+        }
+      ],
+      "warning_commitment": {
+        "cue_lookahead_needed_px": 360,
+        "warning_start_distance_from_player_px": 300,
+        "warning_is_nonlethal": true,
+        "effect_region_is_cue_only": true,
+        "decision": "在到达首列横向包络前，选择上侧或下侧；必须结合真实vy，不等到物体中心高度才决定。"
+      },
+      "optional_bypass": {
+        "upper": "约y140–210的上侧假设，把主动爬升放在组前，结束可放落回中。",
+        "lower": "约y420–490的下侧假设，把下落放在组前、回升放在组后。",
+        "meaning": "交换升降成本发生的位置，而非虚构金币、暂停或速度奖励。全段能否连接尚未验证。"
+      },
+      "difficulty_axes": [
+        "警示可见性",
+        "进入竖速与上/下侧选择",
+        "横向占用宽度与落速耦合",
+        "落地仍致命及出口恢复"
+      ],
+      "semantic_variants": [
+        "逐列接力 ↔ 齐落宏事件是不同句法，不能按物体数量自动算拍数"
+      ],
+      "parameter_variants": [
+        "移x时同步移warning_s",
+        "调落速时同步重算fall年龄、警示时刻和完整横向占用区间"
+      ],
+      "readability_cues": [
+        "预告列用虚线且标“本身不碰撞”",
+        "falling/landed为实红；warning/idle不致命；cleared不画残留平台",
+        "三帧同一时钟显示已清除、正在下落、仍预告三种角色"
+      ],
+      "counterexamples": [
+        {
+          "id": "same-time-group",
+          "geometry": [
+            {
+              "id": "D1",
+              "mechanic_kind": "warning_drop_spike",
+              "x": 420,
+              "y": 20,
+              "collider": {
+                "shape": "rectangle",
+                "w": 60,
+                "h": 64
+              },
+              "effect_region": {
+                "x": 420,
+                "y": 0,
+                "w": 60,
+                "h": 540
+              },
+              "motion": null,
+              "timeline": {
+                "warning_s": 0.4,
+                "warning_duration_s": 0.9,
+                "fall_speed_px_s": 200,
+                "landed_duration_s": 0.35
+              },
+              "interaction": {
+                "lethal": true
+              }
+            },
+            {
+              "id": "D2",
+              "mechanic_kind": "warning_drop_spike",
+              "x": 690,
+              "y": 20,
+              "collider": {
+                "shape": "rectangle",
+                "w": 60,
+                "h": 64
+              },
+              "effect_region": {
+                "x": 690,
+                "y": 0,
+                "w": 60,
+                "h": 540
+              },
+              "motion": null,
+              "timeline": {
+                "warning_s": 0.4,
+                "warning_duration_s": 0.9,
+                "fall_speed_px_s": 200,
+                "landed_duration_s": 0.35
+              },
+              "interaction": {
+                "lethal": true
+              }
+            },
+            {
+              "id": "D3",
+              "mechanic_kind": "warning_drop_spike",
+              "x": 960,
+              "y": 20,
+              "collider": {
+                "shape": "rectangle",
+                "w": 60,
+                "h": 64
+              },
+              "effect_region": {
+                "x": 960,
+                "y": 0,
+                "w": 60,
+                "h": 540
+              },
+              "motion": null,
+              "timeline": {
+                "warning_s": 0.4,
+                "warning_duration_s": 0.9,
+                "fall_speed_px_s": 200,
+                "landed_duration_s": 0.35
+              },
+              "interaction": {
+                "lethal": true
+              }
+            }
+          ],
+          "events": [
+            {
+              "id": "D1",
+              "warning_start_s": 0.4,
+              "fall_start_s": 1.3,
+              "land_s": 3.58,
+              "clear_s": 3.93,
+              "nominal_x_center_arrival_s": 2.6,
+              "body_x_overlap_interval_s": [
+                2.3333333333333335,
+                2.8666666666666667
+              ],
+              "status_at_nominal_arrival": "falling"
+            },
+            {
+              "id": "D2",
+              "warning_start_s": 0.4,
+              "fall_start_s": 1.3,
+              "land_s": 3.58,
+              "clear_s": 3.93,
+              "nominal_x_center_arrival_s": 4.4,
+              "body_x_overlap_interval_s": [
+                4.133333333333334,
+                4.666666666666667
+              ],
+              "status_at_nominal_arrival": "cleared"
+            },
+            {
+              "id": "D3",
+              "warning_start_s": 0.4,
+              "fall_start_s": 1.3,
+              "land_s": 3.58,
+              "clear_s": 3.93,
+              "nominal_x_center_arrival_s": 6.2,
+              "body_x_overlap_interval_s": [
+                5.933333333333334,
+                6.466666666666667
+              ],
+              "status_at_nominal_arrival": "cleared"
+            }
+          ],
+          "claim": "本参数齐落时D2/D3到达前已经清除；它仍可作为一次视觉/选择事件，不证明所有齐落组合无效。"
+        },
+        {
+          "id": "same-side-hold",
+          "claim": "玩家可能选择同一上/下带维持，三次遭遇只复用同一节奏；不得宣称三次独立反应已证明。"
+        }
+      ],
+      "strongest_bypass": "稳定上侧或下侧策略可能忽略后续警示；若它有提前爬升/延后回升的实际成本，可以是合法替代。当前没有轨迹证明成本或优劣。",
+      "unverified_assumptions": [
+        "入口可连接到任一保守侧带",
+        "同侧连续输入是否能通过三列",
+        "侧带经过能否回到中位出口",
+        "玩家能否读出接力而非重复掉落背景"
+      ],
+      "adjacency_constraints": [
+        "前段允许看到360px前的首列预告，不为每个combo新增一段空白教学",
+        "后段不得在下绕路线尚未回升时强制立刻贴高",
+        "absolute warning_s必须随嵌入起点平移"
+      ],
+      "tests": [],
+      "evidence": {
+        "level": "exact one-shot schedules and status-at-arrival only",
+        "new_physics": false,
+        "input_count_proven": false
+      },
+      "critical_frames": [
+        {
+          "time_s": 2.6,
+          "arrival_x_px": 450,
+          "title": "第一落体正在经过，第二预告，第三未激活",
+          "regions": [
+            {
+              "x": 432,
+              "y": 150,
+              "w": 36,
+              "h": 48,
+              "label": "上侧假设"
+            },
+            {
+              "x": 432,
+              "y": 425,
+              "w": 36,
+              "h": 55,
+              "label": "下侧假设"
+            }
+          ]
+        },
+        {
+          "time_s": 4.4,
+          "arrival_x_px": 720,
+          "title": "第一已清除，第二落体接力，第三预告",
+          "regions": [
+            {
+              "x": 702,
+              "y": 150,
+              "w": 36,
+              "h": 48,
+              "label": "同侧维持假设"
+            }
+          ]
+        },
+        {
+          "time_s": 6.2,
+          "arrival_x_px": 990,
+          "title": "只有第三落体仍在本次遭遇；前方不是新平台",
+          "regions": [
+            {
+              "x": 972,
+              "y": 425,
+              "w": 36,
+              "h": 55,
+              "label": "下侧后恢复假设"
+            }
+          ]
+        }
+      ],
+      "diagram_paths": [
+        "drop-phase-sheet.png",
+        "drop-order-controls.png"
+      ]
+    },
+    {
+      "id": "same-type.bellows",
+      "family_id": "same-type.bellows",
+      "version": "v3-compact-handoff",
+      "kind": "revision-study",
+      "qualification": "event-coupled-compression-gameplay-unqualified",
+      "title": "双门风箱：压缩成一次高位交接",
+      "mechanics": [
+        "timed_armor_gate"
+      ],
+      "parent_refs": [
+        {
+          "id": "same-type.bellows",
+          "version": "v2",
+          "path": "/workspace/scratch/910473b420a7/combo-design-lab/same-type/v2/concepts.json",
+          "sha256": "5eeac2b358f02be83666513e04efdf89b86759b225d725a6c44696c0bae903ea"
+        }
+      ],
+      "question": "能否压缩v2两腔之间的调息，同时保留明确的关—开交接，而不是把所有时间任意缩短？",
+      "hypothesis": "把第二腔前移169.5px、对应时刻提前1.13s，使第一腔出口开始闭合与第二腔入口开始开启同在5.165s；让高位出口状态可以直接接入下一腔。",
+      "intent": "保留v2两个双门腔及反向回复，修改的是组间关系，不加更多门、不收窄所有窗。",
+      "theme": "前一风箱合口时，后一风箱接气；上一句的高位结尾被下一句接住，然后落向厚低口收束。",
+      "action_grammar": "低入高出 → 看见下一腔闭门警示 → 高位交接候选 → 高入低出 → 厚门平台收句",
+      "geometry": {
+        "world_width_px": 1690.5,
+        "world_height_px": 540,
+        "player_radius_px": 10,
+        "obstacles": [
+          {
+            "id": "Q-in",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 420,
+            "y": 375,
+            "collider": {
+              "shape": "rectangle",
+              "w": 72,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 180
+            },
+            "timeline": {
+              "start_s": 0.665,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 1.25,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "Q-out",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 690,
+            "y": 215,
+            "collider": {
+              "shape": "rectangle",
+              "w": 72,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 160
+            },
+            "timeline": {
+              "start_s": 2.365,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 1.45,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "A-in",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 970.5,
+            "y": 245,
+            "collider": {
+              "shape": "rectangle",
+              "w": 96,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 180
+            },
+            "timeline": {
+              "start_s": 4.265,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 1.55,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "A-out",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 1265.5,
+            "y": 375,
+            "collider": {
+              "shape": "rectangle",
+              "w": 120,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 200
+            },
+            "timeline": {
+              "start_s": 6.0367,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 2.1,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "nominal_duration_s": 10.87
+      },
+      "entry": {
+        "x_px": 60,
+        "vx_px_s": 150,
+        "vy_px_s": 0,
+        "phase_clock": "absolute segment t=0; no reset on arrival",
+        "force_state": "none",
+        "projectiles": [],
+        "cooldowns": {},
+        "verified": false,
+        "y_px": 365,
+        "authored_acceptance_hypothesis": {
+          "y_px": [
+            330,
+            410
+          ],
+          "vy_px_s": [
+            -80,
+            80
+          ]
+        }
+      },
+      "exit": {
+        "x_px": 1690.5,
+        "vx_px_s": 150,
+        "y_px": 375,
+        "vy_px_s": 0,
+        "authored_acceptance_hypothesis": {
+          "y_px": [
+            320,
+            430
+          ],
+          "vy_px_s": [
+            -100,
+            100
+          ]
+        },
+        "force_state": "none",
+        "projectiles": [],
+        "cooldowns": {},
+        "verified": false
+      },
+      "duration": {
+        "min_s": 6.1,
+        "recommended_s": 10.87,
+        "max_s": 16,
+        "scope": "作者片段估计，非固定时长档",
+        "shorten": "若只留一座双门腔，应同时撤回跨腔交接主张；完整两腔不能按比例快放。",
+        "extend": "第三腔须接收上一腔的真实出口状态，并承担新回复；关—开事件关系要重新配对，不按等距复制。",
+        "nest": "一座双门腔是短句；两腔之间的高位交接把它们合成较长句。"
+      },
+      "parameter_relationships": [
+        "从v2推导：Q-out closing_start=5.165000s；旧A-in opening_start=6.295000s。差值Δt=1.130000s，因此第二腔整体Δx=150Δt=169.500000px前移。",
+        "第二腔两门的x和start_s同时减对应量；警示、开合速度、hold、门厚、开口高度、中心高度完全不改。",
+        "新A-in开始开启与Q-out开始闭合都为5.165s。闭门警示仍然致命，不能趁黄色先穿。",
+        "Q-out全开中心带(145,285)，A-in全开中心带(165,325)，交集(165,285)只是可接高位的几何条件，不是可达出口状态。",
+        "组间完全离开Q-out到首次接近A-in的x空档由约2.386667s变1.256667s；这是压缩的内容，不是全段倍速。"
+      ],
+      "timeline_events": [
+        {
+          "id": "Q-in",
+          "warning_start_s": 0.665,
+          "opening_start_s": 1.565,
+          "fully_open_start_s": 2.015,
+          "closing_start_s": 3.265,
+          "closed_s": 3.8150000000000004,
+          "nominal_center_arrival_s": 2.64,
+          "player_x_occupation_interval_s": [
+            2.3333333333333335,
+            2.9466666666666668
+          ]
+        },
+        {
+          "id": "Q-out",
+          "warning_start_s": 2.365,
+          "opening_start_s": 3.265,
+          "fully_open_start_s": 3.7150000000000003,
+          "closing_start_s": 5.165,
+          "closed_s": 5.715,
+          "nominal_center_arrival_s": 4.44,
+          "player_x_occupation_interval_s": [
+            4.133333333333334,
+            4.746666666666667
+          ]
+        },
+        {
+          "id": "A-in",
+          "warning_start_s": 4.265,
+          "opening_start_s": 5.165,
+          "fully_open_start_s": 5.615,
+          "closing_start_s": 7.165,
+          "closed_s": 7.715,
+          "nominal_center_arrival_s": 6.39,
+          "player_x_occupation_interval_s": [
+            6.003333333333333,
+            6.776666666666666
+          ]
+        },
+        {
+          "id": "A-out",
+          "warning_start_s": 6.0367,
+          "opening_start_s": 6.9367,
+          "fully_open_start_s": 7.3867,
+          "closing_start_s": 9.4867,
+          "closed_s": 10.036700000000002,
+          "nominal_center_arrival_s": 8.436666666666667,
+          "player_x_occupation_interval_s": [
+            7.97,
+            8.903333333333334
+          ]
+        }
+      ],
+      "warning_commitment": {
+        "warning_remains_closed_lethal": true,
+        "signal_relationship": "离开Q-out时A-in已在warning，随后前门合、后门开；在进入第一腔前应知晓后续高位接收。",
+        "minimum_lookahead_intent_px": 400,
+        "camera_verified": false
+      },
+      "optional_bypass": {
+        "outside_gate_bypass": false,
+        "note": "全高门体没有外绕走廊，不伪造旁路。可以在重叠许可高度内保留较高状态或小幅回稳；是否形成不同有意义控制策略未验证。"
+      },
+      "difficulty_axes": [
+        "跨腔出口竖速能否匹配",
+        "门体厚度占用时长",
+        "关开事件配对与相位偏差",
+        "预告能否在承诺之前看见"
+      ],
+      "semantic_variants": [
+        "宽调息两句 ↔ 高位相接长句；不是改名",
+        "若改为下降交接，必须重新定义入口出口代价"
+      ],
+      "parameter_variants": [
+        "suffix位移必须同步timeline start",
+        "末门宽度和hold若变化必须重新计算整圆占用，不能只对准中心时刻"
+      ],
+      "readability_cues": [
+        "四门仍按两腔分组，空档明显缩短但高度变化保留",
+        "warning门画为实闭合实体；opening/closing画真实分离量",
+        "交接帧同时展示前门在合、后门在开，不画玩家等待"
+      ],
+      "counterexamples": [
+        {
+          "id": "v2-loose",
+          "geometry": [
+            {
+              "id": "Q-in",
+              "mechanic_kind": "timed_armor_gate",
+              "x": 420,
+              "y": 375,
+              "collider": {
+                "shape": "rectangle",
+                "w": 72,
+                "h": 540
+              },
+              "motion": {
+                "opening_px": 180
+              },
+              "timeline": {
+                "start_s": 0.665,
+                "warning_s": 0.9,
+                "opening_s": 0.45,
+                "hold_s": 1.25,
+                "closing_s": 0.55,
+                "cooldown_s": 12
+              },
+              "interaction": {
+                "lethal": true
+              }
+            },
+            {
+              "id": "Q-out",
+              "mechanic_kind": "timed_armor_gate",
+              "x": 690,
+              "y": 215,
+              "collider": {
+                "shape": "rectangle",
+                "w": 72,
+                "h": 540
+              },
+              "motion": {
+                "opening_px": 160
+              },
+              "timeline": {
+                "start_s": 2.365,
+                "warning_s": 0.9,
+                "opening_s": 0.45,
+                "hold_s": 1.45,
+                "closing_s": 0.55,
+                "cooldown_s": 12
+              },
+              "interaction": {
+                "lethal": true
+              }
+            },
+            {
+              "id": "A-in",
+              "mechanic_kind": "timed_armor_gate",
+              "x": 1140,
+              "y": 245,
+              "collider": {
+                "shape": "rectangle",
+                "w": 96,
+                "h": 540
+              },
+              "motion": {
+                "opening_px": 180
+              },
+              "timeline": {
+                "start_s": 5.395,
+                "warning_s": 0.9,
+                "opening_s": 0.45,
+                "hold_s": 1.55,
+                "closing_s": 0.55,
+                "cooldown_s": 12
+              },
+              "interaction": {
+                "lethal": true
+              }
+            },
+            {
+              "id": "A-out",
+              "mechanic_kind": "timed_armor_gate",
+              "x": 1435,
+              "y": 375,
+              "collider": {
+                "shape": "rectangle",
+                "w": 120,
+                "h": 540
+              },
+              "motion": {
+                "opening_px": 200
+              },
+              "timeline": {
+                "start_s": 7.1667,
+                "warning_s": 0.9,
+                "opening_s": 0.45,
+                "hold_s": 2.1,
+                "closing_s": 0.55,
+                "cooldown_s": 12
+              },
+              "interaction": {
+                "lethal": true
+              }
+            }
+          ],
+          "events": [
+            {
+              "id": "Q-in",
+              "warning_start_s": 0.665,
+              "opening_start_s": 1.565,
+              "fully_open_start_s": 2.015,
+              "closing_start_s": 3.265,
+              "closed_s": 3.8150000000000004,
+              "nominal_center_arrival_s": 2.64,
+              "player_x_occupation_interval_s": [
+                2.3333333333333335,
+                2.9466666666666668
+              ]
+            },
+            {
+              "id": "Q-out",
+              "warning_start_s": 2.365,
+              "opening_start_s": 3.265,
+              "fully_open_start_s": 3.7150000000000003,
+              "closing_start_s": 5.165,
+              "closed_s": 5.715,
+              "nominal_center_arrival_s": 4.44,
+              "player_x_occupation_interval_s": [
+                4.133333333333334,
+                4.746666666666667
+              ]
+            },
+            {
+              "id": "A-in",
+              "warning_start_s": 5.395,
+              "opening_start_s": 6.295,
+              "fully_open_start_s": 6.745,
+              "closing_start_s": 8.295,
+              "closed_s": 8.845,
+              "nominal_center_arrival_s": 7.52,
+              "player_x_occupation_interval_s": [
+                7.133333333333334,
+                7.906666666666666
+              ]
+            },
+            {
+              "id": "A-out",
+              "warning_start_s": 7.1667,
+              "opening_start_s": 8.066699999999999,
+              "fully_open_start_s": 8.516699999999998,
+              "closing_start_s": 10.616699999999998,
+              "closed_s": 11.166699999999999,
+              "nominal_center_arrival_s": 9.566666666666666,
+              "player_x_occupation_interval_s": [
+                9.1,
+                10.033333333333333
+              ]
+            }
+          ]
+        },
+        {
+          "id": "move-only-do-not-retime",
+          "geometry": [
+            {
+              "id": "Q-in",
+              "mechanic_kind": "timed_armor_gate",
+              "x": 420,
+              "y": 375,
+              "collider": {
+                "shape": "rectangle",
+                "w": 72,
+                "h": 540
+              },
+              "motion": {
+                "opening_px": 180
+              },
+              "timeline": {
+                "start_s": 0.665,
+                "warning_s": 0.9,
+                "opening_s": 0.45,
+                "hold_s": 1.25,
+                "closing_s": 0.55,
+                "cooldown_s": 12
+              },
+              "interaction": {
+                "lethal": true
+              }
+            },
+            {
+              "id": "Q-out",
+              "mechanic_kind": "timed_armor_gate",
+              "x": 690,
+              "y": 215,
+              "collider": {
+                "shape": "rectangle",
+                "w": 72,
+                "h": 540
+              },
+              "motion": {
+                "opening_px": 160
+              },
+              "timeline": {
+                "start_s": 2.365,
+                "warning_s": 0.9,
+                "opening_s": 0.45,
+                "hold_s": 1.45,
+                "closing_s": 0.55,
+                "cooldown_s": 12
+              },
+              "interaction": {
+                "lethal": true
+              }
+            },
+            {
+              "id": "A-in",
+              "mechanic_kind": "timed_armor_gate",
+              "x": 970.5,
+              "y": 245,
+              "collider": {
+                "shape": "rectangle",
+                "w": 96,
+                "h": 540
+              },
+              "motion": {
+                "opening_px": 180
+              },
+              "timeline": {
+                "start_s": 5.395,
+                "warning_s": 0.9,
+                "opening_s": 0.45,
+                "hold_s": 1.55,
+                "closing_s": 0.55,
+                "cooldown_s": 12
+              },
+              "interaction": {
+                "lethal": true
+              }
+            },
+            {
+              "id": "A-out",
+              "mechanic_kind": "timed_armor_gate",
+              "x": 1265.5,
+              "y": 375,
+              "collider": {
+                "shape": "rectangle",
+                "w": 120,
+                "h": 540
+              },
+              "motion": {
+                "opening_px": 200
+              },
+              "timeline": {
+                "start_s": 7.1667,
+                "warning_s": 0.9,
+                "opening_s": 0.45,
+                "hold_s": 2.1,
+                "closing_s": 0.55,
+                "cooldown_s": 12
+              },
+              "interaction": {
+                "lethal": true
+              }
+            }
+          ],
+          "first_Ain_contact_s": 6.003333333333333,
+          "Ain_status_then": {
+            "status": "warning-closed",
+            "warning": true,
+            "gap_px": 0,
+            "center_y_px": 245,
+            "bodies_remain_lethal": true
+          },
+          "claim": "仅改x不改时刻时，固定vx玩家到达全高A-in时仍是闭门警示。这是时间几何冲突，不是一次Bot失败。"
+        },
+        {
+          "id": "edge-hugging",
+          "claim": "贴开口边缘的轻微升降可能绕过作者期望的大幅问答，不能把中心线意图当强制轨迹。"
+        }
+      ],
+      "strongest_bypass": "没有门外旁路，但边缘策略可能只做轻微升降；跨腔高位也可能靠同一普通节奏完成。压缩确有事件关系，玩法差异仍需未来短迹/人看。",
+      "unverified_assumptions": [
+        "第一腔出口y/vy能接入第二腔",
+        "1.256667s组间空档仍有可感知的恢复，而非夹逼",
+        "交接预告在屏幕里可见",
+        "紧凑版本比v2有更清楚的问答感而非只是更忙"
+      ],
+      "adjacency_constraints": [
+        "前段提供当前入口和预告视野，避免每个combo加同样空白前导",
+        "后段承认厚低门的中低位退出",
+        "本图是原v2的接续变体，不覆盖或替代v2证据"
+      ],
+      "tests": [],
+      "evidence": {
+        "level": "exact gate timeline coupling; no physics",
+        "new_physics": false,
+        "height_state_transfer_proven": false
+      },
+      "revision_delta": {
+        "changed": [
+          "A-in/A-out x −169.5px",
+          "A-in/A-out start_s −1.13s",
+          "world width/illustrated duration同量收缩"
+        ],
+        "retained": [
+          "四门数量",
+          "两腔内部距离",
+          "所有门厚",
+          "所有开口与中心高度",
+          "所有warning/open/hold/close/cooldown时长"
+        ],
+        "derived_event": "Q-out close begins = A-in open begins = 5.165s"
+      },
+      "critical_frames": [
+        {
+          "time_s": 2.64,
+          "arrival_x_px": 456,
+          "title": "低入口承诺：高出口警示，下一腔已更近",
+          "regions": [
+            {
+              "x": 438,
+              "y": 350,
+              "w": 36,
+              "h": 48,
+              "label": "低入口假设"
+            }
+          ]
+        },
+        {
+          "time_s": 5.39,
+          "arrival_x_px": 868.5,
+          "title": "真正的交接：前一出口在合，后一入口在开",
+          "regions": [
+            {
+              "x": 850,
+              "y": 185,
+              "w": 36,
+              "h": 80,
+              "label": "保留高位/回稳假设"
+            }
+          ]
+        },
+        {
+          "time_s": 8.436666666666667,
+          "arrival_x_px": 1325.5,
+          "title": "反向回复：落到厚低口，平台时长原样保留",
+          "regions": [
+            {
+              "x": 1307.5,
+              "y": 350,
+              "w": 36,
+              "h": 50,
+              "label": "低位收句假设"
+            }
+          ]
+        }
+      ],
+      "diagram_paths": [
+        "gate-phase-sheet.png",
+        "gate-compact-controls.png"
+      ]
+    }
+  ],
+  "runtime_models": {
+    "drop": "one-shot warning_s -> warning_duration_s -> y0+v*elapsed until H-h -> landed_duration_s -> cleared; no acceleration; no platform",
+    "gate": "cy fixed; gap=opening_px*piecewise linear(open/hold/close); warning stays closed; top/bottom always lethal where present"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "qualified-recovery-operating-pointer/2",
+  "version": "recovery-cumulative-with-horizontal-phase-styles-v2",
+  "round": "a007",
+  "updatedAt": "2026-10-04T22:16:55.114Z",
+  "generator": "source/a007-style-registry-v2.cjs",
+  "config": "source/configs/a007-style-registry-v2.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    },
+    {
+      "id": "phase-through-or-bypass",
+      "generator": "source/a007-phase-generator-v2.cjs",
+      "config": "source/configs/a007-phase-v2.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a007/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "recovery-cumulative-with-horizontal-style-v1",
+    "immutablePointer": "outer/a006/accepted-pointer.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/a007/decision.json",
+  "sourceFreeze": "protocols/freezes/a007-formal-v2.json",
+  "sourceManifestHash": "5dcd0c1f08f26eb23fb9fe02bf6991bd4db7f7af71a35c0ea76580b6ac323a93",
+  "artifactManifest": "outer/a007/artifact-manifest.json",
+  "artifactManifestHash": "452f01dc2d0dd1547ef76f8340be4c9ba69a8324d9790ac181ae81697b41d872",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_6f964fff93948191aff94d86a70c6ce9",
+    "libraryVersion": 19,
+    "sha256": "28fafc061ef4875270dbfd19f5c58614cbb2d851d18374ce421f753ea039f9f0",
+    "bytes": 18170865,
+    "receipt": "protocols/receipts/a007-qualified-bundle.json"
+  },
+  "qualification": "Explicit phase-through-or-bypass only; vertical-default and long-horizontal-occupation exactly retained as separate choices. Finite24conditions/48assigned,32inherited+12targetsingle-commandprofiles,2exactreplays. No implicit style composition.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/a007/accepted-pointer.json"
+}

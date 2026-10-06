@@ -1,0 +1,18 @@
+{
+  "schema": "c006-initial-storage-forecast/1",
+  "at": "2026-10-05T15:20:30.862341+00:00",
+  "entireAdaptiveTreesBytes": 653425237,
+  "priorUniqueRawBytes": 281529958,
+  "forecastNewRawBytes": [
+    80000000,
+    120000000
+  ],
+  "forecastAdditionalArchiveBytes": [
+    85000000,
+    125000000
+  ],
+  "forecastEntireBytesConservative": 898425237,
+  "uniqueRawLimitBytes": 1073741824,
+  "entireBatchLimitBytes": 2147483648,
+  "newCodec": false
+}

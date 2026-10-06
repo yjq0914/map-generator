@@ -1,0 +1,57 @@
+{
+  "schema": "stage-pressure-final-checks/1",
+  "revision": 10,
+  "basis": "B3 and B4 short evidence supports bounded full-tail and120s checks; no new-version claim in frozen B4",
+  "entries": [
+    {
+      "id": "full-701",
+      "mapFile": "full-701.map.json",
+      "horizonTicks": 3726,
+      "sourceRun": "B4/runs/candidate-701",
+      "resolvedSourceRun": "integration/runs/stage-pressure/B3/runs/candidate-701",
+      "scope": "Preregistered complete short suffix witness from one fresh native world, not a continuation/restoration",
+      "mapFileSHA256": "7fb423477841d7d3c0c045dfbced5f66eb690b6aa7d46707c5b8c682ad2436b7"
+    },
+    {
+      "id": "full-6402",
+      "mapFile": "full-6402.map.json",
+      "horizonTicks": 3634,
+      "sourceRun": "B4/runs/holdout-6402",
+      "resolvedSourceRun": "integration/runs/stage-pressure/B4/runs/holdout-6402",
+      "scope": "Preregistered complete short suffix witness from one fresh native world, not a continuation/restoration",
+      "mapFileSHA256": "9661df334a2252be5c59d15423d660a4b6e2d3e6d2ffb10f941a190b8a0ab475"
+    },
+    {
+      "id": "macro-7701",
+      "mapFile": "macro-7701.map.json",
+      "horizonTicks": 14400,
+      "request": {
+        "seed": 7701,
+        "duration_s": 120,
+        "difficulty": "medium",
+        "theme": "foundry",
+        "holdout": true
+      },
+      "scope": "Preregistered unseen native120s world; once only, no reset or replay",
+      "mapFileSHA256": "800e2c7334c7722f90b805821118b75a5bd7eb6bd9abed3549a4f1b68d2c732a"
+    },
+    {
+      "id": "macro-7703",
+      "mapFile": "macro-7703.map.json",
+      "horizonTicks": 14400,
+      "request": {
+        "seed": 7703,
+        "duration_s": 120,
+        "difficulty": "medium",
+        "theme": "signal",
+        "holdout": true
+      },
+      "scope": "Preregistered unseen native120s world; once only, no reset or replay",
+      "mapFileSHA256": "15de3da02f456ae95916c51acfa4ea4bd26e0c268c7935dcaf0fa7d2e1063ec0"
+    }
+  ],
+  "skipped": [],
+  "controllerSHA256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+  "runtimeSHA256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "preregistrationSHA256": "df9180cd7a13800aa8b6e9c01761bcd09e82c0a048f1f288571322efbe98d023"
+}

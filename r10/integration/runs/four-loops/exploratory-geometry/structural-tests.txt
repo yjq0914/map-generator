@@ -1,0 +1,13 @@
+test_cloister_release_derives_from_actual_first_disk (test_geometry_v4_v5.GeometryRefinementTests.test_cloister_release_derives_from_actual_first_disk) ... ok
+test_cloister_release_independent_of_middle_advance (test_geometry_v4_v5.GeometryRefinementTests.test_cloister_release_independent_of_middle_advance) ... ok
+test_native_schema_and_recursive_exclusions_without_stepping (test_geometry_v4_v5.GeometryRefinementTests.test_native_schema_and_recursive_exclusions_without_stepping) ... ok
+test_revision_gates_and_deep_copy (test_geometry_v4_v5.GeometryRefinementTests.test_revision_gates_and_deep_copy) ... ok
+test_slider_existing_lower_provider_and_clock_covenant (test_geometry_v4_v5.GeometryRefinementTests.test_slider_existing_lower_provider_and_clock_covenant) ... ok
+test_slider_real_contour_and_delayed_merge (test_geometry_v4_v5.GeometryRefinementTests.test_slider_real_contour_and_delayed_merge) ... ok
+test_spring_answer_keeps_spring_gate_and_optional_branch (test_geometry_v4_v5.GeometryRefinementTests.test_spring_answer_keeps_spring_gate_and_optional_branch) ... ok
+test_unselected_variants_stay_unchanged (test_geometry_v4_v5.GeometryRefinementTests.test_unselected_variants_stay_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.264s
+
+OK

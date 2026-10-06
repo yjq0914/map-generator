@@ -1,0 +1,17 @@
+'use strict';
+// Static generation + authenticated SAVED-evidence reduction only; no physics.
+const guard=require('../../../design/static-engine-guard.cjs');
+const C=require('../../../harness/common.cjs'),R=require('../../../harness/general-runner.cjs'),Laser=require('../../../design/c005-observe-laser.cjs'),Risk=require('./c006-risk-reduce.cjs');
+const dir='outer/c006/risk/',base=Risk.baseline(),declared=[['phase-minus-010','phase',-.1],['phase-plus-010','phase',.1],['initial-y-minus-3','y',-3],['initial-y-plus-3','y',3]],probes=[],slots=[];
+for(const [name,field,delta]of declared){
+ const condition=structuredClone(base.run.condition);condition[field]+=delta;
+ const e=R.pureGeneration(base.run.generator,condition),window=Laser.captureWindow(e.map,e.plan.laserProgram),id='c006-risk-'+name;
+ if(e.plan.selectedNormalForm!=='LT'||e.plan.macroPlan!==null)throw Error('Fixed LT/null macro changed');
+ slots.push(R.validateSpec(R.executionSpec({id,round:'c006',pool:'local',role:base.run.role,arm:'candidate',condition,generator:base.run.generator,stopTick:window.endTick,windows:[window],fullTrace:false})));
+ probes.push({id,field,delta,baseline:base.run.condition[field],perturbed:condition[field],units:field==='phase'?'radians':'pixels',expectedMapHash:e.mapHash,expectedPlanHash:C.sha(e.plan),sourceWindow:window});
+}
+const p={schema:'adaptive-execution-preregistration/1',round:'c006',scope:'local-diagnostic-only, no full-course or macro qualification',baselineRunId:Risk.BASE,baselineReuseOnly:true,baselineResultSHA256:base.run.resultSHA256,baselineTraceSHA256:base.run.traceSHA256,baselineMapHash:base.run.mapHash,baselineMinimumActiveCapsuleDistancePx:1.1993583385478637,expectedSlots:4,maximumNewPhysicalStarts:4,maximumNewPhysicalTicks:slots.reduce((n,s)=>n+s.stopTick,0),maximumWatchdogReservationSeconds:720,probes,slots,stopPolicy:'No tuning, new draws, extra variants, threshold changes, or duplicate baseline. All four declared probes run once unless source/integrity/resource error prevents valid continuation. Physics starts only after coordinator supplies durable formal source freeze/receipt and explicit serial launch authorization.',interpretation:'Changes to global physical phase or initial y can affect the controller and other geometry; observed source survival/margin/input differences are local sensitivity evidence only. Source-not-reached and downstream problems remain separate. No fairness, human-tolerance, robust-neighborhood or automatic macro-veto claim.'};
+C.write(C.within(C.ROOT,dir+'c006-risk-preregistration.json'),p);
+C.write(C.within(C.ROOT,dir+'c006-risk-baseline.json'),{schema:'c006-reused-authenticated-baseline/1',authentication:{runId:Risk.BASE,resultSHA256:base.run.resultSHA256,traceSHA256:base.run.traceSHA256,mapHash:base.run.mapHash,sourceManifestHash:base.run.sourceManifestHash,executionDependencyHash:base.run.executionDependencyHash},summary:Risk.summarize(base,base.report,null),newPhysicalStarts:0,newPhysicalTicks:0});
+const summary={slots:slots.length,maximumNewPhysicalStarts:4,maximumNewPhysicalTicks:p.maximumNewPhysicalTicks,sourceWindows:probes.map(q=>q.sourceWindow),frozenPureReducerSHA256:Risk.PURE_HASH,physics:guard.report(),requiredFreezeExtras:['c006-risk-preregistration.json','c006-risk-baseline.json','c006-risk-prepare.cjs','c006-risk-reduce.cjs','c006-risk-run.cjs'].map(n=>dir+n)};
+C.write(C.within(C.ROOT,dir+'c006-risk-preparation-summary.json'),summary);console.log(JSON.stringify(summary));

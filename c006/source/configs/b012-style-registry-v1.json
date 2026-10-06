@@ -1,0 +1,32 @@
+{
+  "version": "b012-cumulative-fixed-three-program-v1",
+  "module": "source/b012-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "parent": {
+    "b009": {
+      "acceptedPointerFile": "outer/b009/accepted-pointer.json",
+      "acceptedPointerSHA256": "057655b7157567ae81b59aa693b817916c9981d23060dfaf81be5fafd75abff0",
+      "module": "source/b009-style-registry.cjs",
+      "config": "source/configs/b009-style-registry-v1.json",
+      "moduleSHA256": "cc5b098e9bb72313af4a042ff01226774811ba93df81fa03db39b798fb0fcbfb",
+      "configSHA256": "98a93d15fd6d983e2adca0ac20a1525e858e908bd79be4a8e0d9690e9d6d6324"
+    },
+    "b010": {
+      "acceptedPointerFile": "outer/b010/accepted-pointer.json",
+      "acceptedPointerSHA256": "a75d1eaf07b1350960c271a35e67f19cb3bcd50ec25931721a32fe8503e575ab",
+      "module": "source/b010-style-registry.cjs",
+      "config": "source/configs/b010-style-registry-v1.json",
+      "moduleSHA256": "d780ac9cb5cf27fc716815a065c249e192bbbadea4d846b940fd84f520473b53",
+      "configSHA256": "1e066ced7c788f02da1380d87cf4c3fce374e09fbf6e502b8720ba3720233af9"
+    },
+    "cumulative": {
+      "acceptedPointerFile": "outer/b012/accepted-before.json",
+      "acceptedPointerSHA256": "e13b5ab5a23286938ea0c310700b3152f1e788c90cc2c4bf96533a6c157f8166",
+      "module": "source/b011-style-registry.cjs",
+      "config": "source/configs/b011-style-registry-v1.json",
+      "moduleSHA256": "393a036f646ad482d535faee5194431d98edd99bb58da0df0a9af602b53403f5",
+      "configSHA256": "4d2937e09b6beb3b3593e34ff3da6d6300bb36d0b679305e3acf36669cc2bcbe"
+    }
+  },
+  "explicitCandidate": "shared-base-burst-timed-aperture-and-hammer"
+}

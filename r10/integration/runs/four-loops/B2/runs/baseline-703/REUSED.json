@@ -1,0 +1,19 @@
+{
+  "sourceDir": "integration/runs/four-loops/B1/runs/candidate-703",
+  "sourceFiles": {
+    "result.json": "2c3330b9b43d7a584791f3f2a7205cb0635bc8003b0e13372c81516e47fa7b3a",
+    "trace.json.gz": "06c8c21778706f19db0245791cb31e80ba680a47d155a20c9bf4ab5aa72b998e",
+    "inputs.json": "92a483edf807fe33ee602bed427edd41a37c6e2a1be75fbca5bf8c7e537b937f",
+    "map.json": "822f211d03d8ca8cb35da37a11f9dd5c5acf9fba181b6487dd63e08c2849e218"
+  },
+  "hashBound": true,
+  "horizonTicks": 3600,
+  "request": {
+    "seed": 703,
+    "duration_s": 31.5,
+    "difficulty": "hard",
+    "theme": "signal",
+    "experimental": true,
+    "holdout": false
+  }
+}

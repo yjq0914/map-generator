@@ -1,0 +1,19 @@
+{
+  "sourceDir": "integration/runs/four-loops/B2/runs/candidate-706",
+  "sourceFiles": {
+    "result.json": "d40d116f25cef364ec3ac38d954a2a48a7452c9994f0151c98a467b412e2802f",
+    "trace.json.gz": "322de57a583f8b21d3439e2360f4a0a4b28046889966782436e6d40d01f3cc31",
+    "inputs.json": "8fc3148fe626952675385347fb0ed653ba66dcafb54b98063064d7351ba63286",
+    "map.json": "a3c851718581ad8c563c27b6108b5891ee0339f18e6692465e7f0df4eb35cf58"
+  },
+  "hashBound": true,
+  "horizonTicks": 3600,
+  "request": {
+    "seed": 706,
+    "duration_s": 31.5,
+    "difficulty": "medium",
+    "theme": "signal",
+    "experimental": true,
+    "holdout": false
+  }
+}

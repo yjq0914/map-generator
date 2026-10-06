@@ -1,0 +1,330 @@
+{
+  "schema": "stage-pressure-batch-final/1",
+  "status": "exactly four big loops completed; physics frozen",
+  "base_commit": "b575f86222c6a93efef28f35e025113a08086c40",
+  "current_generator_revision": 10,
+  "generator_code_reference_commit": "e73bb07fd40645167bfb67d104f451e95f06e7b3",
+  "branch": "integration/stage-pressure-four-loops",
+  "logical_panel_scenarios": 96,
+  "new_panel_trajectories": 64,
+  "hash_bound_reuse_entries": 32,
+  "diagnostic_trajectories": 2,
+  "full_short_finish_trajectories": 2,
+  "native120_trajectories": 2,
+  "total_new_native_trajectories": 70,
+  "B4_scope": "frozen r10 confirmation; no new-version gain",
+  "loops": [
+    {
+      "loop": 1,
+      "revision": 8,
+      "statistics": {
+        "baseline": {
+          "count": 8,
+          "survived30s": 6,
+          "nativeWins": 1,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 7,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 8
+        },
+        "candidate": {
+          "count": 8,
+          "survived30s": 6,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 8,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 8
+        },
+        "holdout": {
+          "count": 8,
+          "survived30s": 7,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 7,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 8
+        }
+      }
+    },
+    {
+      "loop": 2,
+      "revision": 9,
+      "statistics": {
+        "baseline": {
+          "count": 8,
+          "survived30s": 6,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 8,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 0
+        },
+        "candidate": {
+          "count": 8,
+          "survived30s": 8,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 8,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 8
+        },
+        "holdout": {
+          "count": 8,
+          "survived30s": 7,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 6,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 8
+        }
+      }
+    },
+    {
+      "loop": 3,
+      "revision": 10,
+      "statistics": {
+        "baseline": {
+          "count": 8,
+          "survived30s": 8,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 8,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 0
+        },
+        "candidate": {
+          "count": 8,
+          "survived30s": 8,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 8,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 8
+        },
+        "holdout": {
+          "count": 8,
+          "survived30s": 8,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 8,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 8
+        }
+      }
+    },
+    {
+      "loop": 4,
+      "revision": 10,
+      "statistics": {
+        "baseline": {
+          "count": 8,
+          "survived30s": 8,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 8,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 0
+        },
+        "candidate": {
+          "count": 8,
+          "survived30s": 8,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 8,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 0
+        },
+        "holdout": {
+          "count": 8,
+          "survived30s": 8,
+          "nativeWins": 0,
+          "medianObservedSeconds": 30.0,
+          "uniqueOrders": 8,
+          "families": [
+            "bellows-question-answer",
+            "cloister",
+            "light-cavity",
+            "slider-island",
+            "spring-reception",
+            "tidal-staircase"
+          ],
+          "actualNewRuns": 8
+        }
+      }
+    }
+  ],
+  "final_checks": [
+    {
+      "id": "full-6402",
+      "outcome": "native-win",
+      "seconds": 30.275,
+      "body_count": 23,
+      "module_count": 4,
+      "seams_crossed": 3,
+      "top_contacts": 0,
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 23
+      },
+      "mapSHA256": "4e9132c55c39f0fd2c7a1abf2e1bdb225ac01652dc96aefcc06c09ebd3cff9ea",
+      "traceSHA256": "5e30479aa395e3a30218bc3ff008c151ca5d867b4a0266d981427106a9571805"
+    },
+    {
+      "id": "full-701",
+      "outcome": "native-win",
+      "seconds": 31.041666666666668,
+      "body_count": 29,
+      "module_count": 4,
+      "seams_crossed": 3,
+      "top_contacts": 0,
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 29
+      },
+      "mapSHA256": "c939e05cbb0a10362cc68a62fc07fbc0de2ee04763ab2ba55275bc24c2265d64",
+      "traceSHA256": "966a29610bf8fc0c3115c5713dff3b8d398e786568ad3cff0ef3c6bc46e69413"
+    },
+    {
+      "id": "macro-7701",
+      "outcome": "native-win",
+      "seconds": 120.0,
+      "body_count": 106,
+      "module_count": 16,
+      "seams_crossed": 15,
+      "top_contacts": 0,
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 106
+      },
+      "mapSHA256": "43a880792d8d771dac1c8f257d3e92ca909a606f15bab0b7f75d82983ad53e69",
+      "traceSHA256": "d5c1a911d88a1f5e855f9f26445153d8c22bffc6301f7b340b6e9daeb93973a1"
+    },
+    {
+      "id": "macro-7703",
+      "outcome": "native-win",
+      "seconds": 120.0,
+      "body_count": 105,
+      "module_count": 16,
+      "seams_crossed": 15,
+      "top_contacts": 1,
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 105
+      },
+      "mapSHA256": "363343ba606d4e7b351b5bc1a3c8ec800af46652e466d5618b54a1544f81c563",
+      "traceSHA256": "932c4baf5516a9aaf3d832a96bd22e6ff2be8cab7413a702df0babbdc514ae2e"
+    }
+  ],
+  "qualification": "All new generator maps remain experimental; no qualification/safety/input-tolerance/human-fun claim",
+  "history_scope": "Complete available working source and batch evidence; old complete generating skill and full combo-library schemas/records are not restored",
+  "next_step": "Cloud persistence, then wait for recovery inputs before new exploration",
+  "integrity": {
+    "schema": "stage-pressure-evidence-integrity/1",
+    "actualNativeRuns": 70,
+    "logicalPanelScenarios": 96,
+    "newPanelRuns": 64,
+    "hashBoundReuseEntries": 32,
+    "diagnosticRuns": 2,
+    "finishRuns": 4,
+    "runtimeSHA256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+    "controllerSHA256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+    "evaluatorFrozen": true,
+    "allVerified": true,
+    "scope": "Recorded evidence hashes, row/tick continuity, fixed sources and requests; not replay, playability or safety proof"
+  },
+  "tests": {
+    "python": 138,
+    "node": 16,
+    "known_unavailable": "combo_library.py select lacks schemas/candidate.schema.json and complete qualification records"
+  }
+}

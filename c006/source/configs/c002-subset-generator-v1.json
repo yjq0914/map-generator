@@ -1,0 +1,19 @@
+{
+  "version": "c002-prospective-disjoint-subset-generator-v1",
+  "algebraSourceIdentity": "a0ced295bbcbfed57d308540a9e30dbbeed6f3fd5d3bcdaede68996ba7424f2a",
+  "frontierMeaning": "experiment-admission-only; not an adoption or physical-qualification claim",
+  "qualifiedNormalForms": [
+    {"key":"B","recipes":[]},
+    {"key":"H","recipes":["H"]},
+    {"key":"J","recipes":["J"]},
+    {"key":"HJ","recipes":["H","J"]},
+    {"key":"T","recipes":["T"]},
+    {"key":"HT","recipes":["H","T"]},
+    {"key":"JT","recipes":["J","T"]},
+    {"key":"HJT","recipes":["H","J","T"]}
+  ],
+  "newSubsets": ["HJ", "JT"],
+  "retainedGeometryForms": ["B", "H", "T", "J", "HT", "HJT"],
+  "adoption": false,
+  "scope": "Eight subsets of three exact-B operators; fixed sites, timing, routes, and immutable reducer semantics"
+}

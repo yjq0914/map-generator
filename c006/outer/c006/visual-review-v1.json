@@ -1,0 +1,2153 @@
+{
+  "schema": "c006-actual-visual-pixel-review/1",
+  "round": "c006",
+  "createdAt": "2026-10-05T15:41:40.071839+00:00",
+  "pixelInspection": "complete",
+  "method": "Opened and visually inspected all12 final PNGs at original image paths; checked visible bodies, labels, scales, curve coverage and legibility against saved rows/bodies/report entries. Hash/file-open checks are additional, not substituted for pixel inspection.",
+  "qualification": "selected-public-controls-witness-only-full-panel-decision-separate",
+  "newPhysicsStarts": 0,
+  "newPhysicsTicks": 0,
+  "renderer": {
+    "projectRelativePath": "visuals/render_evidence.py",
+    "sha256": "5ab469bb6d1b8658d6099dc2aac87768ad42abe8151bc76b8a9c4a9847955009"
+  },
+  "presentationRenderer": {
+    "projectRelativePath": "outer/c006/visual-render-contrasts-v1.py",
+    "sha256": "082521db9a1c9877e18c9db961e09cdf7203d4513bca3ea4a81e8daf82144163"
+  },
+  "renderManifests": [
+    {
+      "projectRelativePath": "visuals/c006-control00-main-actual-v1/manifest.json",
+      "sha256": "8ee24846dd4b58c4e7c45dafafde35df9f7e715e9736ce28e534f66035f3c710"
+    },
+    {
+      "projectRelativePath": "visuals/c006-selected-contrasts-actual-v2/manifest.json",
+      "sha256": "5c6586bbe2ca6e61a55f839c033c325bdd0b1d0f097114618f97bbd0598e9397"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "label": "Control00 parent",
+      "runId": "c006-parent-control-00-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-parent-control-00-assigned_main.json.gz",
+          "bytes": 23116,
+          "sha256": "19a4a4249310919508b27fb2a1f21966b664f9cdc8e62e369fe64bdee0eb538e",
+          "decodedBytesSHA256": "11a225a689149e81ffa33e0662ae88ba771a0a598467a50bcfc52bcf89668df8"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e.json.gz",
+          "bytes": 23547,
+          "sha256": "1d101fa96f31ec8e37e85dfda62346251d9cca45b379c05a2b6cc63963debe1b",
+          "decodedBytesSHA256": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-parent-control-00-assigned_main.json.gz",
+          "bytes": 659884,
+          "sha256": "556dcd3fdbeb716573fcaa2ae3afc21db69bbc3cd1767fb9bb1bfd9c9f158028",
+          "decodedBytesSHA256": "0f0fd3176a5e09599d8ac39d3541b4454a5ce3907aef0d64e2c2e9032a064290"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-parent-control-00-assigned_main",
+        "seq": 2342,
+        "commitHash": "3e59236b656ac77ad7301d644e518b211ba5203385cb928463d65d530fa2db1f",
+        "mapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+        "traceSHA256": "556dcd3fdbeb716573fcaa2ae3afc21db69bbc3cd1767fb9bb1bfd9c9f158028",
+        "resultSHA256": "879eb29272585e4387277e911e56012fcaaa56a51d3bb7d2ff45fa4902702aa3",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-parent-control-00-assigned_main.json.gz",
+          "sha256": "19a4a4249310919508b27fb2a1f21966b664f9cdc8e62e369fe64bdee0eb538e"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C00 moving-first / 2s",
+      "runId": "c006-candidate-control-00-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-00-assigned_main.json.gz",
+          "bytes": 23152,
+          "sha256": "74aa9641760785d71ec38d6ef17a3282c0f5a64dc976a0ee7372aee5275c9580",
+          "decodedBytesSHA256": "a471b704be5f95f3d275c14a4bb75bf87bdcbb2583b0f0cb0b8048c7475e4a59"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21.json.gz",
+          "bytes": 26535,
+          "sha256": "570b20bc105b06b56912e358b000f71056110b1733753408de93c0ddd807e36f",
+          "decodedBytesSHA256": "4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-00-assigned_main.json.gz",
+          "bytes": 659503,
+          "sha256": "2739556ca9ce10b4ec99e6e7e2950bd1b53a3037f5d00a010ebe22efdbce3090",
+          "decodedBytesSHA256": "8175339656bdfc2339de37a298f86a54b3709602d1bc46033f4f20f836c6d57f"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-00-assigned_main",
+        "seq": 2354,
+        "commitHash": "1c9889014dc7a6c5f831a599cfef668133ec4152351cdd239ef86483b6b9785a",
+        "mapHash": "4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21",
+        "traceSHA256": "2739556ca9ce10b4ec99e6e7e2950bd1b53a3037f5d00a010ebe22efdbce3090",
+        "resultSHA256": "d598ceeeddb328e28c9d387aae3c60eb4fefe45086d7a1223681effb669ffa21",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-00-assigned_main.json.gz",
+          "sha256": "74aa9641760785d71ec38d6ef17a3282c0f5a64dc976a0ee7372aee5275c9580"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C01 fixed-first / 2s",
+      "runId": "c006-candidate-control-01-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-01-assigned_main.json.gz",
+          "bytes": 23195,
+          "sha256": "550e695458b8f70a7f75f654a488bbfbcb5dc87a2be53d460a340c9d008e0bdb",
+          "decodedBytesSHA256": "f84ca7781f09b6cf8e1839cdf84a7644d98391cd1eb9cf96b1ca210772885eaa"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30.json.gz",
+          "bytes": 26479,
+          "sha256": "44b3b6ac738649b7ba80db55f244f374fa905ff94fcb80057a465499b570a2ab",
+          "decodedBytesSHA256": "249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-01-assigned_main.json.gz",
+          "bytes": 659328,
+          "sha256": "e18004642ea8ef5aced7ccfe708d230f41a5846ece484eecbbd12cc831d3aeec",
+          "decodedBytesSHA256": "3abd179f8cb976f34932d661e04134aff727a2da48757c27ca3783394a9161e0"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-01-assigned_main",
+        "seq": 2378,
+        "commitHash": "8b7aa9e9952148046f3121778582b214cd4dec6c79047c75966b7d727f590312",
+        "mapHash": "249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30",
+        "traceSHA256": "e18004642ea8ef5aced7ccfe708d230f41a5846ece484eecbbd12cc831d3aeec",
+        "resultSHA256": "d2e4d9a292a550e9034c3b7a7d30b6b723f01df60dcab94677e777bcbf4236e4",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-01-assigned_main.json.gz",
+          "sha256": "550e695458b8f70a7f75f654a488bbfbcb5dc87a2be53d460a340c9d008e0bdb"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C02 moving-first / 1.2s",
+      "runId": "c006-candidate-control-02-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-02-assigned_main.json.gz",
+          "bytes": 23188,
+          "sha256": "f94e4a9fc0fd88d910f81093c41741b226e32d70a2f5ecca53d63b49319d9099",
+          "decodedBytesSHA256": "b064abd8c677488cbe6fc955b269469cae95dc760115f6c203c7dde426486b79"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06.json.gz",
+          "bytes": 26521,
+          "sha256": "9c3892d93ac7068545793b1ee35fd12de3b9d8add0d111089bad7b376f79eb83",
+          "decodedBytesSHA256": "6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-02-assigned_main.json.gz",
+          "bytes": 659724,
+          "sha256": "a13acb623bce1ee3cef342e909f37a3749c8c25458944b2610276c1846ab5162",
+          "decodedBytesSHA256": "c8486e653955fd13c5001fb66dd19f222ff2fac51a91ee6c2978c8cfee451207"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-02-assigned_main",
+        "seq": 2402,
+        "commitHash": "225253aa005f7db58b4f7952db8e2e3e8439b92b944038614a03e43b63ad782b",
+        "mapHash": "6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06",
+        "traceSHA256": "a13acb623bce1ee3cef342e909f37a3749c8c25458944b2610276c1846ab5162",
+        "resultSHA256": "0288d8f4b7d5f209125a762e1735b7fae6a2e0dfbbde279d4391a53870f94710",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-02-assigned_main.json.gz",
+          "sha256": "f94e4a9fc0fd88d910f81093c41741b226e32d70a2f5ecca53d63b49319d9099"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C03 moving-first / 1.6s",
+      "runId": "c006-candidate-control-03-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-03-assigned_main.json.gz",
+          "bytes": 23086,
+          "sha256": "05eea220b184024d03f6fdccf7dfc5ecdb2d13b5588e39f620c792a9cb00bfb5",
+          "decodedBytesSHA256": "6e4b59d84b25110db5a1dd2f3feb31c5e92ac1d08e181bc4afcfb64429a39c07"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173.json.gz",
+          "bytes": 26421,
+          "sha256": "3415b765e4cdd90db63393788a872a52631c6b7a169830e25263c79359deeb56",
+          "decodedBytesSHA256": "8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-03-assigned_main.json.gz",
+          "bytes": 659636,
+          "sha256": "59dcfb8a9c345957cdb3a82bc2beeb60c0a0ff0d060f41799bd9f3a21bc45db6",
+          "decodedBytesSHA256": "2c4c8d98ca58b9436f9197ea1fe2b4c6a0bcab3b1db8df0fe04ad8052b4bab82"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-03-assigned_main",
+        "seq": 2426,
+        "commitHash": "476b9bb988c823780d5292956541b60d9d13346e08b3d5e8c4a860e31ecef3fc",
+        "mapHash": "8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173",
+        "traceSHA256": "59dcfb8a9c345957cdb3a82bc2beeb60c0a0ff0d060f41799bd9f3a21bc45db6",
+        "resultSHA256": "040f4eaa9e39d78ba47b7af665f70cd54404a70c4dcdc3b654c9776140685376",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-03-assigned_main.json.gz",
+          "sha256": "05eea220b184024d03f6fdccf7dfc5ecdb2d13b5588e39f620c792a9cb00bfb5"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C04 hold-turn then stagger",
+      "runId": "c006-candidate-control-04-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-04-assigned_main.json.gz",
+          "bytes": 17612,
+          "sha256": "5debc15fdfcd51a13bb6605d6575918dd06a06b0ea407ef49500151fbbaa2f48",
+          "decodedBytesSHA256": "09b4012364b2c4fe94499a4278024ae13da555a810155c753cde7af2a84d4699"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca.json.gz",
+          "bytes": 25470,
+          "sha256": "fb62627c7d9b55e07dbf14c04e9c15a7664d5f702cf5f7f4ab4e1c000833b9d5",
+          "decodedBytesSHA256": "a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-04-assigned_main.json.gz",
+          "bytes": 606385,
+          "sha256": "4ff70139e824a0445ffd4a2210799158203ebb38e05fbae9d12cd99908b8a89c",
+          "decodedBytesSHA256": "e0c6968db66a64aca034fb39943ebb82d4a60cdbfcc5c9a3a73bf228fdb35725"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-04-assigned_main",
+        "seq": 2450,
+        "commitHash": "288d108113f2717f0a0325719a7819df0c93d0bea78d3a61a436d91860decbd8",
+        "mapHash": "a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca",
+        "traceSHA256": "4ff70139e824a0445ffd4a2210799158203ebb38e05fbae9d12cd99908b8a89c",
+        "resultSHA256": "7baf3a331911dbf4e4dd9572ed5b79e04d08b543a4c948fc55652bf6ab62b9c5",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-04-assigned_main.json.gz",
+          "sha256": "5debc15fdfcd51a13bb6605d6575918dd06a06b0ea407ef49500151fbbaa2f48"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C05 stagger then hold-turn",
+      "runId": "c006-candidate-control-05-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-05-assigned_main.json.gz",
+          "bytes": 17646,
+          "sha256": "564fb2ded3eca7bc00fb4a20f082db355178f239b8d3b1d5ea35d8df599ab635",
+          "decodedBytesSHA256": "a46728eb72651e4d3fb56a3bdb80a28e25d4f28552902d62fb086a057480cc01"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1.json.gz",
+          "bytes": 25486,
+          "sha256": "bf10c585576639fd4ceed861750d5b38147f636f61d42f68719642cdf1422cdc",
+          "decodedBytesSHA256": "21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-05-assigned_main.json.gz",
+          "bytes": 605834,
+          "sha256": "e612699ff31b65bc561e58a341912d1bd56b64f5787379464f9d2c92d4ed4782",
+          "decodedBytesSHA256": "5e28cd9dc12519ca71532f6f4b914afc71fb724028b90f2725044f05588f0130"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-05-assigned_main",
+        "seq": 2474,
+        "commitHash": "7c8ddd9a4ec30e91f7b6da593bd651ce636d605a7b78719ad8c8567e494b9de7",
+        "mapHash": "21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1",
+        "traceSHA256": "e612699ff31b65bc561e58a341912d1bd56b64f5787379464f9d2c92d4ed4782",
+        "resultSHA256": "7069ce50dd04137ca36d4b4913e0e3e0cd64faddebc34c86f1d2d61e6d4d2bd5",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-05-assigned_main.json.gz",
+          "sha256": "564fb2ded3eca7bc00fb4a20f082db355178f239b8d3b1d5ea35d8df599ab635"
+        },
+        "resultHashMatches": true
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "runId": "c006-parent-control-00-assigned_main",
+      "mapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+      "traceSHA256": "556dcd3fdbeb716573fcaa2ae3afc21db69bbc3cd1767fb9bb1bfd9c9f158028",
+      "storedRows": 14401,
+      "storedBodyFrames": 8629,
+      "storedClearanceSamples": 1201,
+      "clearanceStatusCounts": {
+        "observed": 1201
+      },
+      "exactWholeCourseInputCount": 222,
+      "exactLateInputCount": 66,
+      "terminalTick": 14400,
+      "status": "alive",
+      "condition": "control-00",
+      "role": "assigned_main",
+      "commitBinding": {
+        "id": "c006-parent-control-00-assigned_main",
+        "seq": 2342,
+        "commitHash": "3e59236b656ac77ad7301d644e518b211ba5203385cb928463d65d530fa2db1f",
+        "mapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+        "traceSHA256": "556dcd3fdbeb716573fcaa2ae3afc21db69bbc3cd1767fb9bb1bfd9c9f158028",
+        "resultSHA256": "879eb29272585e4387277e911e56012fcaaa56a51d3bb7d2ff45fa4902702aa3",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-parent-control-00-assigned_main.json.gz",
+          "sha256": "19a4a4249310919508b27fb2a1f21966b664f9cdc8e62e369fe64bdee0eb538e"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "runId": "c006-candidate-control-00-assigned_main",
+      "mapHash": "4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21",
+      "traceSHA256": "2739556ca9ce10b4ec99e6e7e2950bd1b53a3037f5d00a010ebe22efdbce3090",
+      "storedRows": 14401,
+      "storedBodyFrames": 8629,
+      "storedClearanceSamples": 1201,
+      "clearanceStatusCounts": {
+        "observed": 1201
+      },
+      "exactWholeCourseInputCount": 219,
+      "exactLateInputCount": 63,
+      "terminalTick": 14400,
+      "status": "alive",
+      "condition": "control-00",
+      "role": "assigned_main",
+      "commitBinding": {
+        "id": "c006-candidate-control-00-assigned_main",
+        "seq": 2354,
+        "commitHash": "1c9889014dc7a6c5f831a599cfef668133ec4152351cdd239ef86483b6b9785a",
+        "mapHash": "4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21",
+        "traceSHA256": "2739556ca9ce10b4ec99e6e7e2950bd1b53a3037f5d00a010ebe22efdbce3090",
+        "resultSHA256": "d598ceeeddb328e28c9d387aae3c60eb4fefe45086d7a1223681effb669ffa21",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-00-assigned_main.json.gz",
+          "sha256": "74aa9641760785d71ec38d6ef17a3282c0f5a64dc976a0ee7372aee5275c9580"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "runId": "c006-candidate-control-01-assigned_main",
+      "mapHash": "249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30",
+      "traceSHA256": "e18004642ea8ef5aced7ccfe708d230f41a5846ece484eecbbd12cc831d3aeec",
+      "storedRows": 14401,
+      "storedBodyFrames": 8629,
+      "storedClearanceSamples": 1201,
+      "clearanceStatusCounts": {
+        "observed": 1201
+      },
+      "exactWholeCourseInputCount": 222,
+      "exactLateInputCount": 66,
+      "terminalTick": 14400,
+      "status": "alive",
+      "condition": "control-01",
+      "role": "assigned_main",
+      "commitBinding": {
+        "id": "c006-candidate-control-01-assigned_main",
+        "seq": 2378,
+        "commitHash": "8b7aa9e9952148046f3121778582b214cd4dec6c79047c75966b7d727f590312",
+        "mapHash": "249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30",
+        "traceSHA256": "e18004642ea8ef5aced7ccfe708d230f41a5846ece484eecbbd12cc831d3aeec",
+        "resultSHA256": "d2e4d9a292a550e9034c3b7a7d30b6b723f01df60dcab94677e777bcbf4236e4",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-01-assigned_main.json.gz",
+          "sha256": "550e695458b8f70a7f75f654a488bbfbcb5dc87a2be53d460a340c9d008e0bdb"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "runId": "c006-candidate-control-02-assigned_main",
+      "mapHash": "6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06",
+      "traceSHA256": "a13acb623bce1ee3cef342e909f37a3749c8c25458944b2610276c1846ab5162",
+      "storedRows": 14401,
+      "storedBodyFrames": 8629,
+      "storedClearanceSamples": 1201,
+      "clearanceStatusCounts": {
+        "observed": 1201
+      },
+      "exactWholeCourseInputCount": 219,
+      "exactLateInputCount": 63,
+      "terminalTick": 14400,
+      "status": "alive",
+      "condition": "control-02",
+      "role": "assigned_main",
+      "commitBinding": {
+        "id": "c006-candidate-control-02-assigned_main",
+        "seq": 2402,
+        "commitHash": "225253aa005f7db58b4f7952db8e2e3e8439b92b944038614a03e43b63ad782b",
+        "mapHash": "6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06",
+        "traceSHA256": "a13acb623bce1ee3cef342e909f37a3749c8c25458944b2610276c1846ab5162",
+        "resultSHA256": "0288d8f4b7d5f209125a762e1735b7fae6a2e0dfbbde279d4391a53870f94710",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-02-assigned_main.json.gz",
+          "sha256": "f94e4a9fc0fd88d910f81093c41741b226e32d70a2f5ecca53d63b49319d9099"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "runId": "c006-candidate-control-03-assigned_main",
+      "mapHash": "8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173",
+      "traceSHA256": "59dcfb8a9c345957cdb3a82bc2beeb60c0a0ff0d060f41799bd9f3a21bc45db6",
+      "storedRows": 14401,
+      "storedBodyFrames": 8629,
+      "storedClearanceSamples": 1201,
+      "clearanceStatusCounts": {
+        "observed": 1201
+      },
+      "exactWholeCourseInputCount": 221,
+      "exactLateInputCount": 65,
+      "terminalTick": 14400,
+      "status": "alive",
+      "condition": "control-03",
+      "role": "assigned_main",
+      "commitBinding": {
+        "id": "c006-candidate-control-03-assigned_main",
+        "seq": 2426,
+        "commitHash": "476b9bb988c823780d5292956541b60d9d13346e08b3d5e8c4a860e31ecef3fc",
+        "mapHash": "8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173",
+        "traceSHA256": "59dcfb8a9c345957cdb3a82bc2beeb60c0a0ff0d060f41799bd9f3a21bc45db6",
+        "resultSHA256": "040f4eaa9e39d78ba47b7af665f70cd54404a70c4dcdc3b654c9776140685376",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-03-assigned_main.json.gz",
+          "sha256": "05eea220b184024d03f6fdccf7dfc5ecdb2d13b5588e39f620c792a9cb00bfb5"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "runId": "c006-candidate-control-04-assigned_main",
+      "mapHash": "a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca",
+      "traceSHA256": "4ff70139e824a0445ffd4a2210799158203ebb38e05fbae9d12cd99908b8a89c",
+      "storedRows": 14401,
+      "storedBodyFrames": 8096,
+      "storedClearanceSamples": 1201,
+      "clearanceStatusCounts": {
+        "observed": 1201
+      },
+      "exactWholeCourseInputCount": 215,
+      "exactLateInputCount": 72,
+      "terminalTick": 14400,
+      "status": "alive",
+      "condition": "control-04",
+      "role": "assigned_main",
+      "commitBinding": {
+        "id": "c006-candidate-control-04-assigned_main",
+        "seq": 2450,
+        "commitHash": "288d108113f2717f0a0325719a7819df0c93d0bea78d3a61a436d91860decbd8",
+        "mapHash": "a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca",
+        "traceSHA256": "4ff70139e824a0445ffd4a2210799158203ebb38e05fbae9d12cd99908b8a89c",
+        "resultSHA256": "7baf3a331911dbf4e4dd9572ed5b79e04d08b543a4c948fc55652bf6ab62b9c5",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-04-assigned_main.json.gz",
+          "sha256": "5debc15fdfcd51a13bb6605d6575918dd06a06b0ea407ef49500151fbbaa2f48"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "runId": "c006-candidate-control-05-assigned_main",
+      "mapHash": "21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1",
+      "traceSHA256": "e612699ff31b65bc561e58a341912d1bd56b64f5787379464f9d2c92d4ed4782",
+      "storedRows": 14401,
+      "storedBodyFrames": 8096,
+      "storedClearanceSamples": 1201,
+      "clearanceStatusCounts": {
+        "observed": 1201
+      },
+      "exactWholeCourseInputCount": 216,
+      "exactLateInputCount": 73,
+      "terminalTick": 14400,
+      "status": "alive",
+      "condition": "control-05",
+      "role": "assigned_main",
+      "commitBinding": {
+        "id": "c006-candidate-control-05-assigned_main",
+        "seq": 2474,
+        "commitHash": "7c8ddd9a4ec30e91f7b6da593bd651ce636d605a7b78719ad8c8567e494b9de7",
+        "mapHash": "21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1",
+        "traceSHA256": "e612699ff31b65bc561e58a341912d1bd56b64f5787379464f9d2c92d4ed4782",
+        "resultSHA256": "7069ce50dd04137ca36d4b4913e0e3e0cd64faddebc34c86f1d2d61e6d4d2bd5",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-05-assigned_main.json.gz",
+          "sha256": "564fb2ded3eca7bc00fb4a20f082db355178f239b8d3b1d5ea35d8df599ab635"
+        },
+        "resultHashMatches": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "projectRelativePath": "visuals/c006-control00-main-actual-v1/full-map-pair.png",
+      "sha256": "2194579207df1aa43b7bf4689be7ab584cbb1fcd0d0dca4206c62e9eb9cf6f81",
+      "pixelDimensions": [
+        1875,
+        1837
+      ],
+      "pixelInspection": "complete",
+      "finding": "Eight readable source-layout strips retain full x0–24000, including unvisited x18060–24000. The late x12000–18000 strips show fixed/moving package order reversed while narrow upper auxiliaries remain. Purple crosses are dynamic source anchors, never reconstructed moving poses. Saved paths stop at x18060."
+    },
+    {
+      "projectRelativePath": "visuals/c006-control00-main-actual-v1/key-frame-01.png",
+      "sha256": "bf276fc8ff6e1ce2fdf61432bbf25ab748f6bcb11dab3774e186723bd2b4c50a",
+      "pixelDimensions": [
+        2000,
+        875
+      ],
+      "pixelInspection": "complete",
+      "finding": "Control00 P/C tick11520: saved player x14460,y381.75/242.35,vy−126/−126. Parent last primary is fixed at x14490–14535,y252–288; candidate has the actual moving pair near x14500–14575. Both actual c9-adj-upper bodies at x14680–14715,y−120–165 remain visibly ahead, then tail/recovery rectangles. Whole viewport is not symmetric."
+    },
+    {
+      "projectRelativePath": "visuals/c006-control00-main-actual-v1/key-frame-02.png",
+      "sha256": "8dc6089da053821d2cb42c801400dde08501812098406491bb6a5fbced0a4e9a",
+      "pixelDimensions": [
+        2000,
+        875
+      ],
+      "pixelInspection": "complete",
+      "finding": "Control00 P/C tick11808: saved first recovery entry x14820,y280.25/247.45,vy120/120. c9-adj-upper remains visible behind the player at the left side. Different next primary demand is partly visible at the far right: parent moving pair, candidate fixed island. Those far-right bodies are clipped by the actual viewport and are not projected to fuller shapes."
+    },
+    {
+      "projectRelativePath": "visuals/c006-control00-main-actual-v1/key-frame-03.png",
+      "sha256": "d84d12db4f5ed0b23479aaa0ff5aeef9c1350e3fdbd0e95fdefeb8187b4ce95b",
+      "pixelDimensions": [
+        2000,
+        875
+      ],
+      "pixelInspection": "complete",
+      "finding": "Control00 P/C tick12810: x16072.5,y233.589583/383.239583,vy−3/161. Moving versus fixed primary demand has reversed at package10. Actual upper auxiliaries remain visible at parent x16165–16200 and candidate16240–16275. All coral bodies preserve their saved collision status."
+    },
+    {
+      "projectRelativePath": "visuals/c006-control00-main-actual-v1/key-frame-04.png",
+      "sha256": "c5695113abd83687c3a7525014c8b2fb52968f7d389fe597fa01126c43f649fd",
+      "pixelDimensions": [
+        2000,
+        875
+      ],
+      "pixelInspection": "complete",
+      "finding": "Control00 tick13453: both players have left edge16866.25,1.25px beyond the unchanged first successor island right edge16865. Actual y120.777778/122.827778 differs by2.05px; vy208.833333 matches. The downstream existing islands remain visible. No future body position was generated."
+    },
+    {
+      "projectRelativePath": "visuals/c006-control00-main-actual-v1/pressure-clearance-pair.png",
+      "sha256": "62aca1d816ff68b624f4eab563d803d13b146ea6163edc0f70f9c24d52ded5e8",
+      "pixelDimensions": [
+        1875,
+        1100
+      ],
+      "pixelInspection": "complete",
+      "finding": "The full0–120s actual width/margin histories and observed status strips are retained. Widths coincide before the late intervention, then moving-pair troughs shift earlier in candidate. Each curve uses1200 half-open12-tick samples; the raw trace has1201 with terminal14400. Descriptive240px is not an acceptance or human-tension threshold."
+    },
+    {
+      "projectRelativePath": "visuals/c006-control00-main-actual-v1/action-motion-whole.png",
+      "sha256": "f7f059b56f55045ef185a2211b2d95ef0a2fae9aba9f2bd3e2ffd20b2445ef13",
+      "pixelDimensions": [
+        1875,
+        1250
+      ],
+      "pixelInspection": "complete",
+      "finding": "Full0–120s actual y,vy,exact flap ticks and alive coverage remain visible for the control00 pair. Main histories coincide until the late intervention then separate, with later convergence. Full input counts are verified separately from late counts; equal total counts would not imply identical timing."
+    },
+    {
+      "projectRelativePath": "visuals/c006-control00-main-actual-v1/action-motion-window-01.png",
+      "sha256": "66a1b1738dac9e1dba7e6f018aa2f5c3c7652646ab7a300c63a630919319c6b9",
+      "pixelDimensions": [
+        1875,
+        1250
+      ],
+      "pixelInspection": "complete",
+      "finding": "Control00 P/C actual late window10320–14160 (86–118s) keeps movement, velocities, inputs and alive strips. Different y trajectories and command times around packages9/10 are visible; no smoothing, counterfactual tolerance or ease claim."
+    },
+    {
+      "projectRelativePath": "visuals/c006-selected-contrasts-actual-v2/upper-order-late-sequence.png",
+      "sha256": "b1de81ab9da9e24d6195fd63600484c96d5ed3ff535cdccd79d5cb752f1b1b2b",
+      "pixelDimensions": [
+        2250,
+        1375
+      ],
+      "pixelInspection": "complete",
+      "finding": "Six exact candidate panels compare controls00/01 at common ticks11520,11808,12810. Each row visibly retains c9-adj-upper and c10-adj-upper. At11520 moving-pair versus fixed-island demand accompanies y242.35/381.75; at12810 fixed versus moving accompanies y383.239583/247.939583. Both use seed1 HLT and first recovery2s. Actual upper auxiliary labels are legible and point to retained bodies. Primary pair symmetry does not make the full image symmetric."
+    },
+    {
+      "projectRelativePath": "visuals/c006-selected-contrasts-actual-v2/lower-order-late-sequence.png",
+      "sha256": "1009a343ef664e87a550454a2f7c0ff85dd7aabaffc0797f28f0d7d0df75876e",
+      "pixelDimensions": [
+        2250,
+        1375
+      ],
+      "pixelInspection": "complete",
+      "finding": "Six exact candidate panels compare controls04/05 at10900,11540,12100. Lower auxiliaries c9-adj-lower and c10-adj-lower are visibly preserved at the two entrances. At10900 the players coincide at y164.0625,vy−262.666667, while the first two island widths/vertical offsets differ. At11540 the last primary state separates strongly: y411.373611 versus77.906944. At12100 the lower-before neighbor and reversed next primary pattern are visible. Middle frames legitimately have no auxiliary in the camera; none was added."
+    },
+    {
+      "projectRelativePath": "visuals/c006-selected-contrasts-actual-v2/recovery-action-contrast.png",
+      "sha256": "e0b74fbabc3f99b1cf0a4fd9cebdc769ea81df48cb2df93ed99ac79488ec5191",
+      "pixelDimensions": [
+        2125,
+        1437
+      ],
+      "pixelInspection": "complete",
+      "finding": "97–104s exact state/input/margin plot separates controls00/02/03 with actual observed recovery bars98.4–100.4,98.4–99.6,98.4–100.0s. Curves agree on entry, then differ in command timing, y/vy and recorded nearest margin. Recovery input counts3/2/3 and exit states are in the bound evidence. Duration is not labeled as improvement or ease; recovery bar annotations remain readable above the bars."
+    },
+    {
+      "projectRelativePath": "visuals/c006-selected-contrasts-actual-v2/order-action-contrast.png",
+      "sha256": "949f62585973568b8e379e2078d3c438f1b039c025ca9ff4d04e9739ab34e4d7",
+      "pixelDimensions": [
+        2375,
+        1500
+      ],
+      "pixelInspection": "complete",
+      "finding": "Two explicitly separate same-entry columns show actual y/vy,nearest margin,exact inputs and alive coverage86–118s. Left is controls00/01, HLT2s; right controls04/05,HJT1.6s. Correct input/alive labels are C00/C01 left and C04/C05 right. Late input counts63/66 and72/73 differ, as do timings and trajectories. Each column is interpretable on its own; no cross-context causal inference."
+    }
+  ],
+  "observedRecoveries": {
+    "c006-parent-control-00-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 11808,
+        "exitTick": 11988,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 280.2499999999941,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 11988,
+          "x": 15045,
+          "y": 268.06249999999403,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 99.9
+        },
+        "actualSeconds": 1.5,
+        "commandTicks": [
+          11844,
+          11928,
+          11946
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+          "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+        },
+        "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 12996,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 12996,
+          "x": 16305,
+          "y": 240.81249999999255,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.3
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 269.36666666665917,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.7,
+        "commandTicks": [
+          13044,
+          13134,
+          13146,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+          "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+        },
+        "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+      }
+    ],
+    "c006-candidate-control-00-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 11808,
+        "exitTick": 12048,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 247.44999999999314,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 12048,
+          "x": 15120,
+          "y": 269.4666666666598,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 100.4
+        },
+        "actualSeconds": 2,
+        "commandTicks": [
+          11850,
+          11940,
+          12006
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+          "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+        },
+        "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 13056,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 13056,
+          "x": 16380,
+          "y": 283.2166666666594,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.8
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 271.4166666666594,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.2,
+        "commandTicks": [
+          13092,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+          "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+        },
+        "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+      }
+    ],
+    "c006-candidate-control-01-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 11808,
+        "exitTick": 12048,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 280.2499999999941,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 12048,
+          "x": 15120,
+          "y": 265.3666666666607,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 100.4
+        },
+        "actualSeconds": 2,
+        "commandTicks": [
+          11850,
+          11862,
+          11952,
+          12006
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-01-assigned_main.json.gz",
+          "sha256": "2c2bc875cd6518324d02429e25f6d78b0ad421901f119b215983c1c6feda92e4"
+        },
+        "cacheSHA256": "a4f3c1e8126b99162f3301e9c904714656c0e0205e30d8cb4ac2d62dc60d5635"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 13056,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 13056,
+          "x": 16380,
+          "y": 242.21666666666,
+          "vy": 37.999999999999886,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.8
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 269.3666666666601,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.2,
+        "commandTicks": [
+          13122,
+          13140,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-01-assigned_main.json.gz",
+          "sha256": "2c2bc875cd6518324d02429e25f6d78b0ad421901f119b215983c1c6feda92e4"
+        },
+        "cacheSHA256": "a4f3c1e8126b99162f3301e9c904714656c0e0205e30d8cb4ac2d62dc60d5635"
+      }
+    ],
+    "c006-candidate-control-02-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 11808,
+        "exitTick": 11952,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 247.44999999999314,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 11952,
+          "x": 15000,
+          "y": 264.34999999999314,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 99.6
+        },
+        "actualSeconds": 1.2,
+        "commandTicks": [
+          11856,
+          11910
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-02-assigned_main.json.gz",
+          "sha256": "1004d34c175d8d8277ae6aaab0ec2c1471727994aeb7c8ded852d725c604b292"
+        },
+        "cacheSHA256": "cfcf76046b7e4171be6e7354708b6fc71c18b1f7411236514c5e741f5ca5ffa6"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 12960,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 12960,
+          "x": 16260,
+          "y": 286.2999999999928,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 261.1666666666594,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 2,
+        "commandTicks": [
+          13002,
+          13014,
+          13098,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-02-assigned_main.json.gz",
+          "sha256": "1004d34c175d8d8277ae6aaab0ec2c1471727994aeb7c8ded852d725c604b292"
+        },
+        "cacheSHA256": "cfcf76046b7e4171be6e7354708b6fc71c18b1f7411236514c5e741f5ca5ffa6"
+      }
+    ],
+    "c006-candidate-control-03-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 11808,
+        "exitTick": 12000,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 247.44999999999314,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 12000,
+          "x": 15060,
+          "y": 269.98333333332647,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 100
+        },
+        "actualSeconds": 1.6,
+        "commandTicks": [
+          11850,
+          11940,
+          11958
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-03-assigned_main.json.gz",
+          "sha256": "1f3d8813ecd3d2ca935df3088ad8470a9a305d489845a2844c03ea257e8d1ba6"
+        },
+        "cacheSHA256": "dc6ad1142aa3f674edd5e1093064e92ae8125567a782e421cda49a4c3162274c"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 13008,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 13008,
+          "x": 16320,
+          "y": 283.7333333333262,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.39999999999999
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 271.41666666665947,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.6,
+        "commandTicks": [
+          13044,
+          13134,
+          13146,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-03-assigned_main.json.gz",
+          "sha256": "1f3d8813ecd3d2ca935df3088ad8470a9a305d489845a2844c03ea257e8d1ba6"
+        },
+        "cacheSHA256": "dc6ad1142aa3f674edd5e1093064e92ae8125567a782e421cda49a4c3162274c"
+      }
+    ],
+    "c006-candidate-control-04-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 10,
+        "demand": "hold-then-turn",
+        "entryTick": 11796,
+        "exitTick": 11988,
+        "entry": {
+          "tick": 11796,
+          "x": 14805,
+          "y": 286.529166666661,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.3
+        },
+        "exit": {
+          "tick": 11988,
+          "x": 15045,
+          "y": 268.0624999999944,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 99.9
+        },
+        "actualSeconds": 1.6,
+        "commandTicks": [
+          11838,
+          11916,
+          11946
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-lower",
+            "relation": "before-primary",
+            "requiredSide": "upper",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-04-assigned_main.json.gz",
+          "sha256": "b40f8e5149a6b2c31189ec537c81cecbfe33d1c67ddee302a4246a7af9b660a4"
+        },
+        "cacheSHA256": "9e4aba7dff021f45221d972bb391177c3b7fa513e1ce62a41c3371fd77ed008e"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 9,
+        "demand": "alternating-body-passages",
+        "entryTick": 12996,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 12996,
+          "x": 16305,
+          "y": 290.01249999999425,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.3
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 261.1666666666609,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.7,
+        "commandTicks": [
+          13032,
+          13116,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-lower",
+            "relation": "before-primary",
+            "requiredSide": "upper",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-04-assigned_main.json.gz",
+          "sha256": "b40f8e5149a6b2c31189ec537c81cecbfe33d1c67ddee302a4246a7af9b660a4"
+        },
+        "cacheSHA256": "9e4aba7dff021f45221d972bb391177c3b7fa513e1ce62a41c3371fd77ed008e"
+      }
+    ],
+    "c006-candidate-control-05-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 9,
+        "demand": "alternating-body-passages",
+        "entryTick": 11796,
+        "exitTick": 11988,
+        "entry": {
+          "tick": 11796,
+          "x": 14805,
+          "y": 278.3291666666613,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.3
+        },
+        "exit": {
+          "tick": 11988,
+          "x": 15045,
+          "y": 270.1124999999946,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 99.9
+        },
+        "actualSeconds": 1.6,
+        "commandTicks": [
+          11838,
+          11850,
+          11934,
+          11946
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-lower",
+            "relation": "before-primary",
+            "requiredSide": "upper",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-05-assigned_main.json.gz",
+          "sha256": "65fa239a61353bb31a93029c8af86ed0f9e06ef33b79afb1814acc49ad050f3c"
+        },
+        "cacheSHA256": "095ded9e8a371941320ee95e8aabefe630be8e6bb431b9388d398b8a664ad5a8"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 10,
+        "demand": "hold-then-turn",
+        "entryTick": 12996,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 12996,
+          "x": 16305,
+          "y": 283.8624999999944,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.3
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 271.416666666661,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.7,
+        "commandTicks": [
+          13032,
+          13122,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-lower",
+            "relation": "before-primary",
+            "requiredSide": "upper",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-05-assigned_main.json.gz",
+          "sha256": "65fa239a61353bb31a93029c8af86ed0f9e06ef33b79afb1814acc49ad050f3c"
+        },
+        "cacheSHA256": "095ded9e8a371941320ee95e8aabefe630be8e6bb431b9388d398b8a664ad5a8"
+      }
+    ]
+  },
+  "sameEntryContrasts": [
+    {
+      "runs": [
+        "c006-candidate-control-00-assigned_main",
+        "c006-candidate-control-01-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 10801.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 188.60000000000053,
+      "inputCounts": [
+        63,
+        66
+      ],
+      "inputSymmetricDifference": [
+        10800,
+        10812,
+        10836,
+        11160,
+        11172,
+        11244,
+        11256,
+        11328,
+        11400,
+        11568,
+        11592,
+        11664,
+        11676,
+        11862,
+        11940,
+        11952,
+        12048,
+        12060,
+        12072,
+        12156,
+        12168,
+        12240,
+        12252,
+        12588,
+        12648,
+        12660,
+        12672,
+        12744,
+        12756,
+        12816,
+        12912,
+        12924,
+        12996,
+        13008,
+        13092,
+        13122,
+        13140
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12048,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12048,
+            "x": 15120,
+            "y": 269.4666666666598,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100.4
+          },
+          "actualSeconds": 2,
+          "commandTicks": [
+            11850,
+            11940,
+            12006
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+            "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+          },
+          "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 9,
+          "demand": "hold-then-turn",
+          "entryTick": 11808,
+          "exitTick": 12048,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 280.2499999999941,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12048,
+            "x": 15120,
+            "y": 265.3666666666607,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100.4
+          },
+          "actualSeconds": 2,
+          "commandTicks": [
+            11850,
+            11862,
+            11952,
+            12006
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-01-assigned_main.json.gz",
+            "sha256": "2c2bc875cd6518324d02429e25f6d78b0ad421901f119b215983c1c6feda92e4"
+          },
+          "cacheSHA256": "a4f3c1e8126b99162f3301e9c904714656c0e0205e30d8cb4ac2d62dc60d5635"
+        }
+      ]
+    },
+    {
+      "runs": [
+        "c006-candidate-control-00-assigned_main",
+        "c006-candidate-control-02-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 11851.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 256.2500000000001,
+      "inputCounts": [
+        63,
+        63
+      ],
+      "inputSymmetricDifference": [
+        11850,
+        11856,
+        11910,
+        11940,
+        11952,
+        11964,
+        11976,
+        11988,
+        12006,
+        12048,
+        12060,
+        12084,
+        12324,
+        12336,
+        12396,
+        12420,
+        12504,
+        12540,
+        12624,
+        12648,
+        12660,
+        12708,
+        12840,
+        12900,
+        12912,
+        12996,
+        13002,
+        13014,
+        13092,
+        13098,
+        13308,
+        13320
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12048,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12048,
+            "x": 15120,
+            "y": 269.4666666666598,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100.4
+          },
+          "actualSeconds": 2,
+          "commandTicks": [
+            11850,
+            11940,
+            12006
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+            "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+          },
+          "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 11952,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 11952,
+            "x": 15000,
+            "y": 264.34999999999314,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 99.6
+          },
+          "actualSeconds": 1.2,
+          "commandTicks": [
+            11856,
+            11910
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-02-assigned_main.json.gz",
+            "sha256": "1004d34c175d8d8277ae6aaab0ec2c1471727994aeb7c8ded852d725c604b292"
+          },
+          "cacheSHA256": "cfcf76046b7e4171be6e7354708b6fc71c18b1f7411236514c5e741f5ca5ffa6"
+        }
+      ]
+    },
+    {
+      "runs": [
+        "c006-candidate-control-00-assigned_main",
+        "c006-candidate-control-03-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 11959.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 213.2000000000002,
+      "inputCounts": [
+        63,
+        65
+      ],
+      "inputSymmetricDifference": [
+        11958,
+        12000,
+        12006,
+        12012,
+        12024,
+        12036,
+        12048,
+        12060,
+        12072,
+        12084,
+        12108,
+        12156,
+        12192,
+        12240,
+        12288,
+        12336,
+        12372,
+        12420,
+        12456,
+        12504,
+        12600,
+        12612,
+        12648,
+        12660,
+        12696,
+        12744,
+        12768,
+        12792,
+        12816,
+        12840,
+        12864,
+        12912,
+        12948,
+        12996,
+        13044,
+        13092,
+        13134,
+        13146
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12048,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12048,
+            "x": 15120,
+            "y": 269.4666666666598,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100.4
+          },
+          "actualSeconds": 2,
+          "commandTicks": [
+            11850,
+            11940,
+            12006
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+            "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+          },
+          "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12000,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12000,
+            "x": 15060,
+            "y": 269.98333333332647,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100
+          },
+          "actualSeconds": 1.6,
+          "commandTicks": [
+            11850,
+            11940,
+            11958
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-03-assigned_main.json.gz",
+            "sha256": "1f3d8813ecd3d2ca935df3088ad8470a9a305d489845a2844c03ea257e8d1ba6"
+          },
+          "cacheSHA256": "dc6ad1142aa3f674edd5e1093064e92ae8125567a782e421cda49a4c3162274c"
+        }
+      ]
+    },
+    {
+      "runs": [
+        "c006-candidate-control-02-assigned_main",
+        "c006-candidate-control-03-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 11851.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 207.05000000000015,
+      "inputCounts": [
+        63,
+        65
+      ],
+      "inputSymmetricDifference": [
+        11850,
+        11856,
+        11910,
+        11940,
+        11952,
+        11958,
+        11964,
+        11976,
+        11988,
+        12000,
+        12012,
+        12024,
+        12036,
+        12072,
+        12108,
+        12156,
+        12192,
+        12240,
+        12288,
+        12324,
+        12372,
+        12396,
+        12456,
+        12540,
+        12600,
+        12612,
+        12624,
+        12696,
+        12708,
+        12744,
+        12768,
+        12792,
+        12816,
+        12864,
+        12900,
+        12948,
+        13002,
+        13014,
+        13044,
+        13098,
+        13134,
+        13146,
+        13308,
+        13320
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 11952,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 11952,
+            "x": 15000,
+            "y": 264.34999999999314,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 99.6
+          },
+          "actualSeconds": 1.2,
+          "commandTicks": [
+            11856,
+            11910
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-02-assigned_main.json.gz",
+            "sha256": "1004d34c175d8d8277ae6aaab0ec2c1471727994aeb7c8ded852d725c604b292"
+          },
+          "cacheSHA256": "cfcf76046b7e4171be6e7354708b6fc71c18b1f7411236514c5e741f5ca5ffa6"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12000,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12000,
+            "x": 15060,
+            "y": 269.98333333332647,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100
+          },
+          "actualSeconds": 1.6,
+          "commandTicks": [
+            11850,
+            11940,
+            11958
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-03-assigned_main.json.gz",
+            "sha256": "1f3d8813ecd3d2ca935df3088ad8470a9a305d489845a2844c03ea257e8d1ba6"
+          },
+          "cacheSHA256": "dc6ad1142aa3f674edd5e1093064e92ae8125567a782e421cda49a4c3162274c"
+        }
+      ]
+    },
+    {
+      "runs": [
+        "c006-candidate-control-04-assigned_main",
+        "c006-candidate-control-05-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 10969.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 354.6500000000002,
+      "inputCounts": [
+        72,
+        73
+      ],
+      "inputSymmetricDifference": [
+        10968,
+        10980,
+        11076,
+        11124,
+        11136,
+        11160,
+        11220,
+        11232,
+        11256,
+        11280,
+        11292,
+        11304,
+        11316,
+        11328,
+        11340,
+        11352,
+        11364,
+        11376,
+        11436,
+        11460,
+        11508,
+        11544,
+        11568,
+        11580,
+        11664,
+        11850,
+        11916,
+        11934,
+        12096,
+        12108,
+        12156,
+        12180,
+        12276,
+        12312,
+        12360,
+        12396,
+        12432,
+        12444,
+        12468,
+        12492,
+        12504,
+        12516,
+        12528,
+        12540,
+        12552,
+        12564,
+        12576,
+        12636,
+        12660,
+        12696,
+        12744,
+        12768,
+        12780,
+        12840,
+        13116,
+        13122,
+        13308,
+        13320,
+        13764,
+        13860,
+        14040,
+        14052,
+        14064,
+        14136,
+        14148
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "hold-then-turn",
+          "entryTick": 11796,
+          "exitTick": 11988,
+          "entry": {
+            "tick": 11796,
+            "x": 14805,
+            "y": 286.529166666661,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.3
+          },
+          "exit": {
+            "tick": 11988,
+            "x": 15045,
+            "y": 268.0624999999944,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 99.9
+          },
+          "actualSeconds": 1.6,
+          "commandTicks": [
+            11838,
+            11916,
+            11946
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-lower",
+              "relation": "before-primary",
+              "requiredSide": "upper",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-04-assigned_main.json.gz",
+            "sha256": "b40f8e5149a6b2c31189ec537c81cecbfe33d1c67ddee302a4246a7af9b660a4"
+          },
+          "cacheSHA256": "9e4aba7dff021f45221d972bb391177c3b7fa513e1ce62a41c3371fd77ed008e"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 9,
+          "demand": "alternating-body-passages",
+          "entryTick": 11796,
+          "exitTick": 11988,
+          "entry": {
+            "tick": 11796,
+            "x": 14805,
+            "y": 278.3291666666613,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.3
+          },
+          "exit": {
+            "tick": 11988,
+            "x": 15045,
+            "y": 270.1124999999946,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 99.9
+          },
+          "actualSeconds": 1.6,
+          "commandTicks": [
+            11838,
+            11850,
+            11934,
+            11946
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-lower",
+              "relation": "before-primary",
+              "requiredSide": "upper",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-05-assigned_main.json.gz",
+            "sha256": "65fa239a61353bb31a93029c8af86ed0f9e06ef33b79afb1814acc49ad050f3c"
+          },
+          "cacheSHA256": "095ded9e8a371941320ee95e8aabefe630be8e6bb431b9388d398b8a664ad5a8"
+        }
+      ]
+    }
+  ],
+  "immutableChecks": {
+    "baselineUnchanged": true,
+    "formalFreezeUnchanged": true,
+    "sourceManifestHash": "aad76e1d9c8d23fd4373e4408c8ef72fe78221d546e63678558c6dcda13403c7",
+    "baselineFiles": 249,
+    "formalFreezeFiles": 302
+  },
+  "crossCuttingLimits": [
+    "Seven selected assigned_main runs across six public controls, not an aggregate or full192-slot qualification. Formal decision and gate audits remain separate.",
+    "Parent/candidate control00 changed order and recovery jointly; isolate same-entry order using00/01 and04/05, and same-order duration using00/02/03.",
+    "All exact body/player poses, inputs and clearance come from saved traces authenticated to commit/result/map/trace hashes. No physics starts, state steps, controller calls, replay, source body projections or synthetic dynamic poses.",
+    "Static source-map footprints and dynamic anchors are different from actual timestamped bodies. Horizontal compression in full map cannot establish runtime readability.",
+    "The upper-after and lower-before auxiliaries make the whole scene asymmetric. Primary theme ordering does not establish whole-frame symmetry or new internal-pattern synthesis.",
+    "Recorded width and nearest margin are geometric proxies. Recovery duration and actual input differences do not measure feasible-input tolerance, human ease, human fun, natural route discovery or causal warning comprehension.",
+    "Saved bridge entry/exit states are observed route intervals. Their shared exit vy near−3 does not erase differing y, inputs or downstream demand.",
+    "Integer-tick drawings do not independently re-audit substep collision authority, ledger chain, source observer correctness or formal adoption. Those remain formal analysis obligations.",
+    "No Site publication, Library upload, source/harness/design change, acceptance-pointer change or generic old visual-suite rerun was performed."
+  ],
+  "pngCount": 12,
+  "totalPNGBytes": 3585979,
+  "supersededDraft": {
+    "directory": "visuals/c006-selected-contrasts-actual-v1",
+    "pngCount": 4,
+    "selected": false,
+    "reason": "Initial presentation draft had shared-y tick-label leakage into left order panel and overly long lower-sequence titles. Corrected without changing evidence; all four final v2 PNGs were inspected again."
+  }
+}

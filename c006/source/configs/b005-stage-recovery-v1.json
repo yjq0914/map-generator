@@ -1,0 +1,14 @@
+{
+  "version": "b005-relation-conditioned-stage-recovery-v1",
+  "module": "source/b005-stage-recovery.cjs",
+  "constructionParent": "b001-pinned-contact-relation-grammar-v1",
+  "comparisonParent": "b001-pinned-contact-relation-grammar-v1",
+  "program": {
+    "type": "one-stage-relation-recovery-allocation",
+    "stage": 1,
+    "recipient": "fixed-island-between-moving-pairs",
+    "donor": "moving-corridor-without-receiver",
+    "transferPx": 75
+  },
+  "qualification": "unqualified new stage recovery allocation; exact b001 ancestry only"
+}

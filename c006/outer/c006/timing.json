@@ -1,0 +1,25 @@
+{
+  "round": "c006",
+  "handoffAt": "2026-10-05T15:10:50Z",
+  "bindingReadyAt": "2026-10-05T15:15:50Z",
+  "semanticPreparationAt": "2026-10-05T15:21:13.823277+00:00",
+  "preparationStaticChecksReused": 95,
+  "additionalPublicBindings": 16,
+  "physicalStarted": true,
+  "setupIncludes": [
+    "necessary final accepted-parent binding",
+    "predeclared current-route admission",
+    "same-entry request contrasts",
+    "four bounded local thin-margin diagnostics"
+  ],
+  "semanticSavedAt": "2026-10-05T15:24:06.164987+00:00",
+  "formalPreparedAt": "2026-10-05T15:26:10.059Z",
+  "formalSourceSavedAt": "2026-10-05T15:26:19.006415+00:00",
+  "physicalStartedAt": "2026-10-05T15:27:33.758Z",
+  "localRiskFinished": true,
+  "mainPhysicalStartedAt": "2026-10-05T15:28:57.041Z",
+  "localRiskStartedAt": "2026-10-05T15:27:33.758Z",
+  "pilotQualifiedAt": "2026-10-05T15:29:51.440Z",
+  "unexplainedIdleSeconds": null,
+  "timeAttribution": "Runner time is separately measured; other wall time includes source binding, preparation, observation, rendering and durable writes, not presumed idle"
+}

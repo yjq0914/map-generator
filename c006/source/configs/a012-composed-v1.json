@@ -1,0 +1,20 @@
+{
+  "version": "a012-late-phase-late-following-v1",
+  "module": "source/a012-composed-generator.cjs",
+  "operation": {
+    "type": "following-gate-post-length",
+    "speedRatio": 0.6,
+    "periodSeconds": 3,
+    "crossingPhase": 0,
+    "placementBias": 1,
+    "seedSalt": 0
+  },
+  "phaseOperation": {
+    "type": "phase-through-or-bypass",
+    "placement": "latest",
+    "marginTicks": 42,
+    "cueLeadTicks": 42
+  },
+  "activation": "explicit",
+  "constructionParent": "a010 accepted registry; operators applied independently to canonical recovery then merged"
+}

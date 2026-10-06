@@ -1,0 +1,18 @@
+{
+  "version": "b003-early-diagonal-warning-laser-v2",
+  "module": "source/b003-warning-laser-v2.cjs",
+  "constructionParent": "a012 accepted registry default -> recovery-cumulative-v1",
+  "activation": "explicit",
+  "operation": {
+    "type": "ordinary-island-to-upper-lower-diagonal-scan",
+    "beamWidthPx": 12,
+    "verticalSweepPx": 36,
+    "motionPeriodSeconds": 3.2,
+    "warningSeconds": 0.9,
+    "activeSeconds": 0.8,
+    "cooldownSeconds": 1.2,
+    "activationLeadBeforeWholeBodyEntrySeconds": 0.1
+  },
+  "qualification": "unqualified existing-mechanism integration; physics and human-quality evidence pending",
+  "calibration": "Open nominal v1 branch hit at tick283 one tick before cooldown. Shorten active by0.1s to release before the late descent recovery; formal held conditions remain unseen."
+}

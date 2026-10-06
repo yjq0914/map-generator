@@ -1,0 +1,1 @@
+{"version":"b004-registry-candidate-v1","module":"source/b004-style-registry.cjs","defaultStyle":"vertical-default","inheritedRegistry":"source/b003-style-registry-v2.cjs","explicitCandidate":"hammer-warning-turn-relay","qualification":"Only finite explicit relay candidate; nine inherited calls exactly delegated"}

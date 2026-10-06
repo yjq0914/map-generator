@@ -1,0 +1,1335 @@
+{
+  "scope": "Saved native rows and saved body geometry only. Gate-specific sampled clearance is not continuous clearance or input tolerance. No physics run or evaluator change.",
+  "new_physics_runs": 0,
+  "passages": [
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/candidate-701",
+      "source_hashes": {
+        "map.json": "1e86362007f7e9350170e9690061f1b8dcd8c33ff2712b75f7db12a7a3073f71",
+        "result.json": "9bc7c51f6f51bb831dceed7d4fa167cefce48ee31d8c293466a7444b0c4e1c0b",
+        "trace.json.gz": "16c4531fea9ef9297a7556a82f9c9cd4b6d64b83ab2fc6359c9ec1ac2e0c0e1f",
+        "inputs.json": "0dd25ac65674e8fd8b4cce5bc2578c1931cca72228fd26dbe81d75fdd1c71dad"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3180,
+          "gate_only_clearance_px": 46.4242538253978,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3192,
+          "gate_only_clearance_px": 64.47638888888736,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3204,
+          "gate_only_clearance_px": 76.64722222222068,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3216,
+          "gate_only_clearance_px": 53.96805555555403,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3228,
+          "gate_only_clearance_px": 36.01475095785304,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3240,
+          "gate_only_clearance_px": 21.718342911875908,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3252,
+          "gate_only_clearance_px": 15.621934865899021,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3264,
+          "gate_only_clearance_px": 17.94556919159478,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 15.621934865899021,
+      "id": "candidate-701",
+      "body_id": "m04-A-in",
+      "paired_before": {
+        "source_directory": "integration/runs/stage-pressure/B1/runs/candidate-701",
+        "source_hashes": {
+          "map.json": "62048a091614c30b697af9e729ef74cecda8a7999c9814b4aa5457a6ac8e046d",
+          "result.json": "7d68169ce34448563e8981787079c948e2c90264f6ff66329b1fec7fb071ba79",
+          "trace.json.gz": "9f5a3e9709c41fc77ce71ab929e5b044f3a094859ffa0e246f0d6e5633701cb7",
+          "inputs.json": "cc0b4c40a03ba7c3837ee189a8bbd87f7169ef65d8c1b6e87d3cf3dcaeae27e4"
+        },
+        "native_occupancy_state_count": 93,
+        "saved_gate_samples": [
+          {
+            "tick": 3180,
+            "gate_only_clearance_px": 46.4242538253978,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3192,
+            "gate_only_clearance_px": 64.47638888888736,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3204,
+            "gate_only_clearance_px": 76.64722222222068,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3216,
+            "gate_only_clearance_px": 53.96805555555403,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3228,
+            "gate_only_clearance_px": 39.488888888887345,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3240,
+            "gate_only_clearance_px": 33.20972222222068,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3252,
+            "gate_only_clearance_px": 35.13055555555397,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3264,
+            "gate_only_clearance_px": 45.36213484098188,
+            "phases": [
+              "open"
+            ]
+          }
+        ],
+        "minimum_sampled_gate_clearance_px": 33.20972222222068
+      },
+      "occupancy_state_and_input_rows_identical": true
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/candidate-702",
+      "source_hashes": {
+        "map.json": "7aa1cf9638820fec79f7e963551d101be2c1b93f6bf140785163e457c1da3176",
+        "result.json": "d53bba80b742fb816721654c9f54b755a9fa646b4a5f7736c63d2cd73826a4e6",
+        "trace.json.gz": "941e0a68c800ae3b9ec62b58f439153b5f1f389af7bff7915c2c051665584fae",
+        "inputs.json": "619c77699baa142306c0ae47ae02b49d1b7404a518ad18cabb2d239064ec762d"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3324,
+          "gate_only_clearance_px": 51.10638599468523,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3336,
+          "gate_only_clearance_px": 37.06527777777663,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3348,
+          "gate_only_clearance_px": 31.469444444443297,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3360,
+          "gate_only_clearance_px": 34.073611111109926,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3372,
+          "gate_only_clearance_px": 41.49993925801215,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3384,
+          "gate_only_clearance_px": 52.745485235023494,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3396,
+          "gate_only_clearance_px": 53.057697878701475,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3408,
+          "gate_only_clearance_px": 23.48985511245892,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 23.48985511245892,
+      "id": "candidate-702",
+      "body_id": "m05-A-in",
+      "paired_before": {
+        "source_directory": "integration/runs/stage-pressure/B1/runs/candidate-702",
+        "source_hashes": {
+          "map.json": "5f98bdb82310b21ea59e74f1dd8f69d03780565de45f2c06d134c743ff9fbccf",
+          "result.json": "a80b0d5eae673ac21085447c95db6953807e938986a62909bd9b955349c0c13f",
+          "trace.json.gz": "16c0054c7e31613f00b4c045e666c71dfbf2410257e9b6e256e283a22feaff32",
+          "inputs.json": "91832dfd03cbd22aff5b46723cf6983f5697a7506fa2a24ae87919ab21226c5d"
+        },
+        "native_occupancy_state_count": 93,
+        "saved_gate_samples": [
+          {
+            "tick": 3324,
+            "gate_only_clearance_px": 51.10638599468523,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3336,
+            "gate_only_clearance_px": 37.06527777777663,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3348,
+            "gate_only_clearance_px": 31.469444444443297,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3360,
+            "gate_only_clearance_px": 34.073611111109926,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3372,
+            "gate_only_clearance_px": 44.8777777777766,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3384,
+            "gate_only_clearance_px": 63.881944444443235,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3396,
+            "gate_only_clearance_px": 71.95277777777656,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3408,
+            "gate_only_clearance_px": 50.06079862318223,
+            "phases": [
+              "open"
+            ]
+          }
+        ],
+        "minimum_sampled_gate_clearance_px": 31.469444444443297
+      },
+      "occupancy_state_and_input_rows_identical": true
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/candidate-703",
+      "source_hashes": {
+        "map.json": "78a6a58a2945dc092b02272b85faf9f46cd7de6b011d39d953083a429647c7f9",
+        "result.json": "54136c965303ef6239a6be2779a313701c44e9d4d30e8068885105d6e08719e0",
+        "trace.json.gz": "e1f25ef7779657df1097729b2ddc886ce61dcc824645e5e060fd3f19d13c2981",
+        "inputs.json": "558ad64f744db5f8aa265b5650f3d9f0ce23753cda771cccfd06c2bbfeedbe1e"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 2712,
+          "gate_only_clearance_px": 49.7976117425792,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 2724,
+          "gate_only_clearance_px": 73.53409722222165,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 2736,
+          "gate_only_clearance_px": 52.90493055555504,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 2748,
+          "gate_only_clearance_px": 35.692430555555035,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 2760,
+          "gate_only_clearance_px": 22.07900540837244,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 2772,
+          "gate_only_clearance_px": 14.02512609802747,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 2784,
+          "gate_only_clearance_px": 14.171246787682747,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 2796,
+          "gate_only_clearance_px": 23.166646779948863,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 14.02512609802747,
+      "id": "candidate-703",
+      "body_id": "m04-A-in",
+      "paired_before": {
+        "source_directory": "integration/runs/stage-pressure/B1/runs/candidate-703",
+        "source_hashes": {
+          "map.json": "df5443693dc6e578772517ba8bc26b0850ffab8f469ae17a7b52b8cf1008f1cd",
+          "result.json": "d8133c5a49e6661240682995c39cac453946d4958be1681a340f0b8b9f9b1358",
+          "trace.json.gz": "7d6b8c9c33e8608b61e9e989aae35cbb284a9aa110d4a4a50290c62bf4161727",
+          "inputs.json": "79db22d87c032f844edf3dfe13089a645d8c4c44a9aea408a820c956f5c0955a"
+        },
+        "native_occupancy_state_count": 0,
+        "saved_gate_samples": [],
+        "minimum_sampled_gate_clearance_px": null
+      },
+      "occupancy_state_and_input_rows_identical": false
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/candidate-704",
+      "source_hashes": {
+        "map.json": "84de540ee1770dff8b47df1f3be9bf1229fd482d245e678e2bcc45bbfef16bca",
+        "result.json": "7d3e6c30ef4e460781f336f9faa1990c1c4a759f12614ae85916ff07b1f4ff86",
+        "trace.json.gz": "ae515c44ecd1c2bb310020a218aabd21374fb4010c91ba970ab4bf0561776115",
+        "inputs.json": "90540dc76a62b9d5a1cf8ee58d0331f7c46d2c777caa41eed4a428d28edda94e"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3444,
+          "gate_only_clearance_px": 55.14166666666438,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3456,
+          "gate_only_clearance_px": 79.61249999999765,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3468,
+          "gate_only_clearance_px": 59.04027777777543,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3480,
+          "gate_only_clearance_px": 41.036146154562545,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3492,
+          "gate_only_clearance_px": 24.265025464907524,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3504,
+          "gate_only_clearance_px": 15.69390477525215,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3516,
+          "gate_only_clearance_px": 15.322784085596851,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 15.322784085596851,
+      "id": "candidate-704",
+      "body_id": "m05-A-in",
+      "paired_before": {
+        "source_directory": "integration/runs/stage-pressure/B1/runs/candidate-704",
+        "source_hashes": {
+          "map.json": "c42ab5e0c9bd67377e79684ccf1572fb73709a87b2c6ffa9e3e1790195e9e6fb",
+          "result.json": "da48c3a6f46bfd1edd06b9ed9d93a86f3ecbafe546c937babee384cb0edf4d26",
+          "trace.json.gz": "a46b2d6eaaadc419a02588a2b95c84c0155a5e024cd57bf9a72d1cf996822880",
+          "inputs.json": "e8768b6ee5d74fabcf4d369296d9bcf87871340574f98c6be9cce7fd90094cd3"
+        },
+        "native_occupancy_state_count": 93,
+        "saved_gate_samples": [
+          {
+            "tick": 3444,
+            "gate_only_clearance_px": 55.14166666666438,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3456,
+            "gate_only_clearance_px": 79.61249999999765,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3468,
+            "gate_only_clearance_px": 59.04027777777543,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3480,
+            "gate_only_clearance_px": 41.827777777775424,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3492,
+            "gate_only_clearance_px": 32.81527777777541,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3504,
+            "gate_only_clearance_px": 32.00277777777538,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3516,
+            "gate_only_clearance_px": 39.39027777777537,
+            "phases": [
+              "open"
+            ]
+          }
+        ],
+        "minimum_sampled_gate_clearance_px": 32.00277777777538
+      },
+      "occupancy_state_and_input_rows_identical": true
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/candidate-707",
+      "source_hashes": {
+        "map.json": "37c7b24e9fcae52a98930734e7febe2b2d25e3b18f4cf6bc13f2c40c5bbf71f1",
+        "result.json": "517aceab7b320d71969151ffcf10d5e1d69f812fa4a39a187b26bbe2d5b5a887",
+        "trace.json.gz": "9af209ae63f76f3de2f558ebcb3033e7ad97c0185144bf15a6dc4cdde37279a3",
+        "inputs.json": "8ff0621c725edd63c420b99de15093afec9a8a004f030561b46229288e178210"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3204,
+          "gate_only_clearance_px": 51.365598648841036,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3216,
+          "gate_only_clearance_px": 71.94027777777967,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3228,
+          "gate_only_clearance_px": 51.33055555555367,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3240,
+          "gate_only_clearance_px": 34.801388888887004,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3252,
+          "gate_only_clearance_px": 24.29980842911695,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3264,
+          "gate_only_clearance_px": 16.929262452105263,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3276,
+          "gate_only_clearance_px": 17.75871647509365,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3288,
+          "gate_only_clearance_px": 26.81873828088048,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 16.929262452105263,
+      "id": "candidate-707",
+      "body_id": "m04-A-in",
+      "paired_before": {
+        "source_directory": "integration/runs/stage-pressure/B1/runs/candidate-707",
+        "source_hashes": {
+          "map.json": "dda0e61ee857e3678724dca32e8e70b85ce7f930cf93b0eb26c0a8f723f74a00",
+          "result.json": "721fbe27558b977394d2cd888960686c2f8d851b6923aa7f0a6790f6bd3ab44c",
+          "trace.json.gz": "1f16592fda8ae289d8ee1090dbec137e1fe4f0d5d7aab2fb35f774a27a437cff",
+          "inputs.json": "5b4c74067a46863b0fc532436706b300e9f7229c4c0e6b83766525e089cdc4d2"
+        },
+        "native_occupancy_state_count": 93,
+        "saved_gate_samples": [
+          {
+            "tick": 3204,
+            "gate_only_clearance_px": 51.365598648841036,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3216,
+            "gate_only_clearance_px": 71.94027777777967,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3228,
+            "gate_only_clearance_px": 51.33055555555367,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3240,
+            "gate_only_clearance_px": 34.801388888887004,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3252,
+            "gate_only_clearance_px": 26.472222222220324,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3264,
+            "gate_only_clearance_px": 26.343055555553633,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3276,
+            "gate_only_clearance_px": 34.41388888888696,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3288,
+            "gate_only_clearance_px": 50.70325783010361,
+            "phases": [
+              "open"
+            ]
+          }
+        ],
+        "minimum_sampled_gate_clearance_px": 26.343055555553633
+      },
+      "occupancy_state_and_input_rows_identical": true
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/candidate-708",
+      "source_hashes": {
+        "map.json": "245eee803146d8ecab25510f02d848adb04403cebb394c25699b685693e4fc57",
+        "result.json": "230edfb0af461d6fb7ba6fa352b29c669d444d17311dc750ec4e524716f983da",
+        "trace.json.gz": "19b28fd57e6b254bad65a6181a4efe12dd09f97efc7d3609c5fdec3302df3241",
+        "inputs.json": "20265f7c5ea2ff36fe9c04f758a43a0923e233a92c4223dd005441e3b50b0017"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3204,
+          "gate_only_clearance_px": 52.374226287289645,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3216,
+          "gate_only_clearance_px": 74.79305555555342,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3228,
+          "gate_only_clearance_px": 62.363888888886805,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3240,
+          "gate_only_clearance_px": 43.784722222220125,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3252,
+          "gate_only_clearance_px": 27.45727969348465,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3264,
+          "gate_only_clearance_px": 17.51949233716269,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3276,
+          "gate_only_clearance_px": 15.781704980840658,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3288,
+          "gate_only_clearance_px": 23.345467814633608,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 15.781704980840658,
+      "id": "candidate-708",
+      "body_id": "m04-A-in",
+      "paired_before": {
+        "source_directory": "integration/runs/stage-pressure/B1/runs/candidate-708",
+        "source_hashes": {
+          "map.json": "f0b3e1392e0747ca4fa88022587d5708b84b28aa6bad5e804d0acf61e4f2456e",
+          "result.json": "1e133bbe47aa34a677573802adef9e0ceae8f33b6e60263b26b88c51ba887270",
+          "trace.json.gz": "b68f743604138fa7fa9f35f3ddea534a7485a6222a89f10204e865b290d35b6b",
+          "inputs.json": "88de009d004e3b2ee3c9e1c5a29eabe222dbd56767fd0cadae78f4959021e950"
+        },
+        "native_occupancy_state_count": 93,
+        "saved_gate_samples": [
+          {
+            "tick": 3204,
+            "gate_only_clearance_px": 52.374226287289645,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3216,
+            "gate_only_clearance_px": 74.79305555555342,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3228,
+            "gate_only_clearance_px": 62.363888888886805,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3240,
+            "gate_only_clearance_px": 43.784722222220125,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3252,
+            "gate_only_clearance_px": 33.405555555553434,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3264,
+            "gate_only_clearance_px": 31.22638888888676,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3276,
+            "gate_only_clearance_px": 37.247222222220074,
+            "phases": [
+              "open"
+            ]
+          },
+          {
+            "tick": 3288,
+            "gate_only_clearance_px": 52.05297618793639,
+            "phases": [
+              "open"
+            ]
+          }
+        ],
+        "minimum_sampled_gate_clearance_px": 31.22638888888676
+      },
+      "occupancy_state_and_input_rows_identical": true
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/holdout-6201",
+      "source_hashes": {
+        "map.json": "275abacfdfd2ee7a78a7595b156e3decf847484467fb5a330e6bf45f0a5f1d60",
+        "result.json": "56bb33ad02361a4eb2bf7e8beae3050b7b91602f6a2dcd391b9be1196832d56b",
+        "trace.json.gz": "f53693f7e779941f48cc7fa035f13dde9613e2cf913bc61fb3084fe99e28f7fe",
+        "inputs.json": "a6d353a3e5e9c12e1c7ab83dad6147164b135600e74313d672003bd0cd942650"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3144,
+          "gate_only_clearance_px": 81.36666666666537,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3156,
+          "gate_only_clearance_px": 60.73749999999876,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3168,
+          "gate_only_clearance_px": 43.524999999998755,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3180,
+          "gate_only_clearance_px": 33.71077586206775,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3192,
+          "gate_only_clearance_px": 24.881034482757542,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3204,
+          "gate_only_clearance_px": 24.25129310344707,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3216,
+          "gate_only_clearance_px": 31.821551724136583,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 24.25129310344707,
+      "id": "holdout-6201",
+      "body_id": "m04-A-in"
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/holdout-6202",
+      "source_hashes": {
+        "map.json": "34819e9aea19c27d74d3fb6bc24c9c12b2b096453d0f5619bc599201f480cae4",
+        "result.json": "cf163d63d15df2c6f44f315c075e8763d828f83bf2f25c88b0a23559c9431ad6",
+        "trace.json.gz": "ea07801d3943a1e69e0a317199e0824bddced14fd3fd5b86c1bca5a806aae64c",
+        "inputs.json": "c31959182e8a63b57e649402dfa8f3ded7cc054694affd7704f342be1bec7ea9"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3036,
+          "gate_only_clearance_px": 31.371387262546904,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3048,
+          "gate_only_clearance_px": 35.658333333331484,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3060,
+          "gate_only_clearance_px": 48.51249999999814,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3072,
+          "gate_only_clearance_px": 69.56666666666476,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3084,
+          "gate_only_clearance_px": 61.97543103448089,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3096,
+          "gate_only_clearance_px": 34.27097701149228,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3108,
+          "gate_only_clearance_px": 14.766522988503851,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3120,
+          "gate_only_clearance_px": 3.909611814579465,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 3.909611814579465,
+      "id": "holdout-6202",
+      "body_id": "m04-A-in"
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/holdout-6203",
+      "source_hashes": {
+        "map.json": "f22581f273a76d4a07178ba07e3328edf421a861cb1ee5cb0492bda7cd7bb6d3",
+        "result.json": "ec4f4be39238fdea4167af7399c471c6d2c25cef319ffc0dacffcfc6b3bdb14e",
+        "trace.json.gz": "4d7c0ad5656825fae4fb5907e1e000d1e750e4a81fb1ef611fac108943e064aa",
+        "inputs.json": "4ce72e8d7eaf75731167b06745aaaf4ea7734caf16cbf8fa96c2be5717ef5380"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3156,
+          "gate_only_clearance_px": 68.97430197411835,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3168,
+          "gate_only_clearance_px": 46.25555555555462,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3180,
+          "gate_only_clearance_px": 31.776388888887936,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3192,
+          "gate_only_clearance_px": 25.497222222221268,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3204,
+          "gate_only_clearance_px": 22.831848659003043,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3216,
+          "gate_only_clearance_px": 25.711302681991384,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3228,
+          "gate_only_clearance_px": 36.790756704980026,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3240,
+          "gate_only_clearance_px": 42.12705821111967,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 22.831848659003043,
+      "id": "holdout-6203",
+      "body_id": "m04-A-in"
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/holdout-6204",
+      "source_hashes": {
+        "map.json": "62e6278508b2b44b45a00c3f835e41de6b4e9cf616bd0717763b9f2d092d6842",
+        "result.json": "f15dd2c9d05eda2abf5e322f15b007be6fb5024d52025917e0353c859d694eba",
+        "trace.json.gz": "e0a97bb69e75cea6c5dbf2ce852cb88aceb372bbb76c4aac5b483b3c650bd00e",
+        "inputs.json": "55f201d430da91036d9cc545d16de3c81d15681810d34f642bcf021433c4dcec"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3096,
+          "gate_only_clearance_px": 31.27777777777692,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3108,
+          "gate_only_clearance_px": 33.88194444444355,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3120,
+          "gate_only_clearance_px": 44.68611111111022,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3132,
+          "gate_only_clearance_px": 62.914415708811504,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3144,
+          "gate_only_clearance_px": 63.22662835248954,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3156,
+          "gate_only_clearance_px": 33.472174329500945,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3168,
+          "gate_only_clearance_px": 11.917720306512564,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 11.917720306512564,
+      "id": "holdout-6204",
+      "body_id": "m04-A-in"
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/holdout-6205",
+      "source_hashes": {
+        "map.json": "58a502eb032adae2b877ee2e64ea2a1132924234ba69e186d678f5580c07ff6a",
+        "result.json": "e9a6d031fa7c8b6062b268964e9df75c3100472ec0c2aaeec2e062761cb513c0",
+        "trace.json.gz": "4350607017e0fa2a47c17248fc2917c2347f3bd9cf216fb5672795e24c66a294",
+        "inputs.json": "b21480af7d03fc7e4aebafc0d1522bf80c64edacb73ab954effe1b749058d7b0"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3108,
+          "gate_only_clearance_px": 61.93903215884386,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3120,
+          "gate_only_clearance_px": 44.72499999999863,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3132,
+          "gate_only_clearance_px": 35.71249999999861,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3144,
+          "gate_only_clearance_px": 34.899999999998585,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3156,
+          "gate_only_clearance_px": 36.12465306980519,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3168,
+          "gate_only_clearance_px": 43.69491169049499,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3180,
+          "gate_only_clearance_px": 59.465170311184465,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3192,
+          "gate_only_clearance_px": 31.700606411090945,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 31.700606411090945,
+      "id": "holdout-6205",
+      "body_id": "m04-A-in"
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/holdout-6206",
+      "source_hashes": {
+        "map.json": "4e36de13fd7c9e5f7048bcd7a74c72c1b3cc5bab59dd276c77b81f44737be6a2",
+        "result.json": "8a058f5d35664fa4df6fd2c0d4e55e0f7dd6829317859d2d08367e46ad8b4320",
+        "trace.json.gz": "e498c52cd685f3449b415f3cba88f01ac6a386cb3050996594567820131ac940",
+        "inputs.json": "bac661653c2b87942b3aef76c8374ac61791a26733192d08060c45e0cd3e2647"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 2652,
+          "gate_only_clearance_px": 43.68214077358664,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 2664,
+          "gate_only_clearance_px": 33.02361111110989,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 2676,
+          "gate_only_clearance_px": 30.844444444443212,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 2688,
+          "gate_only_clearance_px": 36.86527777777653,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 2700,
+          "gate_only_clearance_px": 47.708272591345406,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 2712,
+          "gate_only_clearance_px": 62.37048523502338,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 2724,
+          "gate_only_clearance_px": 42.1826978787017,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 2736,
+          "gate_only_clearance_px": 16.084933276706092,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 16.084933276706092,
+      "id": "holdout-6206",
+      "body_id": "m04-A-in"
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/holdout-6207",
+      "source_hashes": {
+        "map.json": "667c17d2273d3f79cc7c0b6d9ee90a5464f1ead01edadcfee97f112bf0c862bb",
+        "result.json": "12093cfd54fd737bdd8143e271c37e50155c86c3b71dd7c5b01ab480a3117f59",
+        "trace.json.gz": "db30888ebe024595360ef36e81816e6e501bdb1066aa62867efbc06c93eea501",
+        "inputs.json": "6d56d8a76568dc6ed110bdb3c9997d810d0785796cfe6a62521e19713c953f81"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3096,
+          "gate_only_clearance_px": 38.124701558316445,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3108,
+          "gate_only_clearance_px": 56.38055555555411,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3120,
+          "gate_only_clearance_px": 68.55138888888743,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3132,
+          "gate_only_clearance_px": 45.872222222220785,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3144,
+          "gate_only_clearance_px": 26.806848659002583,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3156,
+          "gate_only_clearance_px": 13.286302681990918,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3168,
+          "gate_only_clearance_px": 7.965756704979555,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3180,
+          "gate_only_clearance_px": 11.835127897344456,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 7.965756704979555,
+      "id": "holdout-6207",
+      "body_id": "m04-A-in"
+    },
+    {
+      "source_directory": "integration/runs/stage-pressure/B2/runs/holdout-6208",
+      "source_hashes": {
+        "map.json": "cf0762b51645a4495a1277b4089a571913fd0582f935756e8fc605612d37522f",
+        "result.json": "b200162a6a365a4d1b85ac3132c3da960fa329cb7b793bbff8d9fa30faaf49cc",
+        "trace.json.gz": "6df252a8ca6cf6abb090136e04dc621809dacfb85e57d54edbf760b31e285827",
+        "inputs.json": "1cb9585d4b334a9165fe818455d6405b31ecbab04c997f6f43a3515e6ced3e49"
+      },
+      "native_occupancy_state_count": 93,
+      "saved_gate_samples": [
+        {
+          "tick": 3060,
+          "gate_only_clearance_px": 77.56375875869611,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3072,
+          "gate_only_clearance_px": 54.19999999999865,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3084,
+          "gate_only_clearance_px": 39.03749999999863,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3096,
+          "gate_only_clearance_px": 32.074999999998624,
+          "phases": [
+            "open"
+          ]
+        },
+        {
+          "tick": 3108,
+          "gate_only_clearance_px": 27.34845458368258,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3120,
+          "gate_only_clearance_px": 29.027333894027237,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3132,
+          "gate_only_clearance_px": 38.90621320437219,
+          "phases": [
+            "closing"
+          ]
+        },
+        {
+          "tick": 3144,
+          "gate_only_clearance_px": 48.04864209486057,
+          "phases": [
+            "closing"
+          ]
+        }
+      ],
+      "minimum_sampled_gate_clearance_px": 27.34845458368258,
+      "id": "holdout-6208",
+      "body_id": "m04-A-in"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "id": "candidate-spatial-tidal-terraces",
+  "version": 3,
+  "kind": "candidate",
+  "status": "review_pending",
+  "title": "潮汐梯岸 · 可通行带修正",
+  "sources": [
+    {
+      "path": "sources/0764d4245af0a4a4/families.json",
+      "sha256": "0764d4245af0a4a4d76e82993575e9cedb9932cffaffadc511719029c1cf8536",
+      "original_path": "combo-design-lab/loops/R02/spatial/families.json",
+      "original_id": "tidal-admissible-band-v2",
+      "original_status": "candidate_unqualified; author v2, library v3"
+    },
+    {
+      "path": "sources/e28304ff68abd584/README.md",
+      "sha256": "e28304ff68abd5845f0a0603b1440e22c4ee04152affc09db36b90243dcfca7a",
+      "original_path": "combo-design-lab/loops/R02/spatial/README.md",
+      "original_id": "tidal-admissible-band-v2",
+      "original_status": "candidate_unqualified; author v2, library v3"
+    },
+    {
+      "path": "sources/bbfcd279e767b3d8/geometry-checks.json",
+      "sha256": "bbfcd279e767b3d845e508fcc3f4d2f460491b01eea642a397173b48aac516f3",
+      "original_path": "combo-design-lab/loops/R02/spatial/geometry-checks.json",
+      "original_id": "tidal-admissible-band-v2",
+      "original_status": "candidate_unqualified; author v2, library v3"
+    },
+    {
+      "path": "sources/15833786368b85cd/tidal-admissible-band-v2-overview.png",
+      "sha256": "15833786368b85cd65593cbbc94aef3dbcb2a63bd5a46aa34dde0f2cc996dbdd",
+      "original_path": "combo-design-lab/loops/R02/spatial/tidal-admissible-band-v2-overview.png",
+      "original_id": "tidal-admissible-band-v2",
+      "original_status": "candidate_unqualified; author v2, library v3"
+    },
+    {
+      "path": "sources/9d213d4c4e4a98bd/PARENT-REVIEW.zh-CN.md",
+      "sha256": "9d213d4c4e4a98bd13197d17b93ed4ec2758be182ae6ec7e0ffd5233efcb92d5",
+      "original_path": "combo-design-lab/loops/R02/PARENT-REVIEW.zh-CN.md",
+      "original_id": "tidal-admissible-band-v2",
+      "original_status": "candidate_unqualified; author v2, library v3"
+    }
+  ],
+  "origin": "authored",
+  "round_id": "design30-r02",
+  "progress": {
+    "design": "revised",
+    "motion": "schematic_only",
+    "physical": "unvalidated",
+    "review": "reviewed"
+  },
+  "design": {
+    "intent": "Disjoint high and low admissible center bands force a real vertical change; drawn larger wave amplitude remains an intention, not a necessity claim.",
+    "theme": "潮汐梯岸 · 可通行带修正",
+    "layout": "[{\"id\": \"roof-1\", \"mechanic_kind\": \"fixed_armor_or_spike\", \"x\": 220, \"y\": 0, \"collider\": {\"shape\": \"rectangle\", \"w\": 180, \"h\": 90}}, {\"id\": \"roof-2\", \"mechanic_kind\": \"fixed_armor_or_spike\", \"x\": 480, \"y\": 0, \"collider\": {\"shape\": \"rectangle\", \"w\": 220, \"h\": 90}}, {\"id\": \"roof-3\", \"mechanic_kind\": \"fixed_armor_or_spike\", \"x\": 850, \"y\": 0, \"collider\": {\"shape\": \"rectangle\", \"w\": 260, \"h\": 310}}, {\"id\": \"roof-4\", \"mechanic_kind\": \"fixed_armor_or_spike\", \"x\": 1170, \"y\": 0, \"collider\": {\"shape\": \"rectangle\", \"w\": 190, \"h\": 140}}, {\"id\": \"bank-1\", \"mechanic_kind\": \"fixed_armor_or_spike\", \"x\": 280, \"y\": 250, \"collider\": {\"shape\": \"rectangle\", \"w\": 300, \"h\": 290}}, {\"id\": \"bank-2\", \"mechanic_kind\": \"fixed_armor_or_spike\", \"x\": 640, \"y\": 330, \"collider\": {\"shape\": \"rectangle\", \"w\": 120, \"h\": 210}}, {\"id\": \"bank-3\", \"mechanic_kind\": \"fixed_armor_or_spike\", \"x\": 920, \"y\": 480, \"collider\": {\"shape\": \"rectangle\", \"w\": 290, \"h\": 60}}, {\"id\": \"bank-4\", \"mechanic_kind\": \"fixed_armor_or_spike\", \"x\": 1280, \"y\": 300, \"collider\": {\"shape\": \"rectangle\", \"w\": 130, \"h\": 240}}]",
+    "motion": "One fixed type. Unequal runs overlap; no top/bottom gate pairs.",
+    "action_grammar": "PREPARE → CLIMB / HOLD HIGH → DESCEND / HOLD LOW → LIFT TO EXIT → SHORT RECEPTION",
+    "readability_cues": "One fixed type. Unequal runs overlap; no top/bottom gate pairs. Exact overview distinguishes static bands from authored route; normal-camera discovery remains unverified.",
+    "control_contract": "{\"height_px\": 540, \"forward_speed_px_s\": 150, \"player_radius_px\": 10, \"gravity_px_s2\": 820, \"flap_vy_px_s\": -290, \"local_x_origin\": \"segment entry\", \"local_time_origin\": \"segment entry\", \"runtime_map_ready\": false}"
+  },
+  "duration": {
+    "authored": {
+      "min_s": 6.4,
+      "recommended_s": 10.2,
+      "max_s": 19.6,
+      "conditions": [
+        "One crest: prepare → rise → sustain → release → recover",
+        "Crest phrase → short neutral bay → asymmetric trough answer → shared recovery",
+        "Authoring envelope only; no duration qualification"
+      ],
+      "operators": [
+        "Move the crest earlier while preserving preparation distance",
+        "Lengthen one shelf rather than all x coordinates",
+        "Nest a crest subunit in a longer wave; share its exit recovery with the next entry only after seam qualification"
+      ]
+    },
+    "physically_qualified": null
+  },
+  "parameter_relationships": [
+    "Move the crest earlier while preserving preparation distance",
+    "Lengthen one shelf rather than all x coordinates",
+    "Nest a crest subunit in a longer wave; share its exit recovery with the next entry only after seam qualification",
+    "Disjoint high and low admissible center bands force a real vertical change; drawn larger wave amplitude remains an intention, not a necessity claim."
+  ],
+  "difficulty_axes": [
+    "Sustain length, altitude transition, clearance and phase relationships"
+  ],
+  "entry": {
+    "position": "Authored entry y240–300; exact witness if present uses local x0/world x60,y270 only",
+    "vx": "Nominal 150px/s; broader entry contract unvalidated",
+    "vy": "Authored |vy|≤80 unvalidated; exact witness if present uses vy0 only",
+    "phase": "Carry absolute runtime clock; arrival phase needs validation",
+    "forces": "Carry actual active forces; no implicit reset",
+    "live_projectiles": "Must inventory residual projectiles at seam; not verified",
+    "cooldowns": "Carry real cooldown state; not verified"
+  },
+  "exit": {
+    "position": "Authored local exit x1530, desired mid-height y270; broader band unvalidated",
+    "vx": "Nominal 150 px/s except field-dependent branches; actual range unvalidated",
+    "vy": "Unvalidated; must carry real entry/exit vy, never reset",
+    "phase": "Carry absolute runtime clock; arrival phase needs validation",
+    "forces": "Carry actual active forces; no implicit reset",
+    "live_projectiles": "Must inventory residual projectiles at seam; not verified",
+    "cooldowns": "Carry real cooldown state; not verified"
+  },
+  "adjacency_constraints": [
+    "No implicit velocity/phase/force/cooldown reset",
+    "Require actual interface evidence before nesting or composition"
+  ],
+  "counterexamples": [
+    "Intended route is not a physics trajectory; continuous sweep and entry/exit state unverified",
+    "v1 claimed wave action disproved; actual correction is R02"
+  ],
+  "unverified_assumptions": [
+    "Geometry forces quantified band changes only; dynamics, final lift and short reception remain unvalidated",
+    "Meaningful optional variations are permitted; no unsupported mandatory-action claims"
+  ],
+  "variants": {
+    "parameter": [
+      "{\"name\": \"Earlier low answer\", \"variant_kind\": \"parameter\", \"status\": \"proposed_unqualified\", \"description\": \"Move the low forcing roof left only if the radius-expanded transition remains connected and the same minimum clearance is retained.\"}"
+    ],
+    "semantic": [
+      "{\"name\": \"Reverse call\", \"variant_kind\": \"semantic\", \"status\": \"proposed_unqualified\", \"description\": \"Low band then high band; re-derive gravity-dependent preparation and exit states, not a visual mirror alone.\"}"
+    ],
+    "unclassified": []
+  },
+  "components": [],
+  "evidence_refs": [
+    {
+      "id": "review-r01-tidal-v1",
+      "version": 1
+    },
+    {
+      "id": "evidence-r01-tidal-counterexample",
+      "version": 1
+    },
+    {
+      "id": "evidence-r02-spatial-geometry",
+      "version": 1
+    },
+    {
+      "id": "review-r02-tidal-v2",
+      "version": 1
+    }
+  ],
+  "review": {
+    "state": "design_reviewed_only",
+    "notes": [
+      "v1 claimed wave action disproved; actual correction is R02",
+      "Common center corridor makes drawn rise/fall optional. Reject claimed wave action; correction moves to R02.",
+      "Prior review notes above are historical v1; corrected author v2 is library v3. Parent /root viewed the overview and accepted corrected intent as a design candidate only. Disjoint admissible bands force quantified height changes, not every point of the authored polyline. Historical v1 flat-band counterexample remains valid for v1."
+    ],
+    "decision_refs": [
+      {
+        "id": "review-r01-tidal-v1",
+        "version": 1
+      },
+      {
+        "id": "review-r02-tidal-v2",
+        "version": 1
+      }
+    ]
+  },
+  "source_payload": {
+    "id": "tidal-admissible-band-v2",
+    "name": "Tidal terraces · corrected bands",
+    "zh": "潮汐梯岸 · 可通行带修正",
+    "duration_s": 10.2,
+    "length_px": 1530,
+    "mechanics": [
+      "fixed_armor_or_spike"
+    ],
+    "route_half_band_px": 45,
+    "route": [
+      [
+        0,
+        270
+      ],
+      [
+        160,
+        270
+      ],
+      [
+        280,
+        195
+      ],
+      [
+        430,
+        185
+      ],
+      [
+        600,
+        210
+      ],
+      [
+        700,
+        260
+      ],
+      [
+        790,
+        310
+      ],
+      [
+        900,
+        375
+      ],
+      [
+        990,
+        385
+      ],
+      [
+        1120,
+        390
+      ],
+      [
+        1210,
+        295
+      ],
+      [
+        1290,
+        260
+      ],
+      [
+        1410,
+        270
+      ],
+      [
+        1530,
+        270
+      ]
+    ],
+    "actions": [
+      [
+        0,
+        1.1,
+        "PREPARE",
+        "Read the high bank"
+      ],
+      [
+        1.1,
+        3.9,
+        "CLIMB / HOLD HIGH",
+        "High band excludes y270"
+      ],
+      [
+        3.9,
+        7.4,
+        "DESCEND / HOLD LOW",
+        "Low band excludes y270"
+      ],
+      [
+        7.4,
+        9.4,
+        "LIFT TO EXIT",
+        "Exit bank forces return"
+      ],
+      [
+        9.4,
+        10.2,
+        "SHORT RECEPTION",
+        "0.73s radius-clear tail"
+      ]
+    ],
+    "note": "One fixed type. Unequal runs overlap; no top/bottom gate pairs.",
+    "obstacles": [
+      {
+        "id": "roof-1",
+        "mechanic_kind": "fixed_armor_or_spike",
+        "x": 220,
+        "y": 0,
+        "collider": {
+          "shape": "rectangle",
+          "w": 180,
+          "h": 90
+        }
+      },
+      {
+        "id": "roof-2",
+        "mechanic_kind": "fixed_armor_or_spike",
+        "x": 480,
+        "y": 0,
+        "collider": {
+          "shape": "rectangle",
+          "w": 220,
+          "h": 90
+        }
+      },
+      {
+        "id": "roof-3",
+        "mechanic_kind": "fixed_armor_or_spike",
+        "x": 850,
+        "y": 0,
+        "collider": {
+          "shape": "rectangle",
+          "w": 260,
+          "h": 310
+        }
+      },
+      {
+        "id": "roof-4",
+        "mechanic_kind": "fixed_armor_or_spike",
+        "x": 1170,
+        "y": 0,
+        "collider": {
+          "shape": "rectangle",
+          "w": 190,
+          "h": 140
+        }
+      },
+      {
+        "id": "bank-1",
+        "mechanic_kind": "fixed_armor_or_spike",
+        "x": 280,
+        "y": 250,
+        "collider": {
+          "shape": "rectangle",
+          "w": 300,
+          "h": 290
+        }
+      },
+      {
+        "id": "bank-2",
+        "mechanic_kind": "fixed_armor_or_spike",
+        "x": 640,
+        "y": 330,
+        "collider": {
+          "shape": "rectangle",
+          "w": 120,
+          "h": 210
+        }
+      },
+      {
+        "id": "bank-3",
+        "mechanic_kind": "fixed_armor_or_spike",
+        "x": 920,
+        "y": 480,
+        "collider": {
+          "shape": "rectangle",
+          "w": 290,
+          "h": 60
+        }
+      },
+      {
+        "id": "bank-4",
+        "mechanic_kind": "fixed_armor_or_spike",
+        "x": 1280,
+        "y": 300,
+        "collider": {
+          "shape": "rectangle",
+          "w": 130,
+          "h": 240
+        }
+      }
+    ],
+    "variants": [
+      {
+        "name": "Earlier low answer",
+        "variant_kind": "parameter",
+        "status": "proposed_unqualified",
+        "description": "Move the low forcing roof left only if the radius-expanded transition remains connected and the same minimum clearance is retained."
+      },
+      {
+        "name": "Reverse call",
+        "variant_kind": "semantic",
+        "status": "proposed_unqualified",
+        "description": "Low band then high band; re-derive gravity-dependent preparation and exit states, not a visual mirror alone."
+      }
+    ],
+    "duration_grammar": {
+      "authoring_min_s": 6.4,
+      "recommended_example_s": 10.2,
+      "authoring_max_s": 19.6,
+      "not_a_physical_limit": true,
+      "short_form": "One crest: prepare → rise → sustain → release → recover",
+      "long_form": "Crest phrase → short neutral bay → asymmetric trough answer → shared recovery",
+      "operators": [
+        "Move the crest earlier while preserving preparation distance",
+        "Lengthen one shelf rather than all x coordinates",
+        "Nest a crest subunit in a longer wave; share its exit recovery with the next entry only after seam qualification"
+      ]
+    },
+    "design_hypothesis": "Disjoint high and low admissible center bands force a real vertical change; drawn larger wave amplitude remains an intention, not a necessity claim.",
+    "revision": "v2",
+    "loop": "R02",
+    "status": "candidate_unqualified",
+    "verification": {
+      "method": "Exact minimum distance over every straight route segment to every rectangle or full circle, minus 10px player radius, with world y bounds. Not time-stepped or endpoint-only.",
+      "minimum_clearance_px": 20.0,
+      "limiting_body": "bank-4",
+      "limiting_segment": 11,
+      "continuous_polyline_spatial_clear": true,
+      "physics_feasible": null,
+      "trajectory_or_input_witness": false,
+      "flat_y270_control": {
+        "v1_minimum_clearance_px": 30.0,
+        "v2_minimum_clearance_px": -10,
+        "v1_path_clear": true,
+        "v2_path_clear": false
+      },
+      "admissible_band": {
+        "method": "Exact rounded-corner slice envelope shown; connectedness lower bound uses conservative radius-expanded AABBs over every x event interval.",
+        "conservative_minimum_center_band_width_px": 140,
+        "slices": [
+          {
+            "x": 520,
+            "low": 100.0,
+            "high": 240.0
+          },
+          {
+            "x": 980,
+            "low": 320.0,
+            "high": 470.0
+          },
+          {
+            "x": 1320,
+            "low": 150.0,
+            "high": 290.0
+          }
+        ],
+        "constant_y_global_intersection_empty": true,
+        "forced_high_to_low_change_at_least_px": 80,
+        "forced_low_to_exit_change_at_least_px": 30
+      }
+    }
+  },
+  "pending_references": [
+    "Broader entry/exit and downstream interface evidence",
+    "Normal-camera readability and human play evidence",
+    "Explicit bound generator/variant family proposal and scoped qualification decision"
+  ]
+}

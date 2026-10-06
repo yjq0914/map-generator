@@ -1,0 +1,17 @@
+{
+  "schema": "combo-controller-diagnostic-provenance/1",
+  "files": [
+    {
+      "path": "c005/source/vendor/route-controller-v5.cjs",
+      "copiedFrom": "/workspace/scratch/910473b420a7/adaptive-general-twelve/source/vendor/route-controller-v5.cjs",
+      "sha256": "0bde43645180813df950ff2777fad328da3f9858870d1b01129809b0277a1476"
+    },
+    {
+      "path": "c005/source/vendor/route-controller-v6.cjs",
+      "copiedFrom": "/workspace/scratch/910473b420a7/adaptive-general-twelve/source/vendor/route-controller-v6.cjs",
+      "sha256": "9e5324e81a640583d3f9c13f7edfcfe9aa2de66778a70fd92d437ccbb2505fa3"
+    }
+  ],
+  "changed": false,
+  "qualification": "Diagnostic source reuse only, not L1 ordinary controller or comparable benchmark"
+}

@@ -1,0 +1,12 @@
+{
+  "version": "recovery-cumulative-with-late-composition-v1",
+  "module": "source/a010-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "explicitStyles": [
+    "long-horizontal-occupation",
+    "phase-through-or-bypass",
+    "horizontal-phase-composition",
+    "phase-late-horizontal-composition"
+  ],
+  "composition": "explicit styles only; preserve prior four choices exactly"
+}

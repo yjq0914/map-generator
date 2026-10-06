@@ -1,0 +1,122 @@
+{
+  "schema": "adaptive-general-status/1",
+  "startedAt": "2026-10-05T11:39:37Z",
+  "plannedRounds": 12,
+  "completed": 5,
+  "currentRound": "c006",
+  "state": "paused_by_user",
+  "rounds": [
+    {
+      "round": "c001",
+      "status": "conditional-adopt",
+      "decision": "outer/c001/decision.json",
+      "acceptedPointer": "outer/c001/accepted-pointer.json",
+      "qualifiedArchive": {
+        "schema": "adaptive-qualified-round-save/1",
+        "round": "c001",
+        "status": "succeeded",
+        "libraryFileId": "libfile_1e40149aba508191949c8a7cac6297b9",
+        "currentVersion": 0,
+        "archiveSHA256": "c694bdcacbc53132286009658ff44967f6008e6846d2b3f1ef3493ff72c0a0c4",
+        "archiveBytes": 60916058,
+        "savedAt": "2026-10-05T12:41:59.854304+00:00",
+        "remoteBytesVerified": false
+      }
+    },
+    {
+      "round": "c002",
+      "status": "conditional-adopt",
+      "rawLibraryFileId": "libfile_fdaca415bee88191a06249a968ae3dcd",
+      "physicalStarts": 192,
+      "ticks": 1941824,
+      "runnerWallSeconds": 834.909090433
+    },
+    {
+      "round": "c003",
+      "status": "conditional-adopt",
+      "rawLibraryFileId": "libfile_1db8599eca988191a2977686aeb85a72",
+      "physicalStarts": 192,
+      "ticks": 1977254,
+      "substeps": 3954474,
+      "runnerWallSeconds": 827.725242599
+    },
+    {
+      "round": "c004",
+      "status": "reject",
+      "coverage": "partial",
+      "formalCommitted": 8,
+      "formalUnstarted": 184,
+      "rawLibraryFileId": "libfile_a33fe1d6a2c88191bc351ac1269cb677",
+      "physicalStarts": 8,
+      "ticks": 75950,
+      "substeps": 151900,
+      "runnerWallSeconds": 28.195584705
+    },
+    {
+      "round": "c005",
+      "status": "conditional-adopt",
+      "rawLibraryFileId": "libfile_39a8e78d70fc8191946cb19f5844c05b",
+      "physicalStarts": 192,
+      "ticks": 1899726,
+      "substeps": 3799420,
+      "runnerWallSeconds": 742.353200841
+    }
+  ],
+  "actual": {
+    "requests": 951,
+    "reserves": 951,
+    "commits": 951,
+    "physicalStarts": 951,
+    "ticks": 9510471,
+    "substeps": 19020767,
+    "activeWallSeconds": 4057.3552310769983,
+    "pending": [],
+    "unreservedRequests": [],
+    "errors": [],
+    "head": "105d6ca8fdfcec2b3992ad779ca24a83c526d97dc10d783ada76ae9e6110e62c"
+  },
+  "budget": {
+    "runs": 3200,
+    "ticks": 38000000,
+    "runnerWallSeconds": 57600,
+    "evidenceBytes": 1073741824,
+    "uniqueRawEvidenceBytes": 1073741824,
+    "entireBatchBytes": 2147483648
+  },
+  "baseline": "lean-cumulative-through-fixed-three-program-v1",
+  "defaultMechanics": 3,
+  "qualifiedOptionalUnion": 10,
+  "inheritedCallableStyles": 17,
+  "unknown": [
+    "human fun",
+    "natural route discovery",
+    "true player UI/touch",
+    "remote checkpoint byte readback"
+  ],
+  "updatedAt": "2026-10-05T15:49:44.310698+00:00",
+  "durableSource": {
+    "libraryFileId": "libfile_674e2225af5c8191b0e6d5730cc844e5",
+    "version": 16
+  },
+  "formalCompleted": 171,
+  "openReservations": 0,
+  "currentAcceptedVersion": "adaptive-general-laser-current-successor-v1",
+  "accepted": "adaptive-general-laser-current-successor-v1",
+  "phase": "await-explicit-resume-authorization",
+  "latestAcceptedVersion": "adaptive-general-laser-current-successor-v1",
+  "lastSlot": "c006-parent-holdout-05-H1",
+  "formalPlanned": 192,
+  "formalUnstarted": 21,
+  "localProbeCompleted": 4,
+  "pause": {
+    "reason": "User requested pause to discuss suggestions",
+    "userMessageAt": "2026-10-05T15:44:22Z",
+    "confirmedPausedAt": "2026-10-05T15:49:44.310698+00:00",
+    "formalSettled": 171,
+    "formalUnstarted": 21,
+    "localSettled": 4,
+    "activeSlots": [],
+    "acceptedUnchanged": "c005",
+    "resumeRequiresExplicitAuthorization": true
+  }
+}

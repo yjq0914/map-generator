@@ -1,0 +1,143 @@
+{
+  "version": "c001-structural-intent-selection-v1",
+  "module": "source/c001-intent-generator.cjs",
+  "requestSchema": "flappy-action-theme-request/1",
+  "acceptedSnapshot": "protocols/BASELINE-ACCEPTED.json",
+  "qualifiedNormalForms": [
+    {
+      "key": "B",
+      "recipes": [],
+      "module": "source/b005-stage-recovery.cjs",
+      "legacyStyle": "relation-conditioned-stage-recovery"
+    },
+    {
+      "key": "H",
+      "recipes": [
+        "H"
+      ],
+      "module": "source/b007-relocated-hammer.cjs",
+      "legacyStyle": "structurally-bound-swing-opposite-receiver"
+    },
+    {
+      "key": "T",
+      "recipes": [
+        "T"
+      ],
+      "module": "source/b008-timed-aperture.cjs",
+      "legacyStyle": "timed-aperture-opposite-receiver"
+    },
+    {
+      "key": "J",
+      "recipes": [
+        "J"
+      ],
+      "module": "source/b010-warning-burst.cjs",
+      "legacyStyle": "warning-burst-hold-then-turn"
+    },
+    {
+      "key": "HT",
+      "recipes": [
+        "H",
+        "T"
+      ],
+      "module": "source/b009-shared-program.cjs",
+      "legacyStyle": "shared-base-timed-aperture-and-hammer"
+    },
+    {
+      "key": "HJT",
+      "recipes": [
+        "H",
+        "J",
+        "T"
+      ],
+      "module": "source/b012-three-program.cjs",
+      "legacyStyle": "shared-base-burst-timed-aperture-and-hammer"
+    }
+  ],
+  "dependencies": {
+    "design/following-gate-post-length.cjs": "d71001cc4f6ef83f2672026b8fada39f76ee01c7849705156362ffe8c59f2ab5",
+    "design/following-observations-v2.cjs": "954d7defac987d0760584df7273c703d9a90ff10af43c298f75c7e05659617ff",
+    "protocols/BASELINE-ACCEPTED.json": "8a8e5f8857d62af6ec0e3b954889b0945ceb6aa3a8b588de993f7d34257f4b09",
+    "source/a006-following-generator.cjs": "bade0b7ffc25a4f9ee7ccc97a2904d6b440010634f9b80773dcdcd267367ad34",
+    "source/a006-style-registry.cjs": "9afd468b71cf02d0cf95013ff8e696ad2d860bd691c2b184bd5dbb2f1dd06cda",
+    "source/a007-phase-generator-v2.cjs": "409ee841f9746711d683f43ee645feb1abb83bb5c338d4a89e18e28c7c649052",
+    "source/a007-style-registry-v2.cjs": "9ba9cbea0b8e1330e6eae2758530b317ef2e333b7115f0e0bc077cd9260ac687",
+    "source/a009-composed-generator.cjs": "dac9feba7e47c4e19dc7fc70d4e2174836a3be3373c3c376bcdcc9499476967c",
+    "source/a009-style-registry.cjs": "464884200eed9168eb93ff75a0d5633bc2187fb042c6b7129ab175d17226b0d0",
+    "source/a010-composed-generator.cjs": "df651c37abdcedfe3482af9ba3ebd6621e7aadfd28de360a9305c329da8a31fd",
+    "source/a010-style-registry.cjs": "809d9e86c785e0cdfbe36e017d9b2a5880ebf6a18317473605fc1f7de9abcf06",
+    "source/a012-composed-generator.cjs": "4d1759732359d769301e5bc3267bc14bb55cb6aa4b952184dc31d0d98cd83428",
+    "source/a012-style-registry.cjs": "1dfdb2b94a5d254dd5e7a0d379d4ebb62585e4bdedbce4d78f5d4c0934274901",
+    "source/b001-relation-grammar.cjs": "33db9f525c2b965b1bf51a7208d5b49eb673d63aac8e09072ee61389ca83d55a",
+    "source/b002-swing-hammer.cjs": "c6b1ec1fac572b06677301ad99d7a8f3a1c828b015ccbc5ae729a1f880a28d5a",
+    "source/b005-stage-recovery.cjs": "e45b2505190e405fa1d47139254acbe94000d6347bd3eebec016bb4b60d1628d",
+    "source/b007-relocated-hammer.cjs": "3cf1e71a00beebb54460a2c06ef408a3c3608791f3538fe39bdcd11eea5b5a93",
+    "source/b008-timed-aperture.cjs": "7c7216e0f63915afd99cfc8c8ba77da34297ff89ead9ab6db9b43d6ca550970a",
+    "source/b009-shared-program.cjs": "bb1ece2ad0b455eefd968098408de898912936c0145f5d19ede50181b5db3db0",
+    "source/b010-warning-burst.cjs": "4d064d0333bff61379efc647ccc95962245a316179f68843a95cd6e195ccb88c",
+    "source/b012-three-program.cjs": "d82ef8e7cdaae5dead77acbac891f7669ef1fdc9bf9fec39846fe182e0b6ca9d",
+    "source/candidate-pressure.cjs": "91cc8dd6efe1d90bbc964cc1aace8c0cb18b86288e7f2eb88a7d35c870a341bd",
+    "source/configs/a006-following-frozen-v1.json": "10c7d568929d3b807aedfb773d9431a454c557d5de65d5808625c5479bfa7783",
+    "source/configs/a006-following-v1.json": "11b91794da34d98576c75cfa7b79c78d09f2b3a1da9743f5085330b1e83e7375",
+    "source/configs/a006-style-registry-v1.json": "97d87cd085b2e585d0ee371fb9e1767b94d066737df247d5f8401d7685a9486c",
+    "source/configs/a007-phase-v2.json": "3fdbad73466da6510f659e2d02a5c8ef1a9209f182c0c57fe4c2fd942e893089",
+    "source/configs/a007-style-registry-v2.json": "a4186632175ba151721591c6fdd5f9437bc22edef9fb9a2a9cdcf4fc0b3327a2",
+    "source/configs/a009-composed-v1.json": "d63a57147dcfec1083896c3c9b4d1ac2ddc755136bf3238559f198ac6c2d01c6",
+    "source/configs/a009-style-registry-v1.json": "881c397b3e50f38f21bee5ef45683b4362dce2bd9c575e6e68ccd275e5060888",
+    "source/configs/a010-composed-v1.json": "1f01325e69ae67ac040708b961c5ffb503f8527e9ef9a2f219bb70ff97971f68",
+    "source/configs/a010-style-registry-v1.json": "e12bb2cf5fb5f03c556f409c59b436d5dbd347527d719886bdf54918cf6164e3",
+    "source/configs/a012-composed-v1.json": "03ed41c01661ad776cdd343e0160d84d2363b8e0ccdc7f8450774b0fde5246ff",
+    "source/configs/a012-style-registry-v1.json": "0a0d1745a6c047e88ab83046b599aa12cc1e864bf8dcbcf97d432ed31ee5170e",
+    "source/configs/b001-relation-grammar-v1.json": "17eb3683c5a4ad5ee20babe62f7ba04f7bbab7bc30e87f085667a3e618f7d3d2",
+    "source/configs/b002-swing-hammer-v1.json": "0902f7e0c0d9bd2bc8fafb767edc5fdb8ee10065e6a055a4f8cc05c61f4c4cc5",
+    "source/configs/b005-stage-recovery-v1.json": "940bf98b1a93ce7c02ef55130faa173a69dd827a6733f85d2844e564be441fde",
+    "source/configs/b007-relocated-hammer-v1.json": "a11252a70d472da4372f9dd6c8f6fa0292f71e99dd88950d70043f5f83698d99",
+    "source/configs/b008-timed-aperture-v1.json": "ec8844cdc27df378f3f18dabd37a212723f5d23ff6ff17aac0b07a6ed4294d93",
+    "source/configs/b009-shared-program-v1.json": "9c9a6bed46d83c1836dd6d9da0d75920f512fffc9caac763a245558df82bf6d1",
+    "source/configs/b010-warning-burst-v1.json": "923bf67655ed9042decf4196028258449ee23cad08563538a10a36cfd3d704d1",
+    "source/configs/b012-three-program-v1.json": "302f2d964d15a6c737f85c98e2488f2327709ccdbc49576c0f7475662c24599d",
+    "source/configs/recovery-cumulative-v1.json": "3a395ff05906af147f1d7dba5da306efe6cf408ef5a9ddeab5179f7d3b6d1082",
+    "source/generator.cjs": "81fdfd0fff52a8a33edc70574b258757877c93074105b517bac4d51002f11bbe",
+    "source/recovery-canonical.cjs": "f496c890e25d6472c6d124dbfa51fe68b16d3e5005b39ab63829ea4bda09a9e9",
+    "source/recovery-generator.cjs": "cfa95700b8c47bd91fce42c1bfc739792c8f8244eee91ced9348b30b128814ed",
+    "source/recovery-length.cjs": "302c54ab66bf8bd75167e2ed624cb22794e30960b32221b21b3dcb1c4cd58c64",
+    "source/recovery-order.cjs": "e64ec15b51ebc7a7ad7c176db12c030cc8dbb4e02c0c31302895e36452763913",
+    "source/recovery-sustain.cjs": "0f4b162f205970ef967ff60e8f379366f5b90c928fcea471e417eb412840f4c2",
+    "source/recovery-utils.cjs": "43d3e777621d07188779938cb5a1354200d89436e2d2ff48bffe9326c2a844c8",
+    "source/relations-r012.cjs": "fffc01abfb9f70702caecb42b1916d5379e6967f0502284968d8d49d097dff2f",
+    "source/rules/r02-wave.json": "86e1bcfb07f26b749e219db2ce64a9d091e1392c0218f4b69042758162eca1c2",
+    "source/rules/r06-wave.json": "d72b4b87f8b38d948a5dfae4a66719a2bfbe74e589bb3177fad04235a9e8947b",
+    "source/rules/r07-spring.json": "4c9b54fcc8d5fc5e94b01e47d5306a9c25d4507a760404ddbaece51819cdb009",
+    "source/rules/r08-mechanical.json": "749b8c82a337099477dbe7b0de5e1d8566feb8536ce550a20392be057c2e1da0",
+    "source/rules/r09-wave.json": "de71a1ff7bdbad383e4cfc17ad19c27a6d3be9f307f8876b05294c693abaf7d3",
+    "source/rules/r10-stage.json": "7efd0a9b8a7fb0c8c217d821f1877522418dfed82f0c554725caefd3494e8665",
+    "source/rules/r11-stage.json": "f75d125b462bf1dbde6e4045a1c4ac0682745c4a462ec03ec35198cbb42c1c76",
+    "source/rules/r12-stage.json": "08f7afda05244c0384824f42db8259ae4db72ca95612acaaca6da28bd80e0dfa",
+    "source/rules/r13-whole.json": "77e4d82842d41b4e335715703aafe2b958be5c1bae8c03cdb136ef9613e9f49e",
+    "source/rules/r14-whole.json": "eaf8c0cdce1bec173acddf39f8bbe611bba1e6be83f693c3d544a0909c7cbed3",
+    "source/rules/rule-index.json": "f660982770abba7f9f6951e8b27aa1f5df07e5592b9696a8df0ac1da801515ec",
+    "source/spring-transform-committed-numeric.cjs": "34420c4d158cde93ef82415b44f082c8d84b034f5feefeb504681d44f66fb8a5",
+    "source/spring-transform-numeric.cjs": "58d775b1fe01008288004174d46a9eab0d489245e134ee4c9a7809b2fb76ff86",
+    "source/vendor/baseline/core.js": "8df51e587c03be777e53a76f502fd950d0c7cd6d41413e66a9ccffb0858d0370",
+    "source/vendor/compiler.cjs": "e3ea95e30887fb170bf2b15260b89ec38dc9b9b7774623e2affb2d8a25cd8fe5",
+    "source/vendor/contract.cjs": "ccccc4d0583a81e25ba03e44f42269eec51c0607cc9e69e3d309f4a51b25b881",
+    "source/vendor/engine/arrival-triggers.js": "f364ce17731e48ecb98a98d4917b1f9cd4ee6eb1fafe4439c68021c99e42de74",
+    "source/vendor/engine/core.js": "374dbce7990c8ca84772ef983d13225336b7d841a899e4c605b3f5163a48a6d4",
+    "source/vendor/engine/timed-course.js": "55b1773b87e110021fe20baf4baa78de5e2b71a4baee2e57b8257ebc0c773f47",
+    "source/vendor/generator-v2.cjs": "b9f8309caedc4a73b42a1802a666e824aefc86e0c34a7cf9d062fd478878ff7e",
+    "source/vendor/generator-v3.cjs": "03c94d7d3957ebbb056620f4eb0d84b54a2e9fd8b7abe1e4620c3bd4c7664fd6",
+    "source/vendor/maps.cjs": "d3cd19f43db50eac741990a1fe7aa1ab5d550cf0cee92b11363972b8023a67df",
+    "source/vendor/policies/baseline/core.js": "8df51e587c03be777e53a76f502fd950d0c7cd6d41413e66a9ccffb0858d0370",
+    "source/versions/g000-reference.json": "5261fe6827efb16011812e0ae2b0c9757a4bb8e7677765537f89079ca79b4289",
+    "source/versions/o002-candidate.json": "fe4dd97613b829f4ddeaf36c22b63b5423cfbb60354f19d2a97db8c6408a69a4",
+    "source/versions/r012.json": "491cf15e03f4394ba47d9aa39104f9d64a6320d8eb195ba55f7acb94f8ed1203"
+  },
+  "qualification": "Experimental request-selection extension; inherited finite physical normal forms only; no new composition or observed-action qualification",
+  "unknown": [
+    "unseen request qualification pending",
+    "human fun",
+    "natural route choice",
+    "actual camera readability",
+    "arbitrary recipe subsets or orders"
+  ]
+}

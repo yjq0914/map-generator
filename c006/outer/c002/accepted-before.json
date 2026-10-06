@@ -1,0 +1,51 @@
+{
+  "schema": "adaptive-general-accepted-pointer/1",
+  "version": "adaptive-general-intent-selection-v1",
+  "round": "c001",
+  "generator": "source/c001-intent-generator.cjs",
+  "config": "source/configs/c001-intent-generator-v1.json",
+  "entrypoint": "compile(physicalCondition,request)",
+  "qualification": "Finite24 physical-condition+intent requests, two assigned routes each; canonical inherited B/H/T/J/HT/HJT outputs; no newphysicalcomposition or humanfun proof",
+  "qualifiedNormalForms": [
+    "B",
+    "H",
+    "T",
+    "J",
+    "HT",
+    "HJT"
+  ],
+  "legacyRegistry": "source/b012-style-registry.cjs",
+  "legacyConfig": "source/configs/b012-style-registry-v1.json",
+  "legacyCallableStyles": 17,
+  "legacyDefaultMechanics": 3,
+  "legacyOptionalMechanicUnion": 10,
+  "intentSelectableMechanicUnion": 6,
+  "decision": "outer/c001/decision.json",
+  "rule": "outer/c001/rule.json",
+  "sourceFreeze": "protocols/freezes/c001-formal-v2.json",
+  "sourceManifestHash": "ebb1a68cbb720cecaf4e694194c9ca220f91a968a62b0fda4f0c0deb1ac9a23c",
+  "parent": "protocols/BASELINE-ACCEPTED.json",
+  "limitations": [
+    "variable disjoint subset composition HJ/JT",
+    "request-controlled macro order/duration",
+    "theme mixture scoring limitations",
+    "human fun unknown",
+    "explicit metadata-only v1pilot amendment",
+    "finite sampled domain only"
+  ],
+  "publication": "experimental private",
+  "pendingDurableSave": false,
+  "qualifiedArchive": {
+    "schema": "adaptive-qualified-round-save/1",
+    "round": "c001",
+    "status": "succeeded",
+    "libraryFileId": "libfile_1e40149aba508191949c8a7cac6297b9",
+    "currentVersion": 0,
+    "archiveSHA256": "c694bdcacbc53132286009658ff44967f6008e6846d2b3f1ef3493ff72c0a0c4",
+    "archiveBytes": 60916058,
+    "savedAt": "2026-10-05T12:41:59.854304+00:00",
+    "remoteBytesVerified": false
+  },
+  "acceptedAt": "2026-10-05T12:41:59.854304+00:00",
+  "immutableRoundSnapshot": "outer/c001/accepted-pointer.json"
+}

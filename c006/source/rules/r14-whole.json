@@ -1,0 +1,168 @@
+{
+  "ruleId": "r14-whole",
+  "version": 1,
+  "parentRules": [
+    "r10-stage",
+    "r11-stage",
+    "r12-stage",
+    "r13-whole"
+  ],
+  "level": "whole",
+  "theme": "wave-mechanical",
+  "pattern": "curriculum",
+  "progression": true,
+  "predicate": {
+    "y": [
+      245,
+      300
+    ],
+    "vy": [
+      -65,
+      65
+    ],
+    "lead": [
+      -20,
+      20
+    ],
+    "phase": [
+      -0.45,
+      0.45
+    ],
+    "adjacency": [
+      "none",
+      "upper-after",
+      "lower-before"
+    ],
+    "mechanismsAllowed": [
+      "fixed",
+      "vertical-slider"
+    ]
+  },
+  "controller": "route-mpc/3+analytic-bridge/2",
+  "compiledFrom": [
+    "r10-stage",
+    "r11-stage",
+    "r12-stage",
+    "r13-whole"
+  ],
+  "conflicts": [
+    "spring multi-contact composition",
+    "unqualified combinations",
+    "arbitrary itinerary"
+  ],
+  "exitContract": {
+    "y": [
+      245,
+      300
+    ],
+    "vy": [
+      -65,
+      65
+    ]
+  },
+  "adoption": "whole experimental branch",
+  "globalDefault": false,
+  "supportedEvidence": [
+    "r14-h-v1-h0-main-route",
+    "r14-h-v1-h0-branch-route",
+    "r14-h-v1-h1-main-route",
+    "r14-h-v1-h1-branch-route",
+    "r14-h-v1-h2-main-route",
+    "r14-h-v1-h2-branch-route",
+    "r14-h-v1-h3-main-route",
+    "r14-h-v1-h3-branch-route",
+    "r14-h-v1-h4-main-route",
+    "r14-h-v1-h4-branch-route",
+    "r14-h-v1-h5-main-route",
+    "r14-h-v1-h5-branch-route",
+    "r14-h-v1-h6-main-route",
+    "r14-h-v1-h6-branch-route",
+    "r14-h-v1-h7-main-route",
+    "r14-h-v1-h7-branch-route",
+    "r14-h-v1-h8-main-route",
+    "r14-h-v1-h8-branch-route",
+    "r14-h-v1-h9-main-route",
+    "r14-h-v1-h9-branch-route",
+    "r14-h-v1-h10-main-route",
+    "r14-h-v1-h10-branch-route",
+    "r14-h-v1-h11-main-route",
+    "r14-h-v1-h11-branch-route"
+  ],
+  "comparisonEvidence": [
+    "r14-h-v0-h0-main-route",
+    "r14-h-v0-h0-branch-route",
+    "r14-h-v0-h0-main-H1",
+    "r14-h-v0-h0-main-H1-slow",
+    "r14-h-v0-h1-main-route",
+    "r14-h-v0-h1-branch-route",
+    "r14-h-v0-h1-main-H1",
+    "r14-h-v0-h1-main-H1-slow",
+    "r14-h-v0-h2-main-route",
+    "r14-h-v0-h2-branch-route",
+    "r14-h-v0-h2-main-H1",
+    "r14-h-v0-h2-main-H1-slow",
+    "r14-h-v0-h3-main-route",
+    "r14-h-v0-h3-branch-route",
+    "r14-h-v0-h3-main-H1",
+    "r14-h-v0-h3-main-H1-slow",
+    "r14-h-v0-h4-main-route",
+    "r14-h-v0-h4-branch-route",
+    "r14-h-v0-h4-main-H1",
+    "r14-h-v0-h4-main-H1-slow",
+    "r14-h-v0-h5-main-route",
+    "r14-h-v0-h5-branch-route",
+    "r14-h-v0-h5-main-H1",
+    "r14-h-v0-h5-main-H1-slow",
+    "r14-h-v0-h6-main-route",
+    "r14-h-v0-h6-branch-route",
+    "r14-h-v0-h6-main-H1",
+    "r14-h-v0-h6-main-H1-slow",
+    "r14-h-v0-h7-main-route",
+    "r14-h-v0-h7-branch-route",
+    "r14-h-v0-h7-main-H1",
+    "r14-h-v0-h7-main-H1-slow",
+    "r14-h-v0-h8-main-route",
+    "r14-h-v0-h8-branch-route",
+    "r14-h-v0-h8-main-H1",
+    "r14-h-v0-h8-main-H1-slow",
+    "r14-h-v0-h9-main-route",
+    "r14-h-v0-h9-branch-route",
+    "r14-h-v0-h9-main-H1",
+    "r14-h-v0-h9-main-H1-slow",
+    "r14-h-v0-h10-main-route",
+    "r14-h-v0-h10-branch-route",
+    "r14-h-v0-h10-main-H1",
+    "r14-h-v0-h10-main-H1-slow",
+    "r14-h-v0-h11-main-route",
+    "r14-h-v0-h11-branch-route",
+    "r14-h-v0-h11-main-H1",
+    "r14-h-v0-h11-main-H1-slow"
+  ],
+  "counterexamples": [
+    "r14-h-v1-h0-main-H1",
+    "r14-h-v1-h0-main-H1-slow",
+    "r14-h-v1-h1-main-H1",
+    "r14-h-v1-h1-main-H1-slow",
+    "r14-h-v1-h2-main-H1",
+    "r14-h-v1-h2-main-H1-slow",
+    "r14-h-v1-h3-main-H1",
+    "r14-h-v1-h3-main-H1-slow",
+    "r14-h-v1-h4-main-H1",
+    "r14-h-v1-h4-main-H1-slow",
+    "r14-h-v1-h5-main-H1",
+    "r14-h-v1-h5-main-H1-slow",
+    "r14-h-v1-h6-main-H1",
+    "r14-h-v1-h6-main-H1-slow",
+    "r14-h-v1-h7-main-H1",
+    "r14-h-v1-h7-main-H1-slow",
+    "r14-h-v1-h8-main-H1",
+    "r14-h-v1-h8-main-H1-slow",
+    "r14-h-v1-h9-main-H1",
+    "r14-h-v1-h9-main-H1-slow",
+    "r14-h-v1-h10-main-H1",
+    "r14-h-v1-h10-main-H1-slow",
+    "r14-h-v1-h11-main-H1",
+    "r14-h-v1-h11-main-H1-slow"
+  ],
+  "fallback": "return explicit unsupported result; no implicit easier map"
+}

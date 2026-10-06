@@ -1,0 +1,75 @@
+{
+  "schema": "c006-reused-authenticated-baseline/1",
+  "authentication": {
+    "runId": "c005-candidate-explore-02-assigned_alternate",
+    "resultSHA256": "475a928bc0a1a6c8ae02d9e60308e248c9ff4ef882749bda103bdd2a5e7fd48a",
+    "traceSHA256": "cc14a2a717962d7a7c19195a2c9f1533d50bcf32e560bfad043530ed5dba1a84",
+    "mapHash": "d98a991384481564e212b130a52fd9f52bb81eef38c5b1e346a93aecbf315908",
+    "sourceManifestHash": "5c54a3b8e33a9b3a34c4e7487264168dd77ffa8fb4254df6f408ddc177c0083d",
+    "executionDependencyHash": "e2d45aaf703f68437978e15a10136d5f5f9ca9dff6c6d66e02cd43446faed435"
+  },
+  "summary": {
+    "runId": "c005-candidate-explore-02-assigned_alternate",
+    "condition": {
+      "y": 295.0001,
+      "vy": 7.197080291970806,
+      "lead": 15.181818181818182,
+      "phase": 0.03267716535433074,
+      "adjacency": "none",
+      "seed": 2444376036
+    },
+    "sourceManifestHash": "5c54a3b8e33a9b3a34c4e7487264168dd77ffa8fb4254df6f408ddc177c0083d",
+    "mapHash": "d98a991384481564e212b130a52fd9f52bb81eef38c5b1e346a93aecbf315908",
+    "resultSHA256": "475a928bc0a1a6c8ae02d9e60308e248c9ff4ef882749bda103bdd2a5e7fd48a",
+    "traceSHA256": "cc14a2a717962d7a7c19195a2c9f1533d50bcf32e560bfad043530ed5dba1a84",
+    "inputSHA256": "8a848423ab9976909aaf5a0fab1a6c14cc614c823fe5d52ac6abb72a8094a72f",
+    "classification": "local_window_survived",
+    "status": "executed",
+    "error": null,
+    "requestedStopTick": 14400,
+    "actualTicks": 14400,
+    "actualSubsteps": 28800,
+    "serializedRunnerWallSeconds": 5.546578979,
+    "finalAlive": true,
+    "sourceReached": true,
+    "sourceFirstTick": 200,
+    "sourcePassageStatus": "observed",
+    "sourceFullExitTick": 313,
+    "sourcePassed": true,
+    "sourceCollisionEvents": [],
+    "minimumActiveCapsuleDistancePx": 1.1993583385478637,
+    "activeCrossingSamples": 84,
+    "lifecyclePassed": true,
+    "receiverPassed": true,
+    "nextDemand": [
+      {
+        "sourceId": "c1-press-0-bottom",
+        "status": "observed",
+        "passed": true
+      },
+      {
+        "sourceId": "c1-press-0-top",
+        "status": "observed",
+        "passed": true
+      }
+    ],
+    "remainingOwnerProblems": [],
+    "coverage": {
+      "status": "observed",
+      "fullWindow": true,
+      "missingTicks": 0,
+      "missingSourceTicks": 0,
+      "reachedTick": 1509
+    },
+    "localRelationPassed": true,
+    "deathEvents": [],
+    "inputDifference": null,
+    "wholeCourseTaskPassReportedOnly": true,
+    "fullCourseQualification": null,
+    "humanTolerance": null,
+    "fairness": null,
+    "automaticMacroVeto": false
+  },
+  "newPhysicalStarts": 0,
+  "newPhysicalTicks": 0
+}

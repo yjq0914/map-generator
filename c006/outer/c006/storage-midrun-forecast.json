@@ -1,0 +1,11 @@
+{
+  "schema": "c006-midrun-storage-forecast/1",
+  "at": "2026-10-05T15:41:02.435508+00:00",
+  "committedRunsIncludingLocal": 129,
+  "formalCommits": 125,
+  "currentRoundRawBytes": 49893680,
+  "projected196RawBytes": 75807452,
+  "priorUniqueRawBytes": 281529958,
+  "uniqueRawLimitBytes": 1073741824,
+  "physicsRepeated": false
+}

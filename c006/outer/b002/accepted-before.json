@@ -1,0 +1,76 @@
+{
+  "schema": "lean-cumulative-accepted-pointer/1",
+  "version": "lean-cumulative-relation-grammar-v1",
+  "round": "b001",
+  "updatedAt": "2026-10-05T03:31:46.450Z",
+  "generator": "source/b001-style-registry.cjs",
+  "config": "source/configs/b001-style-registry-v1.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    },
+    {
+      "id": "phase-through-or-bypass",
+      "generator": "source/a007-phase-generator-v2.cjs",
+      "config": "source/configs/a007-phase-v2.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a007/decision.json"
+    },
+    {
+      "id": "horizontal-phase-composition",
+      "generator": "source/a009-composed-generator.cjs",
+      "config": "source/configs/a009-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12phaseentrysingle-commandprofiles;explicit only",
+      "decision": "outer/a009/decision.json"
+    },
+    {
+      "id": "phase-late-horizontal-composition",
+      "generator": "source/a010-composed-generator.cjs",
+      "config": "source/configs/a010-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;4target-entry single-command +/-1tick sensitivities; explicit only",
+      "decision": "outer/a010/decision.json"
+    },
+    {
+      "id": "late-phase-late-horizontal-composition",
+      "generator": "source/a012-composed-generator.cjs",
+      "config": "source/configs/a012-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes; prospective collision-footprint usage; zero routine perturbations or replays; explicit only",
+      "decision": "outer/a012/decision.json"
+    },
+    {
+      "id": "pinned-contact-relation-composition",
+      "generator": "source/b001-relation-grammar.cjs",
+      "config": "source/configs/b001-relation-grammar-v1.json",
+      "qualification": "finite24conditions/48assignedroutes/new-neighbour physical-action evidence",
+      "decision": "outer/b001/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "recovery-cumulative-with-late-phase-composition-v1",
+    "immutablePointer": "outer/b001/accepted-before.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/b001/decision.json",
+  "sourceFreeze": "protocols/freezes/b001-formal-v1.json",
+  "sourceManifestHash": "1170d700849d62803579cb086d74e7b562be45a16d41b132dee9e7579f03e057",
+  "artifactManifest": "outer/b001/artifact-manifest.json",
+  "artifactManifestHash": "dbe8f4e0673aaf7b4c6466f90eec655e5a050b9001cc6e410faf6ce84849e379",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_83afd8ee05748191a75e118ec90e3a7a",
+    "libraryVersion": 5,
+    "sha256": "af310226f67cbc8763481341eac7ba58fa1a0ff1692fc0d1fff7e3012ff05036",
+    "receipt": "protocols/receipts/b001-qualified.json"
+  },
+  "qualification": "Add explicit pinned-contact-relation-composition only; preserve all six prior styles. New first-two-stage whole-package neighbours have finite24condition/twoassignedroute evidence.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/b001/accepted-pointer.json"
+}

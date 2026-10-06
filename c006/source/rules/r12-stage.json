@@ -1,0 +1,161 @@
+{
+  "ruleId": "r12-stage",
+  "version": 2,
+  "parentRules": [
+    "r06-wave",
+    "r08-mechanical",
+    "r09-wave"
+  ],
+  "level": "stage",
+  "theme": "wave-mechanical",
+  "pattern": "closing",
+  "progression": false,
+  "predicate": {
+    "y": [
+      245,
+      300
+    ],
+    "vy": [
+      -65,
+      65
+    ],
+    "lead": [
+      -20,
+      20
+    ],
+    "phase": [
+      -0.45,
+      0.45
+    ],
+    "adjacency": [
+      "none",
+      "upper-after",
+      "lower-before"
+    ],
+    "mechanismsAllowed": [
+      "fixed",
+      "vertical-slider"
+    ]
+  },
+  "controller": "route-mpc/3+analytic-bridge/2",
+  "compiledFrom": [
+    "r06-wave",
+    "r08-mechanical",
+    "r09-wave"
+  ],
+  "conflicts": [
+    "spring multi-contact composition",
+    "unqualified combinations",
+    "arbitrary itinerary"
+  ],
+  "exitContract": {
+    "y": [
+      245,
+      300
+    ],
+    "vy": [
+      -65,
+      65
+    ]
+  },
+  "adoption": "conditional stage",
+  "globalDefault": false,
+  "supportedEvidence": [
+    "r12-h-v1-h0-main-route",
+    "r12-h-v1-h0-main-route-slow",
+    "r12-h-v1-h0-branch-route",
+    "r12-h-v1-h0-branch-route-slow",
+    "r12-h-v1-h1-main-route",
+    "r12-h-v1-h1-main-route-slow",
+    "r12-h-v1-h1-branch-route",
+    "r12-h-v1-h1-branch-route-slow",
+    "r12-h-v1-h2-main-route",
+    "r12-h-v1-h2-main-route-slow",
+    "r12-h-v1-h2-branch-route",
+    "r12-h-v1-h2-branch-route-slow",
+    "r12-h-v1-h3-main-route",
+    "r12-h-v1-h3-main-route-slow",
+    "r12-h-v1-h3-branch-route",
+    "r12-h-v1-h3-branch-route-slow",
+    "r12-h-v1-h4-main-route",
+    "r12-h-v1-h4-main-route-slow",
+    "r12-h-v1-h4-branch-route",
+    "r12-h-v1-h4-branch-route-slow",
+    "r12-h-v1-h5-main-route",
+    "r12-h-v1-h5-main-route-slow",
+    "r12-h-v1-h5-branch-route",
+    "r12-h-v1-h5-branch-route-slow",
+    "r12-h-v1-h6-main-route",
+    "r12-h-v1-h6-main-route-slow",
+    "r12-h-v1-h6-branch-route",
+    "r12-h-v1-h6-branch-route-slow",
+    "r12-h-v1-h7-main-route",
+    "r12-h-v1-h7-main-route-slow",
+    "r12-h-v1-h7-branch-route",
+    "r12-h-v1-h7-branch-route-slow"
+  ],
+  "comparisonEvidence": [
+    "r12-h-v0-h0-main-route",
+    "r12-h-v0-h0-main-route-slow",
+    "r12-h-v0-h0-branch-route",
+    "r12-h-v0-h0-branch-route-slow",
+    "r12-h-v0-h1-main-route",
+    "r12-h-v0-h1-main-route-slow",
+    "r12-h-v0-h1-branch-route",
+    "r12-h-v0-h1-branch-route-slow",
+    "r12-h-v0-h2-main-route",
+    "r12-h-v0-h2-main-route-slow",
+    "r12-h-v0-h2-branch-route",
+    "r12-h-v0-h2-branch-route-slow",
+    "r12-h-v0-h3-main-route",
+    "r12-h-v0-h3-main-route-slow",
+    "r12-h-v0-h3-branch-route",
+    "r12-h-v0-h3-branch-route-slow",
+    "r12-h-v0-h4-main-route",
+    "r12-h-v0-h4-main-route-slow",
+    "r12-h-v0-h4-branch-route",
+    "r12-h-v0-h4-branch-route-slow",
+    "r12-h-v0-h5-main-route",
+    "r12-h-v0-h5-main-route-slow",
+    "r12-h-v0-h5-branch-route",
+    "r12-h-v0-h5-branch-route-slow",
+    "r12-h-v0-h6-main-route",
+    "r12-h-v0-h6-main-route-slow",
+    "r12-h-v0-h6-branch-route",
+    "r12-h-v0-h6-branch-route-slow",
+    "r12-h-v0-h7-main-route",
+    "r12-h-v0-h7-main-route-slow",
+    "r12-h-v0-h7-branch-route",
+    "r12-h-v0-h7-branch-route-slow"
+  ],
+  "counterexamples": [],
+  "fallback": "return explicit unsupported result; no implicit easier map",
+  "parentRuleRefs": [
+    {
+      "ruleId": "r06-wave",
+      "version": 1,
+      "sha256": "5cee23fe20e655772bd6747bad7d3b5ff3eb0852c2e6793a34a31fa392bfceb4"
+    },
+    {
+      "ruleId": "r08-mechanical",
+      "version": 1,
+      "sha256": "bae61da2f6c3f83818ddb6e5fce83df2e48e5dd682b6b1cdd0c26962b48edbf5"
+    },
+    {
+      "ruleId": "r09-wave",
+      "version": 1,
+      "sha256": "8e015badf345e643f70ed0aaafd92dd489ba1a8eb66eda230a105e4a1430ee00"
+    }
+  ],
+  "amendment": {
+    "at": "2026-10-04T07:05:58.756Z",
+    "kind": "metadata-only correction",
+    "priorVersion": 1,
+    "priorSHA256": "6eb97b9e79c798d5a3e571a4f4a962bbdf27dd6a0684d62e6173621edf6deeb5",
+    "reason": "Stage predicate inherited fixed-only from wave despite actually validated wave+vertical-slider maps; correct description and pin exact dependencies",
+    "physicsChanged": false,
+    "mapsChanged": false,
+    "controllerChanged": false,
+    "thresholdsChanged": false
+  }
+}

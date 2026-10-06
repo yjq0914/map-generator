@@ -1,0 +1,52 @@
+{
+  "schema": "combo-map-renderer/1",
+  "physics_reruns": 0,
+  "clock": "measured",
+  "geometry_contract": "Canonical E.obstacles evaluated separately at each descriptor arrival; not a simultaneous snapshot",
+  "runtime": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/vendor/flappy-runtime.js",
+  "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "files": [
+    "contact-sheet.png",
+    "detail-macro-7703.png",
+    "seams-macro-7703.png",
+    "terminal-macro-7703.png"
+  ],
+  "legend": {
+    "full_filled_circles": "solid whole-circle colliders, with no invented windows",
+    "navy_solid": "stored measured player trace",
+    "gold_dashed": "authored guide only",
+    "inactive_outline": "non-colliding at sampled clock; may be active at other times"
+  },
+  "family_palette": {
+    "bellows-question-answer": "#16788a",
+    "cloister": "#bd6438",
+    "light-cavity": "#7069a9",
+    "slider-island": "#528843",
+    "spring-reception": "#a35387",
+    "tidal-staircase": "#b69632"
+  },
+  "maps": [
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B4/finish-checks/macro-7701/map.json",
+      "sha256": "1db600ebb84fb8d7f3ffcdf7200ec7a48e460104892bf1db682f6504caae05c1",
+      "seed": 7701,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B4/finish-checks/macro-7701/trace.json.gz",
+      "trace_sha256": "d5c1a911d88a1f5e855f9f26445153d8c22bffc6301f7b340b6e9daeb93973a1",
+      "trace_points": 14401,
+      "nominal_extent_s": 120.0,
+      "geometry": "geometry-macro-7701.json",
+      "warnings": []
+    },
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B4/finish-checks/macro-7703/map.json",
+      "sha256": "d542fc439ca8936b4136f2bd87fbb7297eb89da718ded5ea021dfb6d275277c5",
+      "seed": 7703,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B4/finish-checks/macro-7703/trace.json.gz",
+      "trace_sha256": "932c4baf5516a9aaf3d832a96bd22e6ff2be8cab7413a702df0babbdc514ae2e",
+      "trace_points": 14401,
+      "nominal_extent_s": 120.0,
+      "geometry": "geometry-macro-7703.json",
+      "warnings": []
+    }
+  ]
+}

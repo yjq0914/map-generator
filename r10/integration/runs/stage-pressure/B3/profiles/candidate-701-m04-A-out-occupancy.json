@@ -1,0 +1,134 @@
+{
+  "mapSHA256": "c939e05cbb0a10362cc68a62fc07fbc0de2ee04763ab2ba55275bc24c2265d64",
+  "traceSHA256": "9bdb5c10858a35a371e43a2a9d38d8756eb2ed1ac330cb5913f2730d0f956515",
+  "runtimeSHA256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "physicsReruns": 0,
+  "frames": [
+    {
+      "tick": 3420,
+      "nativeRow": [
+        3420,
+        4335,
+        348.9583333333317,
+        150,
+        -201.16666666666666,
+        1,
+        0,
+        0,
+        375
+      ],
+      "savedBodies": [
+        {
+          "id": "m04-A-out:top",
+          "sourceId": "m04-A-out",
+          "kind": "timed_armor_gate",
+          "shape": "rectangle",
+          "x": 4335.5,
+          "y": -120,
+          "w": 210,
+          "h": 392,
+          "status": "open",
+          "phase": "open",
+          "lethal": true
+        },
+        {
+          "id": "m04-A-out:bottom",
+          "sourceId": "m04-A-out",
+          "kind": "timed_armor_gate",
+          "shape": "rectangle",
+          "x": 4335.5,
+          "y": 478,
+          "w": 210,
+          "h": 182,
+          "status": "open",
+          "phase": "open",
+          "lethal": true
+        }
+      ]
+    },
+    {
+      "tick": 3504,
+      "nativeRow": [
+        3504,
+        4440,
+        352.15416666666505,
+        150,
+        -207.99999999999997,
+        1,
+        0,
+        0,
+        375
+      ],
+      "savedBodies": [
+        {
+          "id": "m04-A-out:top",
+          "sourceId": "m04-A-out",
+          "kind": "timed_armor_gate",
+          "shape": "rectangle",
+          "x": 4335.5,
+          "y": -120,
+          "w": 210,
+          "h": 392,
+          "status": "open",
+          "phase": "open",
+          "lethal": true
+        },
+        {
+          "id": "m04-A-out:bottom",
+          "sourceId": "m04-A-out",
+          "kind": "timed_armor_gate",
+          "shape": "rectangle",
+          "x": 4335.5,
+          "y": 478,
+          "w": 210,
+          "h": 182,
+          "status": "open",
+          "phase": "open",
+          "lethal": true
+        }
+      ]
+    },
+    {
+      "tick": 3588,
+      "nativeRow": [
+        3588,
+        4545,
+        351.24999999999835,
+        150,
+        -207.99999999999997,
+        1,
+        0,
+        0,
+        375
+      ],
+      "savedBodies": [
+        {
+          "id": "m04-A-out:top",
+          "sourceId": "m04-A-out",
+          "kind": "timed_armor_gate",
+          "shape": "rectangle",
+          "x": 4335.5,
+          "y": -120,
+          "w": 210,
+          "h": 415.39891304347816,
+          "status": "closing",
+          "phase": "closing",
+          "lethal": true
+        },
+        {
+          "id": "m04-A-out:bottom",
+          "sourceId": "m04-A-out",
+          "kind": "timed_armor_gate",
+          "shape": "rectangle",
+          "x": 4335.5,
+          "y": 454.60108695652184,
+          "w": 210,
+          "h": 205.39891304347816,
+          "status": "closing",
+          "phase": "closing",
+          "lethal": true
+        }
+      ]
+    }
+  ]
+}

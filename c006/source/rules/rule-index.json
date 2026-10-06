@@ -1,0 +1,189 @@
+{
+  "at": "2026-10-04T07:32:40.364Z",
+  "defaultGeneratorPromoted": false,
+  "rules": [
+    {
+      "ruleId": "r02-wave",
+      "version": 1,
+      "sha256": "9b07b0175b9dac8122bcbd9a1f819d83754225f75aed29a51dba452aa742903a",
+      "parentRuleRefs": [],
+      "historicalAutomaticScope": "conditional empirical combo",
+      "effectiveQualification": "observed declared goal evidence only; full-contract uncertified"
+    },
+    {
+      "ruleId": "r06-wave",
+      "version": 1,
+      "sha256": "5cee23fe20e655772bd6747bad7d3b5ff3eb0852c2e6793a34a31fa392bfceb4",
+      "parentRuleRefs": [
+        {
+          "ruleId": "r02-wave",
+          "version": 1,
+          "sha256": "9b07b0175b9dac8122bcbd9a1f819d83754225f75aed29a51dba452aa742903a"
+        }
+      ],
+      "historicalAutomaticScope": "conditional empirical combo",
+      "effectiveQualification": "observed declared goal evidence only; full-contract uncertified"
+    },
+    {
+      "ruleId": "r07-spring",
+      "version": 2,
+      "sha256": "de29653fcc63f8b4cc645945e421237a6ae9b924cbb8fabee2195a2a52e3e281",
+      "parentRuleRefs": [],
+      "historicalAutomaticScope": "experimental anchored-route-only; causal qualification unmet",
+      "effectiveQualification": "experimental anchored-route-only; causal qualification unmet"
+    },
+    {
+      "ruleId": "r08-mechanical",
+      "version": 1,
+      "sha256": "bae61da2f6c3f83818ddb6e5fce83df2e48e5dd682b6b1cdd0c26962b48edbf5",
+      "parentRuleRefs": [],
+      "historicalAutomaticScope": "conditional empirical combo",
+      "effectiveQualification": "observed declared goal evidence only; full-contract uncertified"
+    },
+    {
+      "ruleId": "r09-wave",
+      "version": 1,
+      "sha256": "8e015badf345e643f70ed0aaafd92dd489ba1a8eb66eda230a105e4a1430ee00",
+      "parentRuleRefs": [
+        {
+          "ruleId": "r02-wave",
+          "version": 1,
+          "sha256": "9b07b0175b9dac8122bcbd9a1f819d83754225f75aed29a51dba452aa742903a"
+        }
+      ],
+      "historicalAutomaticScope": "conditional empirical combo",
+      "effectiveQualification": "observed declared goal evidence only; full-contract uncertified"
+    },
+    {
+      "ruleId": "r10-stage",
+      "version": 2,
+      "sha256": "5193b143ea71a9cd5017bd1a4c0cf1f38ce1e24ded6f2fc8841ee749bae7f160",
+      "parentRuleRefs": [
+        {
+          "ruleId": "r06-wave",
+          "version": 1,
+          "sha256": "5cee23fe20e655772bd6747bad7d3b5ff3eb0852c2e6793a34a31fa392bfceb4"
+        },
+        {
+          "ruleId": "r08-mechanical",
+          "version": 1,
+          "sha256": "bae61da2f6c3f83818ddb6e5fce83df2e48e5dd682b6b1cdd0c26962b48edbf5"
+        },
+        {
+          "ruleId": "r09-wave",
+          "version": 1,
+          "sha256": "8e015badf345e643f70ed0aaafd92dd489ba1a8eb66eda230a105e4a1430ee00"
+        }
+      ],
+      "historicalAutomaticScope": "conditional stage",
+      "effectiveQualification": "observed declared goal evidence only; full-contract uncertified"
+    },
+    {
+      "ruleId": "r11-stage",
+      "version": 2,
+      "sha256": "f02943a913c11b1580cb20d39f1e0f882c255cf7fbb92e29124886875da17d01",
+      "parentRuleRefs": [
+        {
+          "ruleId": "r06-wave",
+          "version": 1,
+          "sha256": "5cee23fe20e655772bd6747bad7d3b5ff3eb0852c2e6793a34a31fa392bfceb4"
+        },
+        {
+          "ruleId": "r08-mechanical",
+          "version": 1,
+          "sha256": "bae61da2f6c3f83818ddb6e5fce83df2e48e5dd682b6b1cdd0c26962b48edbf5"
+        },
+        {
+          "ruleId": "r09-wave",
+          "version": 1,
+          "sha256": "8e015badf345e643f70ed0aaafd92dd489ba1a8eb66eda230a105e4a1430ee00"
+        }
+      ],
+      "historicalAutomaticScope": "conditional stage",
+      "effectiveQualification": "observed declared goal evidence only; full-contract uncertified"
+    },
+    {
+      "ruleId": "r12-stage",
+      "version": 2,
+      "sha256": "222bcc1fe542d117547b45b8a2e235a1d322a0b67f1e26c9da5a6268b8c4ae4f",
+      "parentRuleRefs": [
+        {
+          "ruleId": "r06-wave",
+          "version": 1,
+          "sha256": "5cee23fe20e655772bd6747bad7d3b5ff3eb0852c2e6793a34a31fa392bfceb4"
+        },
+        {
+          "ruleId": "r08-mechanical",
+          "version": 1,
+          "sha256": "bae61da2f6c3f83818ddb6e5fce83df2e48e5dd682b6b1cdd0c26962b48edbf5"
+        },
+        {
+          "ruleId": "r09-wave",
+          "version": 1,
+          "sha256": "8e015badf345e643f70ed0aaafd92dd489ba1a8eb66eda230a105e4a1430ee00"
+        }
+      ],
+      "historicalAutomaticScope": "conditional stage",
+      "effectiveQualification": "observed declared goal evidence only; full-contract uncertified"
+    },
+    {
+      "ruleId": "r13-whole",
+      "version": 2,
+      "sha256": "d65487c05505b06a6e47cdd92848327a939a5808b3380a423779ac9b116d8592",
+      "parentRuleRefs": [
+        {
+          "ruleId": "r10-stage",
+          "version": 2,
+          "sha256": "5193b143ea71a9cd5017bd1a4c0cf1f38ce1e24ded6f2fc8841ee749bae7f160"
+        },
+        {
+          "ruleId": "r11-stage",
+          "version": 2,
+          "sha256": "f02943a913c11b1580cb20d39f1e0f882c255cf7fbb92e29124886875da17d01"
+        },
+        {
+          "ruleId": "r12-stage",
+          "version": 2,
+          "sha256": "222bcc1fe542d117547b45b8a2e235a1d322a0b67f1e26c9da5a6268b8c4ae4f"
+        }
+      ],
+      "historicalAutomaticScope": "whole experimental branch",
+      "effectiveQualification": "observed declared goal evidence only; full-contract uncertified"
+    },
+    {
+      "ruleId": "r14-whole",
+      "version": 1,
+      "sha256": "e461eb9358cc15f1a17a7bae3ec0003fe16f918be2f1ca637be81aea660d3932",
+      "parentRuleRefs": [
+        {
+          "ruleId": "r10-stage",
+          "version": 2,
+          "sha256": "5193b143ea71a9cd5017bd1a4c0cf1f38ce1e24ded6f2fc8841ee749bae7f160"
+        },
+        {
+          "ruleId": "r11-stage",
+          "version": 2,
+          "sha256": "f02943a913c11b1580cb20d39f1e0f882c255cf7fbb92e29124886875da17d01"
+        },
+        {
+          "ruleId": "r12-stage",
+          "version": 2,
+          "sha256": "222bcc1fe542d117547b45b8a2e235a1d322a0b67f1e26c9da5a6268b8c4ae4f"
+        },
+        {
+          "ruleId": "r13-whole",
+          "version": 2,
+          "sha256": "d65487c05505b06a6e47cdd92848327a939a5808b3380a423779ac9b116d8592"
+        }
+      ],
+      "historicalAutomaticScope": "whole experimental branch",
+      "effectiveQualification": "observed declared goal evidence only; full-contract uncertified"
+    }
+  ],
+  "currentCertification": {
+    "fullContractCertified": false,
+    "globalDefaultUpgrades": 0,
+    "scope": "integrity and observed declared goals only",
+    "genericCausalMinimumUnenforced": true
+  }
+}

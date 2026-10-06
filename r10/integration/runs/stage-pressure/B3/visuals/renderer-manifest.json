@@ -1,0 +1,65 @@
+{
+  "schema": "combo-map-renderer/1",
+  "physics_reruns": 0,
+  "clock": "measured",
+  "geometry_contract": "Canonical E.obstacles evaluated separately at each descriptor arrival; not a simultaneous snapshot",
+  "runtime": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/vendor/flappy-runtime.js",
+  "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "files": [
+    "contact-sheet.png",
+    "detail-candidate-701.png",
+    "seams-candidate-701.png",
+    "terminal-candidate-701.png",
+    "detail-candidate-706.png",
+    "seams-candidate-706.png",
+    "terminal-candidate-706.png"
+  ],
+  "legend": {
+    "full_filled_circles": "solid whole-circle colliders, with no invented windows",
+    "navy_solid": "stored measured player trace",
+    "gold_dashed": "authored guide only",
+    "inactive_outline": "non-colliding at sampled clock; may be active at other times"
+  },
+  "family_palette": {
+    "bellows-question-answer": "#16788a",
+    "cloister": "#bd6438",
+    "light-cavity": "#7069a9",
+    "slider-island": "#528843",
+    "tidal-staircase": "#a35387"
+  },
+  "maps": [
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B3/runs/candidate-701/map.json",
+      "sha256": "9fa541fb855029f8e3535b2d79d75cd264793d67ab339dde96b8e0bf2a1743f9",
+      "seed": 701,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B3/runs/candidate-701/trace.json.gz",
+      "trace_sha256": "9bdb5c10858a35a371e43a2a9d38d8756eb2ed1ac330cb5913f2730d0f956515",
+      "trace_points": 3601,
+      "nominal_extent_s": 31.036666666666665,
+      "geometry": "geometry-candidate-701.json",
+      "warnings": []
+    },
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B3/runs/candidate-706/map.json",
+      "sha256": "57739f6138977f272d5f000d5ed580aa8fa777935c427e132b940e5bd2cc829d",
+      "seed": 706,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B3/runs/candidate-706/trace.json.gz",
+      "trace_sha256": "33c3464d3fafd77eaf0aafc2dfe1045594cacbe45fb423520bb8b1c4b32041d0",
+      "trace_points": 3601,
+      "nominal_extent_s": 30.436666666666667,
+      "geometry": "geometry-candidate-706.json",
+      "warnings": []
+    },
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B3/runs/holdout-6303/map.json",
+      "sha256": "75501e36ddf1c2b6bfb06ab170098c30524625dd44b772e3521f0ca21b2e5757",
+      "seed": 6303,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-stage-pressure-four-loops/integration/runs/stage-pressure/B3/runs/holdout-6303/trace.json.gz",
+      "trace_sha256": "bdca7191e699b364595f9f8c8834db6957bf23e2c7527feaf23bef6c3f55d32b",
+      "trace_points": 3601,
+      "nominal_extent_s": 30.116666666666667,
+      "geometry": "geometry-holdout-6303.json",
+      "warnings": []
+    }
+  ]
+}

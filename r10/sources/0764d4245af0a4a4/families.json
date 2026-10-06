@@ -1,0 +1,536 @@
+{
+  "schema": "spatial-r02-revisions/1",
+  "units": {
+    "distance": "px",
+    "time": "s"
+  },
+  "reference": {
+    "height_px": 540,
+    "player_radius_px": 10,
+    "nominal_vx_px_s": 150
+  },
+  "frozen": true,
+  "status": "candidate_unqualified",
+  "runtime_map_ready": false,
+  "source_v1": "../../../spatial/families.json",
+  "families": [
+    {
+      "id": "tidal-admissible-band-v2",
+      "name": "Tidal terraces · corrected bands",
+      "zh": "潮汐梯岸 · 可通行带修正",
+      "duration_s": 10.2,
+      "length_px": 1530,
+      "mechanics": [
+        "fixed_armor_or_spike"
+      ],
+      "route_half_band_px": 45,
+      "route": [
+        [
+          0,
+          270
+        ],
+        [
+          160,
+          270
+        ],
+        [
+          280,
+          195
+        ],
+        [
+          430,
+          185
+        ],
+        [
+          600,
+          210
+        ],
+        [
+          700,
+          260
+        ],
+        [
+          790,
+          310
+        ],
+        [
+          900,
+          375
+        ],
+        [
+          990,
+          385
+        ],
+        [
+          1120,
+          390
+        ],
+        [
+          1210,
+          295
+        ],
+        [
+          1290,
+          260
+        ],
+        [
+          1410,
+          270
+        ],
+        [
+          1530,
+          270
+        ]
+      ],
+      "actions": [
+        [
+          0,
+          1.1,
+          "PREPARE",
+          "Read the high bank"
+        ],
+        [
+          1.1,
+          3.9,
+          "CLIMB / HOLD HIGH",
+          "High band excludes y270"
+        ],
+        [
+          3.9,
+          7.4,
+          "DESCEND / HOLD LOW",
+          "Low band excludes y270"
+        ],
+        [
+          7.4,
+          9.4,
+          "LIFT TO EXIT",
+          "Exit bank forces return"
+        ],
+        [
+          9.4,
+          10.2,
+          "SHORT RECEPTION",
+          "0.73s radius-clear tail"
+        ]
+      ],
+      "note": "One fixed type. Unequal runs overlap; no top/bottom gate pairs.",
+      "obstacles": [
+        {
+          "id": "roof-1",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 220,
+          "y": 0,
+          "collider": {
+            "shape": "rectangle",
+            "w": 180,
+            "h": 90
+          }
+        },
+        {
+          "id": "roof-2",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 480,
+          "y": 0,
+          "collider": {
+            "shape": "rectangle",
+            "w": 220,
+            "h": 90
+          }
+        },
+        {
+          "id": "roof-3",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 850,
+          "y": 0,
+          "collider": {
+            "shape": "rectangle",
+            "w": 260,
+            "h": 310
+          }
+        },
+        {
+          "id": "roof-4",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 1170,
+          "y": 0,
+          "collider": {
+            "shape": "rectangle",
+            "w": 190,
+            "h": 140
+          }
+        },
+        {
+          "id": "bank-1",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 280,
+          "y": 250,
+          "collider": {
+            "shape": "rectangle",
+            "w": 300,
+            "h": 290
+          }
+        },
+        {
+          "id": "bank-2",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 640,
+          "y": 330,
+          "collider": {
+            "shape": "rectangle",
+            "w": 120,
+            "h": 210
+          }
+        },
+        {
+          "id": "bank-3",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 920,
+          "y": 480,
+          "collider": {
+            "shape": "rectangle",
+            "w": 290,
+            "h": 60
+          }
+        },
+        {
+          "id": "bank-4",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 1280,
+          "y": 300,
+          "collider": {
+            "shape": "rectangle",
+            "w": 130,
+            "h": 240
+          }
+        }
+      ],
+      "variants": [
+        {
+          "name": "Earlier low answer",
+          "variant_kind": "parameter",
+          "status": "proposed_unqualified",
+          "description": "Move the low forcing roof left only if the radius-expanded transition remains connected and the same minimum clearance is retained."
+        },
+        {
+          "name": "Reverse call",
+          "variant_kind": "semantic",
+          "status": "proposed_unqualified",
+          "description": "Low band then high band; re-derive gravity-dependent preparation and exit states, not a visual mirror alone."
+        }
+      ],
+      "duration_grammar": {
+        "authoring_min_s": 6.4,
+        "recommended_example_s": 10.2,
+        "authoring_max_s": 19.6,
+        "not_a_physical_limit": true,
+        "short_form": "One crest: prepare → rise → sustain → release → recover",
+        "long_form": "Crest phrase → short neutral bay → asymmetric trough answer → shared recovery",
+        "operators": [
+          "Move the crest earlier while preserving preparation distance",
+          "Lengthen one shelf rather than all x coordinates",
+          "Nest a crest subunit in a longer wave; share its exit recovery with the next entry only after seam qualification"
+        ]
+      },
+      "design_hypothesis": "Disjoint high and low admissible center bands force a real vertical change; drawn larger wave amplitude remains an intention, not a necessity claim.",
+      "revision": "v2",
+      "loop": "R02",
+      "status": "candidate_unqualified",
+      "verification": {
+        "method": "Exact minimum distance over every straight route segment to every rectangle or full circle, minus 10px player radius, with world y bounds. Not time-stepped or endpoint-only.",
+        "minimum_clearance_px": 20.0,
+        "limiting_body": "bank-4",
+        "limiting_segment": 11,
+        "continuous_polyline_spatial_clear": true,
+        "physics_feasible": null,
+        "trajectory_or_input_witness": false,
+        "flat_y270_control": {
+          "v1_minimum_clearance_px": 30.0,
+          "v2_minimum_clearance_px": -10,
+          "v1_path_clear": true,
+          "v2_path_clear": false
+        },
+        "admissible_band": {
+          "method": "Exact rounded-corner slice envelope shown; connectedness lower bound uses conservative radius-expanded AABBs over every x event interval.",
+          "conservative_minimum_center_band_width_px": 140,
+          "slices": [
+            {
+              "x": 520,
+              "low": 100.0,
+              "high": 240.0
+            },
+            {
+              "x": 980,
+              "low": 320.0,
+              "high": 470.0
+            },
+            {
+              "x": 1320,
+              "low": 150.0,
+              "high": 290.0
+            }
+          ],
+          "constant_y_global_intersection_empty": true,
+          "forced_high_to_low_change_at_least_px": 80,
+          "forced_low_to_exit_change_at_least_px": 30
+        }
+      }
+    },
+    {
+      "id": "cloister-compressed-flush-v2",
+      "name": "Cloister weave · compressed / joined",
+      "zh": "拱廊回声 · 压缩间距与封闭接缝",
+      "duration_s": 8,
+      "length_px": 1200,
+      "mechanics": [
+        "fixed_armor_or_spike",
+        "hero_rotor"
+      ],
+      "route_half_band_px": 35,
+      "route": [
+        [
+          0,
+          270
+        ],
+        [
+          120,
+          270
+        ],
+        [
+          220,
+          205
+        ],
+        [
+          330,
+          175
+        ],
+        [
+          440,
+          210
+        ],
+        [
+          540,
+          315
+        ],
+        [
+          650,
+          350
+        ],
+        [
+          770,
+          330
+        ],
+        [
+          850,
+          240
+        ],
+        [
+          950,
+          175
+        ],
+        [
+          1060,
+          235
+        ],
+        [
+          1160,
+          270
+        ],
+        [
+          1200,
+          270
+        ]
+      ],
+      "actions": [
+        [
+          0,
+          0.8,
+          "PREPARE",
+          "See the upper crown"
+        ],
+        [
+          0.8,
+          2.9,
+          "PASS ABOVE",
+          "Unchanged 160px passage"
+        ],
+        [
+          2.9,
+          4.9,
+          "RELEASE / BELOW",
+          "Shorter preparation bay"
+        ],
+        [
+          4.9,
+          6.9,
+          "RE-LIFT / ABOVE",
+          "Unchanged 160px passage"
+        ],
+        [
+          6.9,
+          8,
+          "SHORT RECEPTION",
+          "1.13s radius-clear tail"
+        ]
+      ],
+      "note": "Solid disks. Rotation is decorative motion; there are no blade gaps.",
+      "obstacles": [
+        {
+          "id": "solid-crown-1",
+          "mechanic_kind": "hero_rotor",
+          "x": 260,
+          "y": 245,
+          "collider": {
+            "shape": "circle",
+            "w": 140,
+            "h": 140
+          },
+          "motion": {
+            "angular_speed_rad_s": 1.2
+          }
+        },
+        {
+          "id": "joined-plinth-1",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 295,
+          "y": 383,
+          "collider": {
+            "shape": "rectangle",
+            "w": 70,
+            "h": 157
+          }
+        },
+        {
+          "id": "canopy-1",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 250.0,
+          "y": 0,
+          "collider": {
+            "shape": "rectangle",
+            "w": 160,
+            "h": 85
+          }
+        },
+        {
+          "id": "solid-crown-2",
+          "mechanic_kind": "hero_rotor",
+          "x": 580,
+          "y": 135,
+          "collider": {
+            "shape": "circle",
+            "w": 140,
+            "h": 140
+          },
+          "motion": {
+            "angular_speed_rad_s": 1.2
+          }
+        },
+        {
+          "id": "joined-hanger-2",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 615,
+          "y": 0,
+          "collider": {
+            "shape": "rectangle",
+            "w": 70,
+            "h": 137
+          }
+        },
+        {
+          "id": "floor-loft-2",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 535.0,
+          "y": 430,
+          "collider": {
+            "shape": "rectangle",
+            "w": 230,
+            "h": 110
+          }
+        },
+        {
+          "id": "solid-crown-3",
+          "mechanic_kind": "hero_rotor",
+          "x": 880,
+          "y": 245,
+          "collider": {
+            "shape": "circle",
+            "w": 140,
+            "h": 140
+          },
+          "motion": {
+            "angular_speed_rad_s": 1.2
+          }
+        },
+        {
+          "id": "joined-plinth-3",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 915,
+          "y": 383,
+          "collider": {
+            "shape": "rectangle",
+            "w": 70,
+            "h": 157
+          }
+        },
+        {
+          "id": "canopy-3",
+          "mechanic_kind": "fixed_armor_or_spike",
+          "x": 885.0,
+          "y": 0,
+          "collider": {
+            "shape": "rectangle",
+            "w": 130,
+            "h": 85
+          }
+        }
+      ],
+      "variants": [
+        {
+          "name": "Compressed call",
+          "variant_kind": "parameter",
+          "status": "proposed_unqualified",
+          "description": "Node gaps 320/300px, joined supports, unchanged upper/lower/upper semantic sentence."
+        },
+        {
+          "name": "Delayed answer",
+          "variant_kind": "semantic",
+          "status": "proposed_unqualified",
+          "description": "Above/above/below instead of above/below/above; must re-place supports, slabs and route before evaluation."
+        }
+      ],
+      "duration_grammar": {
+        "authoring_min_s": 6.8,
+        "recommended_example_s": 8,
+        "authoring_max_s": 20,
+        "not_a_physical_limit": true,
+        "short_form": "Two nodes: above → below → mid-height recovery",
+        "long_form": "Above/below/above call → broad bridge → above/below delayed answer → recovery",
+        "operators": [
+          "Remove a node and re-solve the adjacent altitude transition",
+          "Expand one roof/floor loft to make a sustained beat",
+          "Nest an over/under pair; do not duplicate its entry and exit pauses"
+        ]
+      },
+      "design_hypothesis": "Reduced bay spacing and reception shorten preparation while keeping passage widths and disk sizes unchanged; increased pressure is not yet demonstrated.",
+      "revision": "v2",
+      "loop": "R02",
+      "status": "candidate_unqualified",
+      "verification": {
+        "method": "Exact minimum distance over every straight route segment to every rectangle or full circle, minus 10px player radius, with world y bounds. Not time-stepped or endpoint-only.",
+        "minimum_clearance_px": 37.38210628208918,
+        "limiting_body": "solid-crown-3",
+        "limiting_segment": 8,
+        "continuous_polyline_spatial_clear": true,
+        "physics_feasible": null,
+        "trajectory_or_input_witness": false,
+        "unchanged_passages": {
+          "upper_physical_px": 160,
+          "lower_physical_px": 155,
+          "upper_net_center_px": 140,
+          "lower_net_center_px": 135,
+          "disk_diameter_px": 140
+        }
+      }
+    }
+  ]
+}

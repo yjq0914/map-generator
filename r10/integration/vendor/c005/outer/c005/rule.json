@@ -1,0 +1,48 @@
+{
+  "schema": "adaptive-general-c005-rule/1",
+  "status": "conditional-adopt",
+  "coverage": "complete",
+  "version": "adaptive-general-laser-current-successor-v1",
+  "parent": "adaptive-general-late-macro-v1",
+  "generator": "source/c005-laser-generator.cjs",
+  "entrypoint": "compile(physicalCondition,{schema:\"flappy-laser-companion-request/1\",prefix,companion})",
+  "requestLimit": "Desired prefix independently selects L/HL/LT/HLT; explicit accepted exact-nonL companion required, with identical optional macro. Not a new arbitrary single-intent DSL.",
+  "domain": {
+    "newForms": [
+      "L",
+      "HL",
+      "LT",
+      "HLT"
+    ],
+    "companions": [
+      "B",
+      "H",
+      "T",
+      "HT"
+    ],
+    "LJCompatible": false,
+    "source": "First same-side island phrase resolved from complete exactB; no arbitrary relocation",
+    "currentSuccessor": "Complete accepted producer envelope equality, then independent exact selected H/T edit reconstruction; only known T changes can refresh the successor",
+    "macroEnabledAdjacency": "none inherited",
+    "macroNull": "unchanged accepted c003 call-through including inherited non-none adjacency"
+  },
+  "operation": "unchanged b003-v2 12px capsule, ±36px sweep, 3.2s motion, 0.9s warning, 0.8s active, 1.2s cooldown",
+  "qualification": "Finite24 paired condition/request maps with both assigned routes; exact accepted H/T companions, actual laser lifecycle/capsule/same-side reception, changed T successor second gate/receiver and identical optional macro plus original whole-course obligations",
+  "constraints": [
+    "all source/receiver/owner/first-demand strict descriptors unchanged",
+    "actual recorded endpoint/status/body passage only; no pose synthesis",
+    "T second pair and receiver must pass inherited actual-body reducer in the current trace",
+    "real tick0 and charged upstream; no restores",
+    "strict L/J resource conflict retained",
+    "no post-reveal source, observer or threshold adjustment"
+  ],
+  "unknown": [
+    "arbitrary operator order or locations",
+    "single-intent laser interface without companion",
+    "non-none adjacency macro extension",
+    "warning-caused reaction",
+    "natural route discovery",
+    "visible-only readability",
+    "human fun"
+  ]
+}

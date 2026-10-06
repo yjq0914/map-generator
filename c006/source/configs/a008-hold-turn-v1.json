@@ -1,0 +1,8 @@
+{
+  "version": "a008-interface-hold-turn-v1",
+  "module": "source/a008-hold-turn-generator.cjs",
+  "operation": {
+    "type": "same-side-hold-then-turn",
+    "placement": "latest"
+  }
+}

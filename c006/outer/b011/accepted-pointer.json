@@ -1,0 +1,154 @@
+{
+  "schema": "lean-cumulative-accepted-pointer/1",
+  "version": "lean-cumulative-through-patrol-common-reception-v1",
+  "round": "b011",
+  "updatedAt": "2026-10-05T10:13:18.030Z",
+  "generator": "source/b011-style-registry.cjs",
+  "config": "source/configs/b011-style-registry-v1.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    },
+    {
+      "id": "phase-through-or-bypass",
+      "generator": "source/a007-phase-generator-v2.cjs",
+      "config": "source/configs/a007-phase-v2.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a007/decision.json"
+    },
+    {
+      "id": "horizontal-phase-composition",
+      "generator": "source/a009-composed-generator.cjs",
+      "config": "source/configs/a009-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12phaseentrysingle-commandprofiles;explicit only",
+      "decision": "outer/a009/decision.json"
+    },
+    {
+      "id": "phase-late-horizontal-composition",
+      "generator": "source/a010-composed-generator.cjs",
+      "config": "source/configs/a010-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;4target-entry single-command +/-1tick sensitivities; explicit only",
+      "decision": "outer/a010/decision.json"
+    },
+    {
+      "id": "late-phase-late-horizontal-composition",
+      "generator": "source/a012-composed-generator.cjs",
+      "config": "source/configs/a012-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes; prospective collision-footprint usage; zero routine perturbations or replays; explicit only",
+      "decision": "outer/a012/decision.json"
+    },
+    {
+      "id": "pinned-contact-relation-composition",
+      "generator": "source/b001-relation-grammar.cjs",
+      "config": "source/configs/b001-relation-grammar-v1.json",
+      "qualification": "finite24conditions/48assignedroutes/new-neighbour physical-action evidence",
+      "decision": "outer/b001/decision.json"
+    },
+    {
+      "id": "early-swinging-hammer",
+      "generator": "source/b002-swing-hammer.cjs",
+      "config": "source/configs/b002-swing-hammer-v1.json",
+      "qualification": "finite24conditions/48assignedroutes/actual circle-capsule demand in8pairedroutes; unprompted human reaction unknown",
+      "decision": "outer/b002/decision.json"
+    },
+    {
+      "id": "early-diagonal-warning-laser",
+      "generator": "source/b003-warning-laser-v2.cjs",
+      "config": "source/configs/b003-warning-laser-v2.json",
+      "qualification": "finite24conditions/48assignedroutes/first visible warning and actual lethal capsule action demand; human cue response unknown",
+      "decision": "outer/b003/decision.json"
+    },
+    {
+      "id": "hammer-warning-turn-relay",
+      "generator": "source/b004-mechanic-relay.cjs",
+      "config": "source/configs/b004-mechanic-relay-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; continuous hammer→warning→laser→opposite-side receiver; human cue response unknown",
+      "decision": "outer/b004/decision.json"
+    },
+    {
+      "id": "relation-conditioned-stage-recovery",
+      "generator": "source/b005-stage-recovery.cjs",
+      "config": "source/configs/b005-stage-recovery-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; exact-b001 same-order one-stage75px recovery allocation, actual connector state/input and next body-demand evidence; human recovery ease unknown",
+      "decision": "outer/b005/decision.json"
+    },
+    {
+      "id": "structurally-bound-swing-opposite-receiver",
+      "generator": "source/b007-relocated-hammer.cjs",
+      "config": "source/configs/b007-relocated-hammer-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; actual saved circle-capsule effect and intended receiver footprint across resolved exact-b005 phrases; human experience unknown",
+      "decision": "outer/b007/decision.json"
+    },
+    {
+      "id": "timed-aperture-opposite-receiver",
+      "generator": "source/b008-timed-aperture.cjs",
+      "config": "source/configs/b008-timed-aperture-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; actual expanding and contracting two-panel occupancy with intended lower receiver, same14common-pair accounting and real recovery; player cue response unknown",
+      "decision": "outer/b008/decision.json"
+    },
+    {
+      "id": "shared-base-timed-aperture-and-hammer",
+      "generator": "source/b009-shared-program.cjs",
+      "config": "source/configs/b009-shared-program-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; real upstream timed aperture and downstream hammer receiver/successor in fixed shared-base typed normal form; inherited b007 post-reveal reducer caveat; human experience unknown",
+      "decision": "outer/b009/decision.json"
+    },
+    {
+      "id": "warning-burst-hold-then-turn",
+      "generator": "source/b010-warning-burst.cjs",
+      "config": "source/configs/b010-warning-burst-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; actual native three-shot movement/lifecycles, separated core and projectile demand, intended opposite receiver and real recovery; human experience unknown",
+      "decision": "outer/b010/decision.json"
+    },
+    {
+      "id": "diagonal-patrol-common-reception",
+      "generator": "source/b011-patrol-reception.cjs",
+      "config": "source/configs/b011-patrol-reception-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; exact rejected b006-v2 revalidated as unchanged patrol with real common aperture, actual circular footprint and original recovery/next demand; human experience unknown; explicitly post-reveal capture-only repair4 exact-input prefixes, no claim of independently sealed amended capture",
+      "decision": "outer/b011/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "lean-cumulative-through-warning-burst-v1",
+    "immutablePointer": "outer/b011/accepted-before.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/b011/decision.json",
+  "sourceFreeze": "protocols/freezes/b011-capture-v2.json",
+  "sourceManifestHash": "e3847b7c60a1bfa910b422ae617fcae4f909b33aab8d64d5a20ac73f25f0a989",
+  "artifactManifest": "outer/b011/artifact-manifest.json",
+  "artifactManifestHash": "02fa297254777e86a1000c4cbc00bd2071e3dc06bbd2f4418509f8be254b78db",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_83afd8ee05748191a75e118ec90e3a7a",
+    "libraryVersion": 97,
+    "sha256": "7b7fadb07152f2ec25c94532afd014227b63e79123835e81243497a1929299d9",
+    "receipt": "protocols/receipts/b011-qualified.json"
+  },
+  "qualification": "Explicit finite unchanged diagonal patrol plus common central reception style. Exact rejected b006-v2 scientific parent is not adopted; cumulative prior calls and default3 unchanged. No natural-choice, arbitrary composition or human-fun claim.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/b011/accepted-pointer.json",
+  "inheritedQualificationCaveats": [
+    {
+      "round": "b007",
+      "decision": "outer/b007/decision.json",
+      "analysisAmendment": "outer/b007/analysis-amendment-v1.json",
+      "analysisAmendmentSHA256": "e4afe3b0e5fc3d9f514bcabe6cadf3f5faef31263fc0b592ea0e788382644003",
+      "qualificationCaveat": "Explicit post-reveal analysis-only successor aggregation correction; final qualification not independently sealed against revised reducer"
+    }
+  ],
+  "originalPreregisteredEvaluationUnchanged": true,
+  "independentlySealedAgainstFrozenEvaluator": false,
+  "originalScientificSourceAndObjectiveFrozenBeforeHoldout": true,
+  "analysisAmendment": "outer/b011/capture-v2/amendment.json",
+  "analysisAmendmentSHA256": "a68d1f479c32f01cf2b7c49ada48985427a6891e565b68ac88a353eb8137c1d5",
+  "qualificationCaveat": "Post-reveal capture-only amendment:4 exact-input candidate prefixes repaired missing body suffix; original24 conditions, physics/controller/objective/observer thresholds unchanged"
+}

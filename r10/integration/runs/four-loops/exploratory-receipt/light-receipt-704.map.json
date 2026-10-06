@@ -1,0 +1,1690 @@
+{
+  "schema": "flappy-loop-lab/1",
+  "id": "combo-r6-704-arcade",
+  "seed": 704,
+  "units": {
+    "distance": "px",
+    "time": "s",
+    "velocity": "px/s"
+  },
+  "width": 4745.5,
+  "height": 540,
+  "route_id": "main",
+  "generator_parameters": {
+    "requested_duration_s": 31.5,
+    "difficulty": "medium",
+    "theme": "arcade",
+    "actions": [
+      "rise",
+      "fall",
+      "sustain"
+    ]
+  },
+  "obstacles": [
+    {
+      "id": "m01-Q-in",
+      "mechanic_kind": "timed_armor_gate",
+      "x": 420,
+      "y": 375,
+      "collider": {
+        "shape": "rectangle",
+        "w": 72,
+        "h": 540
+      },
+      "effect_region": null,
+      "motion": {
+        "opening_px": 180
+      },
+      "timeline": {
+        "start_s": 0.6650000000000003,
+        "warning_s": 0.9,
+        "opening_s": 0.45,
+        "hold_s": 1.25,
+        "closing_s": 0.55,
+        "cooldown_s": 12
+      },
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m01-question",
+      "stage_id": "m01-integration-additional-v1"
+    },
+    {
+      "id": "m01-Q-out",
+      "mechanic_kind": "timed_armor_gate",
+      "x": 690.0000000000001,
+      "y": 215,
+      "collider": {
+        "shape": "rectangle",
+        "w": 72,
+        "h": 540
+      },
+      "effect_region": null,
+      "motion": {
+        "opening_px": 160
+      },
+      "timeline": {
+        "start_s": 2.365,
+        "warning_s": 0.9,
+        "opening_s": 0.45,
+        "hold_s": 1.45,
+        "closing_s": 0.55,
+        "cooldown_s": 12
+      },
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m01-question",
+      "stage_id": "m01-integration-additional-v1"
+    },
+    {
+      "id": "m01-A-in",
+      "mechanic_kind": "timed_armor_gate",
+      "x": 970.5000000000001,
+      "y": 245,
+      "collider": {
+        "shape": "rectangle",
+        "w": 96,
+        "h": 540
+      },
+      "effect_region": null,
+      "motion": {
+        "opening_px": 180
+      },
+      "timeline": {
+        "start_s": 4.265,
+        "warning_s": 0.9,
+        "opening_s": 0.45,
+        "hold_s": 1.55,
+        "closing_s": 0.55,
+        "cooldown_s": 12
+      },
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m01-answer",
+      "stage_id": "m01-integration-additional-v1"
+    },
+    {
+      "id": "m01-A-out",
+      "mechanic_kind": "timed_armor_gate",
+      "x": 1265.5,
+      "y": 375,
+      "collider": {
+        "shape": "rectangle",
+        "w": 210,
+        "h": 540
+      },
+      "effect_region": null,
+      "motion": {
+        "opening_px": 200
+      },
+      "timeline": {
+        "start_s": 6.036666666666666,
+        "warning_s": 0.9,
+        "opening_s": 0.45,
+        "hold_s": 2.7,
+        "closing_s": 0.55,
+        "cooldown_s": 12
+      },
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m01-answer",
+      "stage_id": "m01-integration-additional-v1"
+    },
+    {
+      "id": "m02-inclined-upper",
+      "mechanic_kind": "laser_scanner",
+      "x": 1605.5,
+      "y": 350,
+      "collider": {
+        "shape": "segment",
+        "w": 360,
+        "h": 220,
+        "width": 10
+      },
+      "motion": {
+        "dx_px": 360,
+        "dy_px": -220,
+        "amplitude_px": 20,
+        "period_s": 6,
+        "phase_rad": -9.253735694073933
+      },
+      "timeline": {
+        "start_s": 9.036666666666665,
+        "warning_s": 0.8,
+        "active_s": 3.4000000000000004,
+        "cooldown_s": 6
+      },
+      "interaction": {
+        "lethal": true
+      }
+    },
+    {
+      "id": "m02-inclined-lower",
+      "mechanic_kind": "laser_scanner",
+      "x": 1605.5,
+      "y": 560,
+      "collider": {
+        "shape": "segment",
+        "w": 540,
+        "h": 330,
+        "width": 10
+      },
+      "motion": {
+        "dx_px": 540,
+        "dy_px": -330,
+        "amplitude_px": 20,
+        "period_s": 6,
+        "phase_rad": -9.253735694073933
+      },
+      "timeline": {
+        "start_s": 9.036666666666665,
+        "warning_s": 0.8,
+        "active_s": 3.4000000000000004,
+        "cooldown_s": 6
+      },
+      "interaction": {
+        "lethal": true
+      }
+    },
+    {
+      "id": "m02-wide-receiving-cavity",
+      "mechanic_kind": "timed_armor_gate",
+      "x": 1875.5,
+      "y": 350,
+      "collider": {
+        "shape": "rectangle",
+        "w": 420,
+        "h": 1
+      },
+      "motion": {
+        "opening_px": 320
+      },
+      "timeline": {
+        "start_s": 9.936666666666666,
+        "warning_s": 0.8,
+        "opening_s": 0.8,
+        "hold_s": 2.163786467654517,
+        "closing_s": 1.9043202985182248,
+        "cooldown_s": 4
+      },
+      "interaction": {
+        "lethal": true
+      }
+    },
+    {
+      "id": "m03-roof-1",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 2525.5,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 180,
+        "h": 90
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m03-tidal-banks",
+      "stage_id": "m03-integration-additional-v1"
+    },
+    {
+      "id": "m03-roof-2",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 2785.5,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 220,
+        "h": 90
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m03-tidal-banks",
+      "stage_id": "m03-integration-additional-v1"
+    },
+    {
+      "id": "m03-roof-3",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 3155.5,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 260,
+        "h": 310
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m03-tidal-banks",
+      "stage_id": "m03-integration-additional-v1"
+    },
+    {
+      "id": "m03-roof-4",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 3475.5,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 190,
+        "h": 140
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m03-tidal-banks",
+      "stage_id": "m03-integration-additional-v1"
+    },
+    {
+      "id": "m03-bank-1",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 2585.5,
+      "y": 250,
+      "collider": {
+        "shape": "rectangle",
+        "w": 300,
+        "h": 290
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m03-tidal-banks",
+      "stage_id": "m03-integration-additional-v1"
+    },
+    {
+      "id": "m03-bank-2",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 2945.5,
+      "y": 330,
+      "collider": {
+        "shape": "rectangle",
+        "w": 60,
+        "h": 210
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m03-tidal-banks",
+      "stage_id": "m03-integration-additional-v1"
+    },
+    {
+      "id": "m03-bank-3",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 3225.5,
+      "y": 480,
+      "collider": {
+        "shape": "rectangle",
+        "w": 290,
+        "h": 60
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m03-tidal-banks",
+      "stage_id": "m03-integration-additional-v1"
+    },
+    {
+      "id": "m03-bank-4",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 3585.5,
+      "y": 300,
+      "collider": {
+        "shape": "rectangle",
+        "w": 130,
+        "h": 240
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "route_id": "main",
+      "mount": "world",
+      "group_id": "m03-tidal-banks",
+      "stage_id": "m03-integration-additional-v1"
+    },
+    {
+      "id": "m04-entry-top",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 3850.5,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 40,
+        "h": 220
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m04-entry-top",
+      "stage_id": "m04-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m04-mixed01-v2"
+    },
+    {
+      "id": "m04-entry-bottom",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 3850.5,
+      "y": 340,
+      "collider": {
+        "shape": "rectangle",
+        "w": 40,
+        "h": 200
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m04-entry-bottom",
+      "stage_id": "m04-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m04-mixed01-v2"
+    },
+    {
+      "id": "m04-corridor-top",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 3970.5,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 605,
+        "h": 70
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m04-corridor-top",
+      "stage_id": "m04-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m04-mixed01-v2"
+    },
+    {
+      "id": "m04-corridor-bottom",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 3970.5,
+      "y": 470,
+      "collider": {
+        "shape": "rectangle",
+        "w": 605,
+        "h": 70
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m04-corridor-bottom",
+      "stage_id": "m04-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m04-mixed01-v2"
+    },
+    {
+      "id": "m04-slider",
+      "mechanic_kind": "vertical_armor_slider",
+      "route_id": "main",
+      "x": 4120.5,
+      "y": 185,
+      "collider": {
+        "shape": "rectangle",
+        "w": 56,
+        "h": 170
+      },
+      "effect_region": null,
+      "motion": {
+        "type": "sine",
+        "amplitude_px": 75,
+        "period_s": 5.2,
+        "phase_rad": -31.37967738989497
+      },
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m04-slider",
+      "stage_id": "m04-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m04-mixed01-v2"
+    },
+    {
+      "id": "m04-island",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 4210.5,
+      "y": 215,
+      "collider": {
+        "shape": "rectangle",
+        "w": 135,
+        "h": 110
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m04-island",
+      "stage_id": "m04-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m04-mixed01-v2"
+    },
+    {
+      "id": "m04-receiver-top",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 4530.5,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 45,
+        "h": 210
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m04-receiver-top",
+      "stage_id": "m04-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m04-mixed01-v2"
+    },
+    {
+      "id": "m04-receiver-bottom",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 4530.5,
+      "y": 340,
+      "collider": {
+        "shape": "rectangle",
+        "w": 45,
+        "h": 200
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m04-receiver-bottom",
+      "stage_id": "m04-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m04-mixed01-v2"
+    }
+  ],
+  "integration": {
+    "schema": "combo-map-integration/1",
+    "status": "experimental",
+    "revision": 6,
+    "guide": [
+      {
+        "x": 60,
+        "target_y": 270,
+        "until_x": 240,
+        "module_id": "m01"
+      },
+      {
+        "x": 240,
+        "target_y": 375,
+        "until_x": 502,
+        "module_id": "m01"
+      },
+      {
+        "x": 502,
+        "target_y": 215,
+        "until_x": 772.0000000000001,
+        "module_id": "m01"
+      },
+      {
+        "x": 772.0000000000001,
+        "target_y": 245,
+        "until_x": 1076.5,
+        "module_id": "m01"
+      },
+      {
+        "x": 1076.5,
+        "target_y": 375,
+        "until_x": 1485.5,
+        "module_id": "m01"
+      },
+      {
+        "x": 1485.5,
+        "until_x": 1605.5,
+        "target_y": 440,
+        "module_id": "m02"
+      },
+      {
+        "x": 1605.5,
+        "until_x": 2045.5,
+        "target_y": 450,
+        "target_y_end": 255,
+        "policy": "laser-channel",
+        "module_id": "m02"
+      },
+      {
+        "x": 2045.5,
+        "until_x": 2305.5,
+        "target_y": 375,
+        "policy": "laser-receive",
+        "module_id": "m02"
+      },
+      {
+        "x": 2305.5,
+        "target_y": 270,
+        "until_x": 2420.5,
+        "module_id": "m03"
+      },
+      {
+        "x": 2420.5,
+        "target_y": 180,
+        "until_x": 2900.5,
+        "module_id": "m03"
+      },
+      {
+        "x": 2900.5,
+        "target_y": 270,
+        "until_x": 3015.5,
+        "module_id": "m03"
+      },
+      {
+        "x": 3015.5,
+        "target_y": 385,
+        "until_x": 3430.5,
+        "module_id": "m03"
+      },
+      {
+        "x": 3430.5,
+        "target_y": 270,
+        "until_x": 3565.5,
+        "module_id": "m03"
+      },
+      {
+        "x": 3565.5,
+        "target_y": 235,
+        "until_x": 3725.5,
+        "module_id": "m03"
+      },
+      {
+        "x": 3730.5,
+        "until_x": 3905.5,
+        "target_y": 298,
+        "module_id": "m04"
+      },
+      {
+        "x": 3905.5,
+        "until_x": 4356.5,
+        "target_y": 190,
+        "module_id": "m04"
+      },
+      {
+        "x": 4356.5,
+        "until_x": 4585.5,
+        "target_y": 298,
+        "module_id": "m04"
+      },
+      {
+        "x": 4585.5,
+        "until_x": 4745.5,
+        "target_y": 298,
+        "module_id": "m04",
+        "policy": "terminal-recovery"
+      }
+    ],
+    "modules": [
+      {
+        "id": "m01",
+        "family": "bellows-question-answer",
+        "title": "Gate question and answer",
+        "variant": "alternate",
+        "start_x": 60,
+        "active_start_x": 410,
+        "active_end_x": 1485.5,
+        "end_x": 1485.5,
+        "shift_x": 0,
+        "time_shift_s": 0,
+        "action": [
+          "low-sustain",
+          "advance-rise",
+          "return-low"
+        ],
+        "role": "introduce",
+        "provider": "integration/bellows-question-answer@1",
+        "body_ids": [
+          "m01-Q-in",
+          "m01-Q-out",
+          "m01-A-in",
+          "m01-A-out"
+        ],
+        "source_map_sha256": "c49f51fb3e881c32182d2f322d448bdf5684761d6b35001febdd66350b9ca957",
+        "source_metadata": {
+          "schema": "additional-relational-fragment/1",
+          "family": "bellows-question-answer",
+          "variant": "extended",
+          "difficulty": "medium",
+          "classification": "candidate_unqualified",
+          "physically_qualified": false,
+          "continuous_safe_range": null,
+          "difficulty_status": "discrete authored recipes; ordering not empirically calibrated",
+          "new_physics_run": false,
+          "sources": [
+            {
+              "candidate_id": "candidate-same-type-bellows",
+              "candidate_version": 3,
+              "author_id": "same-type.bellows",
+              "round": "R05",
+              "record": "records/candidates/candidate-same-type-bellows.v3.json",
+              "payload": "sources/1d509cf664af73f4/concepts.json",
+              "evidence_ids": [
+                "review-r01-same-v2@1",
+                "review-r05-closure@1"
+              ],
+              "scope": "event/geometry timing only; source has no physical cross-chamber transfer witness"
+            }
+          ],
+          "behavioral_verbs": [
+            "descend to low call",
+            "lift into reply",
+            "retain high handoff",
+            "release to low answer",
+            "sustain through thick outlet"
+          ],
+          "native_duration_s": 11.47,
+          "entry": {
+            "initial_player": {
+              "x": 60,
+              "y": 270,
+              "vx": 150,
+              "vy": 0
+            },
+            "accepted_state_box": null
+          },
+          "exit": {
+            "actual_state": null,
+            "desired_target_y": 270,
+            "preserve": [
+              "actual x/y/vx/vy",
+              "world tick and clock",
+              "all earlier live hazards"
+            ]
+          },
+          "guide_scope": "Piecewise control aims on [x, until_x); not a trajectory, clearance proof, input tape, accepted state range, or horizontal waiting instruction",
+          "composition_scope": "Standalone fresh entry only. Translation must retime every clocked descriptor against the persistent world clock; composition must receive actual incoming state.",
+          "action_grammar": "low entry \u2192 high reply \u2192 high handoff \u2192 low answer \u2192 sustain through thick outlet",
+          "theme": "Two wall-bellows chambers, with a low-to-high question and a thicker reversed answer",
+          "mechanics": [
+            "timed_armor_gate"
+          ],
+          "parameters": {
+            "whole_player_front_tail_margin_delta_s": 0,
+            "aperture_delta_px": 0,
+            "final_gate_extension_px": 90
+          },
+          "relations": [
+            "Q-in closing begins exactly when Q-out opening begins",
+            "Q-out closing begins exactly when A-in opening begins; no per-body clock reset",
+            "Opening clocks derive from radius-expanded front/tail occupancy and positive temporal reserves",
+            "The answer reverses the low-to-high question; final gate is thickest and has the longest full-open hold",
+            "Extended final gate adds90px body thickness and0.6s hold/duration; it adds a sustained outlet, not an empty rest"
+          ],
+          "derived": {
+            "events": [
+              {
+                "id": "Q-in",
+                "warning_start_s": 0.6650000000000003,
+                "opening_start_s": 1.5650000000000002,
+                "full_open_start_s": 2.015,
+                "closing_start_s": 3.265,
+                "closed_s": 3.8150000000000004,
+                "whole_player_occupancy_s": [
+                  2.3333333333333335,
+                  2.9466666666666668
+                ],
+                "full_open_front_margin_s": 0.31833333333333336,
+                "full_open_tail_margin_s": 0.31833333333333336,
+                "exclusive_center_band": [
+                  295,
+                  455
+                ]
+              },
+              {
+                "id": "Q-out",
+                "warning_start_s": 2.365,
+                "opening_start_s": 3.265,
+                "full_open_start_s": 3.7150000000000003,
+                "closing_start_s": 5.165,
+                "closed_s": 5.715,
+                "whole_player_occupancy_s": [
+                  4.133333333333334,
+                  4.746666666666667
+                ],
+                "full_open_front_margin_s": 0.41833333333333333,
+                "full_open_tail_margin_s": 0.41833333333333333,
+                "exclusive_center_band": [
+                  145,
+                  285
+                ]
+              },
+              {
+                "id": "A-in",
+                "warning_start_s": 4.265,
+                "opening_start_s": 5.165,
+                "full_open_start_s": 5.615,
+                "closing_start_s": 7.165,
+                "closed_s": 7.715,
+                "whole_player_occupancy_s": [
+                  6.003333333333334,
+                  6.776666666666666
+                ],
+                "full_open_front_margin_s": 0.38833333333333336,
+                "full_open_tail_margin_s": 0.38833333333333336,
+                "exclusive_center_band": [
+                  165,
+                  325
+                ]
+              },
+              {
+                "id": "A-out",
+                "warning_start_s": 6.036666666666666,
+                "opening_start_s": 6.9366666666666665,
+                "full_open_start_s": 7.386666666666667,
+                "closing_start_s": 10.086666666666666,
+                "closed_s": 10.636666666666667,
+                "whole_player_occupancy_s": [
+                  7.97,
+                  9.503333333333334
+                ],
+                "full_open_front_margin_s": 0.5833333333333334,
+                "full_open_tail_margin_s": 0.5833333333333334,
+                "exclusive_center_band": [
+                  285,
+                  465
+                ]
+              }
+            ],
+            "Q_out_close_equals_A_in_open_s": 5.165,
+            "high_handoff_band_intersection": [
+              165,
+              285
+            ],
+            "minimum_first_low_to_high_change_px": 10,
+            "last_body_radius_clear_x": 1485.5,
+            "radius_clear_recovery_px": 295
+          },
+          "limitations": [
+            "Gate warning is CLOSED and lethal; no outside bypass and no horizontal waiting",
+            "Clock coverage is not a reachable y/vy interval or a successful passage",
+            "High handoff is a geometric band intersection only; actual state transfer remains unmeasured",
+            "The first question forces only the reported minimum height change; the full centerline excursion is optional",
+            "The final answer's bands may overlap; descending all the way to its center is an authoring intent",
+            "Future cycles remain live in compositions; no deletion or neutralization of earlier gates",
+            "Difficulty and extension are discrete unqualified adaptations, not inherited source qualification"
+          ],
+          "provider": "integration/bellows-question-answer@1"
+        },
+        "qualification": "experimental-composition-no-transferred-qualification",
+        "connector_variant": null
+      },
+      {
+        "id": "m02",
+        "family": "light-cavity",
+        "title": "Light release and receipt",
+        "variant": "alternate",
+        "start_x": 1485.5,
+        "active_start_x": 1590.5,
+        "active_end_x": 2305.5,
+        "end_x": 2305.5,
+        "shift_x": 1325.5,
+        "time_shift_s": 8.836666666666666,
+        "action": [
+          "rise",
+          "release-fall",
+          "catch"
+        ],
+        "role": "develop",
+        "provider": "light-cavity-kernel@1.0.0",
+        "body_ids": [
+          "m02-inclined-upper",
+          "m02-inclined-lower",
+          "m02-wide-receiving-cavity"
+        ],
+        "source_map_sha256": "cc471ab1a9415ce686cbd6c705a655f3079f1fdc5320a4cdb3b2f1b3eb1ce876",
+        "source_metadata": {
+          "schema": "candidate-generated-output/1",
+          "status": "unqualified_candidate_output",
+          "provider": "light-cavity-kernel@1.0.0",
+          "source": {
+            "path": "sources/37c1cce49977141e/emitter.py",
+            "sha256": "37c1cce49977141e396876f180a45fa14cc8d5e10cf901d6ea7ffdaf690d4824"
+          },
+          "dependencies": [],
+          "active_eligibility": {
+            "policy": "exclude-force-cores@1",
+            "sha256": "ee3ffa9968b7cc6a07be5e790aec4da2f61c593ce8b8af972be6d8efa9155931",
+            "excluded_mechanics": [
+              "suction_core",
+              "push_pulse_core"
+            ],
+            "inactive_provider_ids": [
+              "carried-speed-gate"
+            ],
+            "active": true,
+            "excluded_mechanics_present": []
+          },
+          "requested_spec": {
+            "rail_mode": "upper",
+            "upper_rail_fraction": 0.6666666666666666
+          },
+          "resolved_spec": {
+            "schema": "light-cavity-kernel-spec/1",
+            "laser_span_px": 540,
+            "gate_width_px": 420,
+            "release_lead_px": 100,
+            "rail_mode": "upper",
+            "upper_rail_fraction": 0.6666666666666666,
+            "fold_rise_px": 450
+          },
+          "resolved_spec_sha256": "796e5be9c27075233995b2db23b1deeff1bcf66158f697e7caf12707ee47b039",
+          "native_map_sha256": "801e9dd4f9cee8b600fd630363f55ff3cee9b00d16438f70d15b605035aa6ef4",
+          "parameter_effects": {},
+          "variant_effect": "unclassified-by-provider",
+          "restricted_collision_signature_sha256": null,
+          "historical_exact_map_matches": [],
+          "historical_match_scope": "Exact native-map bytes only; not a new run, accepted entry/tape/state or family qualification. Collision signature is never an evidence lookup key.",
+          "provider_metadata": {
+            "schema": "light-cavity-kernel-emission/1",
+            "provider_id": "light-cavity-kernel",
+            "provider_version": "1.0.0",
+            "grammar_id": "laser-release-gate-reception",
+            "parameterization": "minimum-inclined-release-kernel",
+            "classification": "candidate",
+            "spec": {
+              "schema": "light-cavity-kernel-spec/1",
+              "laser_span_px": 540,
+              "gate_width_px": 420,
+              "release_lead_px": 100,
+              "rail_mode": "upper",
+              "upper_rail_fraction": 0.6666666666666666,
+              "fold_rise_px": 450
+            },
+            "derived": {
+              "laser_span_px": 540,
+              "lower_endpoint_x": 820,
+              "lower_endpoint_y_before_sine": 230,
+              "slope": -0.6111111111111112,
+              "laser_release_s": 4.4,
+              "release_player_x": 720,
+              "release_before_finite_end_px": 100,
+              "gate_front_radius_time_s": 3.2,
+              "gate_inside_right_edge_time_s": 6.066666666666666,
+              "gate_whole_radius_tail_s": 6.133333333333334,
+              "gate_closing_start_s": 4.5,
+              "gate_closing_duration_s": 2.45,
+              "gate_tail_open_fraction": 0.3333333333333333,
+              "gate_tail_center_band_px": 86.66666666666664,
+              "active_overlap_endpoint_bands": [
+                {
+                  "time_s": 3.2,
+                  "low": 204.53206321953004,
+                  "high": 379.37369136998177,
+                  "width": 174.84162815045173
+                },
+                {
+                  "time_s": 4.4,
+                  "low": 200,
+                  "high": 253.64148727897145,
+                  "width": 53.641487278971454
+                }
+              ],
+              "active_overlap_min_center_band_px": 53.641487278971454,
+              "pre_release_above_lower_branch_upper_y": 253.64148727897145,
+              "inside_tail_gate_lower_y": 302.312925170068,
+              "required_same_branch_descent_px": 48.67143789109656,
+              "capsule_vertical_offset_px": 17.579185924774155,
+              "upper_rail_intersects_receiver_envelope": true,
+              "upper_rail_end_x": 640,
+              "upper_rail_to_gate_front_conservative_gap_px": -115,
+              "fold_start_y_before_sine": -100,
+              "map_width": 1210,
+              "exit_if_alive_s": 7.666666666666667,
+              "new_actual_player_states": null
+            },
+            "removed_source_bodies": [
+              {
+                "id": "ceiling-fold",
+                "mechanic_kind": "laser_scanner",
+                "x": 210,
+                "y": -100,
+                "collider": {
+                  "shape": "segment",
+                  "w": 70,
+                  "h": 450,
+                  "width": 10
+                },
+                "motion": {
+                  "dx_px": 70,
+                  "dy_px": 450,
+                  "amplitude_px": 20,
+                  "period_s": 6,
+                  "phase_rad": 0
+                },
+                "timeline": {
+                  "start_s": 0.2,
+                  "warning_s": 0.8,
+                  "active_s": 3.4000000000000004,
+                  "cooldown_s": 6
+                },
+                "interaction": {
+                  "lethal": true
+                }
+              }
+            ],
+            "removed_source_ids": [
+              "ceiling-fold"
+            ],
+            "retained_body_changes_from_source": {
+              "inclined-upper": [
+                "collider",
+                "motion"
+              ]
+            },
+            "source_lineage": {
+              "map_path": "../../physics/R14-light-cavity/map.json",
+              "map_sha256": "503954916e016fe1fa57f09cae2743219f981d4dde752e564ccc78317de23a07",
+              "tape_path": "../../physics/R14-light-cavity/attempt01-inputs.json",
+              "tape_sha256": "139041d6c8da867e3f709766145daaeca803f8fade414146a4cdbd2efdf5285d",
+              "controller_sha256": "5ffa57fbcfccb5c0f20cf9ba7c6516e716e08a6b844e9f1cd1fe0174bb12a5de",
+              "source_exact_bytes_reconstructed": false,
+              "old_measured_exit_only": {
+                "tick": 920,
+                "time_s": 7.666666666666667,
+                "x": 1210,
+                "y": 330.5499999999999,
+                "vx": 150,
+                "vy": 78.99999999999989
+              },
+              "old_measured_release_crossing_only": {
+                "cooldown_first_old_capsule_overlap_s": 4.6625,
+                "old_centerline_cross_s": 4.729166666666667,
+                "full_gate_tail_s": 6.133333333333333
+              },
+              "old_tape_not_run_here": true,
+              "old_controller_requires_upper_body": "It directly dereferences inclined-upper; do not call it unchanged on a no-upper map. Any adapted controller needs a new declaration."
+            },
+            "relations": {
+              "footprint_release": "lower laser starts280/560 and ends at y230; span changes slope. Release when x=finiteEnd\u2212lead, not after endpoint bypass.",
+              "closing": "close begins release+.1; duration=1.5*(wholeRadiusTail\u2212closeStart), leaving exactly1/3 of320px gap at tail",
+              "recovery": "world ends240px after gate right edge, retaining230px after full-radius tail; no arbitrary terminal trimming",
+              "finite_scope": "beam is one width10 fixed-direction capsule translated vertically by native sineA20/P6, never rotated/tracked",
+              "active_band": "overlap uses full-radius lower halfplane and gate top; optional upper adds a conservative halfplane only if its expanded x extent reaches the receiver. Monotone line+sine extrema are endpoint-exact for this band.",
+              "descent_scope": "pre-release above-lower-branch upper bound compared with actual gate-right-edge lower bound; not a global unique-route or reachable-flight claim"
+            },
+            "body_roles": {
+              "inclined-lower": {
+                "mechanical": "live lower capsule bounds the above-beam branch, then real cooldown releases crossing space",
+                "visual": "one visible rising edge, less enclosed than the source channel"
+              },
+              "wide-receiving-cavity": {
+                "mechanical": "closing full-width aperture receives a lower posture and persists through full tail",
+                "visual": "one shared cavity makes the release/reception location legible"
+              },
+              "inclined-upper": {
+                "mechanical": "adds a real early upper collision boundary; late gate top can dominate it. Shortening/removal changes branch access.",
+                "visual": "paired parallel rails give channel identity and rhythm; losing them is a real design cost even if a tape could pass"
+              },
+              "ceiling-fold": {
+                "mechanical": "long fold can constrain entry side; short fold leaves an above-tip alternative. Not automatically redundant.",
+                "visual": "a distinct entrance turn prepares the rising phrase"
+              }
+            },
+            "optional_upper_branch": {
+              "kernel": "with both rails removed, high preparation before the incline is available as a geometric alternative; it need not trace the lower edge",
+              "short_rail_or_fold": "a short upper rail can end before the gate, and a short fold can leave an above-tip route; actual reachability/control cost remains unknown",
+              "full_source": "full ceiling fold/full upper rail can block that early high route, so do not promise identical bypass for all masks",
+              "limits": "the gate still needs real entry and full-tail receipt; an optional high branch is not proof that every phase can be ignored"
+            },
+            "entry": {
+              "initial_player": {
+                "x": 60,
+                "y": 440,
+                "vx": 150,
+                "vy": 0
+              },
+              "accepted_box": null
+            },
+            "exit": {
+              "actual_new_state": null,
+              "time_if_alive_s": 7.666666666666667,
+              "desired_y": [
+                300,
+                390
+              ],
+              "desired_abs_vy": 120,
+              "preserve": [
+                "absolute time",
+                "actual y/vy",
+                "every retained laser timeline",
+                "gate phase and future cycles"
+              ]
+            },
+            "future_cycles": {
+              "laser_next_warning_s": 10.399999999999999,
+              "laser_next_active_s": 11.2,
+              "gate_next_warning_s": 10.95,
+              "gate_next_opening_s": 11.75,
+              "all_retained_sources_repeat": true,
+              "not_reset_at_exit": true
+            },
+            "readability_cost": "minimum kernel may retain the action relation while losing the original channel enclosure and entry rhythm; visual value must be reviewed independently of collision removability",
+            "input_question": "Can two actual bodies preserve a readable rise, an interior lower-capsule crossing during real cooldown, and a closing-gate full-tail receipt from the declared entry?",
+            "preview_contract": {
+              "lookahead_px": 520,
+              "camera_verified": false,
+              "rule": "show actual finite lower beam and real gate aperture; warning beam is nonlethal, gate warning stays solid. Endpoint/cooldown cues must remain distinguishable."
+            },
+            "risks": [
+              "no new input or trajectory is inherited by removing bodies",
+              "earlier high preparation may weaken following-the-incline gameplay while remaining valid",
+              "compact steeper slope can change flap timing despite preserved late band relation",
+              "old controller relies on removed upper rail",
+              "losing channel identity can be a cost even with a pass"
+            ],
+            "measured_bounds": null,
+            "new_physics_run": false,
+            "native_map_sha256": "801e9dd4f9cee8b600fd630363f55ff3cee9b00d16438f70d15b605035aa6ef4"
+          },
+          "physics_executed": false,
+          "qualification_transferred": false,
+          "limitations": [
+            "Masks none/upper/fold/both change real early-route collision boundaries and potentially visual enclosure; local redundancy does not make a rail globally cosmetic or prove the best appearance.",
+            "Native finite lower laser, true cooldown, full gate tail, lethal gate warning and future cycles remain. Numeric/conditional branch admission is not a physically safe parameter range.",
+            "Fresh initial(60,440,150,0) remains. The old feedback controller dereferences inclined-upper and cannot run unchanged without that rail; recorded-tape replay is a separate operation, never run by this entrypoint.",
+            "Every output remains unqualified, including exact original full-mask or measured minimal-map bytes; no inherited input/exit box or automatic family promotion."
+          ],
+          "integration_refinements": [
+            {
+              "id": "light-carried-ramp-and-receipt-v1",
+              "first_revision": 6,
+              "difficulty_scope": "same discrete handoff correction across existing aperture recipes; not calibrated difficulty",
+              "qualification": "experimental authored correction; no accepted state box or inherited qualification",
+              "state_policy": "real incoming y/vy and world tick remain untouched; earlier hazards and future cycles remain live",
+              "changed_bodies": [],
+              "changed_guide": {
+                "before": {
+                  "x": 280,
+                  "until_x": 720,
+                  "target_y": 400,
+                  "target_y_end": 235,
+                  "policy": "laser-channel"
+                },
+                "after": {
+                  "x": 280,
+                  "until_x": 720,
+                  "target_y": 450,
+                  "target_y_end": 255,
+                  "policy": "laser-channel"
+                }
+              },
+              "relation": "early threshold = rail midpoint minus 5px; late threshold = open gate minimum center y plus 55px authored flap-crest reserve",
+              "preserved": [
+                "finite rail lengths",
+                "real laser cooldown",
+                "release guide x",
+                "gate opening and closing timeline",
+                "whole-radius receipt tail"
+              ],
+              "evidence": {
+                "baseline": "B1 baseline-701 and baseline-703 active upper-rail deaths; baseline-706 open gate top death after pre-release flap",
+                "probe": "integration/runs/four-loops/exploratory-handoffs/light-ramp-701/result.json",
+                "finding": "450 to 255 ramp traversed full light module; full-world trajectory later died at unchanged tidal roof-3 tick2900",
+                "limits": "one carried entry tested; alternate rail, other entries, late lower-rail clearance, and full-map qualification remain unproved"
+              }
+            }
+          ]
+        },
+        "qualification": "experimental-composition-no-transferred-qualification",
+        "connector_variant": null
+      },
+      {
+        "id": "m03",
+        "family": "tidal-staircase",
+        "title": "Tidal wall shelves",
+        "variant": "base",
+        "start_x": 2305.5,
+        "active_start_x": 2515.5,
+        "active_end_x": 3725.5,
+        "end_x": 3725.5,
+        "shift_x": 2245.5,
+        "time_shift_s": 14.97,
+        "action": [
+          "rise",
+          "sustain",
+          "fall",
+          "recover"
+        ],
+        "role": "release",
+        "provider": "integration/tidal-staircase@1",
+        "body_ids": [
+          "m03-roof-1",
+          "m03-roof-2",
+          "m03-roof-3",
+          "m03-roof-4",
+          "m03-bank-1",
+          "m03-bank-2",
+          "m03-bank-3",
+          "m03-bank-4"
+        ],
+        "source_map_sha256": "a39271ad261841fac3288d5dc5ae22bfcbe9fa4e46940b4c1e1756469b67c1bb",
+        "source_metadata": {
+          "schema": "additional-relational-fragment/1",
+          "family": "tidal-staircase",
+          "variant": "base",
+          "difficulty": "medium",
+          "classification": "candidate_unqualified",
+          "physically_qualified": false,
+          "continuous_safe_range": null,
+          "difficulty_status": "discrete authored recipes; ordering not empirically calibrated",
+          "new_physics_run": false,
+          "sources": [
+            {
+              "candidate_id": "candidate-spatial-tidal-terraces",
+              "candidate_version": 3,
+              "author_id": "tidal-admissible-band-v2",
+              "round": "R02",
+              "record": "records/candidates/candidate-spatial-tidal-terraces.v3.json",
+              "payload": "sources/0764d4245af0a4a4/families.json",
+              "evidence_ids": [
+                "evidence-r02-spatial-geometry@1",
+                "review-r02-tidal-v2@1"
+              ],
+              "scope": "corrected static geometry only; source has no physics witness"
+            }
+          ],
+          "behavioral_verbs": [
+            "prepare",
+            "climb",
+            "sustain high",
+            "release downward",
+            "sustain low",
+            "lift to exit"
+          ],
+          "native_duration_s": 10.2,
+          "entry": {
+            "initial_player": {
+              "x": 60,
+              "y": 270,
+              "vx": 150,
+              "vy": 0
+            },
+            "accepted_state_box": null
+          },
+          "exit": {
+            "actual_state": null,
+            "desired_target_y": 270,
+            "preserve": [
+              "actual x/y/vx/vy",
+              "world tick and clock",
+              "all earlier live hazards"
+            ]
+          },
+          "guide_scope": "Piecewise control aims on [x, until_x); not a trajectory, clearance proof, input tape, accepted state range, or horizontal waiting instruction",
+          "composition_scope": "Standalone fresh entry only. Translation must retime every clocked descriptor against the persistent world clock; composition must receive actual incoming state.",
+          "action_grammar": "prepare \u2192 climb and sustain \u2192 release into long trough \u2192 lift to exit",
+          "theme": "Unequal stair banks outline one crest and a deeper trough",
+          "mechanics": [
+            "fixed_armor_or_spike"
+          ],
+          "parameters": {
+            "high_aperture_px": 160,
+            "low_aperture_px": 170,
+            "inserted_high_shelf_px": 0
+          },
+          "relations": [
+            "High, low and exit center heights are fixed; each roof/bank pair derives from one shared aperture",
+            "Roof and bank horizontal runs are unequal, offset and overlapping, not repeated paired pipes",
+            "The low aperture is10px taller than the high one; intermediate bank remains a descent step",
+            "Extended inserts180px inside the existing high shelf and translates only the suffix; duration gains1.2s"
+          ],
+          "derived": {
+            "exclusive_center_bands": {
+              "high": [
+                100,
+                240
+              ],
+              "low": [
+                320,
+                470
+              ],
+              "exit": [
+                150,
+                290
+              ]
+            },
+            "band_probe_x": {
+              "high": 580,
+              "low": 1040,
+              "exit": 1380
+            },
+            "minimum_high_to_low_change_px": 80,
+            "minimum_low_to_exit_change_px": 30,
+            "constant_y_global_intersection_empty": true,
+            "last_body_radius_clear_x": 1480,
+            "radius_clear_recovery_px": 110
+          },
+          "limitations": [
+            "Disjoint static bands require a height change, not the exact larger illustrated wave",
+            "No native trajectory, input range, camera readability, seam or human-play claim",
+            "The earlier v1 flat-y270 counterexample remains valid for v1; this uses its corrected successor",
+            "Extended shelf and easy/hard aperture recipes are new unqualified relational adaptations"
+          ],
+          "provider": "integration/tidal-staircase@1",
+          "integration_refinements": [
+            {
+              "id": "tidal-intermediate-step-release-v1",
+              "first_revision": 6,
+              "difficulty_scope": "same discrete handoff correction across existing aperture recipes; not calibrated difficulty",
+              "qualification": "experimental authored correction; no accepted state box or inherited qualification",
+              "state_policy": "real incoming y/vy and world tick remain untouched; earlier hazards and future cycles remain live",
+              "changed_bodies": [
+                "bank-2"
+              ],
+              "intermediate_shelf_width_px": {
+                "before": 120,
+                "after": 60
+              },
+              "changed_guide_boundary": {
+                "from_x": 810,
+                "to_x": 770
+              },
+              "relation": "halve only intermediate bank-2; low descent cue starts at its right edge plus player radius; retain next low roof and aperture",
+              "radius_clear_descent_runway_px": 130,
+              "evidence": {
+                "baseline": "B1 baseline-702 late target270 flap x966.25 caused roof-3 entry at y289.83; not an impossibility proof",
+                "probe": "integration/runs/four-loops/exploratory-handoffs/tidal-short-step-702/result.json",
+                "finding": "60px intermediate shelf and release x950 suppressed that late reset; full-world native win at3785 ticks",
+                "limits": "one full-map trajectory tested; other variants, difficulties and carried entries remain unproved"
+              }
+            }
+          ]
+        },
+        "qualification": "experimental-composition-no-transferred-qualification",
+        "connector_variant": null
+      },
+      {
+        "id": "m04",
+        "family": "slider-island",
+        "title": "Slider commits a route",
+        "variant": "base",
+        "start_x": 3725.5,
+        "active_start_x": 3840.5,
+        "active_end_x": 4585.5,
+        "end_x": 4585.5,
+        "shift_x": 3670.5,
+        "time_shift_s": 24.47,
+        "action": [
+          "read-phase",
+          "choose-layer",
+          "merge"
+        ],
+        "role": "peak",
+        "provider": "mixed01-slider-fixed-route@1.0.0",
+        "body_ids": [
+          "m04-entry-top",
+          "m04-entry-bottom",
+          "m04-corridor-top",
+          "m04-corridor-bottom",
+          "m04-slider",
+          "m04-island",
+          "m04-receiver-top",
+          "m04-receiver-bottom"
+        ],
+        "source_map_sha256": "fe25e6815bd152865c589d535d1441d1334dffa966949f85ab019d019bc979f9",
+        "source_metadata": {
+          "schema": "candidate-generated-output/1",
+          "status": "unqualified_candidate_output",
+          "provider": "mixed01-slider-fixed-route@1.0.0",
+          "source": {
+            "path": "sources/6510ee3ec22bd802/emitter.py",
+            "sha256": "6510ee3ec22bd802e2275b1f2d5df16fa63b511e5e31153ca6d6658b742f69ba"
+          },
+          "dependencies": [],
+          "active_eligibility": {
+            "policy": "exclude-force-cores@1",
+            "sha256": "ee3ffa9968b7cc6a07be5e790aec4da2f61c593ce8b8af972be6d8efa9155931",
+            "excluded_mechanics": [
+              "suction_core",
+              "push_pulse_core"
+            ],
+            "inactive_provider_ids": [
+              "carried-speed-gate"
+            ],
+            "active": true,
+            "excluded_mechanics_present": []
+          },
+          "requested_spec": {
+            "branch": "upper",
+            "core_shift_px": 0
+          },
+          "resolved_spec": {
+            "schema": "mixed01-slider-route-spec/1",
+            "branch": "upper",
+            "core_shift_px": 0,
+            "entry_connector": "included"
+          },
+          "resolved_spec_sha256": "09d41172b07d4dff0a5429103437c58f1602e2ad349b3ff191e3a262c9ab26db",
+          "native_map_sha256": "e20e63c6e9d3317976d2f655c2be01224393c8c959b99c1e373e5f285eba1825",
+          "parameter_effects": {},
+          "variant_effect": "unclassified-by-provider",
+          "restricted_collision_signature_sha256": null,
+          "historical_exact_map_matches": [
+            {
+              "map_sha256": "e20e63c6e9d3317976d2f655c2be01224393c8c959b99c1e373e5f285eba1825",
+              "evidence_refs": [
+                "evidence-r02-mixed-v2-existence@1"
+              ],
+              "label": "Exact upper seed map reference; measured draft velocity mismatch remains"
+            }
+          ],
+          "historical_match_scope": "Exact native-map bytes only; not a new run, accepted entry/tape/state or family qualification. Collision signature is never an evidence lookup key.",
+          "provider_metadata": {
+            "schema": "mixed01-slider-route-emission/1",
+            "grammar_id": "mixed01-slider-fixed-route",
+            "emitter_version": "v1",
+            "normalized_spec": {
+              "schema": "mixed01-slider-route-spec/1",
+              "branch": "upper",
+              "core_shift_px": 0,
+              "entry_connector": "included"
+            },
+            "classification": "candidate",
+            "native_map_sha256": "e20e63c6e9d3317976d2f655c2be01224393c8c959b99c1e373e5f285eba1825",
+            "semantic_sha256": "1534f6d166d1636a9976d703ec376c674e7198e43d0f3827586aa44e1a3dacc1",
+            "relationship": {
+              "formula": "x_core_new=x_core_seed+delta; phi_new=phi_seed-(2*pi/5.2)*(delta/150)",
+              "fixed_values": {
+                "vx_reference": 150,
+                "period_s": 5.2,
+                "amplitude_px": 75,
+                "slider_to_island_raw_gap_px": 34,
+                "island_to_receiver_raw_gap_px": 185
+              },
+              "derived": {
+                "translation_delay_s": 0,
+                "favored_extremum_s": 2.8,
+                "phase_rad": -1.8124573001479574,
+                "throat_to_corridor_raw_gap_px": 80
+              },
+              "what_it_preserves": "At t_new=t_seed+delta/150, slider pose equals seed pose at t_seed, for an unchanged horizontal-speed reference.",
+              "what_it_does_not_preserve": "Gravity, flap history, entry state, connector recovery or controller behavior are not time-translated by this identity."
+            },
+            "entry_connector": {
+              "mode": "included",
+              "condition": "Included throat is conditional: omit only when caller supplies a separately justified state contract. It is not proven required.",
+              "entry_player_if_new_episode": {
+                "x": 60,
+                "y": 270,
+                "vx": 150,
+                "vy": 0
+              },
+              "accepted_entry_box": null
+            },
+            "clock_contract": {
+              "geometry_clock": "runtime absolute tick; never renormalize a supplied continuation tick",
+              "required_start_tick": 0,
+              "createState_auto_injects_contract": false
+            },
+            "authored_bounds": {
+              "proposed_exit_goal": {
+                "y": [
+                  245,
+                  305
+                ],
+                "vy": [
+                  -100,
+                  160
+                ]
+              },
+              "status": "design target only, not accepted or guaranteed",
+              "grammar_constraints": [
+                "included throat right220 to corridor start must exceed2R=20",
+                "slider/island/receiver move together; relative gaps fixed",
+                "phase cannot be independently supplied"
+              ]
+            },
+            "measured_bounds": null,
+            "historical_seed_evidence": {
+              "source_map": "../../physics/mixed01-v2-upper-attempt01-map.json",
+              "source_result": "../../physics/mixed01-v2-upper-attempt01-result.json",
+              "source_map_sha256": "e20e63c6e9d3317976d2f655c2be01224393c8c959b99c1e373e5f285eba1825",
+              "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+              "applies_to_this_exact_map": true,
+              "entry": {
+                "x": 60,
+                "y": 270,
+                "vx": 150,
+                "vy": 0
+              },
+              "ticks": 804,
+              "time_s": 6.7,
+              "exit_state": {
+                "x": 1065,
+                "local_x": 1005,
+                "y": 264.76527777777744,
+                "vy": 160.99999999999986,
+                "vx": 150
+              },
+              "authored_exit_goal_met_by_seed": false,
+              "upper_vy_mismatch": "upper measured vy\u2248161 exceeds proposed +160, with no tolerance added",
+              "scope": "One historical route-guided existence witness only; no entry/exit box, human readability or family transfer guarantee. Not rerun."
+            },
+            "new_physics_run": false,
+            "transformed_candidate_has_no_inherited_success": false,
+            "render_contract": {
+              "use": "map.obstacles and actual emitted slider equation; no hand-copied geometry",
+              "player_trajectory": "none unless separately linked to exact historical trace"
+            }
+          },
+          "physics_executed": false,
+          "qualification_transferred": false,
+          "limitations": [
+            "Included connector and nominal fresh entry only in this entrypoint; external_entry_contract and entry_player are not exposed.",
+            "Core shift couples corridor/slider/receiver and phase; no independent phase. Unqualified lower/new shifts are not qualified recipes.",
+            "Even a map matching an approved recipe is only candidate output here; select/vary retain their independent exact contracts."
+          ]
+        },
+        "qualification": "experimental-composition-no-transferred-qualification",
+        "connector_variant": null
+      }
+    ],
+    "seams": [
+      {
+        "from": "m01",
+        "to": "m02",
+        "from_family": "bellows-question-answer",
+        "to_family": "light-cavity",
+        "x": 1485.5,
+        "next_active_x": 1590.5,
+        "spatial_reserve_px": 105,
+        "time_s": 9.503333333333334,
+        "intent": "prepare next height/phase while keeping real incoming y,vy,tick/cooldowns",
+        "planning_basis": "retained exit guide and incoming preparation aim; not an attained state box",
+        "attained_state": null,
+        "qualified_state_box": null
+      },
+      {
+        "from": "m02",
+        "to": "m03",
+        "from_family": "light-cavity",
+        "to_family": "tidal-staircase",
+        "x": 2305.5,
+        "next_active_x": 2515.5,
+        "spatial_reserve_px": 210,
+        "time_s": 14.97,
+        "intent": "prepare next height/phase while keeping real incoming y,vy,tick/cooldowns",
+        "planning_basis": "retained exit guide and incoming preparation aim; not an attained state box",
+        "attained_state": null,
+        "qualified_state_box": null
+      },
+      {
+        "from": "m03",
+        "to": "m04",
+        "from_family": "tidal-staircase",
+        "to_family": "slider-island",
+        "x": 3725.5,
+        "next_active_x": 3840.5,
+        "spatial_reserve_px": 115,
+        "time_s": 24.436666666666667,
+        "intent": "prepare next height/phase while keeping real incoming y,vy,tick/cooldowns",
+        "planning_basis": "retained exit guide and incoming preparation aim; not an attained state box",
+        "attained_state": null,
+        "qualified_state_box": null
+      }
+    ],
+    "plan": {
+      "theme": "arcade",
+      "requested_actions": [
+        "rise",
+        "fall",
+        "sustain"
+      ],
+      "difficulty": "medium",
+      "difficulty_scope": "discrete authored geometry choices; not calibrated human difficulty",
+      "rhythm": [
+        "introduce",
+        "develop",
+        "release",
+        "peak"
+      ],
+      "selection_score": 31.086757424886983,
+      "actual_duration_s": 31.236666666666668,
+      "target_duration_s": 31.5,
+      "allowed_families": [
+        "cloister",
+        "slider-island",
+        "spring-reception",
+        "light-cavity",
+        "tidal-staircase",
+        "bellows-question-answer"
+      ],
+      "unmatched_requested_actions": [],
+      "holdout": false,
+      "grammar": {
+        "schema": "combo-plan-grammar/4",
+        "outline": "question-contrast-answer",
+        "theme": "arcade",
+        "slots": [
+          {
+            "intent": "timing",
+            "role": "introduce"
+          },
+          {
+            "intent": "receive",
+            "role": "develop"
+          },
+          {
+            "intent": "contour",
+            "role": "release"
+          },
+          {
+            "intent": "route",
+            "role": "peak"
+          },
+          {
+            "intent": "receive",
+            "role": "answer"
+          },
+          {
+            "intent": "contour",
+            "role": "resolve"
+          }
+        ],
+        "selection_basis": "maximal requested-action coverage among admitted beam candidates, then authored phrase fit; seeded choice among near-equal family orders",
+        "qualification": "authoring heuristic only; no transferred qualification or claim about reachable seam states",
+        "actual_family_order": [
+          "bellows-question-answer",
+          "light-cavity",
+          "tidal-staircase",
+          "slider-island"
+        ],
+        "candidate_order_count": 63,
+        "action_covering_order_count": 63,
+        "near_equal_order_count": 2,
+        "covered_requested_actions": [
+          "fall",
+          "rise",
+          "sustain"
+        ],
+        "authoring_fit": 3.4
+      }
+    },
+    "state_policy": "one continuous world; no intermediate createState/restore; previous cycles retained",
+    "qualification": "unqualified candidate full map; historical exact recipe proofs do not transfer"
+  }
+}

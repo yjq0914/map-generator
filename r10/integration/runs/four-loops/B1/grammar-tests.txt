@@ -1,0 +1,13 @@
+test_bounded_real_authoring_has_distinct_orders_and_keeps_native_limits (test_grammar_v4.GrammarV4Tests.test_bounded_real_authoring_has_distinct_orders_and_keeps_native_limits) ... ok
+test_incremental_reward_favors_a_new_requested_verb (test_grammar_v4.GrammarV4Tests.test_incremental_reward_favors_a_new_requested_verb) ... ok
+test_no_candidate_fails_explicitly (test_grammar_v4.GrammarV4Tests.test_no_candidate_fails_explicitly) ... ok
+test_requested_action_and_theme_change_actual_selection (test_grammar_v4.GrammarV4Tests.test_requested_action_and_theme_change_actual_selection) ... ok
+test_requested_action_coverage_has_priority_over_scalar_score (test_grammar_v4.GrammarV4Tests.test_requested_action_coverage_has_priority_over_scalar_score) ... ok
+test_seeded_phrase_roles_are_stable_and_distinct (test_grammar_v4.GrammarV4Tests.test_seeded_phrase_roles_are_stable_and_distinct) ... ok
+test_selection_preserves_input_and_admitted_geometry (test_grammar_v4.GrammarV4Tests.test_selection_preserves_input_and_admitted_geometry) ... ok
+test_variant_multiplicity_and_iteration_order_do_not_buy_macro_weight (test_grammar_v4.GrammarV4Tests.test_variant_multiplicity_and_iteration_order_do_not_buy_macro_weight) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.672s
+
+OK

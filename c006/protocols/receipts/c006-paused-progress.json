@@ -1,0 +1,14 @@
+{
+  "schema": "adaptive-paused-progress-save/1",
+  "round": "c006",
+  "savedAt": "2026-10-05T15:49:50.414591+00:00",
+  "libraryFileId": "libfile_85f35e0e1c2c81918858d737069b5c49",
+  "currentVersion": 7,
+  "status": "succeeded",
+  "formalSettled": 171,
+  "formalUnstarted": 21,
+  "localSettled": 4,
+  "acceptedRound": "c005",
+  "noNewAnalysisOrPhysics": true,
+  "sourceFormalVersionUnchanged": 16
+}

@@ -1,0 +1,14 @@
+{
+  "attempt": "a005-recovery",
+  "readComplete": true,
+  "lines": 912,
+  "at": "2026-10-04T17:17:28Z",
+  "path": "recovery-20261004/library/Flappy-general-generator-gap-and-adaptive-loops.zh-CN.md",
+  "sha256": "3f736642ac62e37f5f300203abb7c4dd170a34eb06f91e08bca8bf2d96558c50",
+  "selectedGaps": [
+    "G0 cumulative capability preservation and geometry provenance",
+    "G1 finite semantic ordering and balanced recovery length",
+    "durable executable construction with independent static fixtures"
+  ],
+  "physicsCalls": 0
+}

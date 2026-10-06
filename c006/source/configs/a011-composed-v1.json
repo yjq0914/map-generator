@@ -1,0 +1,18 @@
+{
+  "version": "a011-seeded-relative-composition-v1",
+  "module": "source/a011-composed-generator.cjs",
+  "operators": [
+    "seed-ranked-horizontal-occupation",
+    "phase-through-or-bypass"
+  ],
+  "operation": {
+    "type": "following-gate-post-length",
+    "speedRatio": 0.6,
+    "periodSeconds": 3,
+    "crossingPhase": 0,
+    "placementBias": 0,
+    "seedSalt": 0
+  },
+  "conflicts": "fail-closed-relative-same-canonical",
+  "activation": "explicit"
+}

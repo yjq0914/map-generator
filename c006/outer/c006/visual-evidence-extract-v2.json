@@ -1,0 +1,2974 @@
+{
+  "schema": "c006-selected-saved-evidence-extract/1",
+  "sourceReferences": [
+    {
+      "label": "Control00 parent",
+      "runId": "c006-parent-control-00-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-parent-control-00-assigned_main.json.gz",
+          "bytes": 23116,
+          "sha256": "19a4a4249310919508b27fb2a1f21966b664f9cdc8e62e369fe64bdee0eb538e",
+          "decodedBytesSHA256": "11a225a689149e81ffa33e0662ae88ba771a0a598467a50bcfc52bcf89668df8"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e.json.gz",
+          "bytes": 23547,
+          "sha256": "1d101fa96f31ec8e37e85dfda62346251d9cca45b379c05a2b6cc63963debe1b",
+          "decodedBytesSHA256": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-parent-control-00-assigned_main.json.gz",
+          "bytes": 659884,
+          "sha256": "556dcd3fdbeb716573fcaa2ae3afc21db69bbc3cd1767fb9bb1bfd9c9f158028",
+          "decodedBytesSHA256": "0f0fd3176a5e09599d8ac39d3541b4454a5ce3907aef0d64e2c2e9032a064290"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-parent-control-00-assigned_main",
+        "seq": 2342,
+        "commitHash": "3e59236b656ac77ad7301d644e518b211ba5203385cb928463d65d530fa2db1f",
+        "mapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+        "traceSHA256": "556dcd3fdbeb716573fcaa2ae3afc21db69bbc3cd1767fb9bb1bfd9c9f158028",
+        "resultSHA256": "879eb29272585e4387277e911e56012fcaaa56a51d3bb7d2ff45fa4902702aa3",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-parent-control-00-assigned_main.json.gz",
+          "sha256": "19a4a4249310919508b27fb2a1f21966b664f9cdc8e62e369fe64bdee0eb538e"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C00 moving-first / 2s",
+      "runId": "c006-candidate-control-00-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-00-assigned_main.json.gz",
+          "bytes": 23152,
+          "sha256": "74aa9641760785d71ec38d6ef17a3282c0f5a64dc976a0ee7372aee5275c9580",
+          "decodedBytesSHA256": "a471b704be5f95f3d275c14a4bb75bf87bdcbb2583b0f0cb0b8048c7475e4a59"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21.json.gz",
+          "bytes": 26535,
+          "sha256": "570b20bc105b06b56912e358b000f71056110b1733753408de93c0ddd807e36f",
+          "decodedBytesSHA256": "4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-00-assigned_main.json.gz",
+          "bytes": 659503,
+          "sha256": "2739556ca9ce10b4ec99e6e7e2950bd1b53a3037f5d00a010ebe22efdbce3090",
+          "decodedBytesSHA256": "8175339656bdfc2339de37a298f86a54b3709602d1bc46033f4f20f836c6d57f"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-00-assigned_main",
+        "seq": 2354,
+        "commitHash": "1c9889014dc7a6c5f831a599cfef668133ec4152351cdd239ef86483b6b9785a",
+        "mapHash": "4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21",
+        "traceSHA256": "2739556ca9ce10b4ec99e6e7e2950bd1b53a3037f5d00a010ebe22efdbce3090",
+        "resultSHA256": "d598ceeeddb328e28c9d387aae3c60eb4fefe45086d7a1223681effb669ffa21",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-00-assigned_main.json.gz",
+          "sha256": "74aa9641760785d71ec38d6ef17a3282c0f5a64dc976a0ee7372aee5275c9580"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C01 fixed-first / 2s",
+      "runId": "c006-candidate-control-01-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-01-assigned_main.json.gz",
+          "bytes": 23195,
+          "sha256": "550e695458b8f70a7f75f654a488bbfbcb5dc87a2be53d460a340c9d008e0bdb",
+          "decodedBytesSHA256": "f84ca7781f09b6cf8e1839cdf84a7644d98391cd1eb9cf96b1ca210772885eaa"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30.json.gz",
+          "bytes": 26479,
+          "sha256": "44b3b6ac738649b7ba80db55f244f374fa905ff94fcb80057a465499b570a2ab",
+          "decodedBytesSHA256": "249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-01-assigned_main.json.gz",
+          "bytes": 659328,
+          "sha256": "e18004642ea8ef5aced7ccfe708d230f41a5846ece484eecbbd12cc831d3aeec",
+          "decodedBytesSHA256": "3abd179f8cb976f34932d661e04134aff727a2da48757c27ca3783394a9161e0"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-01-assigned_main",
+        "seq": 2378,
+        "commitHash": "8b7aa9e9952148046f3121778582b214cd4dec6c79047c75966b7d727f590312",
+        "mapHash": "249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30",
+        "traceSHA256": "e18004642ea8ef5aced7ccfe708d230f41a5846ece484eecbbd12cc831d3aeec",
+        "resultSHA256": "d2e4d9a292a550e9034c3b7a7d30b6b723f01df60dcab94677e777bcbf4236e4",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-01-assigned_main.json.gz",
+          "sha256": "550e695458b8f70a7f75f654a488bbfbcb5dc87a2be53d460a340c9d008e0bdb"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C02 moving-first / 1.2s",
+      "runId": "c006-candidate-control-02-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-02-assigned_main.json.gz",
+          "bytes": 23188,
+          "sha256": "f94e4a9fc0fd88d910f81093c41741b226e32d70a2f5ecca53d63b49319d9099",
+          "decodedBytesSHA256": "b064abd8c677488cbe6fc955b269469cae95dc760115f6c203c7dde426486b79"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06.json.gz",
+          "bytes": 26521,
+          "sha256": "9c3892d93ac7068545793b1ee35fd12de3b9d8add0d111089bad7b376f79eb83",
+          "decodedBytesSHA256": "6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-02-assigned_main.json.gz",
+          "bytes": 659724,
+          "sha256": "a13acb623bce1ee3cef342e909f37a3749c8c25458944b2610276c1846ab5162",
+          "decodedBytesSHA256": "c8486e653955fd13c5001fb66dd19f222ff2fac51a91ee6c2978c8cfee451207"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-02-assigned_main",
+        "seq": 2402,
+        "commitHash": "225253aa005f7db58b4f7952db8e2e3e8439b92b944038614a03e43b63ad782b",
+        "mapHash": "6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06",
+        "traceSHA256": "a13acb623bce1ee3cef342e909f37a3749c8c25458944b2610276c1846ab5162",
+        "resultSHA256": "0288d8f4b7d5f209125a762e1735b7fae6a2e0dfbbde279d4391a53870f94710",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-02-assigned_main.json.gz",
+          "sha256": "f94e4a9fc0fd88d910f81093c41741b226e32d70a2f5ecca53d63b49319d9099"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C03 moving-first / 1.6s",
+      "runId": "c006-candidate-control-03-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-03-assigned_main.json.gz",
+          "bytes": 23086,
+          "sha256": "05eea220b184024d03f6fdccf7dfc5ecdb2d13b5588e39f620c792a9cb00bfb5",
+          "decodedBytesSHA256": "6e4b59d84b25110db5a1dd2f3feb31c5e92ac1d08e181bc4afcfb64429a39c07"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173.json.gz",
+          "bytes": 26421,
+          "sha256": "3415b765e4cdd90db63393788a872a52631c6b7a169830e25263c79359deeb56",
+          "decodedBytesSHA256": "8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-03-assigned_main.json.gz",
+          "bytes": 659636,
+          "sha256": "59dcfb8a9c345957cdb3a82bc2beeb60c0a0ff0d060f41799bd9f3a21bc45db6",
+          "decodedBytesSHA256": "2c4c8d98ca58b9436f9197ea1fe2b4c6a0bcab3b1db8df0fe04ad8052b4bab82"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-03-assigned_main",
+        "seq": 2426,
+        "commitHash": "476b9bb988c823780d5292956541b60d9d13346e08b3d5e8c4a860e31ecef3fc",
+        "mapHash": "8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173",
+        "traceSHA256": "59dcfb8a9c345957cdb3a82bc2beeb60c0a0ff0d060f41799bd9f3a21bc45db6",
+        "resultSHA256": "040f4eaa9e39d78ba47b7af665f70cd54404a70c4dcdc3b654c9776140685376",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-03-assigned_main.json.gz",
+          "sha256": "05eea220b184024d03f6fdccf7dfc5ecdb2d13b5588e39f620c792a9cb00bfb5"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C04 hold-turn then stagger",
+      "runId": "c006-candidate-control-04-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-04-assigned_main.json.gz",
+          "bytes": 17612,
+          "sha256": "5debc15fdfcd51a13bb6605d6575918dd06a06b0ea407ef49500151fbbaa2f48",
+          "decodedBytesSHA256": "09b4012364b2c4fe94499a4278024ae13da555a810155c753cde7af2a84d4699"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca.json.gz",
+          "bytes": 25470,
+          "sha256": "fb62627c7d9b55e07dbf14c04e9c15a7664d5f702cf5f7f4ab4e1c000833b9d5",
+          "decodedBytesSHA256": "a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-04-assigned_main.json.gz",
+          "bytes": 606385,
+          "sha256": "4ff70139e824a0445ffd4a2210799158203ebb38e05fbae9d12cd99908b8a89c",
+          "decodedBytesSHA256": "e0c6968db66a64aca034fb39943ebb82d4a60cdbfcc5c9a3a73bf228fdb35725"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-04-assigned_main",
+        "seq": 2450,
+        "commitHash": "288d108113f2717f0a0325719a7819df0c93d0bea78d3a61a436d91860decbd8",
+        "mapHash": "a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca",
+        "traceSHA256": "4ff70139e824a0445ffd4a2210799158203ebb38e05fbae9d12cd99908b8a89c",
+        "resultSHA256": "7baf3a331911dbf4e4dd9572ed5b79e04d08b543a4c948fc55652bf6ab62b9c5",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-04-assigned_main.json.gz",
+          "sha256": "5debc15fdfcd51a13bb6605d6575918dd06a06b0ea407ef49500151fbbaa2f48"
+        },
+        "resultHashMatches": true
+      }
+    },
+    {
+      "label": "C05 stagger then hold-turn",
+      "runId": "c006-candidate-control-05-assigned_main",
+      "status": "alive",
+      "terminalTick": 14400,
+      "mapHash": "21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1",
+      "references": {
+        "run": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/runs/c006-candidate-control-05-assigned_main.json.gz",
+          "bytes": 17646,
+          "sha256": "564fb2ded3eca7bc00fb4a20f082db355178f239b8d3b1d5ea35d8df599ab635",
+          "decodedBytesSHA256": "a46728eb72651e4d3fb56a3bdb80a28e25d4f28552902d62fb086a057480cc01"
+        },
+        "map": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/maps/21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1.json.gz",
+          "bytes": 25486,
+          "sha256": "bf10c585576639fd4ceed861750d5b38147f636f61d42f68719642cdf1422cdc",
+          "decodedBytesSHA256": "21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1"
+        },
+        "trace": {
+          "path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/evidence/traces/c006-candidate-control-05-assigned_main.json.gz",
+          "bytes": 605834,
+          "sha256": "e612699ff31b65bc561e58a341912d1bd56b64f5787379464f9d2c92d4ed4782",
+          "decodedBytesSHA256": "5e28cd9dc12519ca71532f6f4b914afc71fb724028b90f2725044f05588f0130"
+        }
+      },
+      "verification": {
+        "traceBytesMatchExpected": true,
+        "savedMapBytesMatchExpected": true,
+        "runTraceIdentityFieldsMatch": true,
+        "scope": "Saved file identities and drawable geometry only; does not audit ledger, replay or acceptance"
+      },
+      "commitBinding": {
+        "id": "c006-candidate-control-05-assigned_main",
+        "seq": 2474,
+        "commitHash": "7c8ddd9a4ec30e91f7b6da593bd651ce636d605a7b78719ad8c8567e494b9de7",
+        "mapHash": "21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1",
+        "traceSHA256": "e612699ff31b65bc561e58a341912d1bd56b64f5787379464f9d2c92d4ed4782",
+        "resultSHA256": "7069ce50dd04137ca36d4b4913e0e3e0cd64faddebc34c86f1d2d61e6d4d2bd5",
+        "runFile": {
+          "projectRelativePath": "evidence/runs/c006-candidate-control-05-assigned_main.json.gz",
+          "sha256": "564fb2ded3eca7bc00fb4a20f082db355178f239b8d3b1d5ea35d8df599ab635"
+        },
+        "resultHashMatches": true
+      }
+    }
+  ],
+  "observedRecoveries": {
+    "c006-parent-control-00-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 11808,
+        "exitTick": 11988,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 280.2499999999941,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 11988,
+          "x": 15045,
+          "y": 268.06249999999403,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 99.9
+        },
+        "actualSeconds": 1.5,
+        "commandTicks": [
+          11844,
+          11928,
+          11946
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+          "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+        },
+        "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 12996,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 12996,
+          "x": 16305,
+          "y": 240.81249999999255,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.3
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 269.36666666665917,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.7,
+        "commandTicks": [
+          13044,
+          13134,
+          13146,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+          "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+        },
+        "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+      }
+    ],
+    "c006-candidate-control-00-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 11808,
+        "exitTick": 12048,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 247.44999999999314,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 12048,
+          "x": 15120,
+          "y": 269.4666666666598,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 100.4
+        },
+        "actualSeconds": 2,
+        "commandTicks": [
+          11850,
+          11940,
+          12006
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+          "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+        },
+        "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 13056,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 13056,
+          "x": 16380,
+          "y": 283.2166666666594,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.8
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 271.4166666666594,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.2,
+        "commandTicks": [
+          13092,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+          "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+        },
+        "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+      }
+    ],
+    "c006-candidate-control-01-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 11808,
+        "exitTick": 12048,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 280.2499999999941,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 12048,
+          "x": 15120,
+          "y": 265.3666666666607,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 100.4
+        },
+        "actualSeconds": 2,
+        "commandTicks": [
+          11850,
+          11862,
+          11952,
+          12006
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-01-assigned_main.json.gz",
+          "sha256": "2c2bc875cd6518324d02429e25f6d78b0ad421901f119b215983c1c6feda92e4"
+        },
+        "cacheSHA256": "a4f3c1e8126b99162f3301e9c904714656c0e0205e30d8cb4ac2d62dc60d5635"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 13056,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 13056,
+          "x": 16380,
+          "y": 242.21666666666,
+          "vy": 37.999999999999886,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.8
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 269.3666666666601,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.2,
+        "commandTicks": [
+          13122,
+          13140,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-01-assigned_main.json.gz",
+          "sha256": "2c2bc875cd6518324d02429e25f6d78b0ad421901f119b215983c1c6feda92e4"
+        },
+        "cacheSHA256": "a4f3c1e8126b99162f3301e9c904714656c0e0205e30d8cb4ac2d62dc60d5635"
+      }
+    ],
+    "c006-candidate-control-02-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 11808,
+        "exitTick": 11952,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 247.44999999999314,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 11952,
+          "x": 15000,
+          "y": 264.34999999999314,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 99.6
+        },
+        "actualSeconds": 1.2,
+        "commandTicks": [
+          11856,
+          11910
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-02-assigned_main.json.gz",
+          "sha256": "1004d34c175d8d8277ae6aaab0ec2c1471727994aeb7c8ded852d725c604b292"
+        },
+        "cacheSHA256": "cfcf76046b7e4171be6e7354708b6fc71c18b1f7411236514c5e741f5ca5ffa6"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 12960,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 12960,
+          "x": 16260,
+          "y": 286.2999999999928,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 261.1666666666594,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 2,
+        "commandTicks": [
+          13002,
+          13014,
+          13098,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-02-assigned_main.json.gz",
+          "sha256": "1004d34c175d8d8277ae6aaab0ec2c1471727994aeb7c8ded852d725c604b292"
+        },
+        "cacheSHA256": "cfcf76046b7e4171be6e7354708b6fc71c18b1f7411236514c5e741f5ca5ffa6"
+      }
+    ],
+    "c006-candidate-control-03-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 10,
+        "demand": "moving-hold",
+        "entryTick": 11808,
+        "exitTick": 12000,
+        "entry": {
+          "tick": 11808,
+          "x": 14820,
+          "y": 247.44999999999314,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.4
+        },
+        "exit": {
+          "tick": 12000,
+          "x": 15060,
+          "y": 269.98333333332647,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 100
+        },
+        "actualSeconds": 1.6,
+        "commandTicks": [
+          11850,
+          11940,
+          11958
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-03-assigned_main.json.gz",
+          "sha256": "1f3d8813ecd3d2ca935df3088ad8470a9a305d489845a2844c03ea257e8d1ba6"
+        },
+        "cacheSHA256": "dc6ad1142aa3f674edd5e1093064e92ae8125567a782e421cda49a4c3162274c"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 9,
+        "demand": "hold-then-turn",
+        "entryTick": 13008,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 13008,
+          "x": 16320,
+          "y": 283.7333333333262,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.39999999999999
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 271.41666666665947,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.6,
+        "commandTicks": [
+          13044,
+          13134,
+          13146,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-upper",
+            "relation": "after-primary-before-bridge",
+            "requiredSide": "lower",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-03-assigned_main.json.gz",
+          "sha256": "1f3d8813ecd3d2ca935df3088ad8470a9a305d489845a2844c03ea257e8d1ba6"
+        },
+        "cacheSHA256": "dc6ad1142aa3f674edd5e1093064e92ae8125567a782e421cda49a4c3162274c"
+      }
+    ],
+    "c006-candidate-control-04-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 10,
+        "demand": "hold-then-turn",
+        "entryTick": 11796,
+        "exitTick": 11988,
+        "entry": {
+          "tick": 11796,
+          "x": 14805,
+          "y": 286.529166666661,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.3
+        },
+        "exit": {
+          "tick": 11988,
+          "x": 15045,
+          "y": 268.0624999999944,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 99.9
+        },
+        "actualSeconds": 1.6,
+        "commandTicks": [
+          11838,
+          11916,
+          11946
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-lower",
+            "relation": "before-primary",
+            "requiredSide": "upper",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-04-assigned_main.json.gz",
+          "sha256": "b40f8e5149a6b2c31189ec537c81cecbfe33d1c67ddee302a4246a7af9b660a4"
+        },
+        "cacheSHA256": "9e4aba7dff021f45221d972bb391177c3b7fa513e1ce62a41c3371fd77ed008e"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 9,
+        "demand": "alternating-body-passages",
+        "entryTick": 12996,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 12996,
+          "x": 16305,
+          "y": 290.01249999999425,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.3
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 261.1666666666609,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.7,
+        "commandTicks": [
+          13032,
+          13116,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-lower",
+            "relation": "before-primary",
+            "requiredSide": "upper",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-04-assigned_main.json.gz",
+          "sha256": "b40f8e5149a6b2c31189ec537c81cecbfe33d1c67ddee302a4246a7af9b660a4"
+        },
+        "cacheSHA256": "9e4aba7dff021f45221d972bb391177c3b7fa513e1ce62a41c3371fd77ed008e"
+      }
+    ],
+    "c006-candidate-control-05-assigned_main": [
+      {
+        "slot": 9,
+        "sourceIndex": 9,
+        "demand": "alternating-body-passages",
+        "entryTick": 11796,
+        "exitTick": 11988,
+        "entry": {
+          "tick": 11796,
+          "x": 14805,
+          "y": 278.3291666666613,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 98.3
+        },
+        "exit": {
+          "tick": 11988,
+          "x": 15045,
+          "y": 270.1124999999946,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 99.9
+        },
+        "actualSeconds": 1.6,
+        "commandTicks": [
+          11838,
+          11850,
+          11934,
+          11946
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c9-adj-lower",
+            "relation": "before-primary",
+            "requiredSide": "upper",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-05-assigned_main.json.gz",
+          "sha256": "65fa239a61353bb31a93029c8af86ed0f9e06ef33b79afb1814acc49ad050f3c"
+        },
+        "cacheSHA256": "095ded9e8a371941320ee95e8aabefe630be8e6bb431b9388d398b8a664ad5a8"
+      },
+      {
+        "slot": 10,
+        "sourceIndex": 10,
+        "demand": "hold-then-turn",
+        "entryTick": 12996,
+        "exitTick": 13200,
+        "entry": {
+          "tick": 12996,
+          "x": 16305,
+          "y": 283.8624999999944,
+          "vy": 119.99999999999994,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 108.3
+        },
+        "exit": {
+          "tick": 13200,
+          "x": 16560,
+          "y": 271.416666666661,
+          "vy": -3.000000000000117,
+          "alive": true,
+          "vx": 150,
+          "absoluteSeconds": 110
+        },
+        "actualSeconds": 1.7,
+        "commandTicks": [
+          13032,
+          13122,
+          13158
+        ],
+        "auxiliaryBodies": [
+          {
+            "bodyId": "c10-adj-lower",
+            "relation": "before-primary",
+            "requiredSide": "upper",
+            "passed": true,
+            "ordered": true,
+            "beforeBridge": true
+          }
+        ],
+        "reportFile": {
+          "projectRelativePath": "outer/c006/pair-reports/control-05-assigned_main.json.gz",
+          "sha256": "65fa239a61353bb31a93029c8af86ed0f9e06ef33b79afb1814acc49ad050f3c"
+        },
+        "cacheSHA256": "095ded9e8a371941320ee95e8aabefe630be8e6bb431b9388d398b8a664ad5a8"
+      }
+    ]
+  },
+  "contrasts": [
+    {
+      "runs": [
+        "c006-candidate-control-00-assigned_main",
+        "c006-candidate-control-01-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 10801.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 188.60000000000053,
+      "inputCounts": [
+        63,
+        66
+      ],
+      "inputSymmetricDifference": [
+        10800,
+        10812,
+        10836,
+        11160,
+        11172,
+        11244,
+        11256,
+        11328,
+        11400,
+        11568,
+        11592,
+        11664,
+        11676,
+        11862,
+        11940,
+        11952,
+        12048,
+        12060,
+        12072,
+        12156,
+        12168,
+        12240,
+        12252,
+        12588,
+        12648,
+        12660,
+        12672,
+        12744,
+        12756,
+        12816,
+        12912,
+        12924,
+        12996,
+        13008,
+        13092,
+        13122,
+        13140
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12048,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12048,
+            "x": 15120,
+            "y": 269.4666666666598,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100.4
+          },
+          "actualSeconds": 2,
+          "commandTicks": [
+            11850,
+            11940,
+            12006
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+            "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+          },
+          "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 9,
+          "demand": "hold-then-turn",
+          "entryTick": 11808,
+          "exitTick": 12048,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 280.2499999999941,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12048,
+            "x": 15120,
+            "y": 265.3666666666607,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100.4
+          },
+          "actualSeconds": 2,
+          "commandTicks": [
+            11850,
+            11862,
+            11952,
+            12006
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-01-assigned_main.json.gz",
+            "sha256": "2c2bc875cd6518324d02429e25f6d78b0ad421901f119b215983c1c6feda92e4"
+          },
+          "cacheSHA256": "a4f3c1e8126b99162f3301e9c904714656c0e0205e30d8cb4ac2d62dc60d5635"
+        }
+      ]
+    },
+    {
+      "runs": [
+        "c006-candidate-control-00-assigned_main",
+        "c006-candidate-control-02-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 11851.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 256.2500000000001,
+      "inputCounts": [
+        63,
+        63
+      ],
+      "inputSymmetricDifference": [
+        11850,
+        11856,
+        11910,
+        11940,
+        11952,
+        11964,
+        11976,
+        11988,
+        12006,
+        12048,
+        12060,
+        12084,
+        12324,
+        12336,
+        12396,
+        12420,
+        12504,
+        12540,
+        12624,
+        12648,
+        12660,
+        12708,
+        12840,
+        12900,
+        12912,
+        12996,
+        13002,
+        13014,
+        13092,
+        13098,
+        13308,
+        13320
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12048,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12048,
+            "x": 15120,
+            "y": 269.4666666666598,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100.4
+          },
+          "actualSeconds": 2,
+          "commandTicks": [
+            11850,
+            11940,
+            12006
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+            "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+          },
+          "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 11952,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 11952,
+            "x": 15000,
+            "y": 264.34999999999314,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 99.6
+          },
+          "actualSeconds": 1.2,
+          "commandTicks": [
+            11856,
+            11910
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-02-assigned_main.json.gz",
+            "sha256": "1004d34c175d8d8277ae6aaab0ec2c1471727994aeb7c8ded852d725c604b292"
+          },
+          "cacheSHA256": "cfcf76046b7e4171be6e7354708b6fc71c18b1f7411236514c5e741f5ca5ffa6"
+        }
+      ]
+    },
+    {
+      "runs": [
+        "c006-candidate-control-00-assigned_main",
+        "c006-candidate-control-03-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 11959.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 213.2000000000002,
+      "inputCounts": [
+        63,
+        65
+      ],
+      "inputSymmetricDifference": [
+        11958,
+        12000,
+        12006,
+        12012,
+        12024,
+        12036,
+        12048,
+        12060,
+        12072,
+        12084,
+        12108,
+        12156,
+        12192,
+        12240,
+        12288,
+        12336,
+        12372,
+        12420,
+        12456,
+        12504,
+        12600,
+        12612,
+        12648,
+        12660,
+        12696,
+        12744,
+        12768,
+        12792,
+        12816,
+        12840,
+        12864,
+        12912,
+        12948,
+        12996,
+        13044,
+        13092,
+        13134,
+        13146
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12048,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12048,
+            "x": 15120,
+            "y": 269.4666666666598,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100.4
+          },
+          "actualSeconds": 2,
+          "commandTicks": [
+            11850,
+            11940,
+            12006
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-00-assigned_main.json.gz",
+            "sha256": "8d0b6f4e63caf9a9f4781a9fb8718df183f8dfdb3123b21cd354a13867e03f9e"
+          },
+          "cacheSHA256": "35052a763ea85b8aeedffff9c40f6c48cf2943bb5e4e304eeed3882a938646fb"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12000,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12000,
+            "x": 15060,
+            "y": 269.98333333332647,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100
+          },
+          "actualSeconds": 1.6,
+          "commandTicks": [
+            11850,
+            11940,
+            11958
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-03-assigned_main.json.gz",
+            "sha256": "1f3d8813ecd3d2ca935df3088ad8470a9a305d489845a2844c03ea257e8d1ba6"
+          },
+          "cacheSHA256": "dc6ad1142aa3f674edd5e1093064e92ae8125567a782e421cda49a4c3162274c"
+        }
+      ]
+    },
+    {
+      "runs": [
+        "c006-candidate-control-02-assigned_main",
+        "c006-candidate-control-03-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 11851.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 207.05000000000015,
+      "inputCounts": [
+        63,
+        65
+      ],
+      "inputSymmetricDifference": [
+        11850,
+        11856,
+        11910,
+        11940,
+        11952,
+        11958,
+        11964,
+        11976,
+        11988,
+        12000,
+        12012,
+        12024,
+        12036,
+        12072,
+        12108,
+        12156,
+        12192,
+        12240,
+        12288,
+        12324,
+        12372,
+        12396,
+        12456,
+        12540,
+        12600,
+        12612,
+        12624,
+        12696,
+        12708,
+        12744,
+        12768,
+        12792,
+        12816,
+        12864,
+        12900,
+        12948,
+        13002,
+        13014,
+        13044,
+        13098,
+        13134,
+        13146,
+        13308,
+        13320
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 11952,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 11952,
+            "x": 15000,
+            "y": 264.34999999999314,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 99.6
+          },
+          "actualSeconds": 1.2,
+          "commandTicks": [
+            11856,
+            11910
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-02-assigned_main.json.gz",
+            "sha256": "1004d34c175d8d8277ae6aaab0ec2c1471727994aeb7c8ded852d725c604b292"
+          },
+          "cacheSHA256": "cfcf76046b7e4171be6e7354708b6fc71c18b1f7411236514c5e741f5ca5ffa6"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "moving-hold",
+          "entryTick": 11808,
+          "exitTick": 12000,
+          "entry": {
+            "tick": 11808,
+            "x": 14820,
+            "y": 247.44999999999314,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.4
+          },
+          "exit": {
+            "tick": 12000,
+            "x": 15060,
+            "y": 269.98333333332647,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 100
+          },
+          "actualSeconds": 1.6,
+          "commandTicks": [
+            11850,
+            11940,
+            11958
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-upper",
+              "relation": "after-primary-before-bridge",
+              "requiredSide": "lower",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-03-assigned_main.json.gz",
+            "sha256": "1f3d8813ecd3d2ca935df3088ad8470a9a305d489845a2844c03ea257e8d1ba6"
+          },
+          "cacheSHA256": "dc6ad1142aa3f674edd5e1093064e92ae8125567a782e421cda49a4c3162274c"
+        }
+      ]
+    },
+    {
+      "runs": [
+        "c006-candidate-control-04-assigned_main",
+        "c006-candidate-control-05-assigned_main"
+      ],
+      "firstDifferentSavedStateTick": 10969.0,
+      "lateWindow": [
+        10320,
+        14160
+      ],
+      "maximumYDifferencePx": 354.6500000000002,
+      "inputCounts": [
+        72,
+        73
+      ],
+      "inputSymmetricDifference": [
+        10968,
+        10980,
+        11076,
+        11124,
+        11136,
+        11160,
+        11220,
+        11232,
+        11256,
+        11280,
+        11292,
+        11304,
+        11316,
+        11328,
+        11340,
+        11352,
+        11364,
+        11376,
+        11436,
+        11460,
+        11508,
+        11544,
+        11568,
+        11580,
+        11664,
+        11850,
+        11916,
+        11934,
+        12096,
+        12108,
+        12156,
+        12180,
+        12276,
+        12312,
+        12360,
+        12396,
+        12432,
+        12444,
+        12468,
+        12492,
+        12504,
+        12516,
+        12528,
+        12540,
+        12552,
+        12564,
+        12576,
+        12636,
+        12660,
+        12696,
+        12744,
+        12768,
+        12780,
+        12840,
+        13116,
+        13122,
+        13308,
+        13320,
+        13764,
+        13860,
+        14040,
+        14052,
+        14064,
+        14136,
+        14148
+      ],
+      "actualFirstRecovery": [
+        {
+          "slot": 9,
+          "sourceIndex": 10,
+          "demand": "hold-then-turn",
+          "entryTick": 11796,
+          "exitTick": 11988,
+          "entry": {
+            "tick": 11796,
+            "x": 14805,
+            "y": 286.529166666661,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.3
+          },
+          "exit": {
+            "tick": 11988,
+            "x": 15045,
+            "y": 268.0624999999944,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 99.9
+          },
+          "actualSeconds": 1.6,
+          "commandTicks": [
+            11838,
+            11916,
+            11946
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-lower",
+              "relation": "before-primary",
+              "requiredSide": "upper",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-04-assigned_main.json.gz",
+            "sha256": "b40f8e5149a6b2c31189ec537c81cecbfe33d1c67ddee302a4246a7af9b660a4"
+          },
+          "cacheSHA256": "9e4aba7dff021f45221d972bb391177c3b7fa513e1ce62a41c3371fd77ed008e"
+        },
+        {
+          "slot": 9,
+          "sourceIndex": 9,
+          "demand": "alternating-body-passages",
+          "entryTick": 11796,
+          "exitTick": 11988,
+          "entry": {
+            "tick": 11796,
+            "x": 14805,
+            "y": 278.3291666666613,
+            "vy": 119.99999999999994,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 98.3
+          },
+          "exit": {
+            "tick": 11988,
+            "x": 15045,
+            "y": 270.1124999999946,
+            "vy": -3.000000000000117,
+            "alive": true,
+            "vx": 150,
+            "absoluteSeconds": 99.9
+          },
+          "actualSeconds": 1.6,
+          "commandTicks": [
+            11838,
+            11850,
+            11934,
+            11946
+          ],
+          "auxiliaryBodies": [
+            {
+              "bodyId": "c9-adj-lower",
+              "relation": "before-primary",
+              "requiredSide": "upper",
+              "passed": true,
+              "ordered": true,
+              "beforeBridge": true
+            }
+          ],
+          "reportFile": {
+            "projectRelativePath": "outer/c006/pair-reports/control-05-assigned_main.json.gz",
+            "sha256": "65fa239a61353bb31a93029c8af86ed0f9e06ef33b79afb1814acc49ad050f3c"
+          },
+          "cacheSHA256": "095ded9e8a371941320ee95e8aabefe630be8e6bb431b9388d398b8a664ad5a8"
+        }
+      ]
+    }
+  ],
+  "selectedFrames": [
+    [
+      {
+        "runId": "c006-candidate-control-00-assigned_main",
+        "tick": 11520,
+        "status": "observed",
+        "playerRow": [
+          11520.0,
+          14460.0,
+          242.34999999999349,
+          -126.00000000000018,
+          0.0,
+          1.0,
+          150.0,
+          96.0
+        ],
+        "worldXRange": [
+          14300.0,
+          15100.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c9-press-2-top",
+            "kind": "vertical_armor_slider",
+            "x": 14500,
+            "y": -133.03984957930396,
+            "w": 75,
+            "h": 320,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-press-2-bottom",
+            "kind": "vertical_armor_slider",
+            "x": 14500,
+            "y": 326.96015042069604,
+            "w": 75,
+            "h": 200,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-adj-upper",
+            "kind": "fixed_armor_or_spike",
+            "x": 14680,
+            "y": -120,
+            "w": 35,
+            "h": 285,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14870,
+            "y": -120,
+            "w": 30,
+            "h": 260,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14870,
+            "y": 430,
+            "w": 30,
+            "h": 110,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14730,
+            "y": -120,
+            "w": 70,
+            "h": 300,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14730,
+            "y": 420,
+            "w": 70,
+            "h": 120,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 7,
+        "visibleAuxiliaries": [
+          "c9-adj-upper"
+        ],
+        "trailShownTicks": [
+          11384.0,
+          11520.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-00-assigned_main",
+        "tick": 11808,
+        "status": "observed",
+        "playerRow": [
+          11808.0,
+          14820.0,
+          247.44999999999314,
+          119.99999999999994,
+          0.0,
+          1.0,
+          150.0,
+          98.4
+        ],
+        "worldXRange": [
+          14660.0,
+          15460.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c9-adj-upper",
+            "kind": "fixed_armor_or_spike",
+            "x": 14680,
+            "y": -120,
+            "w": 35,
+            "h": 285,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14870,
+            "y": -120,
+            "w": 30,
+            "h": 260,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14870,
+            "y": 430,
+            "w": 30,
+            "h": 110,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14730,
+            "y": -120,
+            "w": 70,
+            "h": 300,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14730,
+            "y": 420,
+            "w": 70,
+            "h": 120,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-wave-island-0",
+            "kind": "fixed_armor_or_spike",
+            "x": 15370,
+            "y": 227,
+            "w": 110,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 6,
+        "visibleAuxiliaries": [
+          "c9-adj-upper"
+        ],
+        "trailShownTicks": [
+          11672.0,
+          11808.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-00-assigned_main",
+        "tick": 12810,
+        "status": "observed",
+        "playerRow": [
+          12810.0,
+          16072.5,
+          383.23958333332615,
+          160.99999999999986,
+          0.0,
+          1.0,
+          150.0,
+          106.75
+        ],
+        "worldXRange": [
+          15912.5,
+          16712.5
+        ],
+        "visibleBodies": [
+          {
+            "id": "c10-wave-island-2",
+            "kind": "fixed_armor_or_spike",
+            "x": 16050,
+            "y": 252,
+            "w": 45,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-adj-upper",
+            "kind": "fixed_armor_or_spike",
+            "x": 16240,
+            "y": -120,
+            "w": 35,
+            "h": 285,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-recovery-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 16430,
+            "y": -120,
+            "w": 30,
+            "h": 260,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-recovery-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 16430,
+            "y": 430,
+            "w": 30,
+            "h": 110,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-tail-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 16320,
+            "y": -120,
+            "w": 40,
+            "h": 300,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-tail-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 16320,
+            "y": 420,
+            "w": 40,
+            "h": 120,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 6,
+        "visibleAuxiliaries": [
+          "c10-adj-upper"
+        ],
+        "trailShownTicks": [
+          12674.0,
+          12810.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-01-assigned_main",
+        "tick": 11520,
+        "status": "observed",
+        "playerRow": [
+          11520.0,
+          14460.0,
+          381.7499999999942,
+          -126.00000000000018,
+          0.0,
+          1.0,
+          150.0,
+          96.0
+        ],
+        "worldXRange": [
+          14300.0,
+          15100.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c9-wave-island-2",
+            "kind": "fixed_armor_or_spike",
+            "x": 14490,
+            "y": 252,
+            "w": 45,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-adj-upper",
+            "kind": "fixed_armor_or_spike",
+            "x": 14680,
+            "y": -120,
+            "w": 35,
+            "h": 285,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14870,
+            "y": -120,
+            "w": 30,
+            "h": 260,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14870,
+            "y": 430,
+            "w": 30,
+            "h": 110,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14760,
+            "y": -120,
+            "w": 40,
+            "h": 300,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14760,
+            "y": 420,
+            "w": 40,
+            "h": 120,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 6,
+        "visibleAuxiliaries": [
+          "c9-adj-upper"
+        ],
+        "trailShownTicks": [
+          11384.0,
+          11520.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-01-assigned_main",
+        "tick": 11808,
+        "status": "observed",
+        "playerRow": [
+          11808.0,
+          14820.0,
+          280.2499999999941,
+          119.99999999999994,
+          0.0,
+          1.0,
+          150.0,
+          98.4
+        ],
+        "worldXRange": [
+          14660.0,
+          15460.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c9-adj-upper",
+            "kind": "fixed_armor_or_spike",
+            "x": 14680,
+            "y": -120,
+            "w": 35,
+            "h": 285,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14870,
+            "y": -120,
+            "w": 30,
+            "h": 260,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14870,
+            "y": 430,
+            "w": 30,
+            "h": 110,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14760,
+            "y": -120,
+            "w": 40,
+            "h": 300,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14760,
+            "y": 420,
+            "w": 40,
+            "h": 120,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-press-0-top",
+            "kind": "vertical_armor_slider",
+            "x": 15380,
+            "y": -105.18306227356815,
+            "w": 100,
+            "h": 320,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-press-0-bottom",
+            "kind": "vertical_armor_slider",
+            "x": 15380,
+            "y": 354.81693772643183,
+            "w": 100,
+            "h": 200,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 7,
+        "visibleAuxiliaries": [
+          "c9-adj-upper"
+        ],
+        "trailShownTicks": [
+          11672.0,
+          11808.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-01-assigned_main",
+        "tick": 12810,
+        "status": "observed",
+        "playerRow": [
+          12810.0,
+          16072.5,
+          247.93958333332694,
+          78.99999999999989,
+          0.0,
+          1.0,
+          150.0,
+          106.75
+        ],
+        "worldXRange": [
+          15912.5,
+          16712.5
+        ],
+        "visibleBodies": [
+          {
+            "id": "c10-press-2-top",
+            "kind": "vertical_armor_slider",
+            "x": 16060,
+            "y": -119.12491075923228,
+            "w": 75,
+            "h": 320,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-press-2-bottom",
+            "kind": "vertical_armor_slider",
+            "x": 16060,
+            "y": 340.8750892407677,
+            "w": 75,
+            "h": 200,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-adj-upper",
+            "kind": "fixed_armor_or_spike",
+            "x": 16240,
+            "y": -120,
+            "w": 35,
+            "h": 285,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-recovery-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 16430,
+            "y": -120,
+            "w": 30,
+            "h": 260,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-recovery-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 16430,
+            "y": 430,
+            "w": 30,
+            "h": 110,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-tail-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 16290,
+            "y": -120,
+            "w": 70,
+            "h": 300,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-tail-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 16290,
+            "y": 420,
+            "w": 70,
+            "h": 120,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 7,
+        "visibleAuxiliaries": [
+          "c10-adj-upper"
+        ],
+        "trailShownTicks": [
+          12674.0,
+          12810.0
+        ]
+      }
+    ],
+    [
+      {
+        "runId": "c006-candidate-control-04-assigned_main",
+        "tick": 10900,
+        "status": "observed",
+        "playerRow": [
+          10900.0,
+          13685.0,
+          164.06249999999474,
+          -262.6666666666665,
+          0.0,
+          1.0,
+          150.0,
+          90.83333333333333
+        ],
+        "worldXRange": [
+          13525.0,
+          14325.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c9-wave-island-0",
+            "kind": "fixed_armor_or_spike",
+            "x": 13795,
+            "y": 227,
+            "w": 110,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-wave-island-1",
+            "kind": "fixed_armor_or_spike",
+            "x": 14085.626147325296,
+            "y": 237,
+            "w": 110,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-adj-lower",
+            "kind": "fixed_armor_or_spike",
+            "x": 13635,
+            "y": 465,
+            "w": 35,
+            "h": 75,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 3,
+        "visibleAuxiliaries": [
+          "c9-adj-lower"
+        ],
+        "trailShownTicks": [
+          10764.0,
+          10900.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-04-assigned_main",
+        "tick": 11540,
+        "status": "observed",
+        "playerRow": [
+          11540.0,
+          14485.0,
+          411.37361111110556,
+          256.6666666666663,
+          0.0,
+          1.0,
+          150.0,
+          96.16666666666667
+        ],
+        "worldXRange": [
+          14325.0,
+          15125.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c9-wave-island-2",
+            "kind": "fixed_armor_or_spike",
+            "x": 14475,
+            "y": 252,
+            "w": 45,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14855,
+            "y": -120,
+            "w": 30,
+            "h": 260,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14855,
+            "y": 430,
+            "w": 30,
+            "h": 110,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14745,
+            "y": -120,
+            "w": 40,
+            "h": 300,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14745,
+            "y": 420,
+            "w": 40,
+            "h": 120,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 5,
+        "visibleAuxiliaries": [],
+        "trailShownTicks": [
+          11404.0,
+          11540.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-04-assigned_main",
+        "tick": 12100,
+        "status": "observed",
+        "playerRow": [
+          12100.0,
+          15185.0,
+          175.74583333332774,
+          229.333333333333,
+          0.0,
+          1.0,
+          150.0,
+          100.83333333333333
+        ],
+        "worldXRange": [
+          15025.0,
+          15825.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c10-wave-island-0",
+            "kind": "fixed_armor_or_spike",
+            "x": 15295,
+            "y": 227,
+            "w": 55,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-wave-island-1",
+            "kind": "fixed_armor_or_spike",
+            "x": 15594.58329477198,
+            "y": 282,
+            "w": 55,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-adj-lower",
+            "kind": "fixed_armor_or_spike",
+            "x": 15135,
+            "y": 465,
+            "w": 35,
+            "h": 75,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 3,
+        "visibleAuxiliaries": [
+          "c10-adj-lower"
+        ],
+        "trailShownTicks": [
+          11964.0,
+          12100.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-05-assigned_main",
+        "tick": 10900,
+        "status": "observed",
+        "playerRow": [
+          10900.0,
+          13685.0,
+          164.06249999999474,
+          -262.6666666666665,
+          0.0,
+          1.0,
+          150.0,
+          90.83333333333333
+        ],
+        "worldXRange": [
+          13525.0,
+          14325.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c9-wave-island-0",
+            "kind": "fixed_armor_or_spike",
+            "x": 13795,
+            "y": 227,
+            "w": 55,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-wave-island-1",
+            "kind": "fixed_armor_or_spike",
+            "x": 14094.58329477198,
+            "y": 282,
+            "w": 55,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-adj-lower",
+            "kind": "fixed_armor_or_spike",
+            "x": 13635,
+            "y": 465,
+            "w": 35,
+            "h": 75,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 3,
+        "visibleAuxiliaries": [
+          "c9-adj-lower"
+        ],
+        "trailShownTicks": [
+          10764.0,
+          10900.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-05-assigned_main",
+        "tick": 11540,
+        "status": "observed",
+        "playerRow": [
+          11540.0,
+          14485.0,
+          77.90694444443906,
+          -71.33333333333344,
+          0.0,
+          1.0,
+          150.0,
+          96.16666666666667
+        ],
+        "worldXRange": [
+          14325.0,
+          15125.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c9-wave-island-2",
+            "kind": "fixed_armor_or_spike",
+            "x": 14475,
+            "y": 202,
+            "w": 55,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14855,
+            "y": -120,
+            "w": 30,
+            "h": 260,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-recovery-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14855,
+            "y": 430,
+            "w": 30,
+            "h": 110,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-top",
+            "kind": "fixed_armor_or_spike",
+            "x": 14745,
+            "y": -120,
+            "w": 40,
+            "h": 300,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c9-tail-bottom",
+            "kind": "fixed_armor_or_spike",
+            "x": 14745,
+            "y": 420,
+            "w": 40,
+            "h": 120,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 5,
+        "visibleAuxiliaries": [],
+        "trailShownTicks": [
+          11404.0,
+          11540.0
+        ]
+      },
+      {
+        "runId": "c006-candidate-control-05-assigned_main",
+        "tick": 12100,
+        "status": "observed",
+        "playerRow": [
+          12100.0,
+          15185.0,
+          161.39583333332794,
+          -262.6666666666665,
+          0.0,
+          1.0,
+          150.0,
+          100.83333333333333
+        ],
+        "worldXRange": [
+          15025.0,
+          15825.0
+        ],
+        "visibleBodies": [
+          {
+            "id": "c10-wave-island-0",
+            "kind": "fixed_armor_or_spike",
+            "x": 15295,
+            "y": 227,
+            "w": 110,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-wave-island-1",
+            "kind": "fixed_armor_or_spike",
+            "x": 15585.626147325296,
+            "y": 237,
+            "w": 110,
+            "h": 36,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "c10-adj-lower",
+            "kind": "fixed_armor_or_spike",
+            "x": 15135,
+            "y": 465,
+            "w": 35,
+            "h": 75,
+            "shape": "rectangle",
+            "status": "active",
+            "lethal": true,
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "actualBodyCount": 3,
+        "visibleAuxiliaries": [
+          "c10-adj-lower"
+        ],
+        "trailShownTicks": [
+          11964.0,
+          12100.0
+        ]
+      }
+    ]
+  ],
+  "newPhysicsStarts": 0,
+  "newPhysicsTicks": 0
+}

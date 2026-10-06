@@ -1,0 +1,16 @@
+{
+  "schema": "c006-research-selection/1",
+  "source": "protocols/core-research.zh-CN.md",
+  "gap": "macro-adjacency-extension",
+  "hypothesis": "Request-controlled complete late package order/recovery with carried neighboring bodies has visible structural and actual input/clearance consequences, while preserving cumulative accepted prefixes",
+  "secondaryGap": "laser-tight-clearance-robustness",
+  "secondaryScope": "four preregistered single-variable local diagnostics; no tuning or automatic macro veto",
+  "staticReuse": [
+    75,
+    20
+  ],
+  "criteria": "PLAN.zh-CN.md",
+  "newInternalPatterns": false,
+  "wholeImageSymmetryClaim": false,
+  "humanFun": null
+}

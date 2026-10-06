@@ -1,0 +1,332 @@
+{
+  "schema": "same-terminal-tick-handoff-review/1",
+  "method": "runtime.obstacles(map, finalState.tick, finalState); no runtime.step, no reconstructed simulation, no additional probes",
+  "baseline": [
+    {
+      "seed": 701,
+      "sourceFiles": {
+        "integration/runs/four-loops/B1/runs/baseline-701/map.json": "2094c7f47cda88c8154dff3e4ffbafd54a3779fbb15e0c09f036c9aea2b02ec7",
+        "integration/runs/four-loops/B1/runs/baseline-701/result.json": "83f2f38419f8f6bdd8929c37e81aff3f99ab60fa38ede8e749fb8dfb0b8aae55",
+        "integration/runs/four-loops/B1/runs/baseline-701/trace.json.gz": "3502e8a8bbd1f2316ef09f744b85b9f2e25f859f34797a1140e62a2693b7620e",
+        "integration/runs/four-loops/B1/runs/baseline-701/inputs.json": "d77caeb1fb0a6b78ee4ca9ca5883e96e3fd2f560309659ca699bc1ef2b5ea89a"
+      },
+      "death": {
+        "tick": 1689,
+        "type": "death",
+        "id": "m03-inclined-upper",
+        "mechanic": "laser_scanner",
+        "sourceId": "m03-inclined-upper"
+      },
+      "terminalState": {
+        "tick": 1690,
+        "x": 2172.5,
+        "y": 370.48402777777716,
+        "vy": -201.16666666666666,
+        "alive": false
+      },
+      "terminalBodies": [
+        {
+          "id": "m03-inclined-upper",
+          "sourceId": "m03-inclined-upper",
+          "kind": "laser_scanner",
+          "x": 2145,
+          "y": 369.7537668119028,
+          "w": 180,
+          "h": 110,
+          "shape": "segment",
+          "status": "active",
+          "lethal": true,
+          "interaction": {
+            "lethal": true
+          },
+          "x2": 2325,
+          "y2": 259.7537668119028,
+          "width": 10
+        }
+      ],
+      "module": {
+        "id": "m03",
+        "family": "light-cavity",
+        "variant": "base",
+        "shift_x": 1865
+      },
+      "interpretation": "Upper rail is active at exact terminal tick; early ramp causes upward collision, not a inferred montage phase"
+    },
+    {
+      "seed": 702,
+      "sourceFiles": {
+        "integration/runs/four-loops/B1/runs/baseline-702/map.json": "d5bd9c44cc3982787cdbfedfbfce7f62a3fc27fed40b69ff833a905d558de256",
+        "integration/runs/four-loops/B1/runs/baseline-702/result.json": "ff8520d7f69adce430ed295a76187985c78cb5ec97794b8d046e557fc1d1c6a4",
+        "integration/runs/four-loops/B1/runs/baseline-702/trace.json.gz": "984b43620427e6588b5fd625f8bf07c13332094faa68ae8094fa517142bd6ec3",
+        "integration/runs/four-loops/B1/runs/baseline-702/inputs.json": "82395df355015bd0371b5848db4ec2a6ac6d2dd12ad9b7960e08bd16f763f146"
+      },
+      "death": {
+        "tick": 815,
+        "type": "death",
+        "id": "m01-roof-3",
+        "mechanic": "fixed_armor_or_spike",
+        "sourceId": "m01-roof-3"
+      },
+      "terminalState": {
+        "tick": 816,
+        "x": 1080,
+        "y": 289.8277777777768,
+        "vy": 331.83333333333337,
+        "alive": false
+      },
+      "terminalBodies": [
+        {
+          "id": "m01-roof-3",
+          "kind": "fixed_armor_or_spike",
+          "x": 1090,
+          "y": 0,
+          "w": 260,
+          "h": 310,
+          "shape": "rectangle",
+          "status": "active",
+          "lethal": true,
+          "interaction": {
+            "lethal": true
+          }
+        }
+      ],
+      "module": {
+        "id": "m01",
+        "family": "tidal-staircase",
+        "variant": "alternate",
+        "shift_x": 0
+      },
+      "interpretation": "Descent timing after an intermediate reset misses roof leading edge; trajectory failure does not establish impossible geometry"
+    },
+    {
+      "seed": 703,
+      "sourceFiles": {
+        "integration/runs/four-loops/B1/runs/baseline-703/map.json": "90e49f410fe459a5102e4d408805d3f4dbad8068ad3bbe625580c61c0a3c70a7",
+        "integration/runs/four-loops/B1/runs/baseline-703/result.json": "ce4959f351ffeedcf874ca68d06eb5412142b2f1e21163482438e98eddf9db4e",
+        "integration/runs/four-loops/B1/runs/baseline-703/trace.json.gz": "89f159857e19d8c060249048db1679b42275435a5d064e25ab98351c9ab4e978",
+        "integration/runs/four-loops/B1/runs/baseline-703/inputs.json": "9056f0ced080b243599d4857b4b88de35bc841f0485e9c41b462f20325b979c2"
+      },
+      "death": {
+        "tick": 1235,
+        "type": "death",
+        "id": "m02-inclined-upper",
+        "mechanic": "laser_scanner",
+        "sourceId": "m02-inclined-upper"
+      },
+      "terminalState": {
+        "tick": 1236,
+        "x": 1604.375,
+        "y": 357.9236111111105,
+        "vy": -170.41666666666674,
+        "alive": false
+      },
+      "terminalBodies": [
+        {
+          "id": "m02-inclined-upper",
+          "sourceId": "m02-inclined-upper",
+          "kind": "laser_scanner",
+          "x": 1557.5,
+          "y": 369.1260951192607,
+          "w": 180,
+          "h": 110,
+          "shape": "segment",
+          "status": "active",
+          "lethal": true,
+          "interaction": {
+            "lethal": true
+          },
+          "x2": 1737.5,
+          "y2": 259.1260951192607,
+          "width": 10
+        }
+      ],
+      "module": {
+        "id": "m02",
+        "family": "light-cavity",
+        "variant": "base",
+        "shift_x": 1277.5
+      },
+      "interpretation": "Upper rail is active at exact terminal tick; early ramp causes upward collision, not a inferred montage phase"
+    },
+    {
+      "seed": 706,
+      "sourceFiles": {
+        "integration/runs/four-loops/B1/runs/baseline-706/map.json": "e350d191d237eb4ca6f7c68169f5d700009750f124fe64c3277de7154693085e",
+        "integration/runs/four-loops/B1/runs/baseline-706/result.json": "208ccebfbc8201bfec9304f21bd7f7bc4752ea30298cb8f697526dc7066873e1",
+        "integration/runs/four-loops/B1/runs/baseline-706/trace.json.gz": "538dcd8de0fa353d820379e71ab297539ad58328de559cd5130d4c7c56aed475",
+        "integration/runs/four-loops/B1/runs/baseline-706/inputs.json": "6fdb6e79fca5b4a58d21a9366c18d9f7528b534927d71d1955b98c5345a52025"
+      },
+      "death": {
+        "tick": 1523,
+        "type": "death",
+        "id": "m02-wide-receiving-cavity:top",
+        "mechanic": "timed_armor_gate",
+        "sourceId": "m02-wide-receiving-cavity"
+      },
+      "terminalState": {
+        "tick": 1524,
+        "x": 1965,
+        "y": 199.7513888888882,
+        "vy": -85.00000000000013,
+        "alive": false
+      },
+      "terminalBodies": [
+        {
+          "id": "m02-wide-receiving-cavity:top",
+          "sourceId": "m02-wide-receiving-cavity",
+          "kind": "timed_armor_gate",
+          "x": 1785.5,
+          "y": -120,
+          "w": 420,
+          "h": 310,
+          "shape": "rectangle",
+          "status": "open",
+          "lethal": true,
+          "interaction": {
+            "lethal": true
+          },
+          "phase": "open",
+          "clearance": 320
+        },
+        {
+          "id": "m02-wide-receiving-cavity:bottom",
+          "sourceId": "m02-wide-receiving-cavity",
+          "kind": "timed_armor_gate",
+          "x": 1785.5,
+          "y": 510,
+          "w": 420,
+          "h": 150,
+          "shape": "rectangle",
+          "status": "open",
+          "lethal": true,
+          "interaction": {
+            "lethal": true
+          },
+          "phase": "open",
+          "clearance": 320
+        }
+      ],
+      "module": {
+        "id": "m02",
+        "family": "light-cavity",
+        "variant": "alternate",
+        "shift_x": 1235.5
+      },
+      "interpretation": "Open gate remains lethal: late upward flap hits its top, not an active laser"
+    }
+  ],
+  "probes": [
+    {
+      "id": "light-ramp-701",
+      "outcome": "death",
+      "actualTicks": 2900,
+      "death": {
+        "tick": 2899,
+        "type": "death",
+        "id": "m04-roof-3",
+        "mechanic": "fixed_armor_or_spike",
+        "sourceId": "m04-roof-3"
+      },
+      "hashes": {
+        "map.json": "786ffca3aec7ad29dd2c07ca1eb20216e364b8d3580d21922b652acfd187c6dd",
+        "result.json": "13845c2ccaac03e30ce350a6733d61374d81a26e816b3ba73de13024f3e726f6",
+        "trace.json.gz": "bd0e858f98e61c0aa730956e54daa30d421a1e82304b1d2e4e5edafbb9d44eaf",
+        "inputs.json": "d28f9a1784c4eab6f6cee360c4f39bf5613e654cbe7a8bcff274a64f2b75084b"
+      },
+      "crossedSeams": [
+        {
+          "from": "cloister",
+          "to": "slider-island",
+          "tick": 824,
+          "x": 1090,
+          "y": 154.36249999999973,
+          "vy": -91.83333333333347
+        },
+        {
+          "from": "slider-island",
+          "to": "light-cavity",
+          "tick": 1532,
+          "x": 1975,
+          "y": 249.12777777777694,
+          "vy": -50.83333333333344
+        },
+        {
+          "from": "light-cavity",
+          "to": "tidal-staircase",
+          "tick": 2228,
+          "x": 2845,
+          "y": 348.3499999999993,
+          "vy": 195.16666666666643
+        }
+      ],
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 30
+      }
+    },
+    {
+      "id": "tidal-short-step-702",
+      "outcome": "native-win",
+      "actualTicks": 3785,
+      "death": null,
+      "hashes": {
+        "map.json": "23f2a934cc650dc319fbdf266d2e94989aa52af2334f1dcd5ea3ed1eb4746e76",
+        "result.json": "fe7245f463e8adde0549794013c8c5023c3c75f280a58b02e1fc3c8a7a33363c",
+        "trace.json.gz": "8ee7a426a429fde3ad2cf8a0eaa7484abb01c72a64d9264cd6b3e9c62c6ecaf7",
+        "inputs.json": "c176d9e4006236f30eecc3e11b189ad876ab4dd7d3144be3f028ad8776f7a10f"
+      },
+      "crossedSeams": [
+        {
+          "from": "tidal-staircase",
+          "to": "spring-reception",
+          "tick": 1280,
+          "x": 1660,
+          "y": 187.40138888888788,
+          "vy": 37.999999999999886
+        },
+        {
+          "from": "spring-reception",
+          "to": "slider-island",
+          "tick": 1556,
+          "x": 2005,
+          "y": 238.2430555555543,
+          "vy": 140.49999999999991
+        },
+        {
+          "from": "slider-island",
+          "to": "spring-reception",
+          "tick": 2268,
+          "x": 2895,
+          "y": 251.07916666666495,
+          "vy": 58.49999999999987
+        },
+        {
+          "from": "spring-reception",
+          "to": "bellows-question-answer",
+          "tick": 2532,
+          "x": 3225,
+          "y": 264.63749999999817,
+          "vy": 242.99999999999963
+        },
+        {
+          "from": "bellows-question-answer",
+          "to": "spring-reception",
+          "tick": 3405,
+          "x": 4316.25,
+          "y": 352.13159722222014,
+          "vy": 208.83333333333306
+        }
+      ],
+      "continuity": {
+        "nativeInitializations": 1,
+        "restores": 0,
+        "resets": 0,
+        "deletedHazards": 0,
+        "obstacleCount": 26
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "four-loop-native-preview/1",
+  "physicsRerunsDuringPackaging": 0,
+  "maps": [
+    {
+      "file": "maps/full-701.json",
+      "mapSHA256": "713a7dd30c6bd9d2cf7bb9c41711c2ce7818f11bb2d189b3298de3d4aae64d29",
+      "sourceResult": "runs/four-loops/B4/finish-checks/full-701/result.json",
+      "outcome": "native-win",
+      "actualTicks": 3897
+    },
+    {
+      "file": "maps/full-4402.json",
+      "mapSHA256": "323e87a7d472ccf35827cda79e6f0910fdfb9f9a82cc0b60be587eed7c5d93d1",
+      "sourceResult": "runs/four-loops/B4/finish-checks/full-4402/result.json",
+      "outcome": "native-win",
+      "actualTicks": 3785
+    },
+    {
+      "file": "maps/candidate-707.json",
+      "mapSHA256": "e63b2a5b07102109228c191c163af3c0fb0b34d89721dabe8f13e913b4266a2a",
+      "sourceResult": "runs/four-loops/B4/runs/candidate-707/result.json",
+      "outcome": "native-win",
+      "actualTicks": 3600
+    },
+    {
+      "file": "maps/macro-5703.json",
+      "mapSHA256": "c7df824926580d0aa16c88a84e003cc51c2f8b7836a50fb81d63cd62f4fb0367",
+      "sourceResult": "runs/four-loops/B4/finish-checks/macro-5703/result.json",
+      "outcome": "native-win",
+      "actualTicks": 14400
+    },
+    {
+      "file": "maps/holdout-4408.json",
+      "mapSHA256": "5264c1192e5468c4bee79f3266312c776e8a0b1a335e821928afb6248cfbf142",
+      "sourceResult": "runs/four-loops/B4/runs/holdout-4408/result.json",
+      "outcome": "death",
+      "actualTicks": 2487
+    },
+    {
+      "file": "maps/macro-5701.json",
+      "mapSHA256": "ea451b3506be23520abf53a08c807f387a297f39526245860a58b84f47028b25",
+      "sourceResult": "runs/four-loops/B4/finish-checks/macro-5701/result.json",
+      "outcome": "death",
+      "actualTicks": 6995
+    }
+  ],
+  "limitations": "Author-informed native trajectories only. Counterexamples labeled, not promoted. Source includes full inputs/results. UI syntax and minimal DOM behavior tested; no human play or aesthetic validation."
+}

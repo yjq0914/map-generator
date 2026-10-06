@@ -1,0 +1,42 @@
+{
+  "schema": "evidence-visual-request/1",
+  "round": "c006",
+  "title": "c006 / control-00 / assigned-main / complete upper-after packages",
+  "fixture": false,
+  "parent": {
+    "run": "evidence/runs/c006-parent-control-00-assigned_main.json.gz"
+  },
+  "candidate": {
+    "run": "evidence/runs/c006-candidate-control-00-assigned_main.json.gz"
+  },
+  "frames": [
+    {
+      "tick": 11520,
+      "label": "Package9 last primary and its actual upper-after auxiliary",
+      "trailTicks": 240
+    },
+    {
+      "tick": 11808,
+      "label": "First recovery entry: saved auxiliary behind and next demand ahead",
+      "trailTicks": 300
+    },
+    {
+      "tick": 12810,
+      "label": "Package10 last primary and its actual upper-after auxiliary",
+      "trailTicks": 240
+    },
+    {
+      "tick": 13453,
+      "label": "Pinned successor: first island whole-body exit and actual downstream bodies",
+      "trailTicks": 240
+    }
+  ],
+  "actionWindows": [
+    {
+      "startTick": 10320,
+      "endTick": 14160
+    }
+  ],
+  "layoutSlices": 4,
+  "selectionReason": "First committed public control-00 assigned_main pair, seed1 HLT prefix and upper-after auxiliaries. Parent keeps original fixed/moving order and bridges; candidate moves complete existing packages to moving/fixed order with first recovery2s. Exact common saved ticks show last primaries with auxiliaries, first recovery entry, and pinned successor. Full14400-tick curves and24000px source layouts retain all evidence. Illustrative actual evidence only; this selected pair does not qualify the formal192-slot panel, isolate order from duration, establish whole-frame symmetry, synthesize new internal patterns or measure fun."
+}

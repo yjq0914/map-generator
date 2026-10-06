@@ -1,0 +1,26 @@
+{
+  "version": "pressure-v1",
+  "module": "source/candidate-pressure.cjs",
+  "parent": "g000-reference",
+  "qualification": "unvalidated_parameter_transform",
+  "algorithm": "stage-conditioned-aperture/1",
+  "phaseProgression": true,
+  "relation": {
+    "componentsPerStage": 4,
+    "stageRoles": ["introduction", "development", "closure"],
+    "introductionGapPx": 180,
+    "decreasePerStagePx": 20,
+    "physicalGapBoundsPx": [140, 180],
+    "minimumPhysicalGapPx": 120,
+    "minimumRadiusExpandedCoreWidthPx": 100,
+    "seedVariationPx": 0
+  },
+  "support": {
+    "levels": ["whole", "stage"],
+    "stageIndices": [0, 1, 2],
+    "physicalGapValuesPx": [180, 160, 140],
+    "radiusExpandedCoreWidthValuesPx": [160, 140, 120],
+    "inputDependence": "Stage role only. Inherited entry condition and seed do not change aperture parameters.",
+    "physicalQualification": "None until independently evaluated under the prospective frozen contract. Parent empirical rule support does not certify transformed geometry."
+  }
+}

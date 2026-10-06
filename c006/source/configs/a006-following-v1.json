@@ -1,0 +1,15 @@
+{
+  "schema": "a006-explicit-following-profile/1",
+  "version": "a006-following-v1",
+  "constructionParent": "recovery-cumulative-v1",
+  "profile": "following-nominal",
+  "operation": {
+    "type": "following-gate-post-length",
+    "speedRatio": 0.6,
+    "periodSeconds": 3,
+    "crossingPhase": 0,
+    "placementBias": -1,
+    "seedSalt": 0
+  },
+  "module": "source/a006-following-generator.cjs"
+}

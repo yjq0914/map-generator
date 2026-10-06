@@ -1,0 +1,141 @@
+{
+  "ruleId": "r07-spring",
+  "version": 2,
+  "parentRules": [],
+  "theme": "spring",
+  "variant": 3,
+  "level": "combo",
+  "predicate": {
+    "y": [
+      245,
+      300
+    ],
+    "vy": [
+      -65,
+      65
+    ],
+    "lead": [
+      -20,
+      20
+    ],
+    "phase": [
+      -0.45,
+      0.45
+    ],
+    "adjacency": [
+      "none",
+      "upper-after",
+      "lower-before"
+    ],
+    "mechanismsAllowed": [
+      "fixed",
+      "spring"
+    ]
+  },
+  "dependencies": [
+    "engine exact hash",
+    "route-mpc/3-delay-aware",
+    "semantics-v3"
+  ],
+  "conflicts": [
+    "unvalidated interactions",
+    "multi-contact stage composition"
+  ],
+  "supportedEvidence": [
+    "r07-h-v0-h0-main-route",
+    "r07-h-v0-h0-main-route-slow",
+    "r07-h-v0-h0-branch-route",
+    "r07-h-v0-h0-branch-route-slow",
+    "r07-h-v0-h1-main-route",
+    "r07-h-v0-h1-main-route-slow",
+    "r07-h-v0-h1-branch-route",
+    "r07-h-v0-h1-branch-route-slow",
+    "r07-h-v0-h2-main-route",
+    "r07-h-v0-h2-main-route-slow",
+    "r07-h-v0-h2-branch-route",
+    "r07-h-v0-h2-branch-route-slow",
+    "r07-h-v0-h3-main-route",
+    "r07-h-v0-h3-main-route-slow",
+    "r07-h-v0-h3-branch-route",
+    "r07-h-v0-h3-branch-route-slow",
+    "r07-h-v0-h4-main-route",
+    "r07-h-v0-h4-main-route-slow",
+    "r07-h-v0-h4-branch-route",
+    "r07-h-v0-h4-branch-route-slow",
+    "r07-h-v0-h5-main-route",
+    "r07-h-v0-h5-main-route-slow",
+    "r07-h-v0-h5-branch-route",
+    "r07-h-v0-h5-branch-route-slow",
+    "r07-h-v0-h6-main-route",
+    "r07-h-v0-h6-main-route-slow",
+    "r07-h-v0-h6-branch-route",
+    "r07-h-v0-h6-branch-route-slow",
+    "r07-h-v0-h7-main-route",
+    "r07-h-v0-h7-main-route-slow",
+    "r07-h-v0-h7-branch-route",
+    "r07-h-v0-h7-branch-route-slow",
+    "r07-h-v3-h0-main-route",
+    "r07-h-v3-h0-main-route-slow",
+    "r07-h-v3-h0-branch-route",
+    "r07-h-v3-h0-branch-route-slow",
+    "r07-h-v3-h1-main-route",
+    "r07-h-v3-h1-main-route-slow",
+    "r07-h-v3-h1-branch-route",
+    "r07-h-v3-h1-branch-route-slow",
+    "r07-h-v3-h2-main-route",
+    "r07-h-v3-h2-main-route-slow",
+    "r07-h-v3-h2-branch-route",
+    "r07-h-v3-h2-branch-route-slow",
+    "r07-h-v3-h3-main-route",
+    "r07-h-v3-h3-main-route-slow",
+    "r07-h-v3-h3-branch-route",
+    "r07-h-v3-h3-branch-route-slow",
+    "r07-h-v3-h4-main-route",
+    "r07-h-v3-h4-main-route-slow",
+    "r07-h-v3-h4-branch-route",
+    "r07-h-v3-h4-branch-route-slow",
+    "r07-h-v3-h5-main-route",
+    "r07-h-v3-h5-main-route-slow",
+    "r07-h-v3-h5-branch-route",
+    "r07-h-v3-h5-branch-route-slow",
+    "r07-h-v3-h6-main-route",
+    "r07-h-v3-h6-main-route-slow",
+    "r07-h-v3-h6-branch-route",
+    "r07-h-v3-h6-branch-route-slow",
+    "r07-h-v3-h7-main-route",
+    "r07-h-v3-h7-main-route-slow",
+    "r07-h-v3-h7-branch-route",
+    "r07-h-v3-h7-branch-route-slow"
+  ],
+  "counterexamples": [],
+  "exitContract": {
+    "x": 1320,
+    "y": [
+      160,
+      410
+    ],
+    "vy": [
+      -310,
+      300
+    ]
+  },
+  "fallback": "explicit baseline v0 with unvalidated label; never success claim",
+  "adoption": "experimental anchored-route-only; causal qualification unmet",
+  "continuousGuarantee": false,
+  "requiresExperimentalOptIn": true,
+  "qualification": {
+    "observedRouteGoal": true,
+    "fullContractCertified": false,
+    "causalPassMinimum": 4,
+    "causalGroupsRun": 3,
+    "receiverSpecificCausalPasses": 0,
+    "reason": "The generic causal minimum was not enforced by automatic combo promotion; do not waive it or infer causal acceptance"
+  },
+  "amendment": {
+    "kind": "audited qualification narrowing",
+    "priorVersion": 1,
+    "at": "2026-10-04T07:32:40.309696+00:00",
+    "physicsChanged": false,
+    "thresholdChanged": false
+  }
+}

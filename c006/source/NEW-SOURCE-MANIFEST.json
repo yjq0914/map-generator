@@ -1,0 +1,332 @@
+{
+  "schema": "new-recovery-source-manifest/1",
+  "version": "recovery-cumulative-v1",
+  "originalSourceRestored": false,
+  "historicalAcceptanceInherited": false,
+  "constructionInputs": [
+    {
+      "path": "recovery-20261004/baseline-r012/twelve-generator-loop-compact/source/order-transform-bounded.cjs",
+      "sha256": "2cd50a8b520194ff9c7d8afddb25718156b3b3d978436cf993ab5939bb085eb6",
+      "identity": "authenticated r012 file"
+    },
+    {
+      "path": "recovery-20261004/tool-call-transcriptions/a004/exact-read-snapshots/source/adaptive-length.cjs",
+      "sha256": "ba559490d2ac40474c4e5be32f5a35f6f53268304366cf8dfac570741879719b",
+      "identity": "complete saved tool-output transcription; original disk hash unverified"
+    }
+  ],
+  "files": [
+    {
+      "path": "DEPENDENCIES.json",
+      "sha256": "c70574ad7f869a375d5256ca2591f64cf0e617fb349fed85e5f5985bc976e80f",
+      "bytes": 10924,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "READ-CHECKPOINT.json",
+      "sha256": "ef61a773cdec1e24a702592783dda7bffe0c828f63c77ce796558690a9ff3d2c",
+      "bytes": 531,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "RECOVERY-CONSTRUCTION.zh-CN.md",
+      "sha256": "bfc7b14522b5ea567521ca8c02c71561c6903b1f0fc1d14f9ca1fa322ae5c0ab",
+      "bytes": 8967,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "candidate-pressure.cjs",
+      "sha256": "91cc8dd6efe1d90bbc964cc1aace8c0cb18b86288e7f2eb88a7d35c870a341bd",
+      "bytes": 8501,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "configs/recovery-cumulative-v1.json",
+      "sha256": "3a395ff05906af147f1d7dba5da306efe6cf408ef5a9ddeab5179f7d3b6d1082",
+      "bytes": 557,
+      "newRuntimeSource": true
+    },
+    {
+      "path": "generator.cjs",
+      "sha256": "81fdfd0fff52a8a33edc70574b258757877c93074105b517bac4d51002f11bbe",
+      "bytes": 2686,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "order-transform-bounded.cjs",
+      "sha256": "2cd50a8b520194ff9c7d8afddb25718156b3b3d978436cf993ab5939bb085eb6",
+      "bytes": 61309,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "recovery-canonical.cjs",
+      "sha256": "f496c890e25d6472c6d124dbfa51fe68b16d3e5005b39ab63829ea4bda09a9e9",
+      "bytes": 1844,
+      "newRuntimeSource": true
+    },
+    {
+      "path": "recovery-generator.cjs",
+      "sha256": "cfa95700b8c47bd91fce42c1bfc739792c8f8244eee91ced9348b30b128814ed",
+      "bytes": 3657,
+      "newRuntimeSource": true
+    },
+    {
+      "path": "recovery-length.cjs",
+      "sha256": "302c54ab66bf8bd75167e2ed624cb22794e30960b32221b21b3dcb1c4cd58c64",
+      "bytes": 15708,
+      "newRuntimeSource": true
+    },
+    {
+      "path": "recovery-order.cjs",
+      "sha256": "e64ec15b51ebc7a7ad7c176db12c030cc8dbb4e02c0c31302895e36452763913",
+      "bytes": 33182,
+      "newRuntimeSource": true
+    },
+    {
+      "path": "recovery-sustain.cjs",
+      "sha256": "0f4b162f205970ef967ff60e8f379366f5b90c928fcea471e417eb412840f4c2",
+      "bytes": 2919,
+      "newRuntimeSource": true
+    },
+    {
+      "path": "recovery-utils.cjs",
+      "sha256": "43d3e777621d07188779938cb5a1354200d89436e2d2ff48bffe9326c2a844c8",
+      "bytes": 1493,
+      "newRuntimeSource": true
+    },
+    {
+      "path": "relations-r012.cjs",
+      "sha256": "fffc01abfb9f70702caecb42b1916d5379e6967f0502284968d8d49d097dff2f",
+      "bytes": 13152,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r02-wave.json",
+      "sha256": "86e1bcfb07f26b749e219db2ce64a9d091e1392c0218f4b69042758162eca1c2",
+      "bytes": 3143,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r06-wave.json",
+      "sha256": "d72b4b87f8b38d948a5dfae4a66719a2bfbe74e589bb3177fad04235a9e8947b",
+      "bytes": 3121,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r07-spring.json",
+      "sha256": "4c9b54fcc8d5fc5e94b01e47d5306a9c25d4507a760404ddbaece51819cdb009",
+      "bytes": 3709,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r08-mechanical.json",
+      "sha256": "749b8c82a337099477dbe7b0de5e1d8566feb8536ce550a20392be057c2e1da0",
+      "bytes": 3140,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r09-wave.json",
+      "sha256": "de71a1ff7bdbad383e4cfc17ad19c27a6d3be9f307f8876b05294c693abaf7d3",
+      "bytes": 3121,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r10-stage.json",
+      "sha256": "7efd0a9b8a7fb0c8c217d821f1877522418dfed82f0c554725caefd3494e8665",
+      "bytes": 4232,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r11-stage.json",
+      "sha256": "f75d125b462bf1dbde6e4045a1c4ac0682745c4a462ec03ec35198cbb42c1c76",
+      "bytes": 4229,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r12-stage.json",
+      "sha256": "08f7afda05244c0384824f42db8259ae4db72ca95612acaaca6da28bd80e0dfa",
+      "bytes": 4231,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r13-whole.json",
+      "sha256": "77e4d82842d41b4e335715703aafe2b958be5c1bae8c03cdb136ef9613e9f49e",
+      "bytes": 5012,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/r14-whole.json",
+      "sha256": "eaf8c0cdce1bec173acddf39f8bbe611bba1e6be83f693c3d544a0909c7cbed3",
+      "bytes": 4090,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "rules/rule-index.json",
+      "sha256": "f660982770abba7f9f6951e8b27aa1f5df07e5592b9696a8df0ac1da801515ec",
+      "bytes": 6684,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "spring-transform-committed-numeric.cjs",
+      "sha256": "34420c4d158cde93ef82415b44f082c8d84b034f5feefeb504681d44f66fb8a5",
+      "bytes": 1069,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "spring-transform-numeric.cjs",
+      "sha256": "58d775b1fe01008288004174d46a9eab0d489245e134ee4c9a7809b2fb76ff86",
+      "bytes": 32694,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "tests/fixtures/authenticated-r012-cases.json",
+      "sha256": "2a4c80ae586f26e8f29c06f56da1f61e712047d896b1628ab2f0aa70daae0b0f",
+      "bytes": 1234,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "tests/fixtures/limited-site-geometry.json",
+      "sha256": "8d664491e342ca818ae336d1635caee914ce1e8c1264a198b5e2594976a8aa5c",
+      "bytes": 172017,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "tests/legacy-r012-fixture.cjs",
+      "sha256": "92cdf4beb61e5fb680e096d7114ef3c90ce5cc6f032f4a7dfd20d5027c38f580",
+      "bytes": 294,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "tests/static-generator.cjs",
+      "sha256": "51d5f7fd782adb471200f47a51c52f8036281ffb4161ceef488f79657d5e55ba",
+      "bytes": 12556,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "tests/static-results.json",
+      "sha256": "2ea3057e03a6aad6562b207832e4fa3163e9fc7bab4f6cc16ebdef8d71afbbf5",
+      "bytes": 2589,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/baseline/core.js",
+      "sha256": "8df51e587c03be777e53a76f502fd950d0c7cd6d41413e66a9ccffb0858d0370",
+      "bytes": 8002,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/compiler.cjs",
+      "sha256": "e3ea95e30887fb170bf2b15260b89ec38dc9b9b7774623e2affb2d8a25cd8fe5",
+      "bytes": 2789,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/contract.cjs",
+      "sha256": "ccccc4d0583a81e25ba03e44f42269eec51c0607cc9e69e3d309f4a51b25b881",
+      "bytes": 1022,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/engine/arrival-triggers.js",
+      "sha256": "f364ce17731e48ecb98a98d4917b1f9cd4ee6eb1fafe4439c68021c99e42de74",
+      "bytes": 2944,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/engine/core.js",
+      "sha256": "374dbce7990c8ca84772ef983d13225336b7d841a899e4c605b3f5163a48a6d4",
+      "bytes": 33884,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/engine/timed-course.js",
+      "sha256": "55b1773b87e110021fe20baf4baa78de5e2b71a4baee2e57b8257ebc0c773f47",
+      "bytes": 2425,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/generator-v2.cjs",
+      "sha256": "b9f8309caedc4a73b42a1802a666e824aefc86e0c34a7cf9d062fd478878ff7e",
+      "bytes": 5075,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/generator-v3.cjs",
+      "sha256": "03c94d7d3957ebbb056620f4eb0d84b54a2e9fd8b7abe1e4620c3bd4c7664fd6",
+      "bytes": 1383,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/maps.cjs",
+      "sha256": "d3cd19f43db50eac741990a1fe7aa1ab5d550cf0cee92b11363972b8023a67df",
+      "bytes": 2487,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/metrics-v4.cjs",
+      "sha256": "46e144f22a7085fc5365c55919418e210f5a92dfdd635438afed724335bfe1df",
+      "bytes": 3837,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/policies/baseline/core.js",
+      "sha256": "8df51e587c03be777e53a76f502fd950d0c7cd6d41413e66a9ccffb0858d0370",
+      "bytes": 8002,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/policies/framework/v4/event-proxies.js",
+      "sha256": "7a2b833eb497f72e162acdead9ac2a541d68bcf0b793108551e28df57abaa51a",
+      "bytes": 6169,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/policies/framework/v4/frozen-bot-v6.js",
+      "sha256": "69256dd89b2fea68c4fa94f167d166314578c90ec07fbc78ba13c963fee21ef0",
+      "bytes": 2798,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/policies/geometry.cjs",
+      "sha256": "a14e2fa88a33ca2955e33e9d4e0a9c064ef8b182cf9595caf308b1e286a36d9d",
+      "bytes": 4776,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/policies/policies-v4.cjs",
+      "sha256": "32271ee9f38e162402bc0a96ae64a0cad428084d131bfbd5bc4c2295bc61ad8a",
+      "bytes": 15706,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/route-controller-v5.cjs",
+      "sha256": "0bde43645180813df950ff2777fad328da3f9858870d1b01129809b0277a1476",
+      "bytes": 3290,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "vendor/route-controller-v6.cjs",
+      "sha256": "9e5324e81a640583d3f9c13f7edfcfe9aa2de66778a70fd92d437ccbb2505fa3",
+      "bytes": 2326,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "versions/g000-reference.json",
+      "sha256": "5261fe6827efb16011812e0ae2b0c9757a4bb8e7677765537f89079ca79b4289",
+      "bytes": 257,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "versions/o002-candidate.json",
+      "sha256": "fe4dd97613b829f4ddeaf36c22b63b5423cfbb60354f19d2a97db8c6408a69a4",
+      "bytes": 1021,
+      "newRuntimeSource": false
+    },
+    {
+      "path": "versions/r012.json",
+      "sha256": "491cf15e03f4394ba47d9aa39104f9d64a6320d8eb195ba55f7acb94f8ed1203",
+      "bytes": 712,
+      "newRuntimeSource": false
+    }
+  ]
+}

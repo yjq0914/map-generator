@@ -1,0 +1,8 @@
+{
+  "version": "b003-registry-candidate-v1",
+  "module": "source/b003-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "inheritedRegistry": "source/b002-style-registry.cjs",
+  "explicitCandidate": "early-diagonal-warning-laser",
+  "qualification": "Finite explicit laser candidate; current accepted b002 default and all eight previous style calls preserved"
+}

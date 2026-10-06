@@ -1,0 +1,33 @@
+{
+  "schema": "c006-actual-visual-selection-plan/1",
+  "createdAt": "2026-10-05T15:29:03.106995+00:00",
+  "status": "prepared-awaiting-parent-data-ready",
+  "newPhysicsStarts": 0,
+  "newPhysicsTicks": 0,
+  "role": "assigned_main",
+  "preferredRuns": [
+    "c006-parent-control-00-assigned_main",
+    "c006-candidate-control-00-assigned_main",
+    "c006-candidate-control-01-assigned_main",
+    "c006-candidate-control-02-assigned_main",
+    "c006-candidate-control-03-assigned_main",
+    "c006-candidate-control-04-assigned_main",
+    "c006-candidate-control-05-assigned_main"
+  ],
+  "targetSiteSelectedPNGs": 6,
+  "selection": [
+    "Control-00 full actual saved source map and actual player path, all 24000px including unvisited regions",
+    "Upper-after actual late sequence: controls00/01 same entry, seed1 HLT, 2s recovery, opposite existing moving/fixed order; ensure auxiliaries visible",
+    "Lower-before actual late sequence: controls04/05 same entry, seed0 HJT, 1.6s recovery, opposite existing stagger order; ensure auxiliaries visible",
+    "Full-course actual clearance/margin curves and status coverage",
+    "Same-entry controls00/02/03 actual y/vy/inputs and observed recovery contrast, 2/1.2/1.6s requests",
+    "Same-entry order actual y/vy/inputs and late clearance contrast"
+  ],
+  "boundaries": [
+    "Only saved authenticated run/map/trace bodies, poses, rows, inputs and recorded clearance; no physics, controller calls or pose reconstruction",
+    "No original renderer changes; no generic suite rerun",
+    "Primary theme ordering does not establish whole-frame symmetry or new internal pattern synthesis",
+    "Illustrative selected controls are not full-panel qualification; no human fun/causality claims",
+    "If early failure, show actual diagnostic data, terminal status and missing snapshots honestly"
+  ]
+}

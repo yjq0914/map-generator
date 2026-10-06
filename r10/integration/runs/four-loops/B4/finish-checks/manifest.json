@@ -1,0 +1,39 @@
+{
+  "schema": "four-loop-final-finish-checks/1",
+  "basis": "B4 paired8/8 and unseen7/8 at30s plus three actual30s native wins warrant two final whole short maps and exactlytwo120s trials. No reruns after outcome. No fifth bigloop.",
+  "entries": [
+    {
+      "id": "full-701",
+      "mapFile": "full-701.map.json",
+      "horizonTicks": 3898,
+      "scope": "Targeted complete short map, not paired-panel observation",
+      "sourceMap": "runs/four-loops/B4/runs/candidate-701/map.json",
+      "mapFileSHA256": "c785d4d9865bcc92eb92b8bf8df5738f661e91ac312576892d8a09318a75cd80"
+    },
+    {
+      "id": "full-4402",
+      "mapFile": "full-4402.map.json",
+      "horizonTicks": 3786,
+      "scope": "Targeted complete short map, not paired-panel observation",
+      "sourceMap": "runs/four-loops/B4/runs/holdout-4402/map.json",
+      "mapFileSHA256": "26fadaa5f9b0d754a408a338ccd9554ff6a3a6aaaa084599dd916dbf69371742"
+    },
+    {
+      "id": "macro-5701",
+      "mapFile": "macro-5701.map.json",
+      "horizonTicks": 14400,
+      "scope": "New-seed native120s single continuous world, one run, no reset or checkpoint injection",
+      "mapFileSHA256": "be48906439e6e6951d9be73d2b6a0d08a57a7646fcb869ad2a681e55ed85bfd4"
+    },
+    {
+      "id": "macro-5703",
+      "mapFile": "macro-5703.map.json",
+      "horizonTicks": 14400,
+      "scope": "New-seed native120s single continuous world, one run, no reset or checkpoint injection",
+      "mapFileSHA256": "af1ecfd44399201149b169ad693a124fd4097cde9ac026ca3a5b7348cfa6731c"
+    }
+  ],
+  "controller": "relational-source-v3",
+  "controllerSHA256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+  "runtimeSHA256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987"
+}

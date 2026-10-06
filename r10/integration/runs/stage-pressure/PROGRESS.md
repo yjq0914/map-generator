@@ -1,0 +1,25 @@
+# Progress
+- Source isolated at b575f86; old evidence and previous package unchanged
+- Runtime/controller inspected and frozen; new fixed panel requests diversify duration without changing the30s observation contract
+- Parallel initial small loops: realized stage/rhythm evaluator, actual relational geometry, actual-progress selection grammar
+- B1 varied-duration r7 baseline8 new native traces:6/8 reached30s (one nativewin at30s);703/706 died at lower laser near tail, retained
+- Previous macro5703 has near-flat flap rate1.50/1.50/1.55s⁻¹ across40s thirds; longest equal cadence4.217s in final tidal-alt. Pressure and monotony hypothesis is now tied to observed geometry
+- User clarification incorporated before candidates: pressure axes remain separate; no universal demand for increasing amplitude/frequency, no claim that equal cadence is inherently boring; actual corrective/timing tolerance and psychological load remain unmeasured
+- B1 r8 complete:24new native traces total (8baseline+8candidate+8heldout);30s attainment6/8→6/8,heldout7/8. Candidate703/705 hit new tidal roof-2 after a late high-shelf flap;heldout6103 hits unchanged lower laser. All failures retained
+- r8 adds actual-progress grammar and only tidal/upper-slider body-backed stage variants. Source/runtime/evaluator frozen before candidate;32 focused pre-candidate tests passed
+- Parent baseline visual review allowed multidimensional stage emphasis; B1 actual geometry/profiles sent for review. Scope: retained experimental relationship, no overall pressure/quality improvement claim
+- B2 dynamically selected smallloops: actual high-bank→notch carried-state repair; late-stage gate phase/precision diagnosis (must affect traversal, not merely unused schedule reserve)
+- Parent B1 actual visual review accepted visible short-notch relation only;703descent preparation remains to fix. Matched30s survivors retain22.33%median equal-cadence share, longest3.517→2.808s; no blanket rhythm gain claim
+- B2 timing hypothesis: only stage2 bellows A-in starts closing at player-center midpoint, reaches2/3maximum aperture at whole-body tail; cycle period preserved, other3gates/guides untouched. Passive geometry-over-saved-state distances are supporting design analysis, not new native proof or inputtolerance
+- B2 r9 complete:24logical scenarios (8hash-reused baseline+16new native),6/8→8/8 at30s,heldout7/8. Both recorded roof2 failures now cross;6206 lower-laser counterexample retained
+- New stage2 A-in closing witnessed while physically occupied:6candidate+8heldout gates, each4saved closing-phase frames and whole-radius tail reached alive. Largest aperture/positions/guides unchanged; this is actual moving-rim geometry, not actual inputtolerance or calibrated pressure
+- B2 actual full maps, profiles and saved occupied-gate frames sent for parent review. B3 next smallloop diagnoses repeated live lower-laser release failure; pressure-axis audit remains separate and frozen
+- Before B3 candidates: repaired missing current-project skill entry with new selectable/revisable six-axis reference and compatibility pointer in1faf847; this is not restoration of an earlier full skill. Export and read/snapshot behavior tested. Original recovery subset lacked the file; original full-library history remains unknown
+- B3 r10 completed24logical (8reused+16new);paired8/8 andheldout8/8 reach30s.138Python tests passed before runs
+- Base high A-in occupied closing and alternate longer low A-out occupied closing are both witnessed. All8paired native30s state/input row arrays equalB2: the change is real time-dependent space, not more tapping
+- Two bounded diagnostic native runs only: exact oldfailed6206 with only the two rail clock changes now wins31.508s; fulltail708 wins32.708s with actual top contact at30.617s. No resets or retries
+- Audit recommends freezing rather than inventing a fourth code change. Proposed B4 confirmation reuses identical unchanged candidate/baseline evidence, adds8predeclared unseen maps and final full-tail/macro checks; awaiting parent protocol review
+- B4 frozen confirmation:16strict reuse entries+8new heldouts;8/8new heldouts reach30s. No new-version gain
+- Final full701/full6402 win31.042s/30.275s;macro7701/7703 both win120.000s,16modules/15seams each,106/105entities,0/1top contacts
+- Exactly4loops stop.70new native =64panel+2diagnostic+4final;32reuse make96logicalpanel.70/70integrity and138Python/16Node tests pass
+- Final cloud packaging underway;missing cumulative skill/full library remains explicitly unrecovered. No next batch before recovery boundary is settled

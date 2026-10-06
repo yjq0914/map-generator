@@ -1,0 +1,23 @@
+{
+  "schema": "a006-following-source-static-fixtures/1",
+  "passed": true,
+  "assertions": 3002,
+  "inputEntries": 8,
+  "generatedProfiles": 24,
+  "negativeCases": 60,
+  "identityCases": 3,
+  "targets": [
+    "c1-press-0"
+  ],
+  "orderVariants": 6,
+  "lengthVariants": 4,
+  "parentAcceptedVersion": "recovery-cumulative-v1",
+  "parentFreeze": "protocols/freezes/a005-recovery-formal-v1.json",
+  "parentFreezeHash": "4e3d0e91a5bd2d0dc0cd098458f4247d5c0065734b75d1917fccd7cf14433352",
+  "frozenParentFilesUnchanged": 59,
+  "blockedDynamicEngineExports": 45,
+  "forbiddenCalls": 0,
+  "physicalExecutions": 0,
+  "physicalTicks": 0,
+  "qualification": "Pure source generation, strict matched-control authentication, preservation and fail-closed fixtures only; no physical qualification"
+}

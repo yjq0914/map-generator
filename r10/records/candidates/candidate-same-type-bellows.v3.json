@@ -1,0 +1,951 @@
+{
+  "schema_version": 1,
+  "id": "candidate-same-type-bellows",
+  "version": 3,
+  "kind": "candidate",
+  "status": "review_pending",
+  "title": "双门风箱：压缩成一次高位交接",
+  "sources": [
+    {
+      "path": "sources/1f090ab27c8bd59e/R04-preview-adjacency-note.md",
+      "sha256": "1f090ab27c8bd59e8f4a94e4c6831521e1aefff719b388a724ddadfbbc88efea",
+      "original_path": "combo-design-lab/loops/R05/relations/R04-preview-adjacency-note.md",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/8110541507b83e76/README.zh-CN.md",
+      "sha256": "8110541507b83e76234576b721fb2b52d58bf69bd522e82b58947c4069efc9b3",
+      "original_path": "combo-design-lab/loops/R05/relations/README.zh-CN.md",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/1d509cf664af73f4/concepts.json",
+      "sha256": "1d509cf664af73f4a3fed935bb20b0c927934311868d46e65e876450b510fcd7",
+      "original_path": "combo-design-lab/loops/R05/relations/concepts.json",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/4414da3f834ebf4d/drop-frame-1.png",
+      "sha256": "4414da3f834ebf4d2771b6861d809e1533d7a7ad1b252f0343dbd883107049bd",
+      "original_path": "combo-design-lab/loops/R05/relations/drop-frame-1.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/4f870e59b5f07ba1/drop-frame-1.svg",
+      "sha256": "4f870e59b5f07ba19aaefce52b84df6016605e70c32d8f95cb17de168f12afea",
+      "original_path": "combo-design-lab/loops/R05/relations/drop-frame-1.svg",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/7171635feab6b849/drop-frame-2.png",
+      "sha256": "7171635feab6b849541c3ea686753f716c393bfacb4e6c4608d84c28040ea9e8",
+      "original_path": "combo-design-lab/loops/R05/relations/drop-frame-2.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/cdfc6ed0fa56fad5/drop-frame-2.svg",
+      "sha256": "cdfc6ed0fa56fad5141db55e04a146368f4347774aa817d21e9d592627bac4f6",
+      "original_path": "combo-design-lab/loops/R05/relations/drop-frame-2.svg",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/1fb953e4d31608ca/drop-frame-3.png",
+      "sha256": "1fb953e4d31608caf71df2e0f3e3573929d5961c4ab7d8759e1c491188c0b6e6",
+      "original_path": "combo-design-lab/loops/R05/relations/drop-frame-3.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/66946673507d57d2/drop-frame-3.svg",
+      "sha256": "66946673507d57d2ceda6f521e3058ae8e0d67d970ca8cf56d23afd8b1d08773",
+      "original_path": "combo-design-lab/loops/R05/relations/drop-frame-3.svg",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/a166250d19e420a8/drop-order-controls.png",
+      "sha256": "a166250d19e420a898f2c525794191634bd44272f08663e47c4b74b50ec7f2c5",
+      "original_path": "combo-design-lab/loops/R05/relations/drop-order-controls.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/4dd8540b558bbb9b/drop-order-controls.svg",
+      "sha256": "4dd8540b558bbb9b92810b4233acda425560c5c79d61bbca8e682520ca393510",
+      "original_path": "combo-design-lab/loops/R05/relations/drop-order-controls.svg",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/c9beb4d6e0d93e11/drop-phase-sheet.png",
+      "sha256": "c9beb4d6e0d93e111da606e94bd778ad16371062349e75d831a52a622c4bac49",
+      "original_path": "combo-design-lab/loops/R05/relations/drop-phase-sheet.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/ceaf88e6b99273d3/gate-compact-controls.png",
+      "sha256": "ceaf88e6b99273d30aadb0f2293dc796f432f92b903bbc4598246e0af8514f1d",
+      "original_path": "combo-design-lab/loops/R05/relations/gate-compact-controls.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/f0fb6d65dc2b7ac4/gate-compact-controls.svg",
+      "sha256": "f0fb6d65dc2b7ac45619cdb101455c17a04b8cdb6b49e20e5a3c01ae0ffb3f28",
+      "original_path": "combo-design-lab/loops/R05/relations/gate-compact-controls.svg",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/e26ae58d1afc25c3/gate-frame-1.png",
+      "sha256": "e26ae58d1afc25c3bdee0e7520580dad0d0e64d1b40fc930116a5522976b07e2",
+      "original_path": "combo-design-lab/loops/R05/relations/gate-frame-1.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/0adcd981660a8615/gate-frame-1.svg",
+      "sha256": "0adcd981660a86157a724ff881b700608aad42a002224c4317b4f43fab1593d1",
+      "original_path": "combo-design-lab/loops/R05/relations/gate-frame-1.svg",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/b9031e252048ff00/gate-frame-2.png",
+      "sha256": "b9031e252048ff00f9a5b9ad7808fc9732392231ad4ae879711eaaeeda8a7c6d",
+      "original_path": "combo-design-lab/loops/R05/relations/gate-frame-2.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/91e0824b5f539dac/gate-frame-2.svg",
+      "sha256": "91e0824b5f539dac844f5c39febc40f1c6754e4ebafe0ab1ccfd2e660230c046",
+      "original_path": "combo-design-lab/loops/R05/relations/gate-frame-2.svg",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/c1527f1c7dc6e9d6/gate-frame-3.png",
+      "sha256": "c1527f1c7dc6e9d66674ee4b9140dec55cb9dd74b5cd15e1ed6c368d4d7987df",
+      "original_path": "combo-design-lab/loops/R05/relations/gate-frame-3.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/5cb685baf272113c/gate-frame-3.svg",
+      "sha256": "5cb685baf272113c8141cc644bdd56e062106c10f4e14738d9973d8798055b64",
+      "original_path": "combo-design-lab/loops/R05/relations/gate-frame-3.svg",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/c02e19cf4e7ee589/gate-phase-sheet.png",
+      "sha256": "c02e19cf4e7ee58954c1280d7d91bdc2be134ccd732ab7cdaf3f0f349f3ea72d",
+      "original_path": "combo-design-lab/loops/R05/relations/gate-phase-sheet.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/8f7e1296f58378de/manifest.json",
+      "sha256": "8f7e1296f58378de61983836b70e5b3a9bee2ba100e66629adc3740bc816f1ba",
+      "original_path": "combo-design-lab/loops/R05/relations/manifest.json",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/bea43fa42af901c8/overview.png",
+      "sha256": "bea43fa42af901c895aedd70bbfcbc0f30980fe2b252bfcaed3ef1d6904026d7",
+      "original_path": "combo-design-lab/loops/R05/relations/overview.png",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/7f5fb3272b8d1096/overview.svg",
+      "sha256": "7f5fb3272b8d1096f468deccad3633cbeb106d0404f2b3ea74a0db3f2325a7bb",
+      "original_path": "combo-design-lab/loops/R05/relations/overview.svg",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    },
+    {
+      "path": "sources/089b7b7c282598bd/schedule-observations.json",
+      "sha256": "089b7b7c282598bd1222a4065afdd5b1b25c482f08f85979f0d50d674bcbde2a",
+      "original_path": "combo-design-lab/loops/R05/relations/schedule-observations.json",
+      "original_id": "same-type.bellows",
+      "original_status": "event-coupled-compression-gameplay-unqualified; author v3-compact-handoff; role=event_coupled_revision"
+    }
+  ],
+  "origin": "authored",
+  "round_id": "design30-r05",
+  "progress": {
+    "design": "revised",
+    "motion": "schematic_only",
+    "physical": "unvalidated",
+    "review": "reviewed"
+  },
+  "design": {
+    "intent": "保留v2两个双门腔及反向回复，修改的是组间关系，不加更多门、不收窄所有窗。 Archive role: event_coupled_revision",
+    "theme": "前一风箱合口时，后一风箱接气；上一句的高位结尾被下一句接住，然后落向厚低口收束。",
+    "layout": "{\"world_width_px\": 1690.5, \"world_height_px\": 540, \"player_radius_px\": 10, \"obstacles\": [{\"id\": \"Q-in\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 420, \"y\": 375, \"collider\": {\"shape\": \"rectangle\", \"w\": 72, \"h\": 540}, \"motion\": {\"opening_px\": 180}, \"timeline\": {\"start_s\": 0.665, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 1.25, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}, {\"id\": \"Q-out\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 690, \"y\": 215, \"collider\": {\"shape\": \"rectangle\", \"w\": 72, \"h\": 540}, \"motion\": {\"opening_px\": 160}, \"timeline\": {\"start_s\": 2.365, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 1.45, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}, {\"id\": \"A-in\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 970.5, \"y\": 245, \"collider\": {\"shape\": \"rectangle\", \"w\": 96, \"h\": 540}, \"motion\": {\"opening_px\": 180}, \"timeline\": {\"start_s\": 4.265, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 1.55, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}, {\"id\": \"A-out\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 1265.5, \"y\": 375, \"collider\": {\"shape\": \"rectangle\", \"w\": 120, \"h\": 540}, \"motion\": {\"opening_px\": 200}, \"timeline\": {\"start_s\": 6.0367, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 2.1, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}], \"nominal_duration_s\": 10.87}",
+    "motion": "[\"从v2推导：Q-out closing_start=5.165000s；旧A-in opening_start=6.295000s。差值Δt=1.130000s，因此第二腔整体Δx=150Δt=169.500000px前移。\", \"第二腔两门的x和start_s同时减对应量；警示、开合速度、hold、门厚、开口高度、中心高度完全不改。\", \"新A-in开始开启与Q-out开始闭合都为5.165s。闭门警示仍然致命，不能趁黄色先穿。\", \"Q-out全开中心带(145,285)，A-in全开中心带(165,325)，交集(165,285)只是可接高位的几何条件，不是可达出口状态。\", \"组间完全离开Q-out到首次接近A-in的x空档由约2.386667s变1.256667s；这是压缩的内容，不是全段倍速。\"]",
+    "action_grammar": "低入高出 → 看见下一腔闭门警示 → 高位交接候选 → 高入低出 → 厚门平台收句",
+    "readability_cues": "四门仍按两腔分组，空档明显缩短但高度变化保留 / warning门画为实闭合实体；opening/closing画真实分离量 / 交接帧同时展示前门在合、后门在开，不画玩家等待",
+    "control_contract": "World-coordinate source, nominal player x=60+150t; add absolute Tentry to one-shot warning_s and gate start_s. Fixed vx150/radius10; no stopping, arrival reset or landed platform. Warning-drop warning is nonlethal; gate warning remains closed/lethal."
+  },
+  "duration": {
+    "authored": {
+      "min_s": 6.1,
+      "recommended_s": 10.87,
+      "max_s": 16,
+      "conditions": [
+        "作者片段估计，非固定时长档"
+      ],
+      "operators": [
+        "若只留一座双门腔，应同时撤回跨腔交接主张；完整两腔不能按比例快放。",
+        "第三腔须接收上一腔的真实出口状态，并承担新回复；关—开事件关系要重新配对，不按等距复制。",
+        "一座双门腔是短句；两腔之间的高位交接把它们合成较长句。"
+      ]
+    },
+    "physically_qualified": null
+  },
+  "parameter_relationships": [
+    "从v2推导：Q-out closing_start=5.165000s；旧A-in opening_start=6.295000s。差值Δt=1.130000s，因此第二腔整体Δx=150Δt=169.500000px前移。",
+    "第二腔两门的x和start_s同时减对应量；警示、开合速度、hold、门厚、开口高度、中心高度完全不改。",
+    "新A-in开始开启与Q-out开始闭合都为5.165s。闭门警示仍然致命，不能趁黄色先穿。",
+    "Q-out全开中心带(145,285)，A-in全开中心带(165,325)，交集(165,285)只是可接高位的几何条件，不是可达出口状态。",
+    "组间完全离开Q-out到首次接近A-in的x空档由约2.386667s变1.256667s；这是压缩的内容，不是全段倍速。"
+  ],
+  "difficulty_axes": [
+    "跨腔出口竖速能否匹配",
+    "门体厚度占用时长",
+    "关开事件配对与相位偏差",
+    "预告能否在承诺之前看见"
+  ],
+  "entry": {
+    "position": "Unverified authored state: {\"x_px\": 60, \"vx_px_s\": 150, \"vy_px_s\": 0, \"phase_clock\": \"absolute segment t=0; no reset on arrival\", \"force_state\": \"none\", \"projectiles\": [], \"cooldowns\": {}, \"verified\": false, \"y_px\": 365, \"authored_acceptance_hypothesis\": {\"y_px\": [330, 410], \"vy_px_s\": [-80, 80]}}",
+    "vx": "150",
+    "vy": "0",
+    "phase": "absolute segment t=0; no reset on arrival",
+    "forces": "none",
+    "live_projectiles": "[]",
+    "cooldowns": "{}"
+  },
+  "exit": {
+    "position": "Unverified authored state: {\"x_px\": 1690.5, \"vx_px_s\": 150, \"y_px\": 375, \"vy_px_s\": 0, \"authored_acceptance_hypothesis\": {\"y_px\": [320, 430], \"vy_px_s\": [-100, 100]}, \"force_state\": \"none\", \"projectiles\": [], \"cooldowns\": {}, \"verified\": false}",
+    "vx": "150",
+    "vy": "0",
+    "phase": "Carry source absolute phase; no reset",
+    "forces": "none",
+    "live_projectiles": "[]",
+    "cooldowns": "{}"
+  },
+  "adjacency_constraints": [
+    "前段提供当前入口和预告视野，避免每个combo加同样空白前导",
+    "后段承认厚低门的中低位退出",
+    "本图是原v2的接续变体，不覆盖或替代v2证据"
+  ],
+  "counterexamples": [
+    "{\"id\": \"v2-loose\", \"geometry\": [{\"id\": \"Q-in\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 420, \"y\": 375, \"collider\": {\"shape\": \"rectangle\", \"w\": 72, \"h\": 540}, \"motion\": {\"opening_px\": 180}, \"timeline\": {\"start_s\": 0.665, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 1.25, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}, {\"id\": \"Q-out\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 690, \"y\": 215, \"collider\": {\"shape\": \"rectangle\", \"w\": 72, \"h\": 540}, \"motion\": {\"opening_px\": 160}, \"timeline\": {\"start_s\": 2.365, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 1.45, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}, {\"id\": \"A-in\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 1140, \"y\": 245, \"collider\": {\"shape\": \"rectangle\", \"w\": 96, \"h\": 540}, \"motion\": {\"opening_px\": 180}, \"timeline\": {\"start_s\": 5.395, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 1.55, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}, {\"id\": \"A-out\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 1435, \"y\": 375, \"collider\": {\"shape\": \"rectangle\", \"w\": 120, \"h\": 540}, \"motion\": {\"opening_px\": 200}, \"timeline\": {\"start_s\": 7.1667, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 2.1, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}], \"events\": [{\"id\": \"Q-in\", \"warning_start_s\": 0.665, \"opening_start_s\": 1.565, \"fully_open_start_s\": 2.015, \"closing_start_s\": 3.265, \"closed_s\": 3.8150000000000004, \"nominal_center_arrival_s\": 2.64, \"player_x_occupation_interval_s\": [2.3333333333333335, 2.9466666666666668]}, {\"id\": \"Q-out\", \"warning_start_s\": 2.365, \"opening_start_s\": 3.265, \"fully_open_start_s\": 3.7150000000000003, \"closing_start_s\": 5.165, \"closed_s\": 5.715, \"nominal_center_arrival_s\": 4.44, \"player_x_occupation_interval_s\": [4.133333333333334, 4.746666666666667]}, {\"id\": \"A-in\", \"warning_start_s\": 5.395, \"opening_start_s\": 6.295, \"fully_open_start_s\": 6.745, \"closing_start_s\": 8.295, \"closed_s\": 8.845, \"nominal_center_arrival_s\": 7.52, \"player_x_occupation_interval_s\": [7.133333333333334, 7.906666666666666]}, {\"id\": \"A-out\", \"warning_start_s\": 7.1667, \"opening_start_s\": 8.066699999999999, \"fully_open_start_s\": 8.516699999999998, \"closing_start_s\": 10.616699999999998, \"closed_s\": 11.166699999999999, \"nominal_center_arrival_s\": 9.566666666666666, \"player_x_occupation_interval_s\": [9.1, 10.033333333333333]}]}",
+    "{\"id\": \"move-only-do-not-retime\", \"geometry\": [{\"id\": \"Q-in\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 420, \"y\": 375, \"collider\": {\"shape\": \"rectangle\", \"w\": 72, \"h\": 540}, \"motion\": {\"opening_px\": 180}, \"timeline\": {\"start_s\": 0.665, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 1.25, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}, {\"id\": \"Q-out\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 690, \"y\": 215, \"collider\": {\"shape\": \"rectangle\", \"w\": 72, \"h\": 540}, \"motion\": {\"opening_px\": 160}, \"timeline\": {\"start_s\": 2.365, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 1.45, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}, {\"id\": \"A-in\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 970.5, \"y\": 245, \"collider\": {\"shape\": \"rectangle\", \"w\": 96, \"h\": 540}, \"motion\": {\"opening_px\": 180}, \"timeline\": {\"start_s\": 5.395, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 1.55, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}, {\"id\": \"A-out\", \"mechanic_kind\": \"timed_armor_gate\", \"x\": 1265.5, \"y\": 375, \"collider\": {\"shape\": \"rectangle\", \"w\": 120, \"h\": 540}, \"motion\": {\"opening_px\": 200}, \"timeline\": {\"start_s\": 7.1667, \"warning_s\": 0.9, \"opening_s\": 0.45, \"hold_s\": 2.1, \"closing_s\": 0.55, \"cooldown_s\": 12}, \"interaction\": {\"lethal\": true}}], \"first_Ain_contact_s\": 6.003333333333333, \"Ain_status_then\": {\"status\": \"warning-closed\", \"warning\": true, \"gap_px\": 0, \"center_y_px\": 245, \"bodies_remain_lethal\": true}, \"claim\": \"仅改x不改时刻时，固定vx玩家到达全高A-in时仍是闭门警示。这是时间几何冲突，不是一次Bot失败。\"}",
+    "{\"id\": \"edge-hugging\", \"claim\": \"贴开口边缘的轻微升降可能绕过作者期望的大幅问答，不能把中心线意图当强制轨迹。\"}",
+    "Historical author-v2 context: 水平速度固定，玩家不能停着等门。每道门全开平台必须覆盖从玩家前缘进入到后缘离开的整段。",
+    "Historical author-v2 context: 警示时门仍然致命；不能用透明或柔和颜色暗示可以先穿。",
+    "Historical author-v2 context: 第二次问答必须让恢复更宽，而非仅把第四门移得更远、暗中加入更大升幅。",
+    "Historical author-v2 context: 门开启前后的上下边缘都要作为运动碰撞体验证；这里只画开合公式，不计算可玩性。",
+    "Historical author-v2 context: \"V1 comparison retained\""
+  ],
+  "unverified_assumptions": [
+    "第一腔出口y/vy能接入第二腔",
+    "1.256667s组间空档仍有可感知的恢复，而非夹逼",
+    "交接预告在屏幕里可见",
+    "紧凑版本比v2有更清楚的问答感而非只是更忙"
+  ],
+  "variants": {
+    "parameter": [
+      "suffix位移必须同步timeline start",
+      "末门宽度和hold若变化必须重新计算整圆占用，不能只对准中心时刻"
+    ],
+    "semantic": [
+      "宽调息两句 ↔ 高位相接长句；不是改名",
+      "若改为下降交接，必须重新定义入口出口代价"
+    ],
+    "unclassified": []
+  },
+  "components": [
+    {
+      "id": "candidate-same-type-bellows",
+      "version": 2
+    }
+  ],
+  "evidence_refs": [
+    {
+      "id": "review-r01-same-v2",
+      "version": 1
+    },
+    {
+      "id": "review-r05-closure",
+      "version": 1
+    }
+  ],
+  "review": {
+    "state": "design_reviewed_only",
+    "notes": [
+      "Existing Bellows compact handoff; position/time jointly shifted",
+      "Derived event/geometry timing only; no real input, camera, interface, human or family qualification.",
+      "Author v3-compact-handoff is library v3; v2 source/evidence retained. Component is ancestry, not composition.",
+      "Second chamber−169.5px and start_s−1.13s; Q-out closing/A-in opening both5.165s. Position-only negative control reaches warning-closed lethal gate. No measured cross-chamber y/vy transfer."
+    ],
+    "decision_refs": [
+      {
+        "id": "review-r01-same-v2",
+        "version": 1
+      },
+      {
+        "id": "review-r05-closure",
+        "version": 1
+      }
+    ]
+  },
+  "source_payload": {
+    "id": "same-type.bellows",
+    "family_id": "same-type.bellows",
+    "version": "v3-compact-handoff",
+    "kind": "revision-study",
+    "qualification": "event-coupled-compression-gameplay-unqualified",
+    "title": "双门风箱：压缩成一次高位交接",
+    "mechanics": [
+      "timed_armor_gate"
+    ],
+    "parent_refs": [
+      {
+        "id": "same-type.bellows",
+        "version": "v2",
+        "path": "/workspace/scratch/910473b420a7/combo-design-lab/same-type/v2/concepts.json",
+        "sha256": "5eeac2b358f02be83666513e04efdf89b86759b225d725a6c44696c0bae903ea"
+      }
+    ],
+    "question": "能否压缩v2两腔之间的调息，同时保留明确的关—开交接，而不是把所有时间任意缩短？",
+    "hypothesis": "把第二腔前移169.5px、对应时刻提前1.13s，使第一腔出口开始闭合与第二腔入口开始开启同在5.165s；让高位出口状态可以直接接入下一腔。",
+    "intent": "保留v2两个双门腔及反向回复，修改的是组间关系，不加更多门、不收窄所有窗。",
+    "theme": "前一风箱合口时，后一风箱接气；上一句的高位结尾被下一句接住，然后落向厚低口收束。",
+    "action_grammar": "低入高出 → 看见下一腔闭门警示 → 高位交接候选 → 高入低出 → 厚门平台收句",
+    "geometry": {
+      "world_width_px": 1690.5,
+      "world_height_px": 540,
+      "player_radius_px": 10,
+      "obstacles": [
+        {
+          "id": "Q-in",
+          "mechanic_kind": "timed_armor_gate",
+          "x": 420,
+          "y": 375,
+          "collider": {
+            "shape": "rectangle",
+            "w": 72,
+            "h": 540
+          },
+          "motion": {
+            "opening_px": 180
+          },
+          "timeline": {
+            "start_s": 0.665,
+            "warning_s": 0.9,
+            "opening_s": 0.45,
+            "hold_s": 1.25,
+            "closing_s": 0.55,
+            "cooldown_s": 12
+          },
+          "interaction": {
+            "lethal": true
+          }
+        },
+        {
+          "id": "Q-out",
+          "mechanic_kind": "timed_armor_gate",
+          "x": 690,
+          "y": 215,
+          "collider": {
+            "shape": "rectangle",
+            "w": 72,
+            "h": 540
+          },
+          "motion": {
+            "opening_px": 160
+          },
+          "timeline": {
+            "start_s": 2.365,
+            "warning_s": 0.9,
+            "opening_s": 0.45,
+            "hold_s": 1.45,
+            "closing_s": 0.55,
+            "cooldown_s": 12
+          },
+          "interaction": {
+            "lethal": true
+          }
+        },
+        {
+          "id": "A-in",
+          "mechanic_kind": "timed_armor_gate",
+          "x": 970.5,
+          "y": 245,
+          "collider": {
+            "shape": "rectangle",
+            "w": 96,
+            "h": 540
+          },
+          "motion": {
+            "opening_px": 180
+          },
+          "timeline": {
+            "start_s": 4.265,
+            "warning_s": 0.9,
+            "opening_s": 0.45,
+            "hold_s": 1.55,
+            "closing_s": 0.55,
+            "cooldown_s": 12
+          },
+          "interaction": {
+            "lethal": true
+          }
+        },
+        {
+          "id": "A-out",
+          "mechanic_kind": "timed_armor_gate",
+          "x": 1265.5,
+          "y": 375,
+          "collider": {
+            "shape": "rectangle",
+            "w": 120,
+            "h": 540
+          },
+          "motion": {
+            "opening_px": 200
+          },
+          "timeline": {
+            "start_s": 6.0367,
+            "warning_s": 0.9,
+            "opening_s": 0.45,
+            "hold_s": 2.1,
+            "closing_s": 0.55,
+            "cooldown_s": 12
+          },
+          "interaction": {
+            "lethal": true
+          }
+        }
+      ],
+      "nominal_duration_s": 10.87
+    },
+    "entry": {
+      "x_px": 60,
+      "vx_px_s": 150,
+      "vy_px_s": 0,
+      "phase_clock": "absolute segment t=0; no reset on arrival",
+      "force_state": "none",
+      "projectiles": [],
+      "cooldowns": {},
+      "verified": false,
+      "y_px": 365,
+      "authored_acceptance_hypothesis": {
+        "y_px": [
+          330,
+          410
+        ],
+        "vy_px_s": [
+          -80,
+          80
+        ]
+      }
+    },
+    "exit": {
+      "x_px": 1690.5,
+      "vx_px_s": 150,
+      "y_px": 375,
+      "vy_px_s": 0,
+      "authored_acceptance_hypothesis": {
+        "y_px": [
+          320,
+          430
+        ],
+        "vy_px_s": [
+          -100,
+          100
+        ]
+      },
+      "force_state": "none",
+      "projectiles": [],
+      "cooldowns": {},
+      "verified": false
+    },
+    "duration": {
+      "min_s": 6.1,
+      "recommended_s": 10.87,
+      "max_s": 16,
+      "scope": "作者片段估计，非固定时长档",
+      "shorten": "若只留一座双门腔，应同时撤回跨腔交接主张；完整两腔不能按比例快放。",
+      "extend": "第三腔须接收上一腔的真实出口状态，并承担新回复；关—开事件关系要重新配对，不按等距复制。",
+      "nest": "一座双门腔是短句；两腔之间的高位交接把它们合成较长句。"
+    },
+    "parameter_relationships": [
+      "从v2推导：Q-out closing_start=5.165000s；旧A-in opening_start=6.295000s。差值Δt=1.130000s，因此第二腔整体Δx=150Δt=169.500000px前移。",
+      "第二腔两门的x和start_s同时减对应量；警示、开合速度、hold、门厚、开口高度、中心高度完全不改。",
+      "新A-in开始开启与Q-out开始闭合都为5.165s。闭门警示仍然致命，不能趁黄色先穿。",
+      "Q-out全开中心带(145,285)，A-in全开中心带(165,325)，交集(165,285)只是可接高位的几何条件，不是可达出口状态。",
+      "组间完全离开Q-out到首次接近A-in的x空档由约2.386667s变1.256667s；这是压缩的内容，不是全段倍速。"
+    ],
+    "timeline_events": [
+      {
+        "id": "Q-in",
+        "warning_start_s": 0.665,
+        "opening_start_s": 1.565,
+        "fully_open_start_s": 2.015,
+        "closing_start_s": 3.265,
+        "closed_s": 3.8150000000000004,
+        "nominal_center_arrival_s": 2.64,
+        "player_x_occupation_interval_s": [
+          2.3333333333333335,
+          2.9466666666666668
+        ]
+      },
+      {
+        "id": "Q-out",
+        "warning_start_s": 2.365,
+        "opening_start_s": 3.265,
+        "fully_open_start_s": 3.7150000000000003,
+        "closing_start_s": 5.165,
+        "closed_s": 5.715,
+        "nominal_center_arrival_s": 4.44,
+        "player_x_occupation_interval_s": [
+          4.133333333333334,
+          4.746666666666667
+        ]
+      },
+      {
+        "id": "A-in",
+        "warning_start_s": 4.265,
+        "opening_start_s": 5.165,
+        "fully_open_start_s": 5.615,
+        "closing_start_s": 7.165,
+        "closed_s": 7.715,
+        "nominal_center_arrival_s": 6.39,
+        "player_x_occupation_interval_s": [
+          6.003333333333333,
+          6.776666666666666
+        ]
+      },
+      {
+        "id": "A-out",
+        "warning_start_s": 6.0367,
+        "opening_start_s": 6.9367,
+        "fully_open_start_s": 7.3867,
+        "closing_start_s": 9.4867,
+        "closed_s": 10.036700000000002,
+        "nominal_center_arrival_s": 8.436666666666667,
+        "player_x_occupation_interval_s": [
+          7.97,
+          8.903333333333334
+        ]
+      }
+    ],
+    "warning_commitment": {
+      "warning_remains_closed_lethal": true,
+      "signal_relationship": "离开Q-out时A-in已在warning，随后前门合、后门开；在进入第一腔前应知晓后续高位接收。",
+      "minimum_lookahead_intent_px": 400,
+      "camera_verified": false
+    },
+    "optional_bypass": {
+      "outside_gate_bypass": false,
+      "note": "全高门体没有外绕走廊，不伪造旁路。可以在重叠许可高度内保留较高状态或小幅回稳；是否形成不同有意义控制策略未验证。"
+    },
+    "difficulty_axes": [
+      "跨腔出口竖速能否匹配",
+      "门体厚度占用时长",
+      "关开事件配对与相位偏差",
+      "预告能否在承诺之前看见"
+    ],
+    "semantic_variants": [
+      "宽调息两句 ↔ 高位相接长句；不是改名",
+      "若改为下降交接，必须重新定义入口出口代价"
+    ],
+    "parameter_variants": [
+      "suffix位移必须同步timeline start",
+      "末门宽度和hold若变化必须重新计算整圆占用，不能只对准中心时刻"
+    ],
+    "readability_cues": [
+      "四门仍按两腔分组，空档明显缩短但高度变化保留",
+      "warning门画为实闭合实体；opening/closing画真实分离量",
+      "交接帧同时展示前门在合、后门在开，不画玩家等待"
+    ],
+    "counterexamples": [
+      {
+        "id": "v2-loose",
+        "geometry": [
+          {
+            "id": "Q-in",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 420,
+            "y": 375,
+            "collider": {
+              "shape": "rectangle",
+              "w": 72,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 180
+            },
+            "timeline": {
+              "start_s": 0.665,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 1.25,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "Q-out",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 690,
+            "y": 215,
+            "collider": {
+              "shape": "rectangle",
+              "w": 72,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 160
+            },
+            "timeline": {
+              "start_s": 2.365,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 1.45,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "A-in",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 1140,
+            "y": 245,
+            "collider": {
+              "shape": "rectangle",
+              "w": 96,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 180
+            },
+            "timeline": {
+              "start_s": 5.395,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 1.55,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "A-out",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 1435,
+            "y": 375,
+            "collider": {
+              "shape": "rectangle",
+              "w": 120,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 200
+            },
+            "timeline": {
+              "start_s": 7.1667,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 2.1,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "events": [
+          {
+            "id": "Q-in",
+            "warning_start_s": 0.665,
+            "opening_start_s": 1.565,
+            "fully_open_start_s": 2.015,
+            "closing_start_s": 3.265,
+            "closed_s": 3.8150000000000004,
+            "nominal_center_arrival_s": 2.64,
+            "player_x_occupation_interval_s": [
+              2.3333333333333335,
+              2.9466666666666668
+            ]
+          },
+          {
+            "id": "Q-out",
+            "warning_start_s": 2.365,
+            "opening_start_s": 3.265,
+            "fully_open_start_s": 3.7150000000000003,
+            "closing_start_s": 5.165,
+            "closed_s": 5.715,
+            "nominal_center_arrival_s": 4.44,
+            "player_x_occupation_interval_s": [
+              4.133333333333334,
+              4.746666666666667
+            ]
+          },
+          {
+            "id": "A-in",
+            "warning_start_s": 5.395,
+            "opening_start_s": 6.295,
+            "fully_open_start_s": 6.745,
+            "closing_start_s": 8.295,
+            "closed_s": 8.845,
+            "nominal_center_arrival_s": 7.52,
+            "player_x_occupation_interval_s": [
+              7.133333333333334,
+              7.906666666666666
+            ]
+          },
+          {
+            "id": "A-out",
+            "warning_start_s": 7.1667,
+            "opening_start_s": 8.066699999999999,
+            "fully_open_start_s": 8.516699999999998,
+            "closing_start_s": 10.616699999999998,
+            "closed_s": 11.166699999999999,
+            "nominal_center_arrival_s": 9.566666666666666,
+            "player_x_occupation_interval_s": [
+              9.1,
+              10.033333333333333
+            ]
+          }
+        ]
+      },
+      {
+        "id": "move-only-do-not-retime",
+        "geometry": [
+          {
+            "id": "Q-in",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 420,
+            "y": 375,
+            "collider": {
+              "shape": "rectangle",
+              "w": 72,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 180
+            },
+            "timeline": {
+              "start_s": 0.665,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 1.25,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "Q-out",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 690,
+            "y": 215,
+            "collider": {
+              "shape": "rectangle",
+              "w": 72,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 160
+            },
+            "timeline": {
+              "start_s": 2.365,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 1.45,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "A-in",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 970.5,
+            "y": 245,
+            "collider": {
+              "shape": "rectangle",
+              "w": 96,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 180
+            },
+            "timeline": {
+              "start_s": 5.395,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 1.55,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          },
+          {
+            "id": "A-out",
+            "mechanic_kind": "timed_armor_gate",
+            "x": 1265.5,
+            "y": 375,
+            "collider": {
+              "shape": "rectangle",
+              "w": 120,
+              "h": 540
+            },
+            "motion": {
+              "opening_px": 200
+            },
+            "timeline": {
+              "start_s": 7.1667,
+              "warning_s": 0.9,
+              "opening_s": 0.45,
+              "hold_s": 2.1,
+              "closing_s": 0.55,
+              "cooldown_s": 12
+            },
+            "interaction": {
+              "lethal": true
+            }
+          }
+        ],
+        "first_Ain_contact_s": 6.003333333333333,
+        "Ain_status_then": {
+          "status": "warning-closed",
+          "warning": true,
+          "gap_px": 0,
+          "center_y_px": 245,
+          "bodies_remain_lethal": true
+        },
+        "claim": "仅改x不改时刻时，固定vx玩家到达全高A-in时仍是闭门警示。这是时间几何冲突，不是一次Bot失败。"
+      },
+      {
+        "id": "edge-hugging",
+        "claim": "贴开口边缘的轻微升降可能绕过作者期望的大幅问答，不能把中心线意图当强制轨迹。"
+      }
+    ],
+    "strongest_bypass": "没有门外旁路，但边缘策略可能只做轻微升降；跨腔高位也可能靠同一普通节奏完成。压缩确有事件关系，玩法差异仍需未来短迹/人看。",
+    "unverified_assumptions": [
+      "第一腔出口y/vy能接入第二腔",
+      "1.256667s组间空档仍有可感知的恢复，而非夹逼",
+      "交接预告在屏幕里可见",
+      "紧凑版本比v2有更清楚的问答感而非只是更忙"
+    ],
+    "adjacency_constraints": [
+      "前段提供当前入口和预告视野，避免每个combo加同样空白前导",
+      "后段承认厚低门的中低位退出",
+      "本图是原v2的接续变体，不覆盖或替代v2证据"
+    ],
+    "tests": [],
+    "evidence": {
+      "level": "exact gate timeline coupling; no physics",
+      "new_physics": false,
+      "height_state_transfer_proven": false
+    },
+    "revision_delta": {
+      "changed": [
+        "A-in/A-out x −169.5px",
+        "A-in/A-out start_s −1.13s",
+        "world width/illustrated duration同量收缩"
+      ],
+      "retained": [
+        "四门数量",
+        "两腔内部距离",
+        "所有门厚",
+        "所有开口与中心高度",
+        "所有warning/open/hold/close/cooldown时长"
+      ],
+      "derived_event": "Q-out close begins = A-in open begins = 5.165s"
+    },
+    "critical_frames": [
+      {
+        "time_s": 2.64,
+        "arrival_x_px": 456,
+        "title": "低入口承诺：高出口警示，下一腔已更近",
+        "regions": [
+          {
+            "x": 438,
+            "y": 350,
+            "w": 36,
+            "h": 48,
+            "label": "低入口假设"
+          }
+        ]
+      },
+      {
+        "time_s": 5.39,
+        "arrival_x_px": 868.5,
+        "title": "真正的交接：前一出口在合，后一入口在开",
+        "regions": [
+          {
+            "x": 850,
+            "y": 185,
+            "w": 36,
+            "h": 80,
+            "label": "保留高位/回稳假设"
+          }
+        ]
+      },
+      {
+        "time_s": 8.436666666666667,
+        "arrival_x_px": 1325.5,
+        "title": "反向回复：落到厚低口，平台时长原样保留",
+        "regions": [
+          {
+            "x": 1307.5,
+            "y": 350,
+            "w": 36,
+            "h": 50,
+            "label": "低位收句假设"
+          }
+        ]
+      }
+    ],
+    "diagram_paths": [
+      "gate-phase-sheet.png",
+      "gate-compact-controls.png"
+    ]
+  },
+  "pending_references": [
+    "Actual flight/input and entry/exit state transfer remain unverified; no R05 physics authorized"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "g000-reference",
+  "parent": null,
+  "qualification": "experimental_reference_only",
+  "composition": "legacy-r14",
+  "waveWidth": null,
+  "mechanicalGap": null,
+  "connectorStartX": 1120,
+  "recoveryGap": null,
+  "phaseProgression": true
+}

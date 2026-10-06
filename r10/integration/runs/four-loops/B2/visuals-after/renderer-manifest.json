@@ -1,0 +1,73 @@
+{
+  "schema": "combo-map-renderer/1",
+  "physics_reruns": 0,
+  "clock": "authored",
+  "geometry_contract": "Canonical E.obstacles evaluated separately at each descriptor arrival; not a simultaneous snapshot",
+  "runtime": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/vendor/flappy-runtime.js",
+  "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "files": [
+    "contact-sheet.png",
+    "detail-candidate-705.png",
+    "seams-candidate-705.png",
+    "terminal-candidate-705.png"
+  ],
+  "legend": {
+    "full_filled_circles": "solid whole-circle colliders, with no invented windows",
+    "navy_solid": "stored measured player trace",
+    "gold_dashed": "authored guide only",
+    "inactive_outline": "non-colliding at sampled clock; may be active at other times"
+  },
+  "family_palette": {
+    "bellows-question-answer": "#16788a",
+    "cloister": "#bd6438",
+    "slider-island": "#7069a9",
+    "spring-reception": "#528843",
+    "tidal-staircase": "#a35387"
+  },
+  "maps": [
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B2/runs/candidate-702/map.json",
+      "sha256": "9b4a80d9d7489a93a98ca7ae9a1d54eb7e81352aa5fdfe94f5a3a0e4e0e4471d",
+      "seed": 702,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B2/runs/candidate-702/trace.json.gz",
+      "trace_sha256": "fa8dbeebfded404926c4bcaa7fcb00600c2523569c135f0ac78c007cc4b616ee",
+      "trace_points": 3601,
+      "nominal_extent_s": 31.336463414634146,
+      "geometry": "geometry-candidate-702.json",
+      "warnings": []
+    },
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B2/runs/candidate-705/map.json",
+      "sha256": "ec4c81511a6ef0f4b60555de98815b04ee1a60bcf5c39b2725d67e4a227278c7",
+      "seed": 705,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B2/runs/candidate-705/trace.json.gz",
+      "trace_sha256": "dcf6ab1da8ab123c8dfaca3b5b4403529883e1bc0759e8cce4d7684f78e53c79",
+      "trace_points": 3601,
+      "nominal_extent_s": 31.136463414634147,
+      "geometry": "geometry-candidate-705.json",
+      "warnings": []
+    },
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B2/runs/candidate-707/map.json",
+      "sha256": "28b56f9416658237acb472e9034047b7f742e8b7aea0216deb62095462ddc078",
+      "seed": 707,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B2/runs/candidate-707/trace.json.gz",
+      "trace_sha256": "3262fc7fd0d1f65013bd53e88e53c1d7804dd18427f4c4f1587dddb07b4e5dad",
+      "trace_points": 1369,
+      "nominal_extent_s": 32.04979674796748,
+      "geometry": "geometry-candidate-707.json",
+      "warnings": []
+    },
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B2/runs/holdout-4208/map.json",
+      "sha256": "757f87beca71a3e0b717d3535dae8477a4d7f92a04bfdfa21ccab88b5141f790",
+      "seed": 4208,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B2/runs/holdout-4208/trace.json.gz",
+      "trace_sha256": "cbe227f90cfca932b521c9620aa36ad04c26c4283242049ca0128c0fcb7d7826",
+      "trace_points": 2373,
+      "nominal_extent_s": 32.303130081300814,
+      "geometry": "geometry-holdout-4208.json",
+      "warnings": []
+    }
+  ]
+}

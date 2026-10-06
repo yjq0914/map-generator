@@ -1,0 +1,1409 @@
+{
+  "schema": "light-receipt-diagnosis/1",
+  "source": "integration/runs/four-loops/B3/runs/candidate-704/",
+  "sourceFiles": {
+    "map.json": "1b7d6a605a8600ec468c054d3fe1109b1b3fe18a05109f68e69d948c7531039a",
+    "result.json": "0c59dea73671cbf7c8de30ecba07bc9b6c71bcf7654be048fe931975cfd29272",
+    "trace.json.gz": "b3b4866f62a0b44e9b4b4899d860437fc453b3282edc85c337f444936b0a78ff",
+    "inputs.json": "e2ed93dadecb555805259f2d92e5d2b7e7f05107fdb30f0133890594fe205f99"
+  },
+  "diagnosis": {
+    "death": {
+      "tick": 1618,
+      "type": "death",
+      "id": "m02-wide-receiving-cavity:top",
+      "mechanic": "timed_armor_gate",
+      "sourceId": "m02-wide-receiving-cavity"
+    },
+    "originalActualTicks": 1619,
+    "lastChannelFlap": {
+      "tick": 1580,
+      "x": 2035,
+      "y": 260.0222222222216,
+      "vy": 154.16666666666654,
+      "targetY": 259.6534090909091
+    },
+    "originalTerminal": {
+      "tick": 1619,
+      "x": 2083.125,
+      "y": 209.7315972222216,
+      "vy": -26.916666666666785,
+      "alive": false,
+      "won": false,
+      "events": [
+        {
+          "tick": 79,
+          "type": "phase_change",
+          "id": "m01-Q-in:top",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 79,
+          "type": "phase_change",
+          "id": "m01-Q-in:bottom",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 187,
+          "type": "phase_change",
+          "id": "m01-Q-in:top",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 187,
+          "type": "phase_change",
+          "id": "m01-Q-in:bottom",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 241,
+          "type": "phase_change",
+          "id": "m01-Q-in:top",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 241,
+          "type": "phase_change",
+          "id": "m01-Q-in:bottom",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 283,
+          "type": "phase_change",
+          "id": "m01-Q-out:top",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 283,
+          "type": "phase_change",
+          "id": "m01-Q-out:bottom",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 391,
+          "type": "phase_change",
+          "id": "m01-Q-in:top",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 391,
+          "type": "phase_change",
+          "id": "m01-Q-in:bottom",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 391,
+          "type": "phase_change",
+          "id": "m01-Q-out:top",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 391,
+          "type": "phase_change",
+          "id": "m01-Q-out:bottom",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 445,
+          "type": "phase_change",
+          "id": "m01-Q-out:top",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 445,
+          "type": "phase_change",
+          "id": "m01-Q-out:bottom",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 457,
+          "type": "phase_change",
+          "id": "m01-Q-in:top",
+          "from": "closing",
+          "to": "closed"
+        },
+        {
+          "tick": 457,
+          "type": "phase_change",
+          "id": "m01-Q-in:bottom",
+          "from": "closing",
+          "to": "closed"
+        },
+        {
+          "tick": 511,
+          "type": "phase_change",
+          "id": "m01-A-in:top",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 511,
+          "type": "phase_change",
+          "id": "m01-A-in:bottom",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 619,
+          "type": "phase_change",
+          "id": "m01-Q-out:top",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 619,
+          "type": "phase_change",
+          "id": "m01-Q-out:bottom",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 619,
+          "type": "phase_change",
+          "id": "m01-A-in:top",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 619,
+          "type": "phase_change",
+          "id": "m01-A-in:bottom",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 673,
+          "type": "phase_change",
+          "id": "m01-A-in:top",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 673,
+          "type": "phase_change",
+          "id": "m01-A-in:bottom",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 685,
+          "type": "phase_change",
+          "id": "m01-Q-out:top",
+          "from": "closing",
+          "to": "closed"
+        },
+        {
+          "tick": 685,
+          "type": "phase_change",
+          "id": "m01-Q-out:bottom",
+          "from": "closing",
+          "to": "closed"
+        },
+        {
+          "tick": 724,
+          "type": "phase_change",
+          "id": "m01-A-out:top",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 724,
+          "type": "phase_change",
+          "id": "m01-A-out:bottom",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 832,
+          "type": "phase_change",
+          "id": "m01-A-out:top",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 832,
+          "type": "phase_change",
+          "id": "m01-A-out:bottom",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 859,
+          "type": "phase_change",
+          "id": "m01-A-in:top",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 859,
+          "type": "phase_change",
+          "id": "m01-A-in:bottom",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 886,
+          "type": "phase_change",
+          "id": "m01-A-out:top",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 886,
+          "type": "phase_change",
+          "id": "m01-A-out:bottom",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 925,
+          "type": "phase_change",
+          "id": "m01-A-in:top",
+          "from": "closing",
+          "to": "closed"
+        },
+        {
+          "tick": 925,
+          "type": "phase_change",
+          "id": "m01-A-in:bottom",
+          "from": "closing",
+          "to": "closed"
+        },
+        {
+          "tick": 1084,
+          "type": "phase_change",
+          "id": "m02-inclined-upper",
+          "from": "idle",
+          "to": "warning"
+        },
+        {
+          "tick": 1084,
+          "type": "phase_change",
+          "id": "m02-inclined-lower",
+          "from": "idle",
+          "to": "warning"
+        },
+        {
+          "tick": 1180,
+          "type": "phase_change",
+          "id": "m02-inclined-upper",
+          "from": "warning",
+          "to": "active"
+        },
+        {
+          "tick": 1180,
+          "type": "phase_change",
+          "id": "m02-inclined-lower",
+          "from": "warning",
+          "to": "active"
+        },
+        {
+          "tick": 1192,
+          "type": "phase_change",
+          "id": "m02-wide-receiving-cavity:top",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 1192,
+          "type": "phase_change",
+          "id": "m02-wide-receiving-cavity:bottom",
+          "from": "closed",
+          "to": "warning"
+        },
+        {
+          "tick": 1210,
+          "type": "phase_change",
+          "id": "m01-A-out:top",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 1210,
+          "type": "phase_change",
+          "id": "m01-A-out:bottom",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 1276,
+          "type": "phase_change",
+          "id": "m01-A-out:top",
+          "from": "closing",
+          "to": "closed"
+        },
+        {
+          "tick": 1276,
+          "type": "phase_change",
+          "id": "m01-A-out:bottom",
+          "from": "closing",
+          "to": "closed"
+        },
+        {
+          "tick": 1288,
+          "type": "phase_change",
+          "id": "m02-wide-receiving-cavity:top",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 1288,
+          "type": "phase_change",
+          "id": "m02-wide-receiving-cavity:bottom",
+          "from": "warning",
+          "to": "opening"
+        },
+        {
+          "tick": 1384,
+          "type": "phase_change",
+          "id": "m02-wide-receiving-cavity:top",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 1384,
+          "type": "phase_change",
+          "id": "m02-wide-receiving-cavity:bottom",
+          "from": "opening",
+          "to": "open"
+        },
+        {
+          "tick": 1588,
+          "type": "phase_change",
+          "id": "m02-inclined-upper",
+          "from": "active",
+          "to": "cooldown"
+        },
+        {
+          "tick": 1588,
+          "type": "phase_change",
+          "id": "m02-inclined-lower",
+          "from": "active",
+          "to": "cooldown"
+        },
+        {
+          "tick": 1600,
+          "type": "phase_change",
+          "id": "m02-wide-receiving-cavity:top",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 1600,
+          "type": "phase_change",
+          "id": "m02-wide-receiving-cavity:bottom",
+          "from": "open",
+          "to": "closing"
+        },
+        {
+          "tick": 1618,
+          "type": "death",
+          "id": "m02-wide-receiving-cavity:top",
+          "mechanic": "timed_armor_gate",
+          "sourceId": "m02-wide-receiving-cavity"
+        }
+      ],
+      "cooldowns": {},
+      "main_progress_px": 2023.125,
+      "main_time_s": 13.491666666666667,
+      "vx": 150,
+      "broken": {},
+      "mechanicState": {
+        "m03-roof-1:status": "active",
+        "m03-roof-2:status": "active",
+        "m03-roof-3:status": "active",
+        "m03-roof-4:status": "active",
+        "m03-bank-1:status": "active",
+        "m03-bank-2:status": "active",
+        "m03-bank-3:status": "active",
+        "m03-bank-4:status": "active",
+        "m04-entry-top:status": "active",
+        "m04-entry-bottom:status": "active",
+        "m04-corridor-top:status": "active",
+        "m04-corridor-bottom:status": "active",
+        "m04-slider:status": "active",
+        "m04-island:status": "active",
+        "m04-receiver-top:status": "active",
+        "m04-receiver-bottom:status": "active",
+        "m01-Q-in:top:status": "closed",
+        "m01-Q-in:bottom:status": "closed",
+        "m01-Q-out:top:status": "closed",
+        "m01-Q-out:bottom:status": "closed",
+        "m01-A-in:top:status": "closed",
+        "m01-A-in:bottom:status": "closed",
+        "m01-A-out:top:status": "closed",
+        "m01-A-out:bottom:status": "closed",
+        "m02-inclined-upper:status": "cooldown",
+        "m02-inclined-lower:status": "cooldown",
+        "m02-wide-receiving-cavity:top:status": "closing",
+        "m02-wide-receiving-cavity:bottom:status": "closing",
+        "liveProjectiles": {}
+      },
+      "portalCooldownUntil": 0,
+      "physicsSubsteps": 3238
+    },
+    "originalTerminalReceiverBodies": [
+      {
+        "id": "m02-wide-receiving-cavity:top",
+        "sourceId": "m02-wide-receiving-cavity",
+        "kind": "timed_armor_gate",
+        "x": 1875.5,
+        "y": -120,
+        "w": 420,
+        "h": 320.1224489795919,
+        "shape": "rectangle",
+        "status": "closing",
+        "lethal": true,
+        "interaction": {
+          "lethal": true
+        },
+        "phase": "closing",
+        "clearance": 299.7551020408161
+      },
+      {
+        "id": "m02-wide-receiving-cavity:bottom",
+        "sourceId": "m02-wide-receiving-cavity",
+        "kind": "timed_armor_gate",
+        "x": 1875.5,
+        "y": 499.8775510204081,
+        "w": 420,
+        "h": 160.12244897959195,
+        "shape": "rectangle",
+        "status": "closing",
+        "lethal": true,
+        "interaction": {
+          "lethal": true
+        },
+        "phase": "closing",
+        "clearance": 299.7551020408161
+      }
+    ],
+    "reason": "Retained upward last pre-release flap encounters a top rim already closing. The controller only changes its threshold at release; it does not erase upward vy. B3 open-gate crest reserve alone did not cover moving rim."
+  },
+  "candidate": {
+    "rule": "integration/rules/receipt_v7.py",
+    "ruleSHA256": "58544675d1113729b08a7ae2bdb3c6fec3a37154bb4b6eb848b4e4d923c0219b",
+    "preregisteredManifestSHA256": "ab2ef4182f19eb718315dcf268e2b932413936d4ba6d15b03582d5fefea251b4",
+    "result": "native-win",
+    "actualTicks": 3749,
+    "timeSeconds": 31.241666666666667,
+    "continuity": {
+      "nativeInitializations": 1,
+      "restores": 0,
+      "resets": 0,
+      "deletedHazards": 0,
+      "obstacleCount": 23
+    },
+    "files": {
+      "map.json": "8d66dc7fee6cf03bdd5b29179fd7422739168e561945d38ae1d8cb237bbc296c",
+      "result.json": "65a15146c3e181813bcab38923130b2038ee15025072d3c06bc2e6f697279b42",
+      "trace.json.gz": "903fdc6a675662ef6f5dd8eff2476a4697f3fce0099ea906120ddbef82e517a4",
+      "inputs.json": "09e1572eb229ceb89bffb81a2a718054dfd1ef500af2943f5a13a3af66a5da13"
+    },
+    "localReceipt": {
+      "seam": {
+        "from": "m02",
+        "to": "m03",
+        "from_family": "light-cavity",
+        "to_family": "tidal-staircase",
+        "x": 2305.5,
+        "next_active_x": 2515.5,
+        "spatial_reserve_px": 210,
+        "time_s": 14.97,
+        "intent": "prepare next height/phase while keeping real incoming y,vy,tick/cooldowns",
+        "planning_basis": "retained exit guide and incoming preparation aim; not an attained state box",
+        "attained_state": null,
+        "qualified_state_box": null,
+        "id": "seam-1",
+        "category": "module-seam",
+        "crossed": true,
+        "before": {
+          "tick": 1796,
+          "x": 2305,
+          "y": 350.00416666666604,
+          "vy": -201.16666666666666,
+          "alive": true,
+          "won": false,
+          "events": [
+            {
+              "tick": 79,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 79,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 187,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 187,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 241,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 241,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 283,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 283,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 391,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 391,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 391,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 391,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 445,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 445,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 457,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 457,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 511,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 511,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 619,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 619,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 619,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 619,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 673,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 673,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 685,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 685,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 724,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 724,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 832,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 832,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 859,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 859,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 886,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 886,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 925,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 925,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 1084,
+              "type": "phase_change",
+              "id": "m02-inclined-upper",
+              "from": "idle",
+              "to": "warning"
+            },
+            {
+              "tick": 1084,
+              "type": "phase_change",
+              "id": "m02-inclined-lower",
+              "from": "idle",
+              "to": "warning"
+            },
+            {
+              "tick": 1180,
+              "type": "phase_change",
+              "id": "m02-inclined-upper",
+              "from": "warning",
+              "to": "active"
+            },
+            {
+              "tick": 1180,
+              "type": "phase_change",
+              "id": "m02-inclined-lower",
+              "from": "warning",
+              "to": "active"
+            },
+            {
+              "tick": 1192,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 1192,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 1210,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 1210,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 1276,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 1276,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 1288,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 1288,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 1384,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 1384,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 1588,
+              "type": "phase_change",
+              "id": "m02-inclined-upper",
+              "from": "active",
+              "to": "cooldown"
+            },
+            {
+              "tick": 1588,
+              "type": "phase_change",
+              "id": "m02-inclined-lower",
+              "from": "active",
+              "to": "cooldown"
+            },
+            {
+              "tick": 1644,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 1644,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:bottom",
+              "from": "open",
+              "to": "closing"
+            }
+          ],
+          "cooldowns": {},
+          "main_progress_px": 2245,
+          "main_time_s": 14.966666666666667,
+          "vx": 150,
+          "broken": {},
+          "mechanicState": {
+            "m03-roof-1:status": "active",
+            "m03-roof-2:status": "active",
+            "m03-roof-3:status": "active",
+            "m03-roof-4:status": "active",
+            "m03-bank-1:status": "active",
+            "m03-bank-2:status": "active",
+            "m03-bank-3:status": "active",
+            "m03-bank-4:status": "active",
+            "m04-entry-top:status": "active",
+            "m04-entry-bottom:status": "active",
+            "m04-corridor-top:status": "active",
+            "m04-corridor-bottom:status": "active",
+            "m04-slider:status": "active",
+            "m04-island:status": "active",
+            "m04-receiver-top:status": "active",
+            "m04-receiver-bottom:status": "active",
+            "m01-Q-in:top:status": "closed",
+            "m01-Q-in:bottom:status": "closed",
+            "m01-Q-out:top:status": "closed",
+            "m01-Q-out:bottom:status": "closed",
+            "m01-A-in:top:status": "closed",
+            "m01-A-in:bottom:status": "closed",
+            "m01-A-out:top:status": "closed",
+            "m01-A-out:bottom:status": "closed",
+            "m02-inclined-upper:status": "cooldown",
+            "m02-inclined-lower:status": "cooldown",
+            "m02-wide-receiving-cavity:top:status": "closing",
+            "m02-wide-receiving-cavity:bottom:status": "closing",
+            "liveProjectiles": {}
+          },
+          "portalCooldownUntil": 0,
+          "physicsSubsteps": 3592
+        },
+        "after": {
+          "tick": 1797,
+          "x": 2306.25,
+          "y": 348.3704861111105,
+          "vy": -194.33333333333334,
+          "alive": true,
+          "won": false,
+          "events": [
+            {
+              "tick": 79,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 79,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 187,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 187,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 241,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 241,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 283,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 283,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 391,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 391,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 391,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 391,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 445,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 445,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 457,
+              "type": "phase_change",
+              "id": "m01-Q-in:top",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 457,
+              "type": "phase_change",
+              "id": "m01-Q-in:bottom",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 511,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 511,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 619,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 619,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 619,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 619,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 673,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 673,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 685,
+              "type": "phase_change",
+              "id": "m01-Q-out:top",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 685,
+              "type": "phase_change",
+              "id": "m01-Q-out:bottom",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 724,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 724,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 832,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 832,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 859,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 859,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 886,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 886,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 925,
+              "type": "phase_change",
+              "id": "m01-A-in:top",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 925,
+              "type": "phase_change",
+              "id": "m01-A-in:bottom",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 1084,
+              "type": "phase_change",
+              "id": "m02-inclined-upper",
+              "from": "idle",
+              "to": "warning"
+            },
+            {
+              "tick": 1084,
+              "type": "phase_change",
+              "id": "m02-inclined-lower",
+              "from": "idle",
+              "to": "warning"
+            },
+            {
+              "tick": 1180,
+              "type": "phase_change",
+              "id": "m02-inclined-upper",
+              "from": "warning",
+              "to": "active"
+            },
+            {
+              "tick": 1180,
+              "type": "phase_change",
+              "id": "m02-inclined-lower",
+              "from": "warning",
+              "to": "active"
+            },
+            {
+              "tick": 1192,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:top",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 1192,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:bottom",
+              "from": "closed",
+              "to": "warning"
+            },
+            {
+              "tick": 1210,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 1210,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 1276,
+              "type": "phase_change",
+              "id": "m01-A-out:top",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 1276,
+              "type": "phase_change",
+              "id": "m01-A-out:bottom",
+              "from": "closing",
+              "to": "closed"
+            },
+            {
+              "tick": 1288,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:top",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 1288,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:bottom",
+              "from": "warning",
+              "to": "opening"
+            },
+            {
+              "tick": 1384,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:top",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 1384,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:bottom",
+              "from": "opening",
+              "to": "open"
+            },
+            {
+              "tick": 1588,
+              "type": "phase_change",
+              "id": "m02-inclined-upper",
+              "from": "active",
+              "to": "cooldown"
+            },
+            {
+              "tick": 1588,
+              "type": "phase_change",
+              "id": "m02-inclined-lower",
+              "from": "active",
+              "to": "cooldown"
+            },
+            {
+              "tick": 1644,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:top",
+              "from": "open",
+              "to": "closing"
+            },
+            {
+              "tick": 1644,
+              "type": "phase_change",
+              "id": "m02-wide-receiving-cavity:bottom",
+              "from": "open",
+              "to": "closing"
+            }
+          ],
+          "cooldowns": {},
+          "main_progress_px": 2246.25,
+          "main_time_s": 14.975,
+          "vx": 150,
+          "broken": {},
+          "mechanicState": {
+            "m03-roof-1:status": "active",
+            "m03-roof-2:status": "active",
+            "m03-roof-3:status": "active",
+            "m03-roof-4:status": "active",
+            "m03-bank-1:status": "active",
+            "m03-bank-2:status": "active",
+            "m03-bank-3:status": "active",
+            "m03-bank-4:status": "active",
+            "m04-entry-top:status": "active",
+            "m04-entry-bottom:status": "active",
+            "m04-corridor-top:status": "active",
+            "m04-corridor-bottom:status": "active",
+            "m04-slider:status": "active",
+            "m04-island:status": "active",
+            "m04-receiver-top:status": "active",
+            "m04-receiver-bottom:status": "active",
+            "m01-Q-in:top:status": "closed",
+            "m01-Q-in:bottom:status": "closed",
+            "m01-Q-out:top:status": "closed",
+            "m01-Q-out:bottom:status": "closed",
+            "m01-A-in:top:status": "closed",
+            "m01-A-in:bottom:status": "closed",
+            "m01-A-out:top:status": "closed",
+            "m01-A-out:bottom:status": "closed",
+            "m02-inclined-upper:status": "cooldown",
+            "m02-inclined-lower:status": "cooldown",
+            "m02-wide-receiving-cavity:top:status": "closing",
+            "m02-wide-receiving-cavity:bottom:status": "closing",
+            "liveProjectiles": {}
+          },
+          "portalCooldownUntil": 0,
+          "physicsSubsteps": 3594
+        }
+      },
+      "minimumSampledTopClearance": {
+        "tick": 1622,
+        "x": 2087.5,
+        "y": 209.34513888888827,
+        "vy": -3.000000000000117,
+        "gatePhase": "open",
+        "top": 9.345138888888272,
+        "bottom": 290.6548611111117
+      },
+      "minimumSampledBottomClearance": {
+        "tick": 1783,
+        "x": 2288.75,
+        "y": 376.42395833333273,
+        "vy": 283.9999999999998,
+        "gatePhase": "closing",
+        "top": 79.1394668609172,
+        "bottom": 26.291550194251727
+      },
+      "metricScope": "Radius-adjusted clearances at stored full-tick centers over radius-expanded receiver occupancy. Not a substep minimum or safe-state-box proof."
+    }
+  },
+  "scope": "Exactly one preregistered full-world diagnostic. Both real rails, guide, gate aperture/placement, world initial state, controller and runtime unchanged. Only hold and closing durations covary; source one-third aperture at full-radius tail remains. General promotion rejected pending independent B4 panel and visual/action review."
+}

@@ -1,0 +1,146 @@
+{
+  "schema": "stage-pressure-bounded-diagnostics/1",
+  "basis": "One repeated live-lower-laser counterexample and one censored carried-state receiver identified from B2/B3, not selected after outcomes",
+  "maximum_runs": 2,
+  "entries": [
+    {
+      "id": "known-laser-6206-r10",
+      "mapFile": "known-laser-6206-r10.map.json",
+      "horizonTicks": 3782,
+      "scope": "One whole-world rerun of an exact prior failure with r10 changes; no state restoration",
+      "sourceMap": "integration/runs/stage-pressure/B2/runs/holdout-6206/map.json",
+      "mapFileSHA256": "0a5114073182ca2edb1bc63dc222e69b0a0c6942a717fe36a0e29fa0ddb58c29"
+    },
+    {
+      "id": "full-tail-708-r10",
+      "mapFile": "full-tail-708-r10.map.json",
+      "horizonTicks": 3926,
+      "scope": "One full-world check of the observed-but-censored bellows-to-spring receipt tail",
+      "sourceMap": "integration/runs/stage-pressure/B3/runs/candidate-708/map.json",
+      "mapFileSHA256": "e39407837d898eabc03090a1a46c97e3b745d9b36b969510d748df780f71a7d4"
+    }
+  ],
+  "known_laser_geometry_changes": [
+    {
+      "id": "m05-inclined-upper",
+      "before": {
+        "id": "m05-inclined-upper",
+        "mechanic_kind": "laser_scanner",
+        "x": 3925.4695121951218,
+        "y": 350,
+        "collider": {
+          "shape": "segment",
+          "w": 180,
+          "h": 110,
+          "width": 10
+        },
+        "motion": {
+          "dx_px": 180,
+          "dy_px": -110,
+          "amplitude_px": 20,
+          "period_s": 6,
+          "phase_rad": -25.450178307550576
+        },
+        "timeline": {
+          "start_s": 24.50313008130081,
+          "warning_s": 0.8,
+          "active_s": 3.4000000000000004,
+          "cooldown_s": 6
+        },
+        "interaction": {
+          "lethal": true
+        }
+      },
+      "after": {
+        "id": "m05-inclined-upper",
+        "mechanic_kind": "laser_scanner",
+        "x": 3925.4695121951218,
+        "y": 350,
+        "collider": {
+          "shape": "segment",
+          "w": 180,
+          "h": 110,
+          "width": 10
+        },
+        "motion": {
+          "dx_px": 180,
+          "dy_px": -110,
+          "amplitude_px": 20,
+          "period_s": 6,
+          "phase_rad": -25.450178307550576
+        },
+        "timeline": {
+          "start_s": 24.50313008130081,
+          "warning_s": 0.8,
+          "active_s": 3.2280031903628172,
+          "cooldown_s": 6.171996809637183
+        },
+        "interaction": {
+          "lethal": true
+        }
+      }
+    },
+    {
+      "id": "m05-inclined-lower",
+      "before": {
+        "id": "m05-inclined-lower",
+        "mechanic_kind": "laser_scanner",
+        "x": 3925.4695121951218,
+        "y": 560,
+        "collider": {
+          "shape": "segment",
+          "w": 540,
+          "h": 330,
+          "width": 10
+        },
+        "motion": {
+          "dx_px": 540,
+          "dy_px": -330,
+          "amplitude_px": 20,
+          "period_s": 6,
+          "phase_rad": -25.450178307550576
+        },
+        "timeline": {
+          "start_s": 24.50313008130081,
+          "warning_s": 0.8,
+          "active_s": 3.4000000000000004,
+          "cooldown_s": 6
+        },
+        "interaction": {
+          "lethal": true
+        }
+      },
+      "after": {
+        "id": "m05-inclined-lower",
+        "mechanic_kind": "laser_scanner",
+        "x": 3925.4695121951218,
+        "y": 560,
+        "collider": {
+          "shape": "segment",
+          "w": 540,
+          "h": 330,
+          "width": 10
+        },
+        "motion": {
+          "dx_px": 540,
+          "dy_px": -330,
+          "amplitude_px": 20,
+          "period_s": 6,
+          "phase_rad": -25.450178307550576
+        },
+        "timeline": {
+          "start_s": 24.50313008130081,
+          "warning_s": 0.8,
+          "active_s": 3.2280031903628172,
+          "cooldown_s": 6.171996809637183
+        },
+        "interaction": {
+          "lethal": true
+        }
+      }
+    }
+  ],
+  "known_laser_guides_identical": true,
+  "controllerSHA256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+  "runtimeSHA256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987"
+}

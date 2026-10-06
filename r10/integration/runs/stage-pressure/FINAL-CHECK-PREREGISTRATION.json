@@ -1,0 +1,28 @@
+{
+  "schema": "stage-pressure-final-check-plan/1",
+  "full_short_sources": [
+    "B4/runs/candidate-701",
+    "B4/runs/holdout-6402"
+  ],
+  "full_short_condition": "Only if source reached30s; otherwise skip already-known early failure without substitute cherry-pick",
+  "macro_requests": [
+    {
+      "seed": 7701,
+      "duration_s": 120,
+      "difficulty": "medium",
+      "theme": "foundry",
+      "holdout": true
+    },
+    {
+      "seed": 7703,
+      "duration_s": 120,
+      "difficulty": "medium",
+      "theme": "signal",
+      "holdout": true
+    }
+  ],
+  "macro_condition": "Two new native singleworld checks at final accepted/scoped revision if bounded short evidence warrants integration test; no replacements or replay to manufacture success",
+  "controller": "unchanged relational-source-v3",
+  "resets": 0,
+  "maximum_diagnostic_probes": 4
+}

@@ -1,0 +1,234 @@
+{
+  "schema": "neighbor-cumulative-interface-preparation/1",
+  "checks": 20,
+  "checkNames": [
+    "old-c002-upper exact cumulative prefix and authenticated intentional routes",
+    "old-c002-upper L changes only declared global route hash",
+    "old-c002-upper old L guard remains active against stale hash",
+    "old-c002-upper laser plus aperture plus complete late body windows",
+    "old-c002-upper full old intent refusal separate from physical companion",
+    "old saved trace cannot qualify new cumulative map",
+    "old-c002-lower exact cumulative prefix and authenticated intentional routes",
+    "old-c002-lower L changes only declared global route hash",
+    "old-c002-lower old L guard remains active against stale hash",
+    "old-c002-lower laser plus aperture plus complete late body windows",
+    "old-c002-lower full old intent refusal separate from physical companion",
+    "old-c003-changed-T-context exact cumulative prefix and authenticated intentional routes",
+    "old-c003-changed-T-context L changes only declared global route hash",
+    "old-c003-changed-T-context old L guard remains active against stale hash",
+    "old-c003-changed-T-context laser plus aperture plus complete late body windows",
+    "old-c003-changed-T-context declared changed T successor stays mandatory",
+    "absent actual bodies keep T second-pair/receiver successor obligation unpassed",
+    "preparation binding never admits a physical run",
+    "old accepted request remains exact complete output",
+    "single explicit config swap supports c003 with no L observer obligation"
+  ],
+  "rows": [
+    {
+      "name": "old-c002-upper",
+      "input": {
+        "seed": 67,
+        "y": 260,
+        "vy": 20,
+        "lead": 8,
+        "phase": -0.12,
+        "adjacency": "upper-after"
+      },
+      "selectedRecipes": [
+        "L",
+        "T"
+      ],
+      "parentMapHash": "c9d9db674ea8b764fae9b77755aa29c78a4427f37292ccf5fa777196fb0c7107",
+      "candidateMapHash": "436bdcd3b747e59961cb497a0a5c4b4439b69f050804b4b1069a18c62bb19bef",
+      "changedTSuccessor": false,
+      "completeOldIntent": {
+        "status": "unsupported",
+        "reason": "Late macro: expected three ordinary fixed islands",
+        "physicalFallback": "none; the explicit same-condition macro-null parentRequest supplies the physical companion"
+      },
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1503,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "currentLaserRouteBinding": {
+        "schema": "exact-pinned-laser-current-route-rebinding/1",
+        "beforeRoutesSHA256": "daacf8005648fa74a3b17bdb31960a8032f239c59c4a71a9af163337d47fb3a5",
+        "afterRoutesSHA256": "e496995ba808a43010a0d1a4148b48a170794f4ffc98927797bc268f2dfa2417",
+        "programBeforeSHA256": "3b6b7d06ec4417fe7e67ba3a87220961401af74339d0685a45ab73f941f7c121",
+        "programAfterSHA256": "2a5f9d22423eeb1f28ca601bfd95df0c4c9dc37f39a987aa05bc8dedd896f1d0",
+        "componentIndex": 0,
+        "successorIndex": 1,
+        "pinnedContextSHA256": "831d4b5c1ccb7b41b20a36d5d636567b3ceafd7259f912d2e3198af7e9ff5d83",
+        "changedField": "laserProgram.currentSuccessorContext.routesSHA256",
+        "qualification": "authenticated whole-package9/10 move only; protected early bodies and successor unchanged"
+      }
+    },
+    {
+      "name": "old-c002-lower",
+      "input": {
+        "seed": 4159321984,
+        "y": 300,
+        "vy": 65,
+        "lead": 20,
+        "phase": 0.45,
+        "adjacency": "lower-before"
+      },
+      "selectedRecipes": [
+        "L",
+        "T"
+      ],
+      "parentMapHash": "2fcce40e2dff51091cbaa339266de26090a81a518fed5c670f9f22012486ed92",
+      "candidateMapHash": "55d5b9318611465eafa19c42739d51877539c2d2c7ee0ea967f18fca4c6a774b",
+      "changedTSuccessor": false,
+      "completeOldIntent": {
+        "status": "unsupported",
+        "reason": "Late macro: expected three ordinary fixed islands",
+        "physicalFallback": "none; the explicit same-condition macro-null parentRequest supplies the physical companion"
+      },
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1325,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "currentLaserRouteBinding": {
+        "schema": "exact-pinned-laser-current-route-rebinding/1",
+        "beforeRoutesSHA256": "1a4c6b11b53c0370ed6a9a2727ab112e386b66b6e5e4fc2bcc7a247a66b9fd1c",
+        "afterRoutesSHA256": "8b6709f5d1fd61e2997db082e14a744492a9e58ae6426a59c3a1c1aef8b21e90",
+        "programBeforeSHA256": "3c6f2516d65aed5be7940620eae6f847b4d79ae4fe79479491cb65d1a08767c6",
+        "programAfterSHA256": "144db619906fba5d49b090ff21d83e10904df6eba7d39b7364a6457aa800755f",
+        "componentIndex": 0,
+        "successorIndex": 1,
+        "pinnedContextSHA256": "1680b99d3a22df18c2ca070883d80a89c3f60a65260f256ea9bad686a1563f84",
+        "changedField": "laserProgram.currentSuccessorContext.routesSHA256",
+        "qualification": "authenticated whole-package9/10 move only; protected early bodies and successor unchanged"
+      }
+    },
+    {
+      "name": "old-c003-changed-T-context",
+      "input": {
+        "seed": 0,
+        "y": 270,
+        "vy": 0,
+        "lead": 0,
+        "phase": 0,
+        "adjacency": "none"
+      },
+      "selectedRecipes": [
+        "L",
+        "T"
+      ],
+      "parentMapHash": "5d231f635489f7fcacbd03e7d2498c18a7c6e2b952b50df5abeb108fc0596750",
+      "candidateMapHash": "fb2feff55ba0238ad14379cda3b191b6944e4c7316bcedc4bba251f706d06343",
+      "changedTSuccessor": true,
+      "completeOldIntent": {
+        "status": "supported",
+        "mapHash": "f3e1a33a66ee9cfdabbc9f8411107e36484c01df9317b06808b62f3f294df5ab",
+        "selectedRecipes": [
+          "L",
+          "T"
+        ]
+      },
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "currentLaserRouteBinding": {
+        "schema": "exact-pinned-laser-current-route-rebinding/1",
+        "beforeRoutesSHA256": "12413e174f0571ac96aa458e0b53a27552acf0d3233247f420bd2c6b855f43dd",
+        "afterRoutesSHA256": "ac4f3f3f96d8ffe2b5e8aa47c8fc5e225d94108cb241b5c337e464fc9229361e",
+        "programBeforeSHA256": "708c5ecd0428aeab573bd9d1ee3d258aa92e9d10fce60e61ea52b3b976059689",
+        "programAfterSHA256": "6cf80dce57288489a4954e4426e5be7b6b0120b74c52df17e8cd7d4d4d0bf1db",
+        "componentIndex": 0,
+        "successorIndex": 1,
+        "pinnedContextSHA256": "6b91b50e147f1f7c833e6c867153434badfd8ab06354afe92f446529c1a27e78",
+        "changedField": "laserProgram.currentSuccessorContext.routesSHA256",
+        "qualification": "authenticated whole-package9/10 move only; protected early bodies and successor unchanged"
+      }
+    },
+    {
+      "bindingSwap": {
+        "sourceIdentity": "ea3c36fc70bc0862b47c9d6329175f874fc326da2743862dcf0367366e621e78",
+        "exactC003Parent": true,
+        "laserNotSelected": true,
+        "blockedDynamicEngineExports": 45,
+        "forbiddenCalls": 0,
+        "physicalExecutions": 0,
+        "physicalTicks": 0
+      }
+    }
+  ],
+  "sourceIdentity": "fcc86066f78f4b83ba98d5c3ea3d3a17e21d3e5213098b5a78939ce6fef3fb47",
+  "bindingStatus": "preparation-only",
+  "blockedDynamicEngineExports": 45,
+  "forbiddenCalls": 0,
+  "physicalExecutions": 0,
+  "physicalTicks": 0,
+  "physicsQualification": false,
+  "c005OutcomesRead": false,
+  "futureOrHeldoutInputsRead": false
+}

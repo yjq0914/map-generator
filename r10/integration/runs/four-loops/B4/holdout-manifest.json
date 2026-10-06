@@ -1,0 +1,165 @@
+{
+  "schema": "four-loop-arm/1",
+  "bigLoop": 4,
+  "arm": "holdout",
+  "revision": 7,
+  "sources": {
+    "generator.py": "90ac91aca6e367c67533171f81587f8e5d7a8574365d1503764c6913ec2bd6a5",
+    "diagnostic.cjs": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+    "run_batch.cjs": "0d5a99050832b8183ed71bcecb1973145b9b3671843db4c5827f4bd18cf818cf",
+    "vendor/flappy-runtime.js": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+    "rules/additional.py": "87f5545b5c5f259a3d9bffdc4bac7e9dcf387de3cb0e09a8f1b4cb0a4b81f80e",
+    "rules/geometry_v4.py": "270cd874898ba514acfc48cc4a3243786e861934a554fbd39ce8d51d753e74d3",
+    "rules/geometry_v5.py": "d5d80e073d32895a0121adf046e5e20073053ecb29f30ab505dca4d226baaaaf",
+    "rules/grammar_v4.py": "f6ef6e82fc057609cb5c37c6b6b7313c12d3998badea7b818280ca23e2969c50",
+    "rules/grammar_v7.py": "29e2f9e5a27b2c36f6ee8584cd423cc68a480a0fc3899d7626b89e432926939a",
+    "rules/handoffs_v6.py": "8b37c0ec981a51e6cb10c283fb70be4450e168de8c28dd3d7532dd4ddfecdaab",
+    "rules/receipt_v7.py": "58544675d1113729b08a7ae2bdb3c6fec3a37154bb4b6eb848b4e4d923c0219b"
+  },
+  "entries": [
+    {
+      "id": "holdout-4401",
+      "arm": "holdout",
+      "seed": 4401,
+      "pairId": null,
+      "request": {
+        "seed": 4401,
+        "duration_s": 31.5,
+        "difficulty": "easy",
+        "theme": "arcade",
+        "experimental": true,
+        "holdout": true
+      },
+      "revision": 7,
+      "mapFile": "holdout-maps/holdout-4401/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "3a6825e79d340a29a342da5b6e1ae3d368a676da3f6c880f6e337a2fef439ad0"
+    },
+    {
+      "id": "holdout-4402",
+      "arm": "holdout",
+      "seed": 4402,
+      "pairId": null,
+      "request": {
+        "seed": 4402,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "foundry",
+        "experimental": true,
+        "holdout": true
+      },
+      "revision": 7,
+      "mapFile": "holdout-maps/holdout-4402/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "26e59de6e4bc87eec440d2b868ae073e555380b71b7029bfd1714f47a096b34a"
+    },
+    {
+      "id": "holdout-4403",
+      "arm": "holdout",
+      "seed": 4403,
+      "pairId": null,
+      "request": {
+        "seed": 4403,
+        "duration_s": 31.5,
+        "difficulty": "hard",
+        "theme": "signal",
+        "experimental": true,
+        "holdout": true
+      },
+      "revision": 7,
+      "mapFile": "holdout-maps/holdout-4403/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "a138c4ba7b435e7f783a05cccd0f7d187c47cdf43a626c8ecb9e61a603038c2f"
+    },
+    {
+      "id": "holdout-4404",
+      "arm": "holdout",
+      "seed": 4404,
+      "pairId": null,
+      "request": {
+        "seed": 4404,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "arcade",
+        "experimental": true,
+        "holdout": true
+      },
+      "revision": 7,
+      "mapFile": "holdout-maps/holdout-4404/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "f1b8f8991f7178d293cd41fd03bb37a7fd273ea951ce29321ae02841b9f3008d"
+    },
+    {
+      "id": "holdout-4405",
+      "arm": "holdout",
+      "seed": 4405,
+      "pairId": null,
+      "request": {
+        "seed": 4405,
+        "duration_s": 31.5,
+        "difficulty": "easy",
+        "theme": "foundry",
+        "experimental": true,
+        "holdout": true
+      },
+      "revision": 7,
+      "mapFile": "holdout-maps/holdout-4405/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "5cc9a14dcdfbaa037a7c44ca0a9c93037498514d7f49e75b29759f8e0061266b"
+    },
+    {
+      "id": "holdout-4406",
+      "arm": "holdout",
+      "seed": 4406,
+      "pairId": null,
+      "request": {
+        "seed": 4406,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "signal",
+        "experimental": true,
+        "holdout": true
+      },
+      "revision": 7,
+      "mapFile": "holdout-maps/holdout-4406/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "5542691b79249fd670f29dea795e6f4e41b9397eaa8260cbd942d149f7ef7517"
+    },
+    {
+      "id": "holdout-4407",
+      "arm": "holdout",
+      "seed": 4407,
+      "pairId": null,
+      "request": {
+        "seed": 4407,
+        "duration_s": 31.5,
+        "difficulty": "hard",
+        "theme": "arcade",
+        "experimental": true,
+        "holdout": true
+      },
+      "revision": 7,
+      "mapFile": "holdout-maps/holdout-4407/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "317d3bf80bbca15de86ea938cdb6ac03713a84071bfefd2c878b411df6d545b9"
+    },
+    {
+      "id": "holdout-4408",
+      "arm": "holdout",
+      "seed": 4408,
+      "pairId": null,
+      "request": {
+        "seed": 4408,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "foundry",
+        "experimental": true,
+        "holdout": true
+      },
+      "revision": 7,
+      "mapFile": "holdout-maps/holdout-4408/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "521524fc541fb0d5fcbbf719de87c9f1c07c46f85e25a8760744b55f9708742a"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "recovery-generator-static-results/1",
+  "passed": true,
+  "checks": 246278,
+  "physicalExecutions": 0,
+  "physicalTicks": 0,
+  "forbiddenPhysicsCalls": 0,
+  "dependencyFiles": 37,
+  "authenticatedR012ExactRecordedMaps": 2,
+  "cumulativeParameterFixtures": 164,
+  "independentReviewerFractionalProbes": 128,
+  "actualOrderVariants": 24,
+  "actualLengthVariants": 6,
+  "descriptorComparisons": 18856,
+  "siteChecks": [
+    {
+      "round": "a001",
+      "arm": "parent",
+      "obstacles": 107,
+      "geometryAndComponentProjectionEqual": true,
+      "sourceSHA256": "83795575f66364e2bec954ba375384f2c3485f1ecee56b8055ed798b239fb2ab",
+      "conditionDerivation": "seed from map.id suffix; y/vy from row0; lead=first-wave.x-310 (compiler base); phase=component4.entryPhase; adjacency from actual adj-upper/lower bodies; NOT restored original condition record"
+    },
+    {
+      "round": "a001",
+      "arm": "candidate",
+      "obstacles": 107,
+      "geometryAndComponentProjectionEqual": true,
+      "sourceSHA256": "2cfbe2d156cb72b3441c6bc1fbe9ac073272821073a8539eb28d403d81261617",
+      "conditionDerivation": "seed from map.id suffix; y/vy from row0; lead=first-wave.x-310 (compiler base); phase=component4.entryPhase; adjacency from actual adj-upper/lower bodies; NOT restored original condition record"
+    },
+    {
+      "round": "a004",
+      "arm": "parent",
+      "obstacles": 119,
+      "geometryAndComponentProjectionEqual": true,
+      "sourceSHA256": "527164cb79eede074e6a32ac0e0d6db25de1f8b6f232fa192dbf949ea50829aa",
+      "conditionDerivation": "seed from map.id suffix; y/vy from row0; lead=first-wave.x-310 (compiler base); phase=component4.entryPhase; adjacency from actual adj-upper/lower bodies; NOT restored original condition record"
+    },
+    {
+      "round": "a004",
+      "arm": "candidate",
+      "obstacles": 119,
+      "geometryAndComponentProjectionEqual": true,
+      "sourceSHA256": "cfc2aa811f1d8ff23fa6a59e5735cf1eddcb6d5e8c869fbc37ec7150d658e13a",
+      "conditionDerivation": "seed from map.id suffix; y/vy from row0; lead=first-wave.x-310 (compiler base); phase=component4.entryPhase; adjacency from actual adj-upper/lower bodies; NOT restored original condition record"
+    }
+  ],
+  "scope": "Four saved main-route representative compact maps only. Missing routes, initial_player, design, original source/freeze prevent full map/source equivalence claim. Geometry is not proof of physics or inherited qualification.",
+  "qualification": "Pure construction/static invariants only; full new physical qualification remains required"
+}

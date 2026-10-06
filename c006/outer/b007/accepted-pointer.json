@@ -1,0 +1,115 @@
+{
+  "schema": "lean-cumulative-accepted-pointer/1",
+  "version": "lean-cumulative-through-structural-hammer-v1",
+  "round": "b007",
+  "updatedAt": "2026-10-05T07:05:39.557Z",
+  "generator": "source/b007-style-registry.cjs",
+  "config": "source/configs/b007-style-registry-v1.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    },
+    {
+      "id": "phase-through-or-bypass",
+      "generator": "source/a007-phase-generator-v2.cjs",
+      "config": "source/configs/a007-phase-v2.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a007/decision.json"
+    },
+    {
+      "id": "horizontal-phase-composition",
+      "generator": "source/a009-composed-generator.cjs",
+      "config": "source/configs/a009-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12phaseentrysingle-commandprofiles;explicit only",
+      "decision": "outer/a009/decision.json"
+    },
+    {
+      "id": "phase-late-horizontal-composition",
+      "generator": "source/a010-composed-generator.cjs",
+      "config": "source/configs/a010-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;4target-entry single-command +/-1tick sensitivities; explicit only",
+      "decision": "outer/a010/decision.json"
+    },
+    {
+      "id": "late-phase-late-horizontal-composition",
+      "generator": "source/a012-composed-generator.cjs",
+      "config": "source/configs/a012-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes; prospective collision-footprint usage; zero routine perturbations or replays; explicit only",
+      "decision": "outer/a012/decision.json"
+    },
+    {
+      "id": "pinned-contact-relation-composition",
+      "generator": "source/b001-relation-grammar.cjs",
+      "config": "source/configs/b001-relation-grammar-v1.json",
+      "qualification": "finite24conditions/48assignedroutes/new-neighbour physical-action evidence",
+      "decision": "outer/b001/decision.json"
+    },
+    {
+      "id": "early-swinging-hammer",
+      "generator": "source/b002-swing-hammer.cjs",
+      "config": "source/configs/b002-swing-hammer-v1.json",
+      "qualification": "finite24conditions/48assignedroutes/actual circle-capsule demand in8pairedroutes; unprompted human reaction unknown",
+      "decision": "outer/b002/decision.json"
+    },
+    {
+      "id": "early-diagonal-warning-laser",
+      "generator": "source/b003-warning-laser-v2.cjs",
+      "config": "source/configs/b003-warning-laser-v2.json",
+      "qualification": "finite24conditions/48assignedroutes/first visible warning and actual lethal capsule action demand; human cue response unknown",
+      "decision": "outer/b003/decision.json"
+    },
+    {
+      "id": "hammer-warning-turn-relay",
+      "generator": "source/b004-mechanic-relay.cjs",
+      "config": "source/configs/b004-mechanic-relay-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; continuous hammer→warning→laser→opposite-side receiver; human cue response unknown",
+      "decision": "outer/b004/decision.json"
+    },
+    {
+      "id": "relation-conditioned-stage-recovery",
+      "generator": "source/b005-stage-recovery.cjs",
+      "config": "source/configs/b005-stage-recovery-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; exact-b001 same-order one-stage75px recovery allocation, actual connector state/input and next body-demand evidence; human recovery ease unknown",
+      "decision": "outer/b005/decision.json"
+    },
+    {
+      "id": "structurally-bound-swing-opposite-receiver",
+      "generator": "source/b007-relocated-hammer.cjs",
+      "config": "source/configs/b007-relocated-hammer-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; actual saved circle-capsule effect and intended receiver footprint across resolved exact-b005 phrases; human experience unknown",
+      "decision": "outer/b007/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "lean-cumulative-with-stage-recovery-v1",
+    "immutablePointer": "outer/b007/accepted-before.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/b007/decision.json",
+  "sourceFreeze": "protocols/freezes/b007-formal-v1.json",
+  "sourceManifestHash": "2d1bc849060eb74803a7e0e56619b24d6179cd7e736e223dd4d4c4dd582df543",
+  "artifactManifest": "outer/b007/artifact-manifest.json",
+  "artifactManifestHash": "aab62dfc934f96d702783e74ca6bf75f2eff233c70a11d44e77cd6a05672d395",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_83afd8ee05748191a75e118ec90e3a7a",
+    "libraryVersion": 59,
+    "sha256": "0374e31780470508e1986b86c0d91adb8b1ea8c9afe38e509ab7a8c2a70a7146",
+    "receipt": "protocols/receipts/b007-qualified.json"
+  },
+  "qualification": "Explicit finite exact-b005 phrase binding of the unchanged b002 recipe. 11 prior calls preserved exactly; default3 and inherited mechanism union unchanged. No b004 full relay, arbitrary DSL or human-experience guarantee.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/b007/accepted-pointer.json",
+  "analysisAmendment": "outer/b007/analysis-amendment-v1.json",
+  "analysisAmendmentSHA256": "e4afe3b0e5fc3d9f514bcabe6cadf3f5faef31263fc0b592ea0e788382644003",
+  "independentlySealedAgainstRevisedReducer": false,
+  "qualificationCaveat": "Explicit post-reveal analysis-only successor aggregation correction; final qualification not independently sealed against revised reducer"
+}

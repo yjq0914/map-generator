@@ -1,0 +1,53 @@
+{
+  "schema": "adaptive-general-accepted-pointer/1",
+  "version": "adaptive-general-late-macro-v1",
+  "round": "c003",
+  "generator": "source/c003-macro-generator.cjs",
+  "config": "source/configs/c003-parent-binding-v1.json",
+  "entrypoint": "compile(physicalCondition,{schema:\"flappy-prefix-and-late-macro-request/1\",prefix,macro})",
+  "qualification": "Finite24 paired condition/request maps, two assigned routes each; current optional contexts and full late bodies/bridges/successor plus original full-course contracts",
+  "qualifiedNormalForms": [
+    "B",
+    "H",
+    "T",
+    "J",
+    "HT",
+    "HJ",
+    "JT",
+    "HJT"
+  ],
+  "legacyRegistry": "source/b012-style-registry.cjs",
+  "legacyConfig": "source/configs/b012-style-registry-v1.json",
+  "legacyCallableStyles": 17,
+  "legacyDefaultMechanics": 3,
+  "legacyOptionalMechanicUnion": 10,
+  "intentSelectableMechanicUnion": 6,
+  "decision": "outer/c003/decision.json",
+  "rule": "outer/c003/rule.json",
+  "sourceFreeze": "protocols/freezes/c003-formal-v1.json",
+  "sourceManifestHash": "adcc8d328e5c4caa52220c79afa933a1bdbe487ce8d571a5a5e942cb5685eacf",
+  "parent": "outer/c003/accepted-before.json",
+  "limitations": [
+    "macro-enabled adjacency=none only",
+    "slots9/10 whole packages only",
+    "non-none macro adjacency unresolved",
+    "internal symmetry/stagger creation untested",
+    "human fun and natural choice unknown",
+    "finite sampled domain only"
+  ],
+  "publication": "experimental private",
+  "pendingDurableSave": false,
+  "qualifiedArchive": {
+    "schema": "adaptive-qualified-round-save/1",
+    "round": "c003",
+    "status": "succeeded",
+    "libraryFileId": "libfile_1db8599eca988191a2977686aeb85a72",
+    "currentVersion": 0,
+    "archiveSHA256": "8b504d0ed67221631761cde00f6567393f473d9ac87866e301de1d5ec2e33cb8",
+    "archiveBytes": 79623517,
+    "savedAt": "2026-10-05T13:58:37.946454+00:00",
+    "remoteBytesVerified": false
+  },
+  "acceptedAt": "2026-10-05T13:58:37.946454+00:00",
+  "immutableRoundSnapshot": "outer/c003/accepted-pointer.json"
+}

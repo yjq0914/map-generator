@@ -1,0 +1,14 @@
+{
+  "version": "b009-cumulative-shared-program-v1",
+  "module": "source/b009-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "parent": {
+    "acceptedPointerFile": "outer/b008/accepted-pointer.json",
+    "acceptedPointerSHA256": "8450fb585444a9be12ea2eae919b3c29e86a599b7c2d5fe05cfe8e17588b56fa",
+    "module": "source/b008-style-registry.cjs",
+    "config": "source/configs/b008-style-registry-v1.json",
+    "moduleSHA256": "d48c743475134741041af75b1464ed1edabe571b3a1a54f01a9c73e2bc5def44",
+    "configSHA256": "a0b1acbef0e15097478b3e3b4ffdac3509f5c585ceaaf58a1546932a04efe20d"
+  },
+  "explicitCandidate": "shared-base-timed-aperture-and-hammer"
+}

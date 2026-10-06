@@ -1,0 +1,194 @@
+{
+  "schema": "candidate-provider-registry/1",
+  "providers": [
+    {
+      "id": "cloister-full-circle",
+      "version": "1.0.0",
+      "source": {
+        "path": "sources/1ca1b89da4dcbcf9/emitter.py",
+        "sha256": "1ca1b89da4dcbcf9793cf0c79a05d14fd008d15a94176a1e547be2fa1136b9e3"
+      },
+      "dependencies": [],
+      "entrypoint": "emit",
+      "serializer": "native_json",
+      "provenance": [
+        "R21 reviewed pure placement factory",
+        "Original source: loops/R21/relations/emitter.py"
+      ],
+      "limitations": [
+        "Full filled circles; spin parameters are visual only, support width/radius/span/advance alter collision.",
+        "Coupled reserves are authored geometry conditions, not input ranges. Spin0 is rejected, not a visual freeze.",
+        "Historical exact map reference is not a new run or qualification. Spatial analysis wrapper is not another generation provider."
+      ],
+      "historical_maps": [
+        {
+          "map_sha256": "18b18d7dbc21bf953cbf386a11f62bb7f5887bc083193f70ebe9ab03373143fb",
+          "evidence_refs": [
+            "evidence-r02-cloister-v2-existence@1"
+          ],
+          "label": "Old Cloister exact nominal-entry/tape witness; no new replay"
+        }
+      ],
+      "mechanics": [
+        "fixed_armor_or_spike",
+        "hero_rotor"
+      ]
+    },
+    {
+      "id": "mixed01-slider-fixed-route",
+      "version": "1.0.0",
+      "source": {
+        "path": "sources/6510ee3ec22bd802/emitter.py",
+        "sha256": "6510ee3ec22bd802e2275b1f2d5df16fa63b511e5e31153ca6d6658b742f69ba"
+      },
+      "dependencies": [],
+      "entrypoint": "emit",
+      "serializer": "native_json",
+      "provenance": [
+        "R11 reviewed mixed01 pure emitter",
+        "Original source: loops/R11/relations/emitter.py"
+      ],
+      "limitations": [
+        "Included connector and nominal fresh entry only in this entrypoint; external_entry_contract and entry_player are not exposed.",
+        "Core shift couples corridor/slider/receiver and phase; no independent phase. Unqualified lower/new shifts are not qualified recipes.",
+        "Even a map matching an approved recipe is only candidate output here; select/vary retain their independent exact contracts."
+      ],
+      "historical_maps": [
+        {
+          "map_sha256": "e20e63c6e9d3317976d2f655c2be01224393c8c959b99c1e373e5f285eba1825",
+          "evidence_refs": [
+            "evidence-r02-mixed-v2-existence@1"
+          ],
+          "label": "Exact upper seed map reference; measured draft velocity mismatch remains"
+        },
+        {
+          "map_sha256": "ffbfa52bd52ea91a646cabe333c375f9150ac807f07495f6d3b959e6d4120ecd",
+          "evidence_refs": [
+            "evidence-r11-upper-shift60-existence@1",
+            "evidence-r11-upper-shift60-draft-exit-mismatch@1"
+          ],
+          "label": "Exact upper+60 map reference only; no inherited input execution"
+        }
+      ],
+      "mechanics": [
+        "fixed_armor_or_spike",
+        "vertical_armor_slider"
+      ]
+    },
+    {
+      "id": "spring-reset-opening-reception",
+      "version": "1.0.0",
+      "source": {
+        "path": "sources/0d30489f7e9a174e/emitter.py",
+        "sha256": "0d30489f7e9a174ed99f0c55c4263a65d244671833230d6d231eecc798a22226"
+      },
+      "dependencies": [],
+      "entrypoint": "emit",
+      "serializer": "native_json",
+      "provenance": [
+        "R19 reviewed optional spring/timed-gate emitter",
+        "Original source: loops/R19/relations/emitter.py"
+      ],
+      "limitations": [
+        "Bounce speed must be positive and satisfy coupled author constraints. Reference contact and continuous gravity arc remain hypothetical.",
+        "Default two-sided oldY spring, snap/body/cooldown and full gate clock persist. No mandatory contact or native impulse is inferred from generation.",
+        "A late-gate author-rule rejection may still leave a partial aperture; it is not all-route impossibility."
+      ],
+      "historical_maps": [
+        {
+          "map_sha256": "970e41b1b1c40e10143cf3e113d01e0721967fa0dbe9c0395d32a0be44db97ef",
+          "evidence_refs": [
+            "evidence-r19-reset-whole-gate-existence@1",
+            "evidence-r19-next-decision-flap-counterexample@1"
+          ],
+          "label": "Exact baseline map and one failed extra-flap contrast; no new generated run"
+        }
+      ],
+      "mechanics": [
+        "spring_wall",
+        "timed_armor_gate"
+      ]
+    },
+    {
+      "id": "carried-speed-gate",
+      "version": "1.0.0",
+      "source": {
+        "path": "sources/b26145317680ef60/emitter.py",
+        "sha256": "b26145317680ef60b88c67e8947eba2d0e8f83db94ce42a9bf944aea7fd20d96"
+      },
+      "dependencies": [],
+      "entrypoint": "emit",
+      "serializer": "native_json",
+      "provenance": [
+        "R22 reviewed measured-carried-speed-opening pure factory",
+        "Original source: loops/R22/relations/emitter.py",
+        "Observed old anchor SHA2560306bcc2164172345c10cbcdeeec18e72232eea8b60b887bc31a5f240b04bf05 is embedded provenance, never accepted incoming state."
+      ],
+      "limitations": [
+        "Fresh native entry(60,330,150,0) only. No external anchor, snapshot, checkpoint, initial-state or velocity override and no restore operation.",
+        "Old tick538 anchor is evidence/conditional geometry; a new real prefix must reproduce it before its clock applies. R18 alive12s cap and X1270-unobserved result are not extended.",
+        "Numeric domains still require coupled admission. nominal150 and stale seed-width80 holds may return rejected native diagnostics; never fallback or silently accept them.",
+        "Whole-body gate depth, lethal warning and future cycles persist. Clock geometry is not an accepted posture, input interval, continuation seam or qualification."
+      ],
+      "historical_maps": [
+        {
+          "map_sha256": "d01b09fff9ddd6c6cbd8bff148eed851957373c45761fc33a59dc71abcbfd7bb",
+          "evidence_refs": [
+            "evidence-r22-fresh-prefix-whole-gate-existence@1",
+            "evidence-r22-new-world-exit-and-source-state@1"
+          ],
+          "label": "Exact R22 new-world witness only: fresh prefix and declared complete tape; no accepted continuation anchor"
+        }
+      ],
+      "mechanics": [
+        "fixed_armor_or_spike",
+        "suction_core",
+        "timed_armor_gate"
+      ]
+    },
+    {
+      "id": "light-cavity-kernel",
+      "version": "1.0.0",
+      "source": {
+        "path": "sources/37c1cce49977141e/emitter.py",
+        "sha256": "37c1cce49977141e396876f180a45fa14cc8d5e10cf901d6ea7ffdaf690d4824"
+      },
+      "dependencies": [],
+      "entrypoint": "emit",
+      "serializer": "native_json",
+      "provenance": [
+        "R23 reviewed laser-release-gate-reception pure factory",
+        "Original source: loops/R23/relations/emitter.py",
+        "Optional masks preserve removed-body descriptors and mechanical versus visual roles."
+      ],
+      "limitations": [
+        "Masks none/upper/fold/both change real early-route collision boundaries and potentially visual enclosure; local redundancy does not make a rail globally cosmetic or prove the best appearance.",
+        "Native finite lower laser, true cooldown, full gate tail, lethal gate warning and future cycles remain. Numeric/conditional branch admission is not a physically safe parameter range.",
+        "Fresh initial(60,440,150,0) remains. The old feedback controller dereferences inclined-upper and cannot run unchanged without that rail; recorded-tape replay is a separate operation, never run by this entrypoint.",
+        "Every output remains unqualified, including exact original full-mask or measured minimal-map bytes; no inherited input/exit box or automatic family promotion."
+      ],
+      "historical_maps": [
+        {
+          "map_sha256": "eda56ef203a662575d9924d37fc23adba66244d18264ee3c719077415f426698",
+          "evidence_refs": [
+            "evidence-r23-minimal-frozen-tape-preservation@1",
+            "evidence-r23-exact-minimal-exit-and-cycles@1"
+          ],
+          "label": "Exact R23 minimal-map saved-tape witness only; other masks and feedback not tested"
+        },
+        {
+          "map_sha256": "503954916e016fe1fa57f09cae2743219f981d4dde752e564ccc78317de23a07",
+          "evidence_refs": [
+            "evidence-r14-light-cavity-exact-existence@1",
+            "evidence-r14-light-cavity-measured-output@1"
+          ],
+          "label": "Exact historical R14 full-mask map only; generation is not a replay"
+        }
+      ],
+      "mechanics": [
+        "laser_scanner",
+        "timed_armor_gate"
+      ]
+    }
+  ]
+}

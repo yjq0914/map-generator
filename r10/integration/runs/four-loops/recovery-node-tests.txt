@@ -1,0 +1,23 @@
+✔ unchanged c005 closure and canonical runtime authenticate (9.507069ms)
+✔ baseline materializes the real accepted c005 byte-identical map (1741.573672ms)
+✔ excluded mechanics are rejected recursively, including composite metadata (0.947228ms)
+✔ ordinary guide interpolation and explicit release only (0.393752ms)
+✔ native short completion uses one continuous world and retains trace (22.038721ms)
+✔ prefix survival never fabricates a native win (1.200313ms)
+✔ death and unchanged old obstacles survive in evidence (1.13768ms)
+✔ panel admits exactly the declared 8+8+8 with matched nominal targets (0.73793ms)
+✔ scenario aliases preserve actual horizon separate from nominal duration (0.275787ms)
+✔ normalized entry changes cannot mutate saved manifest or its hash (0.296217ms)
+✔ diagnostic source threshold is literal and explicitly incomparable (1.691394ms)
+✔ unknown diagnostic controller mode is refused (0.532154ms)
+✔ relational diagnostic releases only in acquisition or after observed same-module top contact (0.355194ms)
+✔ v3 contact predictor uses actual state and radius-inset geometry (0.875631ms)
+✔ v3 bypass locks only on an actual flap decision without state writes (0.478075ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1883.10396

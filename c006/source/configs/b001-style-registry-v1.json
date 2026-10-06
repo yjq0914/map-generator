@@ -1,0 +1,6 @@
+{
+  "version": "b001-registry-candidate-v1",
+  "module": "source/b001-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "explicitCandidate": "pinned-contact-relation-composition"
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "receipt-exploratory-native-probe/1",
+  "status": "preregistered-one-candidate-no-search",
+  "maximum_native_runs": 1,
+  "controller": "relational-source-v3",
+  "controllerSourceSHA256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+  "runtimeSHA256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "ruleSource": "integration/rules/receipt_v7.py",
+  "ruleSourceSHA256": "58544675d1113729b08a7ae2bdb3c6fec3a37154bb4b6eb848b4e4d923c0219b",
+  "hypothesis": "B3 last pre-release flap retains ascent when gate begins closing; defer closure until latest-flap descent outruns rim while preserving exact one-third tail aperture. Predict local full light passage; later failure remains possible and must be retained.",
+  "runs": [
+    {
+      "id": "light-receipt-704",
+      "sourceMap": "../B3/runs/candidate-704/map.json",
+      "sourceMapSHA256": "1b7d6a605a8600ec468c054d3fe1109b1b3fe18a05109f68e69d948c7531039a",
+      "mapFile": "light-receipt-704.map.json",
+      "mapFileSHA256": "ff73843472d910699df3db7f08a4b9a141992c931eff1b7b5c32873ed016993c",
+      "horizonTicks": 4500,
+      "changes": "Only m02 receiver hold_s and closing_s; native map otherwise identical",
+      "relation": {
+        "id": "light-release-crest-before-closing-v1",
+        "first_revision": 7,
+        "changed_bodies": [
+          "wide-receiving-cavity"
+        ],
+        "changed_fields": [
+          "timeline.hold_s",
+          "timeline.closing_s"
+        ],
+        "before_timeline": {
+          "start_s": 1.1,
+          "warning_s": 0.8,
+          "opening_s": 0.8,
+          "hold_s": 1.7999999999999998,
+          "closing_s": 2.45,
+          "cooldown_s": 4
+        },
+        "after_timeline": {
+          "start_s": 1.1,
+          "warning_s": 0.8,
+          "opening_s": 0.8,
+          "hold_s": 2.163786467654517,
+          "closing_s": 1.9043202985182248,
+          "cooldown_s": 4
+        },
+        "relation": "gate stays fully open until the latest pre-release flap descends at least as fast as the top rim, plus one native tick; closing duration covaries to preserve source one-third aperture at whole-radius tail",
+        "supersedes_source_relation": "closing begins release+0.1; source-derived clock and future-cycle numbers are historical, not the refined gate's clocks",
+        "derived": {
+          "release_s": 4.4,
+          "whole_radius_tail_s": 6.133333333333334,
+          "release_to_closing_s": 0.46378646765451653,
+          "closing_start_s": 4.863786467654517,
+          "closing_duration_s": 1.9043202985182248,
+          "top_rim_speed_px_s": 84.019479351503,
+          "latest_flap_descent_speed_at_close_px_s": 90.30490347670354,
+          "full_open_latest_flap_crest_min_y": 203.71951219512195,
+          "full_open_center_min_y": 200.0,
+          "whole_radius_tail_open_fraction": 0.3333333333333333,
+          "whole_radius_tail_center_band_px": 86.66666666666666,
+          "gate_repeat_period_s": 9.668106766172741
+        },
+        "preserved": [
+          "both real finite rails and their cooldown",
+          "guide and release position",
+          "gate x/y/width and aperture",
+          "whole-radius-tail squeeze",
+          "continuous real incoming state and world time",
+          "repeating gate and earlier live hazards"
+        ],
+        "scope": "discrete experimental recipe for existing light fragments; analytical latest-flap reserve plus one full-world diagnostic is not a reachable-entry box or general qualification",
+        "evidence": "integration/runs/four-loops/exploratory-receipt/manifest.json"
+      }
+    }
+  ],
+  "qualification": "Exploratory one carried trajectory. Not a held-out result, universal receipt guarantee, or human playability claim."
+}

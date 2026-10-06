@@ -1,0 +1,74 @@
+{
+  "scope": "Read saved native states/body frames only; no physics or synthetic trajectory.",
+  "sources": {
+    "full-701": {
+      "requested_directory": "integration/runs/stage-pressure/B4/finish-checks/full-701",
+      "source_directory": "integration/runs/stage-pressure/B4/finish-checks/full-701",
+      "reuse_chain": [],
+      "files_sha256": {
+        "map.json": "9fa541fb855029f8e3535b2d79d75cd264793d67ab339dde96b8e0bf2a1743f9",
+        "result.json": "ec73a3fb591ecbbf962f1bade9408f77b9bacf3d55949f823cff9663d1aad4b3",
+        "trace.json.gz": "966a29610bf8fc0c3115c5713dff3b8d398e786568ad3cff0ef3c6bc46e69413",
+        "inputs.json": "df22c0119647057f4987e3a979df0b07f7b6f134f1f337a8e5d78582c2537f98"
+      },
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "controller_sha256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+      "controller_mode": "relational-source-v3",
+      "new_physics_runs": 0
+    },
+    "full-6402": {
+      "requested_directory": "integration/runs/stage-pressure/B4/finish-checks/full-6402",
+      "source_directory": "integration/runs/stage-pressure/B4/finish-checks/full-6402",
+      "reuse_chain": [],
+      "files_sha256": {
+        "map.json": "e35eea62c3ae91c835458ee232c715b1fdfa8111cc8a554fa4501b38b2842f6b",
+        "result.json": "d9e313cf97866091b04d894f617cdebd641ea46c9c06cd21291c51f68c11d688",
+        "trace.json.gz": "5e30479aa395e3a30218bc3ff008c151ca5d867b4a0266d981427106a9571805",
+        "inputs.json": "5e4ae365181815b40b39764f35d75d1640aaf3dd8ae9ff2ca7837b78971e6fa8"
+      },
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "controller_sha256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+      "controller_mode": "relational-source-v3",
+      "new_physics_runs": 0
+    },
+    "macro-7701": {
+      "requested_directory": "integration/runs/stage-pressure/B4/finish-checks/macro-7701",
+      "source_directory": "integration/runs/stage-pressure/B4/finish-checks/macro-7701",
+      "reuse_chain": [],
+      "files_sha256": {
+        "map.json": "1db600ebb84fb8d7f3ffcdf7200ec7a48e460104892bf1db682f6504caae05c1",
+        "result.json": "d1eb1bef98ad5de6da4dc24ff0fe4c564ebfaf907b73bdf64f8c16f6d209457f",
+        "trace.json.gz": "d5c1a911d88a1f5e855f9f26445153d8c22bffc6301f7b340b6e9daeb93973a1",
+        "inputs.json": "5bbc97b0ec8b3e052e498609025adf682fc45c0ee32d14c99846cc2b2696a3c9"
+      },
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "controller_sha256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+      "controller_mode": "relational-source-v3",
+      "new_physics_runs": 0
+    },
+    "macro-7703": {
+      "requested_directory": "integration/runs/stage-pressure/B4/finish-checks/macro-7703",
+      "source_directory": "integration/runs/stage-pressure/B4/finish-checks/macro-7703",
+      "reuse_chain": [],
+      "files_sha256": {
+        "map.json": "d542fc439ca8936b4136f2bd87fbb7297eb89da718ded5ea021dfb6d275277c5",
+        "result.json": "3435447c9ba0b99d5071575485adbe244430d695c5adf350e56a10ab29017316",
+        "trace.json.gz": "932c4baf5516a9aaf3d832a96bd22e6ff2be8cab7413a702df0babbdc514ae2e",
+        "inputs.json": "5c16247ca902987664dbe4e7be002c80c990105438d7e189204af61c27986ae6"
+      },
+      "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+      "controller_sha256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+      "controller_mode": "relational-source-v3",
+      "new_physics_runs": 0
+    }
+  },
+  "plots": {
+    "full-6402-action-profile.png": "12576f89ba8303ed7a6d044be2ce31246179ea97ef22b2f8f6526cb067ba0705",
+    "full-701-action-profile.png": "6995e00e1c5296d9a3ef25badfc7d996131f07f84aa43929d1cb9831e31de816",
+    "macro-7701-action-profile.png": "dfa04cbff3479efe942bd8c836ff543bac5490a15e12a963ae06977bd99a4b97",
+    "macro-7701-three-stage-overlay.png": "6c0e3af0f461b0bbe558107daf2b337b2a43613545939901a2ce4d5a0200b8ac",
+    "macro-7703-action-profile.png": "82afc58a2c63b4f28cf24e1b6c83b674e6fcd81c72c05aea9ac6f382d94dbb2e",
+    "macro-7703-three-stage-overlay.png": "58e2a77a72cab8d33785639cd0c2b6186e4fef64fec9c7d45aa619802c7c7f23"
+  },
+  "overlay_renderer_sha256": "99c0f10eeebbddbbbbd2dc0b1fde14fb3224ecc49ff168b0084909390c6e045b"
+}

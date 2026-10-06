@@ -1,0 +1,161 @@
+{
+  "schema": "four-loop-arm/1",
+  "bigLoop": 1,
+  "arm": "candidate",
+  "revision": 4,
+  "sources": {
+    "generator.py": "f3e50638db9d5c44fddfb79f9979998f3146b1306450dfb9c9a2000bea2e8b64",
+    "diagnostic.cjs": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+    "run_batch.cjs": "0d5a99050832b8183ed71bcecb1973145b9b3671843db4c5827f4bd18cf818cf",
+    "vendor/flappy-runtime.js": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+    "rules/additional.py": "87f5545b5c5f259a3d9bffdc4bac7e9dcf387de3cb0e09a8f1b4cb0a4b81f80e",
+    "rules/geometry_v4.py": "270cd874898ba514acfc48cc4a3243786e861934a554fbd39ce8d51d753e74d3",
+    "rules/grammar_v4.py": "eb7775c6bd3cb5a04412ab3e53d5ac65bf22400770fe4605d9697df137a51a62"
+  },
+  "entries": [
+    {
+      "id": "candidate-701",
+      "arm": "candidate",
+      "seed": 701,
+      "pairId": "seed-701",
+      "request": {
+        "seed": 701,
+        "duration_s": 31.5,
+        "difficulty": "easy",
+        "theme": "arcade",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 4,
+      "mapFile": "candidate-maps/candidate-701/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "777fc165bbfe866c6b4dfee463df1cc27d70d6b18e88015055f3bec86ac84b37"
+    },
+    {
+      "id": "candidate-702",
+      "arm": "candidate",
+      "seed": 702,
+      "pairId": "seed-702",
+      "request": {
+        "seed": 702,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "foundry",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 4,
+      "mapFile": "candidate-maps/candidate-702/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "11372dd28bef1014810f956ece8186acffcb6b486d2610e930fe282727ad3096"
+    },
+    {
+      "id": "candidate-703",
+      "arm": "candidate",
+      "seed": 703,
+      "pairId": "seed-703",
+      "request": {
+        "seed": 703,
+        "duration_s": 31.5,
+        "difficulty": "hard",
+        "theme": "signal",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 4,
+      "mapFile": "candidate-maps/candidate-703/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "fa84d7a2f8291dc1b1f920be1cae26852511c2747728b6afec684f6e3ee7a267"
+    },
+    {
+      "id": "candidate-704",
+      "arm": "candidate",
+      "seed": 704,
+      "pairId": "seed-704",
+      "request": {
+        "seed": 704,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "arcade",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 4,
+      "mapFile": "candidate-maps/candidate-704/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "08c7d9b73b8e91e8313205ab37c880b47a16249d956b36e3aa258f26a005fb75"
+    },
+    {
+      "id": "candidate-705",
+      "arm": "candidate",
+      "seed": 705,
+      "pairId": "seed-705",
+      "request": {
+        "seed": 705,
+        "duration_s": 31.5,
+        "difficulty": "easy",
+        "theme": "foundry",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 4,
+      "mapFile": "candidate-maps/candidate-705/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "a37171de0507d6f0ddc74d677db24d3134a6b9a73a139f0f3748428a509c94d8"
+    },
+    {
+      "id": "candidate-706",
+      "arm": "candidate",
+      "seed": 706,
+      "pairId": "seed-706",
+      "request": {
+        "seed": 706,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "signal",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 4,
+      "mapFile": "candidate-maps/candidate-706/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "91f94f5868cca3dd13208a6a861c980ed4b0c70de7b4662a47eee61bd33553fd"
+    },
+    {
+      "id": "candidate-707",
+      "arm": "candidate",
+      "seed": 707,
+      "pairId": "seed-707",
+      "request": {
+        "seed": 707,
+        "duration_s": 31.5,
+        "difficulty": "hard",
+        "theme": "arcade",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 4,
+      "mapFile": "candidate-maps/candidate-707/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "e5ab588a34a72de483e48188eda6729e66aec2c1334b69e96764dfb537c6b336"
+    },
+    {
+      "id": "candidate-708",
+      "arm": "candidate",
+      "seed": 708,
+      "pairId": "seed-708",
+      "request": {
+        "seed": 708,
+        "duration_s": 31.5,
+        "difficulty": "medium",
+        "theme": "foundry",
+        "experimental": true,
+        "holdout": false
+      },
+      "revision": 4,
+      "mapFile": "candidate-maps/candidate-708/map.json",
+      "horizonTicks": 3600,
+      "mapFileSHA256": "4bfd35799a43569ba139314861c7632d94e7232202200d13eba87226c45b0fdc"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "combo-map-renderer/1",
+  "physics_reruns": 0,
+  "clock": "authored",
+  "geometry_contract": "Canonical E.obstacles evaluated separately at each descriptor arrival; not a simultaneous snapshot",
+  "runtime": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/vendor/flappy-runtime.js",
+  "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "files": [
+    "contact-sheet.png",
+    "detail-macro-5701.png",
+    "seams-macro-5701.png",
+    "terminal-macro-5701.png"
+  ],
+  "legend": {
+    "full_filled_circles": "solid whole-circle colliders, with no invented windows",
+    "navy_solid": "stored measured player trace",
+    "gold_dashed": "authored guide only",
+    "inactive_outline": "non-colliding at sampled clock; may be active at other times"
+  },
+  "family_palette": {
+    "bellows-question-answer": "#16788a",
+    "cloister": "#bd6438",
+    "light-cavity": "#7069a9",
+    "slider-island": "#528843",
+    "spring-reception": "#a35387",
+    "tidal-staircase": "#b69632"
+  },
+  "maps": [
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B4/finish-checks/macro-5701/map.json",
+      "sha256": "de57886efe8f03be917711571d2c89b55a774528a2cefdf2e2bd6486c0d960c7",
+      "seed": 5701,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B4/finish-checks/macro-5701/trace.json.gz",
+      "trace_sha256": "f6fb4c5d16f5a5e151982b00d45185b7efc881054246602d7e07f446d09baa28",
+      "trace_points": 6996,
+      "nominal_extent_s": 120.0,
+      "geometry": "geometry-macro-5701.json",
+      "warnings": []
+    },
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B4/finish-checks/macro-5703/map.json",
+      "sha256": "99ca9a9eb1a58b94990b0a1fff06167bce527a52b040173a44b3a8c528095134",
+      "seed": 5703,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B4/finish-checks/macro-5703/trace.json.gz",
+      "trace_sha256": "13e1f81f0c0c31781ccf2846220d51ff41a3d5f8c0aa2ab93d04386818bd069a",
+      "trace_points": 14401,
+      "nominal_extent_s": 120.0,
+      "geometry": "geometry-macro-5703.json",
+      "warnings": []
+    }
+  ]
+}

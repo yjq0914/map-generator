@@ -1,0 +1,14 @@
+{
+  "schema": "stage-pressure-evidence-integrity/1",
+  "actualNativeRuns": 70,
+  "logicalPanelScenarios": 96,
+  "newPanelRuns": 64,
+  "hashBoundReuseEntries": 32,
+  "diagnosticRuns": 2,
+  "finishRuns": 4,
+  "runtimeSHA256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "controllerSHA256": "b97537cfc5e50fb43f8bd517d1c59be8d1038590069d434dab46cc79fbc26fb5",
+  "evaluatorFrozen": true,
+  "allVerified": true,
+  "scope": "Recorded evidence hashes, row/tick continuity, fixed sources and requests; not replay, playability or safety proof"
+}

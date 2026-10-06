@@ -1,0 +1,17 @@
+{
+  "version": "b002-early-swinging-hammer-v1",
+  "module": "source/b002-swing-hammer.cjs",
+  "constructionParent": "a012 accepted registry default -> recovery-cumulative-v1",
+  "activation": "explicit",
+  "operation": {
+    "type": "ordinary-island-to-positive-swing",
+    "headDiameterPx": 64,
+    "lengthPx": 90,
+    "amplitudeRad": 0.65,
+    "periodSeconds": 3.2,
+    "armWidthPx": 8,
+    "pivotAboveIslandCenterPx": 80,
+    "nominalPivotPhaseRad": 1.5707963267948966
+  },
+  "qualification": "unqualified mechanism integration; no physics or human-quality claim"
+}

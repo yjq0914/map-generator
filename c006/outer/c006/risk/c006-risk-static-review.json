@@ -1,0 +1,38 @@
+{
+  "savedBaselineAuthenticated": true,
+  "baselineSourcePassed": true,
+  "baselineMinimumActiveCapsuleDistancePx": 1.1993583385478637,
+  "negativeFixtureTests": [
+    {
+      "name": "wrong_map_hash",
+      "rejected": true,
+      "reason": "Laser observer: saved map/geometry identity differs"
+    },
+    {
+      "name": "restored_tick_zero",
+      "rejected": true,
+      "reason": "Laser observer: continuous real tick-zero evidence required"
+    },
+    {
+      "name": "missing_forced_source",
+      "rejected": true,
+      "reason": "Laser observer: explicit source-derived dense capture window/forced laser missing"
+    },
+    {
+      "name": "altered_input_tape",
+      "rejected": true,
+      "reason": "Laser observer: saved input/condition identity differs"
+    },
+    {
+      "name": "shift_actual_laser",
+      "rejected": true,
+      "reason": "Laser observer: actual capsule dimensions differ from current descriptor"
+    }
+  ],
+  "physics": {
+    "blockedDynamicEngineExports": 45,
+    "forbiddenCalls": 0,
+    "physicalExecutions": 0,
+    "physicalTicks": 0
+  }
+}

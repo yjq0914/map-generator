@@ -1,0 +1,14 @@
+{
+  "version": "b001-pinned-contact-relation-grammar-v1",
+  "module": "source/b001-relation-grammar.cjs",
+  "constructionParent": "recovery-cumulative-v1",
+  "comparisonParent": "recovery-cumulative-with-late-phase-composition-v1",
+  "operation": {
+    "type": "stage-local-relation-chain",
+    "stages": [0, 1],
+    "pinInitialPackage": true,
+    "pinContactPackage": true,
+    "seedSalt": 120031
+  },
+  "qualification": "unqualified; new mixed-receiver adjacency and upstream state require full real-prefix evidence"
+}

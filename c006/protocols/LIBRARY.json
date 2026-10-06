@@ -1,0 +1,79 @@
+{
+  "plan": {
+    "local_path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/PLAN.zh-CN.md",
+    "purpose": "replace_library_file",
+    "status": "succeeded",
+    "file_id": "file_00000000d30081f583950eb26567ed07",
+    "library_file_id": "libfile_96765e656f748191aaf98ddc3e864f40",
+    "file_name": "PLAN.zh-CN(3).md",
+    "local_metadata_applied": true,
+    "path": "/PLAN.zh-CN(3).md",
+    "current_version_number": 1
+  },
+  "progress": {
+    "local_path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/PROGRESS.zh-CN.md",
+    "purpose": "replace_library_file",
+    "status": "succeeded",
+    "file_id": "file_000000008cfc8230b668e492a3067285",
+    "library_file_id": "libfile_85f35e0e1c2c81918858d737069b5c49",
+    "file_name": "PROGRESS.zh-CN.md",
+    "local_metadata_applied": true,
+    "path": "/PROGRESS.zh-CN.md",
+    "current_version_number": 7
+  },
+  "source": {
+    "local_path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/checkpoints/Flappy-adaptive-general-source-checkpoint.tar.gz",
+    "purpose": "replace_library_file",
+    "status": "succeeded",
+    "file_id": "file_0000000099c481f986ae1146e3cf250f",
+    "library_file_id": "libfile_674e2225af5c8191b0e6d5730cc844e5",
+    "file_name": "Flappy-adaptive-general-source-checkpoint.tar.gz",
+    "local_metadata_applied": true,
+    "path": "/Flappy-adaptive-general-source-checkpoint.tar.gz",
+    "current_version_number": 16
+  },
+  "c001Raw": {
+    "local_path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/checkpoints/Flappy-adaptive-general-c001-evidence.tar.gz",
+    "purpose": "create_library_file",
+    "status": "succeeded",
+    "file_id": "file_00000000cd4881f5a8d1cfad3beead5b",
+    "library_file_id": "libfile_1e40149aba508191949c8a7cac6297b9",
+    "file_name": "Flappy-adaptive-general-c001-evidence.tar.gz",
+    "local_metadata_applied": true,
+    "path": "/Flappy-adaptive-general-c001-evidence.tar.gz",
+    "current_version_number": 0
+  },
+  "c003Raw": {
+    "local_path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/checkpoints/Flappy-adaptive-general-c003-evidence.tar.gz",
+    "purpose": "create_library_file",
+    "status": "succeeded",
+    "file_id": "file_0000000059d481f593383e5fa797c1e3",
+    "library_file_id": "libfile_1db8599eca988191a2977686aeb85a72",
+    "file_name": "Flappy-adaptive-general-c003-evidence.tar.gz",
+    "local_metadata_applied": true,
+    "path": "/Flappy-adaptive-general-c003-evidence.tar.gz",
+    "current_version_number": 0
+  },
+  "c004Raw": {
+    "local_path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/checkpoints/Flappy-adaptive-general-c004-evidence.tar.gz",
+    "purpose": "create_library_file",
+    "status": "succeeded",
+    "file_id": "file_000000003aec81f5902e50ca974267d0",
+    "library_file_id": "libfile_a33fe1d6a2c88191bc351ac1269cb677",
+    "file_name": "Flappy-adaptive-general-c004-evidence.tar.gz",
+    "local_metadata_applied": true,
+    "path": "/Flappy-adaptive-general-c004-evidence.tar.gz",
+    "current_version_number": 0
+  },
+  "c005Raw": {
+    "local_path": "/workspace/scratch/910473b420a7/adaptive-general-twelve/checkpoints/Flappy-adaptive-general-c005-evidence.tar.gz",
+    "purpose": "create_library_file",
+    "status": "succeeded",
+    "file_id": "file_000000005cac822f9763dfd8594d5aef",
+    "library_file_id": "libfile_39a8e78d70fc8191946cb19f5844c05b",
+    "file_name": "Flappy-adaptive-general-c005-evidence.tar.gz",
+    "local_metadata_applied": true,
+    "path": "/Flappy-adaptive-general-c005-evidence.tar.gz",
+    "current_version_number": 0
+  }
+}

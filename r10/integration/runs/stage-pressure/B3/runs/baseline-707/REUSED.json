@@ -1,0 +1,19 @@
+{
+  "sourceDir": "integration/runs/stage-pressure/B2/runs/candidate-707",
+  "sourceFiles": {
+    "result.json": "517aceab7b320d71969151ffcf10d5e1d69f812fa4a39a187b26bbe2d5b5a887",
+    "trace.json.gz": "9af209ae63f76f3de2f558ebcb3033e7ad97c0185144bf15a6dc4cdde37279a3",
+    "inputs.json": "8ff0621c725edd63c420b99de15093afec9a8a004f030561b46229288e178210",
+    "map.json": "37c7b24e9fcae52a98930734e7febe2b2d25e3b18f4cf6bc13f2c40c5bbf71f1"
+  },
+  "hashBound": true,
+  "horizonTicks": 3600,
+  "request": {
+    "seed": 707,
+    "duration_s": 31.7,
+    "difficulty": "hard",
+    "theme": "arcade",
+    "experimental": true,
+    "holdout": false
+  }
+}

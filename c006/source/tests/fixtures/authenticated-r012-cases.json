@@ -1,0 +1,37 @@
+{
+  "source": "recovery-20261004/baseline-r012/twelve-generator-loop-compact/reproduce/cases-r012.json.gz",
+  "sourceSHA256": "449c6e0838ace56bad1856b8e458d714bfe87926895b3b73d680412aca0f9bfb",
+  "scope": "Recorded map identity only; tapes/results are not executed",
+  "cases": [
+    {
+      "id": "r012-candidate-r012-control-00-assigned_main",
+      "condition": {
+        "id": "r012-control-00",
+        "group": "control",
+        "y": 245,
+        "vy": -25,
+        "lead": -20,
+        "phase": -0.3,
+        "adjacency": "none",
+        "seed": 5101200
+      },
+      "mapHash": "26647533e61bca16195536ea31917c02b09d0ebbb733cf9015ad174c21b7723d",
+      "configSHA256": "491cf15e03f4394ba47d9aa39104f9d64a6320d8eb195ba55f7acb94f8ed1203"
+    },
+    {
+      "id": "r012-candidate-r012-control-00-assigned_alternate",
+      "condition": {
+        "id": "r012-control-00",
+        "group": "control",
+        "y": 245,
+        "vy": -25,
+        "lead": -20,
+        "phase": -0.3,
+        "adjacency": "none",
+        "seed": 5101200
+      },
+      "mapHash": "26647533e61bca16195536ea31917c02b09d0ebbb733cf9015ad174c21b7723d",
+      "configSHA256": "491cf15e03f4394ba47d9aa39104f9d64a6320d8eb195ba55f7acb94f8ed1203"
+    }
+  ]
+}

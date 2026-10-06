@@ -1,0 +1,15 @@
+test_duration_and_spatial_finish_do_not_follow_censoring_or_canvas (test_stage_pressure_audit.StagePressureTests.test_duration_and_spatial_finish_do_not_follow_censoring_or_canvas) ... ok
+test_ended_window_has_one_fewer_decisions_than_states (test_stage_pressure_audit.StagePressureTests.test_ended_window_has_one_fewer_decisions_than_states) ... ok
+test_golden_censored_holdout_and_macro_are_read_only (test_stage_pressure_audit.StagePressureTests.test_golden_censored_holdout_and_macro_are_read_only) ... ok
+test_major_reversal_uses_extreme_and_confirmation_tick (test_stage_pressure_audit.StagePressureTests.test_major_reversal_uses_extreme_and_confirmation_tick) ... ok
+test_major_scale_filters_small_flap_oscillation (test_stage_pressure_audit.StagePressureTests.test_major_scale_filters_small_flap_oscillation) ... ok
+test_missing_stage_stays_null_and_no_fake_reversal (test_stage_pressure_audit.StagePressureTests.test_missing_stage_stays_null_and_no_fake_reversal) ... ok
+test_near_equal_84_85_is_one_run (test_stage_pressure_audit.StagePressureTests.test_near_equal_84_85_is_one_run) ... ok
+test_one_fixed_period_does_not_allow_cumulative_drift (test_stage_pressure_audit.StagePressureTests.test_one_fixed_period_does_not_allow_cumulative_drift) ... ok
+test_quantiles_and_even_median_are_exact (test_stage_pressure_audit.StagePressureTests.test_quantiles_and_even_median_are_exact) ... ok
+test_unrelated_periods_split_and_short_runs_are_omitted (test_stage_pressure_audit.StagePressureTests.test_unrelated_periods_split_and_short_runs_are_omitted) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.153s
+
+OK

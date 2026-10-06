@@ -1,0 +1,15 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const O=require('./c001-observe-v2.cjs');
+const descriptor={id:'ordinary',mechanic_kind:'vertical_armor_slider',x:100,y:120,collider:{shape:'rectangle',w:50,h:70},motion:{period_s:3}};
+const body={id:'ordinary',kind:'vertical_armor_slider',shape:'rectangle',x:100,y:129.25,w:50,h:70,status:'active',lethal:true};
+const view={bodySamples:[{tick:10,x:110,y:250,bodies:[body]}]},map={obstacles:[descriptor]},before=JSON.stringify(view);
+const result=O.normalizeOrdinarySourceIds(view,map);
+assert.equal(result.bodySamples[0].bodies[0].sourceId,'ordinary');
+assert.deepEqual(Object.fromEntries(Object.entries(result.bodySamples[0].bodies[0]).filter(([k])=>k!=='sourceId')),body);
+assert.equal(JSON.stringify(view),before);
+assert.throws(()=>O.normalizeOrdinarySourceIds({bodySamples:[{tick:10,bodies:[{...body,sourceId:'wrong'}]}]},map),/wrong explicit source/);
+assert.throws(()=>O.normalizeOrdinarySourceIds(view,{obstacles:[descriptor,descriptor]}),/ambiguous/);
+const report={schema:'c001-v2-analytic-identity-fixture/1',adapter:O.adapterIdentity(),positiveCases:1,negativeCases:2,originalInputUnchanged:true,allNonidentityFieldsUnchanged:true,negativeCasesCovered:['wrong explicit sourceId','duplicate source descriptor id'],physicalExecutions:0,physicalTicks:0};
+fs.writeFileSync(path.join(__dirname,'c001-v2-identity-fixture-results.json'),JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report));

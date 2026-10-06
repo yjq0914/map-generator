@@ -1,0 +1,9 @@
+{
+  "schema": "c005-terminal-parent-binding/1",
+  "module": "source/c003-macro-generator.cjs",
+  "round": "c003",
+  "expectedSourceIdentity": "53b354142892f924d32a0b8b64d76074e0b40433c34f2f672f25e44a2f7bd76e",
+  "acceptedSnapshot": "outer/c005/accepted-before.json",
+  "acceptedSnapshotSHA256": "f8138b292e26f6fd4f8e4bef2b4b7fd8837c74f9648f2b41eeb3fa7a041542db",
+  "status": "durable-terminal-parent"
+}

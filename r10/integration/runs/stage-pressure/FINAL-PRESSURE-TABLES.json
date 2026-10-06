@@ -1,0 +1,877 @@
+{
+  "schema": "stage-pressure-final-tables/1",
+  "source": "FINAL-STAGE-AUDIT.json",
+  "source_sha256": "710b75caa7670c95afd435f9bc684d8244a94c995c6a8d3f14e77a591dcc52d0",
+  "evaluator_sha256": "07db5f744500ed099a59b3001067e36fa376db2db1bbcafc8526b79589772808",
+  "scope": "Exact extracted frozen measurements; stage-local cadence runs can be split by boundaries and need not sum to whole-trace runs. All uncertainty definitions stay in source audit.",
+  "rows": [
+    {
+      "id": "full-701",
+      "axis": "elapsed_time_stages",
+      "stage": 1,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 10.35,
+      "start_tick": 0,
+      "end_tick": 1242,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 17,
+      "flaps_per_s": 1.642512077294686,
+      "binary_input_transitions_per_s": 3.285024154589372,
+      "cadence_changes_per_s": 0.8695652173913043,
+      "major_reversals_by_threshold_px": {
+        "40": 16,
+        "60": 4,
+        "80": 2
+      },
+      "y_travel_px_per_s": 153.58313204508846,
+      "sampled_clearance_px": {
+        "count": 104,
+        "minimum": 13.529166666667464,
+        "p10": 47.83516669504424,
+        "median": 67.50318975291367,
+        "p90": 131.53137751971795,
+        "maximum": 253.0540496676178
+      },
+      "equal_cadence_union_seconds": 3.183333333333333,
+      "equal_cadence_observed_time_share": 0.3075684380032206,
+      "phase_sample_counts": {},
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-701",
+      "axis": "elapsed_time_stages",
+      "stage": 2,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 10.35,
+      "start_tick": 1242,
+      "end_tick": 2484,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 16,
+      "flaps_per_s": 1.5458937198067633,
+      "binary_input_transitions_per_s": 3.0917874396135265,
+      "cadence_changes_per_s": 1.1594202898550725,
+      "major_reversals_by_threshold_px": {
+        "40": 18,
+        "60": 6,
+        "80": 6
+      },
+      "y_travel_px_per_s": 161.8422571121846,
+      "sampled_clearance_px": {
+        "count": 103,
+        "minimum": 14.939682792245396,
+        "p10": 29.137626022234247,
+        "median": 51.466685308203104,
+        "p90": 78.89441793749502,
+        "maximum": 95.0
+      },
+      "equal_cadence_union_seconds": 2.1,
+      "equal_cadence_observed_time_share": 0.2028985507246377,
+      "phase_sample_counts": {},
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-701",
+      "axis": "elapsed_time_stages",
+      "stage": 3,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 10.341666666666667,
+      "start_tick": 2484,
+      "end_tick": 3725,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 15,
+      "flaps_per_s": 1.4504431909750202,
+      "binary_input_transitions_per_s": 2.9008863819500403,
+      "cadence_changes_per_s": 0.8702659145850121,
+      "major_reversals_by_threshold_px": {
+        "40": 24,
+        "60": 3,
+        "80": 3
+      },
+      "y_travel_px_per_s": 161.4400684931506,
+      "sampled_clearance_px": {
+        "count": 105,
+        "minimum": 23.25138888888759,
+        "p10": 35.45681295613309,
+        "median": 65.86251961750158,
+        "p90": 102.1239337441378,
+        "maximum": 160.8375338064086
+      },
+      "equal_cadence_union_seconds": 3.8833333333333333,
+      "equal_cadence_observed_time_share": 0.37550362610797744,
+      "phase_sample_counts": {
+        "timed_armor_gate:closing": 7,
+        "timed_armor_gate:open": 30
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-701",
+      "axis": "spatial_stages",
+      "stage": 1,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 10.35,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 60.0,
+      "end_x": 1611.8333333333333,
+      "flaps": 17,
+      "flaps_per_s": 1.642512077294686,
+      "binary_input_transitions_per_s": 3.285024154589372,
+      "cadence_changes_per_s": 0.8695652173913043,
+      "major_reversals_by_threshold_px": {
+        "40": 16,
+        "60": 4,
+        "80": 2
+      },
+      "y_travel_px_per_s": 153.58313204508846,
+      "sampled_clearance_px": {
+        "count": 104,
+        "minimum": 13.529166666667464,
+        "p10": 47.83516669504424,
+        "median": 67.50318975291367,
+        "p90": 131.53137751971795,
+        "maximum": 253.0540496676178
+      },
+      "equal_cadence_union_seconds": 3.183333333333333,
+      "equal_cadence_observed_time_share": 0.3075684380032206,
+      "phase_sample_counts": {},
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-701",
+      "axis": "spatial_stages",
+      "stage": 2,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 10.341666666666667,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 1611.8333333333333,
+      "end_x": 3163.6666666666665,
+      "flaps": 16,
+      "flaps_per_s": 1.5471394037066881,
+      "binary_input_transitions_per_s": 3.0942788074133762,
+      "cadence_changes_per_s": 1.160354552780016,
+      "major_reversals_by_threshold_px": {
+        "40": 18,
+        "60": 6,
+        "80": 6
+      },
+      "y_travel_px_per_s": 161.94342600053716,
+      "sampled_clearance_px": {
+        "count": 103,
+        "minimum": 14.939682792245396,
+        "p10": 29.137626022234247,
+        "median": 51.466685308203104,
+        "p90": 78.89441793749502,
+        "maximum": 95.0
+      },
+      "equal_cadence_union_seconds": 2.1,
+      "equal_cadence_observed_time_share": 0.20306204673650283,
+      "phase_sample_counts": {},
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-701",
+      "axis": "spatial_stages",
+      "stage": 3,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 10.35,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 3163.6666666666665,
+      "end_x": 4715.5,
+      "flaps": 15,
+      "flaps_per_s": 1.4492753623188406,
+      "binary_input_transitions_per_s": 2.898550724637681,
+      "cadence_changes_per_s": 0.8695652173913043,
+      "major_reversals_by_threshold_px": {
+        "40": 24,
+        "60": 3,
+        "80": 3
+      },
+      "y_travel_px_per_s": 161.33930488459467,
+      "sampled_clearance_px": {
+        "count": 105,
+        "minimum": 23.25138888888759,
+        "p10": 35.45681295613309,
+        "median": 65.86251961750158,
+        "p90": 102.1239337441378,
+        "maximum": 160.8375338064086
+      },
+      "equal_cadence_union_seconds": 3.8833333333333333,
+      "equal_cadence_observed_time_share": 0.3752012882447665,
+      "phase_sample_counts": {
+        "timed_armor_gate:closing": 7,
+        "timed_armor_gate:open": 30
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-6402",
+      "axis": "elapsed_time_stages",
+      "stage": 1,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 10.091666666666667,
+      "start_tick": 0,
+      "end_tick": 1211,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 15,
+      "flaps_per_s": 1.486374896779521,
+      "binary_input_transitions_per_s": 2.972749793559042,
+      "cadence_changes_per_s": 1.0900082576383154,
+      "major_reversals_by_threshold_px": {
+        "40": 18,
+        "60": 4,
+        "80": 4
+      },
+      "y_travel_px_per_s": 162.7805876685934,
+      "sampled_clearance_px": {
+        "count": 101,
+        "minimum": 17.51499514278454,
+        "p10": 28.54999999999984,
+        "median": 59.54444444444448,
+        "p90": 95.87692931698759,
+        "maximum": 121.89191738806204
+      },
+      "equal_cadence_union_seconds": 0.0,
+      "equal_cadence_observed_time_share": 0.0,
+      "phase_sample_counts": {
+        "timed_armor_gate:open": 10
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-6402",
+      "axis": "elapsed_time_stages",
+      "stage": 2,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 10.091666666666667,
+      "start_tick": 1211,
+      "end_tick": 2422,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 17,
+      "flaps_per_s": 1.6845582163501238,
+      "binary_input_transitions_per_s": 3.3691164327002476,
+      "cadence_changes_per_s": 1.2881915772089183,
+      "major_reversals_by_threshold_px": {
+        "40": 15,
+        "60": 5,
+        "80": 5
+      },
+      "y_travel_px_per_s": 154.63291357005224,
+      "sampled_clearance_px": {
+        "count": 101,
+        "minimum": 10.333017082486169,
+        "p10": 19.177777777777294,
+        "median": 55.44172957020933,
+        "p90": 97.08607818589974,
+        "maximum": 118.7764562521078
+      },
+      "equal_cadence_union_seconds": 1.4333333333333333,
+      "equal_cadence_observed_time_share": 0.14203137902559868,
+      "phase_sample_counts": {},
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-6402",
+      "axis": "elapsed_time_stages",
+      "stage": 3,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 10.091666666666667,
+      "start_tick": 2422,
+      "end_tick": 3633,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 15,
+      "flaps_per_s": 1.486374896779521,
+      "binary_input_transitions_per_s": 2.972749793559042,
+      "cadence_changes_per_s": 0.990916597853014,
+      "major_reversals_by_threshold_px": {
+        "40": 22,
+        "60": 3,
+        "80": 3
+      },
+      "y_travel_px_per_s": 161.47636251032196,
+      "sampled_clearance_px": {
+        "count": 102,
+        "minimum": 24.374999999999403,
+        "p10": 34.35838990013649,
+        "median": 60.50393775286158,
+        "p90": 87.61922310177404,
+        "maximum": 160.83209480294337
+      },
+      "equal_cadence_union_seconds": 3.8833333333333333,
+      "equal_cadence_observed_time_share": 0.38480594549958713,
+      "phase_sample_counts": {
+        "timed_armor_gate:closing": 8,
+        "timed_armor_gate:open": 27
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-6402",
+      "axis": "spatial_stages",
+      "stage": 1,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 10.091666666666667,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 60.0,
+      "end_x": 1573.489837398374,
+      "flaps": 15,
+      "flaps_per_s": 1.486374896779521,
+      "binary_input_transitions_per_s": 2.972749793559042,
+      "cadence_changes_per_s": 1.0900082576383154,
+      "major_reversals_by_threshold_px": {
+        "40": 18,
+        "60": 4,
+        "80": 4
+      },
+      "y_travel_px_per_s": 162.7805876685934,
+      "sampled_clearance_px": {
+        "count": 101,
+        "minimum": 17.51499514278454,
+        "p10": 28.54999999999984,
+        "median": 59.54444444444448,
+        "p90": 95.87692931698759,
+        "maximum": 121.89191738806204
+      },
+      "equal_cadence_union_seconds": 0.0,
+      "equal_cadence_observed_time_share": 0.0,
+      "phase_sample_counts": {
+        "timed_armor_gate:open": 10
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-6402",
+      "axis": "spatial_stages",
+      "stage": 2,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 10.091666666666667,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 1573.489837398374,
+      "end_x": 3086.979674796748,
+      "flaps": 17,
+      "flaps_per_s": 1.6845582163501238,
+      "binary_input_transitions_per_s": 3.3691164327002476,
+      "cadence_changes_per_s": 1.2881915772089183,
+      "major_reversals_by_threshold_px": {
+        "40": 15,
+        "60": 5,
+        "80": 5
+      },
+      "y_travel_px_per_s": 154.63291357005224,
+      "sampled_clearance_px": {
+        "count": 101,
+        "minimum": 10.333017082486169,
+        "p10": 19.177777777777294,
+        "median": 55.44172957020933,
+        "p90": 97.08607818589974,
+        "maximum": 118.7764562521078
+      },
+      "equal_cadence_union_seconds": 1.4333333333333333,
+      "equal_cadence_observed_time_share": 0.14203137902559868,
+      "phase_sample_counts": {},
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "full-6402",
+      "axis": "spatial_stages",
+      "stage": 3,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 10.091666666666667,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 3086.979674796748,
+      "end_x": 4600.469512195122,
+      "flaps": 15,
+      "flaps_per_s": 1.486374896779521,
+      "binary_input_transitions_per_s": 2.972749793559042,
+      "cadence_changes_per_s": 0.990916597853014,
+      "major_reversals_by_threshold_px": {
+        "40": 22,
+        "60": 3,
+        "80": 3
+      },
+      "y_travel_px_per_s": 161.47636251032196,
+      "sampled_clearance_px": {
+        "count": 102,
+        "minimum": 24.374999999999403,
+        "p10": 34.35838990013649,
+        "median": 60.50393775286158,
+        "p90": 87.61922310177404,
+        "maximum": 160.83209480294337
+      },
+      "equal_cadence_union_seconds": 3.8833333333333333,
+      "equal_cadence_observed_time_share": 0.38480594549958713,
+      "phase_sample_counts": {
+        "timed_armor_gate:closing": 8,
+        "timed_armor_gate:open": 27
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7701",
+      "axis": "elapsed_time_stages",
+      "stage": 1,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 40.0,
+      "start_tick": 0,
+      "end_tick": 4800,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 62,
+      "flaps_per_s": 1.55,
+      "binary_input_transitions_per_s": 3.1,
+      "cadence_changes_per_s": 0.925,
+      "major_reversals_by_threshold_px": {
+        "40": 80,
+        "60": 13,
+        "80": 13
+      },
+      "y_travel_px_per_s": 158.68126736111103,
+      "sampled_clearance_px": {
+        "count": 400,
+        "minimum": 9.971744688604304,
+        "p10": 27.017438162080893,
+        "median": 52.940813632903215,
+        "p90": 84.99117208672088,
+        "maximum": 260
+      },
+      "equal_cadence_union_seconds": 15.141666666666667,
+      "equal_cadence_observed_time_share": 0.37854166666666667,
+      "phase_sample_counts": {
+        "timed_armor_gate:open": 9
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7701",
+      "axis": "elapsed_time_stages",
+      "stage": 2,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 40.0,
+      "start_tick": 4800,
+      "end_tick": 9600,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 63,
+      "flaps_per_s": 1.575,
+      "binary_input_transitions_per_s": 3.15,
+      "cadence_changes_per_s": 1.275,
+      "major_reversals_by_threshold_px": {
+        "40": 67,
+        "60": 16,
+        "80": 16
+      },
+      "y_travel_px_per_s": 159.15699652777772,
+      "sampled_clearance_px": {
+        "count": 400,
+        "minimum": 9.655555555550961,
+        "p10": 26.87226234210294,
+        "median": 57.74374999999628,
+        "p90": 83.02334748144712,
+        "maximum": 128.43804964350613
+      },
+      "equal_cadence_union_seconds": 2.15,
+      "equal_cadence_observed_time_share": 0.05375,
+      "phase_sample_counts": {
+        "timed_armor_gate:open": 2
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7701",
+      "axis": "elapsed_time_stages",
+      "stage": 3,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 40.0,
+      "start_tick": 9600,
+      "end_tick": 14400,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 61,
+      "flaps_per_s": 1.525,
+      "binary_input_transitions_per_s": 3.05,
+      "cadence_changes_per_s": 1.05,
+      "major_reversals_by_threshold_px": {
+        "40": 69,
+        "60": 14,
+        "80": 12
+      },
+      "y_travel_px_per_s": 154.81670138888882,
+      "sampled_clearance_px": {
+        "count": 401,
+        "minimum": 7.630657428051737,
+        "p10": 27.36130902731518,
+        "median": 52.005555555548284,
+        "p90": 87.62499278678234,
+        "maximum": 183.53048780487734
+      },
+      "equal_cadence_union_seconds": 8.05,
+      "equal_cadence_observed_time_share": 0.20125,
+      "phase_sample_counts": {
+        "laser_scanner:active": 84,
+        "laser_scanner:cooldown": 20,
+        "timed_armor_gate:closing": 45,
+        "timed_armor_gate:open": 111
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7701",
+      "axis": "spatial_stages",
+      "stage": 1,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 39.65,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 60.0,
+      "end_x": 6006.666666666667,
+      "flaps": 61,
+      "flaps_per_s": 1.5384615384615385,
+      "binary_input_transitions_per_s": 3.076923076923077,
+      "cadence_changes_per_s": 0.9331651954602774,
+      "major_reversals_by_threshold_px": {
+        "40": 78,
+        "60": 13,
+        "80": 13
+      },
+      "y_travel_px_per_s": 158.4558112652374,
+      "sampled_clearance_px": {
+        "count": 397,
+        "minimum": 9.971744688604304,
+        "p10": 26.907252648332584,
+        "median": 53.05694444444367,
+        "p90": 85.05615176151827,
+        "maximum": 260
+      },
+      "equal_cadence_union_seconds": 13.033333333333333,
+      "equal_cadence_observed_time_share": 0.32870954182429596,
+      "phase_sample_counts": {
+        "timed_armor_gate:open": 9
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7701",
+      "axis": "spatial_stages",
+      "stage": 2,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 39.641666666666666,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 6006.666666666667,
+      "end_x": 11953.333333333334,
+      "flaps": 63,
+      "flaps_per_s": 1.5892369140214422,
+      "binary_input_transitions_per_s": 3.1784738280428844,
+      "cadence_changes_per_s": 1.2612991381122556,
+      "major_reversals_by_threshold_px": {
+        "40": 68,
+        "60": 16,
+        "80": 16
+      },
+      "y_travel_px_per_s": 158.04094842687962,
+      "sampled_clearance_px": {
+        "count": 396,
+        "minimum": 9.655555555550961,
+        "p10": 26.830269202400515,
+        "median": 57.74374999999628,
+        "p90": 83.44404902398043,
+        "maximum": 128.43804964350613
+      },
+      "equal_cadence_union_seconds": 2.15,
+      "equal_cadence_observed_time_share": 0.05423586293882699,
+      "phase_sample_counts": {},
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7701",
+      "axis": "spatial_stages",
+      "stage": 3,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 39.641666666666666,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 11953.333333333334,
+      "end_x": 17900.0,
+      "flaps": 60,
+      "flaps_per_s": 1.5135589657347068,
+      "binary_input_transitions_per_s": 3.0271179314694137,
+      "cadence_changes_per_s": 1.08471725877654,
+      "major_reversals_by_threshold_px": {
+        "40": 66,
+        "60": 14,
+        "80": 12
+      },
+      "y_travel_px_per_s": 156.26311225562324,
+      "sampled_clearance_px": {
+        "count": 397,
+        "minimum": 7.630657428051737,
+        "p10": 27.042403721154873,
+        "median": 51.116666666673495,
+        "p90": 84.68445198346654,
+        "maximum": 141.8180555555483
+      },
+      "equal_cadence_union_seconds": 5.941666666666666,
+      "equal_cadence_observed_time_share": 0.14988438091233972,
+      "phase_sample_counts": {
+        "laser_scanner:active": 84,
+        "laser_scanner:cooldown": 20,
+        "timed_armor_gate:closing": 45,
+        "timed_armor_gate:open": 113
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7703",
+      "axis": "elapsed_time_stages",
+      "stage": 1,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 40.0,
+      "start_tick": 0,
+      "end_tick": 4800,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 62,
+      "flaps_per_s": 1.55,
+      "binary_input_transitions_per_s": 3.1,
+      "cadence_changes_per_s": 0.975,
+      "major_reversals_by_threshold_px": {
+        "40": 74,
+        "60": 11,
+        "80": 11
+      },
+      "y_travel_px_per_s": 158.60916666666657,
+      "sampled_clearance_px": {
+        "count": 400,
+        "minimum": 9.061109176963647,
+        "p10": 26.686860839631933,
+        "median": 53.698611111109926,
+        "p90": 93.01847368069296,
+        "maximum": 260
+      },
+      "equal_cadence_union_seconds": 15.191666666666666,
+      "equal_cadence_observed_time_share": 0.37979166666666664,
+      "phase_sample_counts": {
+        "laser_scanner:active": 55,
+        "laser_scanner:cooldown": 9,
+        "timed_armor_gate:closing": 13,
+        "timed_armor_gate:open": 17
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7703",
+      "axis": "elapsed_time_stages",
+      "stage": 2,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 40.0,
+      "start_tick": 4800,
+      "end_tick": 9600,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 64,
+      "flaps_per_s": 1.6,
+      "binary_input_transitions_per_s": 3.2,
+      "cadence_changes_per_s": 1.2,
+      "major_reversals_by_threshold_px": {
+        "40": 70,
+        "60": 17,
+        "80": 17
+      },
+      "y_travel_px_per_s": 159.41149305555547,
+      "sampled_clearance_px": {
+        "count": 400,
+        "minimum": 6.504892886578137,
+        "p10": 25.36788365891008,
+        "median": 57.18819444444151,
+        "p90": 84.76321496731683,
+        "maximum": 125.0
+      },
+      "equal_cadence_union_seconds": 4.258333333333334,
+      "equal_cadence_observed_time_share": 0.10645833333333335,
+      "phase_sample_counts": {},
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7703",
+      "axis": "elapsed_time_stages",
+      "stage": 3,
+      "complete": true,
+      "attained_fraction": 1.0,
+      "observed_seconds": 40.0,
+      "start_tick": 9600,
+      "end_tick": 14400,
+      "start_x": null,
+      "end_x": null,
+      "flaps": 59,
+      "flaps_per_s": 1.475,
+      "binary_input_transitions_per_s": 2.95,
+      "cadence_changes_per_s": 1.075,
+      "major_reversals_by_threshold_px": {
+        "40": 70,
+        "60": 17,
+        "80": 12
+      },
+      "y_travel_px_per_s": 156.805909722222,
+      "sampled_clearance_px": {
+        "count": 401,
+        "minimum": 3.2920856335885205,
+        "p10": 28.05126052327779,
+        "median": 54.20835407803057,
+        "p90": 87.79949727499161,
+        "maximum": 208.53048780487734
+      },
+      "equal_cadence_union_seconds": 3.775,
+      "equal_cadence_observed_time_share": 0.094375,
+      "phase_sample_counts": {
+        "laser_scanner:active": 55,
+        "laser_scanner:cooldown": 9,
+        "timed_armor_gate:closing": 36,
+        "timed_armor_gate:open": 107
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7703",
+      "axis": "spatial_stages",
+      "stage": 1,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 39.65,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 60.0,
+      "end_x": 6006.666666666667,
+      "flaps": 61,
+      "flaps_per_s": 1.5384615384615385,
+      "binary_input_transitions_per_s": 3.076923076923077,
+      "cadence_changes_per_s": 0.9583858764186634,
+      "major_reversals_by_threshold_px": {
+        "40": 73,
+        "60": 11,
+        "80": 11
+      },
+      "y_travel_px_per_s": 157.4921360515622,
+      "sampled_clearance_px": {
+        "count": 397,
+        "minimum": 9.061109176963647,
+        "p10": 26.685222041235484,
+        "median": 53.64861111110946,
+        "p90": 93.10306138943588,
+        "maximum": 260
+      },
+      "equal_cadence_union_seconds": 15.191666666666666,
+      "equal_cadence_observed_time_share": 0.38314417822614544,
+      "phase_sample_counts": {
+        "laser_scanner:active": 55,
+        "laser_scanner:cooldown": 9,
+        "timed_armor_gate:closing": 13,
+        "timed_armor_gate:open": 17
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7703",
+      "axis": "spatial_stages",
+      "stage": 2,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 39.641666666666666,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 6006.666666666667,
+      "end_x": 11953.333333333334,
+      "flaps": 63,
+      "flaps_per_s": 1.5892369140214422,
+      "binary_input_transitions_per_s": 3.1784738280428844,
+      "cadence_changes_per_s": 1.2108471725877654,
+      "major_reversals_by_threshold_px": {
+        "40": 70,
+        "60": 16,
+        "80": 16
+      },
+      "y_travel_px_per_s": 160.8436076658958,
+      "sampled_clearance_px": {
+        "count": 396,
+        "minimum": 6.504892886578137,
+        "p10": 25.540709880017605,
+        "median": 57.500802575150374,
+        "p90": 84.86845275962045,
+        "maximum": 125.0
+      },
+      "equal_cadence_union_seconds": 6.366666666666666,
+      "equal_cadence_observed_time_share": 0.16060542358629387,
+      "phase_sample_counts": {},
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    },
+    {
+      "id": "macro-7703",
+      "axis": "spatial_stages",
+      "stage": 3,
+      "complete": true,
+      "attained_fraction": 1,
+      "observed_seconds": 39.641666666666666,
+      "start_tick": null,
+      "end_tick": null,
+      "start_x": 11953.333333333334,
+      "end_x": 17900.0,
+      "flaps": 60,
+      "flaps_per_s": 1.5135589657347068,
+      "binary_input_transitions_per_s": 3.0271179314694137,
+      "cadence_changes_per_s": 1.08471725877654,
+      "major_reversals_by_threshold_px": {
+        "40": 68,
+        "60": 18,
+        "80": 13
+      },
+      "y_travel_px_per_s": 157.4464280709128,
+      "sampled_clearance_px": {
+        "count": 397,
+        "minimum": 3.2920856335885205,
+        "p10": 27.467133991997763,
+        "median": 53.46805555556128,
+        "p90": 86.16899448565087,
+        "maximum": 114.47822032495088
+      },
+      "equal_cadence_union_seconds": 3.775,
+      "equal_cadence_observed_time_share": 0.0952280849274753,
+      "phase_sample_counts": {
+        "laser_scanner:active": 55,
+        "laser_scanner:cooldown": 9,
+        "timed_armor_gate:closing": 36,
+        "timed_armor_gate:open": 107
+      },
+      "timing_scope": "Saved horizontal-occupancy body/source frames, not unique seconds or input window."
+    }
+  ]
+}

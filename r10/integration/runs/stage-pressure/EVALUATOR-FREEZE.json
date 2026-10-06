@@ -1,0 +1,35 @@
+{
+  "schema": "stage-pressure-evaluator-freeze/1",
+  "frozen_before_first_new_candidate_run": true,
+  "definitions": {
+    "elapsed_time_stages": "Three equal thirds of intended native duration, durationTicks when present, otherwise ceil(authored actual_duration_s * 120). Integer edges are ceil(k * durationTicks / 3). Never rescale thirds to observed survival time. The native world clock is tick/120, not CPU wallSeconds.",
+    "spatial_stages": "Three equal x intervals from native initial x to the unique finish routeMark when present, otherwise map.width. Rendering width is not a timed-course finish. Assign native tick intervals by pre-action x; terminal attained coverage is separate. Time after the finish mark is separately reported, not hidden in stage3.",
+    "coverage": "Observed tick-interval duration / planned elapsed-stage duration; native attained max-x fraction for spatial stage. Unreached or partially observed stages retain censoring and are never treated as complete. Death and fixed-horizon prefix censoring differ from native win.",
+    "major_movement": "Directional-change hysteresis on actual recorded y: first movement is recognized at 60px from initial y; subsequently reversal is recognized only after moving 60px back from the running extreme. Events are assigned at the threshold-confirmation tick, even when their origin precedes the stage/module. Report 40/80px sensitivity too. The ordinary isolated -290px/s flap apex under820px/s² is about51px, so60px filters that small cycle. This is a chosen descriptive scale, not a calibrated action threshold.",
+    "input_transitions": "Changes of actual binary flap/hold decisions at consecutive pre-action ticks. These typically count about twice the flaps and are not semantic human-action changes. Cadence-change events separately count adjacent interflap gaps differing by more than2ticks; assign to the closing flap tick.",
+    "equal_cadence": "A maximal run of at least3 consecutive interflap intervals all within ±1tick of one fixed integer period, equivalently max(gaps)-min(gaps)<=2. Maximal windows may overlap; union of first-to-last-flap durations is used for time share, never the sum. No inferred extension before the first or after the last flap. Equal timing can accompany a large y excursion; it is cadence repetition, not proof of uninteresting play.",
+    "clearance": "Empirical distribution of saved bodyFrames every12ticks (0.1s) plus terminal frame, using native y and current saved lethal geometry plus floor/ceiling and10px player radius. Linear (n−1) quantiles, no interpolation in time or geometry. Unsupported shapes are disclosed. It is not continuous/substep minimum, temporal reaction budget, safe range, calibrated pressure, or human difficulty.",
+    "pressure_axes": "Frequency/action density, spatial precision, input timing, anticipation/choice, carried-state control and sustained load/recovery are separate dimensions. No stage is required to increase frequency and amplitude together. Low-frequency precise timing can be demanding, and equal-frequency tapping is not inherently boring. Sampled clearance is only geometric proximity; actual correctable spatial margin, early/late input window, perceptual/choice demands and subjective mental pressure are UNKNOWN without interventions or human evidence.",
+    "timing": "Saved gate/laser status and phase during radius-expanded horizontal occupancy are native observations at stored frame times. Fixed-x gate nominal full-body occupancy and signed full-open entry/tail reserves are descriptor-derived at150px/s, only reported when observed preterminal x/vx confirms constant speed. Select the clock cycle containing nominal occupancy midpoint. A negative reserve means nominal occupancy extends outside that fully-open window; it does not prove collision. Neither reserve nor warning duration is an input timing tolerance or reaction budget.",
+    "comparisons": "Descriptive separate dimensions, no composite score, pass target, fun inference or changed acceptance. Complete-stage-only summaries are accompanied by attained counts; survivor selection remains a limitation. Differences in intended duration/module placement and censoring must be retained."
+  },
+  "constants": {
+    "hz": 120,
+    "major_excursion_px": 60,
+    "sensitivity_px": [
+      40,
+      60,
+      80
+    ],
+    "cadence_tolerance_ticks": 1,
+    "cadence_min_intervals": 3
+  },
+  "source_sha256": {
+    "audit_stage_pressure.py": "07db5f744500ed099a59b3001067e36fa376db2db1bbcafc8526b79589772808",
+    "audit_action_quality.py": "6280e1dca0e6008eb2fa33d3b5da812017788f07e3d46d19e2aa4ecaa20be90c",
+    "analyze_results.py": "bf2f184a7a9e1aa66297e83e288a825cdb30e01377ff75d58fd6608337d83372",
+    "tests/test_stage_pressure_audit.py": "58346e37520d1f5f90dae6de6c6803ff3f90e5e71c84763a0237ec348fd7ae3f"
+  },
+  "new_physics_runs_by_auditor": 0,
+  "correction_notice": "R7-BASELINE-AUDIT predates final laser half-width inclusion and terminal frame timing attribution; immutable draft preserved. Use R7-FROZEN-AUDIT."
+}

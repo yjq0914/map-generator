@@ -1,0 +1,742 @@
+{
+  "sourceIdentity": "e4569d8bbeec61c5c1bfb150343aaf72fe3f520f862b5cb3821edbac4f352bfc",
+  "rows": [
+    {
+      "id": "control-00",
+      "form": "HLT",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 2,
+        "theme": {
+          "staggerGradient": 0,
+          "pairSymmetryGradient": -1
+        }
+      },
+      "changedT": false,
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 8100,
+          "endTick": 9900,
+          "forceSourceIds": [
+            "c7-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ]
+    },
+    {
+      "id": "control-01",
+      "form": "HLT",
+      "order": [
+        9,
+        10
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 2,
+        "theme": {
+          "staggerGradient": 0,
+          "pairSymmetryGradient": 1
+        }
+      },
+      "changedT": false,
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 8100,
+          "endTick": 9900,
+          "forceSourceIds": [
+            "c7-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ]
+    },
+    {
+      "id": "control-02",
+      "form": "HLT",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.2,
+        "theme": {
+          "staggerGradient": 0,
+          "pairSymmetryGradient": -1
+        }
+      },
+      "changedT": false,
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 8100,
+          "endTick": 9900,
+          "forceSourceIds": [
+            "c7-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ]
+    },
+    {
+      "id": "control-03",
+      "form": "HLT",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.6,
+        "theme": {
+          "staggerGradient": 0,
+          "pairSymmetryGradient": -1
+        }
+      },
+      "changedT": false,
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 8100,
+          "endTick": 9900,
+          "forceSourceIds": [
+            "c7-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ]
+    },
+    {
+      "id": "control-04",
+      "form": "HJT",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.6,
+        "theme": {
+          "staggerGradient": 1,
+          "pairSymmetryGradient": 0
+        }
+      },
+      "changedT": null,
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1309,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ]
+    },
+    {
+      "id": "control-05",
+      "form": "HJT",
+      "order": [
+        9,
+        10
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.6,
+        "theme": {
+          "staggerGradient": -1,
+          "pairSymmetryGradient": 0
+        }
+      },
+      "changedT": null,
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1309,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ]
+    },
+    {
+      "id": "control-06",
+      "form": "LT",
+      "order": [
+        9,
+        10
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.9,
+        "theme": {
+          "staggerGradient": -1,
+          "pairSymmetryGradient": 0
+        }
+      },
+      "changedT": true,
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ]
+    },
+    {
+      "id": "control-07",
+      "form": "L",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.3,
+        "theme": {
+          "staggerGradient": 0,
+          "pairSymmetryGradient": -1
+        }
+      },
+      "changedT": false,
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1309,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ]
+    },
+    {
+      "id": "explore-00",
+      "form": "B",
+      "order": [
+        9,
+        10
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.9,
+        "theme": {
+          "staggerGradient": -0.5,
+          "pairSymmetryGradient": -0.42857142857142855
+        }
+      },
+      "changedT": null,
+      "windows": [
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ]
+    },
+    {
+      "id": "explore-01",
+      "form": "H",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.3,
+        "theme": {
+          "staggerGradient": 0,
+          "pairSymmetryGradient": 0.42857142857142855
+        }
+      },
+      "changedT": null,
+      "windows": [
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 5520,
+          "endTick": 7320,
+          "forceSourceIds": [
+            "c5-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9840,
+          "endTick": 13440
+        }
+      ]
+    },
+    {
+      "id": "explore-02",
+      "form": "T",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.9,
+        "theme": {
+          "staggerGradient": 0.5,
+          "pairSymmetryGradient": -0.42857142857142855
+        }
+      },
+      "changedT": null,
+      "windows": [
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ]
+    },
+    {
+      "id": "explore-03",
+      "form": "J",
+      "order": [
+        9,
+        10
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.3,
+        "theme": {
+          "staggerGradient": -0.5,
+          "pairSymmetryGradient": 0.42857142857142855
+        }
+      },
+      "changedT": null,
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1322,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ]
+    },
+    {
+      "id": "explore-04",
+      "form": "HT",
+      "order": [
+        9,
+        10
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.9,
+        "theme": {
+          "staggerGradient": 0,
+          "pairSymmetryGradient": -0.42857142857142855
+        }
+      },
+      "changedT": null,
+      "windows": [
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 7020,
+          "endTick": 8820,
+          "forceSourceIds": [
+            "c6-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ]
+    },
+    {
+      "id": "explore-05",
+      "form": "HJ",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.3,
+        "theme": {
+          "staggerGradient": 0.5,
+          "pairSymmetryGradient": 0.42857142857142855
+        }
+      },
+      "changedT": null,
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1303,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ]
+    },
+    {
+      "id": "explore-06",
+      "form": "JT",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.9,
+        "theme": {
+          "staggerGradient": -0.5,
+          "pairSymmetryGradient": -0.42857142857142855
+        }
+      },
+      "changedT": null,
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1502,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-press-0-top",
+            "c1-press-0-bottom"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ]
+    },
+    {
+      "id": "explore-07",
+      "form": "HL",
+      "order": [
+        10,
+        9
+      ],
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.3,
+        "theme": {
+          "staggerGradient": 0,
+          "pairSymmetryGradient": 0.42857142857142855
+        }
+      },
+      "changedT": false,
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1309,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ]
+    }
+  ],
+  "blockedDynamicEngineExports": 45,
+  "forbiddenCalls": 0,
+  "physicalExecutions": 0,
+  "physicalTicks": 0,
+  "schema": "c006-final-binding-static/1",
+  "passed": true,
+  "reusedPreparationChecks": {
+    "core75": {
+      "path": "adaptive-general-neighbor-macro-preparation/reports/focused-static.json",
+      "sha256": "33fdb2e569c516eb7a0df6c2d4ba6005675a6da24230996ecb20be973c1dfc49"
+    },
+    "binding20": {
+      "path": "adaptive-general-neighbor-macro-preparation/reports/binding-interface.json",
+      "sha256": "9f4afeafd64559434e6db8734f3feb7a1e605ea247cb436adb11c3b0509f393e"
+    }
+  },
+  "scope": "Reuse75+20 focused checks; only explicit final durable parent and16 public generation/window bindings checked again"
+}

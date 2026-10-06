@@ -1,0 +1,780 @@
+{
+  "schema": "prospective-neighbor-focused-static/1",
+  "checks": 75,
+  "checkNames": [
+    "control-00 old macro rejects actual neighbor",
+    "control-00 primary facts exactly equal original recognizer on validated primary view",
+    "control-00 output 0 exact inverse and pinned prefix/successor",
+    "control-00 output 0 full body identity and absolute phase",
+    "control-00 output 0 all-body bound unchanged",
+    "control-00 output 0 explicit pressure bijection preserves every pair",
+    "control-00 output 0 capture includes both auxiliaries and first primary successor",
+    "control-00 output 0 modified auxiliary rejected by inverse",
+    "control-00 output 1 exact inverse and pinned prefix/successor",
+    "control-00 output 1 full body identity and absolute phase",
+    "control-00 output 1 all-body bound unchanged",
+    "control-00 output 1 explicit pressure bijection preserves every pair",
+    "control-00 output 1 capture includes both auxiliaries and first primary successor",
+    "control-00 output 1 modified auxiliary rejected by inverse",
+    "control-00 output 2 exact inverse and pinned prefix/successor",
+    "control-00 output 2 full body identity and absolute phase",
+    "control-00 output 2 all-body bound unchanged",
+    "control-00 output 2 explicit pressure bijection preserves every pair",
+    "control-00 output 2 capture includes both auxiliaries and first primary successor",
+    "control-00 output 2 modified auxiliary rejected by inverse",
+    "control-00 same-recovery theme order actually responds",
+    "control-00 same-order recovery length actually responds",
+    "control-00 explicit action chooses actual first demand",
+    "control-00 unknown global dependency rejected",
+    "control-00 rejects missing auxiliary",
+    "control-00 rejects duplicate auxiliary",
+    "control-00 rejects moving auxiliary",
+    "control-00 rejects trigger auxiliary",
+    "control-00 rejects relocated auxiliary",
+    "control-00 analytic bridge obstacle still rejected",
+    "control-00 missing pressure identity never counts as improvement",
+    "control-00 excessive recovery request rejected",
+    "control-02 old macro rejects actual neighbor",
+    "control-02 primary facts exactly equal original recognizer on validated primary view",
+    "control-02 output 0 exact inverse and pinned prefix/successor",
+    "control-02 output 0 full body identity and absolute phase",
+    "control-02 output 0 all-body bound unchanged",
+    "control-02 output 0 explicit pressure bijection preserves every pair",
+    "control-02 output 0 capture includes both auxiliaries and first primary successor",
+    "control-02 output 0 modified auxiliary rejected by inverse",
+    "control-02 output 1 exact inverse and pinned prefix/successor",
+    "control-02 output 1 full body identity and absolute phase",
+    "control-02 output 1 all-body bound unchanged",
+    "control-02 output 1 explicit pressure bijection preserves every pair",
+    "control-02 output 1 capture includes both auxiliaries and first primary successor",
+    "control-02 output 1 modified auxiliary rejected by inverse",
+    "control-02 output 2 exact inverse and pinned prefix/successor",
+    "control-02 output 2 full body identity and absolute phase",
+    "control-02 output 2 all-body bound unchanged",
+    "control-02 output 2 explicit pressure bijection preserves every pair",
+    "control-02 output 2 capture includes both auxiliaries and first primary successor",
+    "control-02 output 2 modified auxiliary rejected by inverse",
+    "control-02 same-recovery theme order actually responds",
+    "control-02 same-order recovery length actually responds",
+    "control-02 explicit action chooses actual first demand",
+    "control-02 unknown global dependency rejected",
+    "control-02 rejects missing auxiliary",
+    "control-02 rejects duplicate auxiliary",
+    "control-02 rejects moving auxiliary",
+    "control-02 rejects trigger auxiliary",
+    "control-02 rejects relocated auxiliary",
+    "control-02 analytic bridge obstacle still rejected",
+    "control-02 missing pressure identity never counts as improvement",
+    "control-02 excessive recovery request rejected",
+    "exact inherited control-coupled-early-pair",
+    "exact inherited control-separated-pair",
+    "exact inherited control-retain-empty",
+    "exact inherited control-retain-moving",
+    "exact inherited control-retain-aperture",
+    "exact inherited control-retain-projectiles",
+    "exact inherited control-retain-two",
+    "exact inherited control-retain-three",
+    "exact existing macro-on adjacency-none call",
+    "no implicit parent binding",
+    "no physical execution"
+  ],
+  "rows": [
+    {
+      "id": "control-00",
+      "adjacency": "upper-after",
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.6,
+        "theme": {
+          "staggerGradient": 1,
+          "pairSymmetryGradient": 1
+        }
+      },
+      "order": [
+        9,
+        10
+      ],
+      "transferTicks": -12,
+      "sourceIdentity": "401ff654c44bf80ebc84079a014be618f1219bab7df5b33912931df97eec2233",
+      "mapHash": "a89152626d4cf77f05243abc3126800390db61136ecc022be44de8df6379e627",
+      "capture": {
+        "schema": "prospective-neighbor-saved-body-contract/1",
+        "window": {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        },
+        "arms": [
+          {
+            "arm": "parent",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-adj-upper",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-wave-island-0",
+              "c9-wave-island-1",
+              "c9-wave-island-2",
+              "c9-adj-upper",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-upper",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-press-0-top",
+              "c11-press-0-bottom",
+              "c11-adj-upper"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-press-0-top",
+              "c11-press-0-bottom"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-upper"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-upper",
+              "c10-adj-upper"
+            ]
+          },
+          {
+            "arm": "candidate",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-adj-upper",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-wave-island-0",
+              "c9-wave-island-1",
+              "c9-wave-island-2",
+              "c9-adj-upper",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-upper",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-press-0-top",
+              "c11-press-0-bottom",
+              "c11-adj-upper"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-press-0-top",
+              "c11-press-0-bottom"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-upper"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-upper",
+              "c10-adj-upper"
+            ]
+          }
+        ],
+        "physicsQualification": false
+      }
+    },
+    {
+      "id": "control-00",
+      "adjacency": "upper-after",
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.6,
+        "theme": {
+          "staggerGradient": -1,
+          "pairSymmetryGradient": -1
+        }
+      },
+      "order": [
+        10,
+        9
+      ],
+      "transferTicks": 0,
+      "sourceIdentity": "401ff654c44bf80ebc84079a014be618f1219bab7df5b33912931df97eec2233",
+      "mapHash": "30faf3367d6f2c12bfcc5f7abafcc3f5ee1da691b9c3553f80531b4ab857c216",
+      "capture": {
+        "schema": "prospective-neighbor-saved-body-contract/1",
+        "window": {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        },
+        "arms": [
+          {
+            "arm": "parent",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-adj-upper",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-wave-island-0",
+              "c9-wave-island-1",
+              "c9-wave-island-2",
+              "c9-adj-upper",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-upper",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-press-0-top",
+              "c11-press-0-bottom",
+              "c11-adj-upper"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-press-0-top",
+              "c11-press-0-bottom"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-upper"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-upper",
+              "c10-adj-upper"
+            ]
+          },
+          {
+            "arm": "candidate",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-adj-upper",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-wave-island-0",
+              "c9-wave-island-1",
+              "c9-wave-island-2",
+              "c9-adj-upper",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-upper",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-press-0-top",
+              "c11-press-0-bottom",
+              "c11-adj-upper"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-press-0-top",
+              "c11-press-0-bottom"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-upper"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-upper",
+              "c10-adj-upper"
+            ]
+          }
+        ],
+        "physicsQualification": false
+      }
+    },
+    {
+      "id": "control-00",
+      "adjacency": "upper-after",
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 2,
+        "theme": {
+          "staggerGradient": -1,
+          "pairSymmetryGradient": -1
+        }
+      },
+      "order": [
+        10,
+        9
+      ],
+      "transferTicks": 48,
+      "sourceIdentity": "401ff654c44bf80ebc84079a014be618f1219bab7df5b33912931df97eec2233",
+      "mapHash": "34f7094d92cf495ec2d22e94b6a2fb9160f854bdfc15b7689a51dcc69c0ebf7a",
+      "capture": {
+        "schema": "prospective-neighbor-saved-body-contract/1",
+        "window": {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        },
+        "arms": [
+          {
+            "arm": "parent",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-adj-upper",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-wave-island-0",
+              "c9-wave-island-1",
+              "c9-wave-island-2",
+              "c9-adj-upper",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-upper",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-press-0-top",
+              "c11-press-0-bottom",
+              "c11-adj-upper"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-press-0-top",
+              "c11-press-0-bottom"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-upper"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-upper",
+              "c10-adj-upper"
+            ]
+          },
+          {
+            "arm": "candidate",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-adj-upper",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-wave-island-0",
+              "c9-wave-island-1",
+              "c9-wave-island-2",
+              "c9-adj-upper",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-upper",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-press-0-top",
+              "c11-press-0-bottom",
+              "c11-adj-upper"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-press-0-top",
+              "c11-press-0-bottom"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-upper"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-upper",
+              "c10-adj-upper"
+            ]
+          }
+        ],
+        "physicsQualification": false
+      }
+    },
+    {
+      "id": "control-02",
+      "adjacency": "lower-before",
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.6,
+        "theme": {
+          "staggerGradient": 1,
+          "pairSymmetryGradient": 1
+        }
+      },
+      "order": [
+        10,
+        9
+      ],
+      "transferTicks": 0,
+      "sourceIdentity": "401ff654c44bf80ebc84079a014be618f1219bab7df5b33912931df97eec2233",
+      "mapHash": "448a6c8e304945c82c196e90cdb42d1017b5b7f0b224821e40b081501e8a2cf4",
+      "capture": {
+        "schema": "prospective-neighbor-saved-body-contract/1",
+        "window": {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        },
+        "arms": [
+          {
+            "arm": "parent",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-press-0-top",
+              "c9-press-0-bottom",
+              "c9-press-1-top",
+              "c9-press-1-bottom",
+              "c9-press-2-top",
+              "c9-press-2-bottom",
+              "c9-adj-lower",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-lower",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-wave-island-0",
+              "c11-adj-lower"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-wave-island-0"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-lower"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-lower",
+              "c10-adj-lower"
+            ]
+          },
+          {
+            "arm": "candidate",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-wave-island-0",
+              "c9-wave-island-1",
+              "c9-wave-island-2",
+              "c9-adj-lower",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-press-0-top",
+              "c10-press-0-bottom",
+              "c10-press-1-top",
+              "c10-press-1-bottom",
+              "c10-press-2-top",
+              "c10-press-2-bottom",
+              "c10-adj-lower",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-wave-island-0",
+              "c11-adj-lower"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-wave-island-0"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-lower"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-lower",
+              "c10-adj-lower"
+            ]
+          }
+        ],
+        "physicsQualification": false
+      }
+    },
+    {
+      "id": "control-02",
+      "adjacency": "lower-before",
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 1.6,
+        "theme": {
+          "staggerGradient": -1,
+          "pairSymmetryGradient": -1
+        }
+      },
+      "order": [
+        9,
+        10
+      ],
+      "transferTicks": 12,
+      "sourceIdentity": "401ff654c44bf80ebc84079a014be618f1219bab7df5b33912931df97eec2233",
+      "mapHash": "32b6dc7566ef19fedee8bff2a0fde5435288e3bc93f25bc98e1801dc45d35fb3",
+      "capture": {
+        "schema": "prospective-neighbor-saved-body-contract/1",
+        "window": {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        },
+        "arms": [
+          {
+            "arm": "parent",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-press-0-top",
+              "c9-press-0-bottom",
+              "c9-press-1-top",
+              "c9-press-1-bottom",
+              "c9-press-2-top",
+              "c9-press-2-bottom",
+              "c9-adj-lower",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-lower",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-wave-island-0",
+              "c11-adj-lower"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-wave-island-0"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-lower"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-lower",
+              "c10-adj-lower"
+            ]
+          },
+          {
+            "arm": "candidate",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-press-0-top",
+              "c9-press-0-bottom",
+              "c9-press-1-top",
+              "c9-press-1-bottom",
+              "c9-press-2-top",
+              "c9-press-2-bottom",
+              "c9-adj-lower",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-lower",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-wave-island-0",
+              "c11-adj-lower"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-wave-island-0"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-lower"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-lower",
+              "c10-adj-lower"
+            ]
+          }
+        ],
+        "physicsQualification": false
+      }
+    },
+    {
+      "id": "control-02",
+      "adjacency": "lower-before",
+      "request": {
+        "schema": "late-macro-request/1",
+        "firstDemand": "any",
+        "firstRecoverySeconds": 2,
+        "theme": {
+          "staggerGradient": -1,
+          "pairSymmetryGradient": -1
+        }
+      },
+      "order": [
+        9,
+        10
+      ],
+      "transferTicks": 60,
+      "sourceIdentity": "401ff654c44bf80ebc84079a014be618f1219bab7df5b33912931df97eec2233",
+      "mapHash": "df18ff45f52382293e9a129ebd50b8e971055360e88ed329f286952239bd67b0",
+      "capture": {
+        "schema": "prospective-neighbor-saved-body-contract/1",
+        "window": {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        },
+        "arms": [
+          {
+            "arm": "parent",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-press-0-top",
+              "c9-press-0-bottom",
+              "c9-press-1-top",
+              "c9-press-1-bottom",
+              "c9-press-2-top",
+              "c9-press-2-bottom",
+              "c9-adj-lower",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-lower",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-wave-island-0",
+              "c11-adj-lower"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-wave-island-0"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-lower"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-lower",
+              "c10-adj-lower"
+            ]
+          },
+          {
+            "arm": "candidate",
+            "requiredBodyIds": [
+              "c8-wave-island-2",
+              "c8-recovery-top",
+              "c8-recovery-bottom",
+              "c8-tail-top",
+              "c8-tail-bottom",
+              "c9-press-0-top",
+              "c9-press-0-bottom",
+              "c9-press-1-top",
+              "c9-press-1-bottom",
+              "c9-press-2-top",
+              "c9-press-2-bottom",
+              "c9-adj-lower",
+              "c9-recovery-top",
+              "c9-recovery-bottom",
+              "c9-tail-top",
+              "c9-tail-bottom",
+              "c10-wave-island-0",
+              "c10-wave-island-1",
+              "c10-wave-island-2",
+              "c10-adj-lower",
+              "c10-recovery-top",
+              "c10-recovery-bottom",
+              "c10-tail-top",
+              "c10-tail-bottom",
+              "c11-wave-island-0",
+              "c11-adj-lower"
+            ],
+            "primarySuccessorBodyIds": [
+              "c11-wave-island-0"
+            ],
+            "successorNeighborIds": [
+              "c11-adj-lower"
+            ],
+            "carriedNeighborIds": [
+              "c9-adj-lower",
+              "c10-adj-lower"
+            ]
+          }
+        ],
+        "physicsQualification": false
+      }
+    }
+  ],
+  "binding": {
+    "status": "preparation-only",
+    "round": "c003",
+    "expectedSourceIdentity": "53b354142892f924d32a0b8b64d76074e0b40433c34f2f672f25e44a2f7bd76e",
+    "futureBinding": "No c004 identity or adoption is assumed"
+  },
+  "sourceIdentity": "401ff654c44bf80ebc84079a014be618f1219bab7df5b33912931df97eec2233",
+  "blockedDynamicEngineExports": 45,
+  "forbiddenCalls": 0,
+  "physicalExecutions": 0,
+  "physicalTicks": 0,
+  "physicsQualification": false,
+  "roundAssignment": null
+}

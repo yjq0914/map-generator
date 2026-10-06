@@ -1,0 +1,11 @@
+{
+  "schema": "combo-active-eligibility-policy/1",
+  "id": "exclude-force-cores",
+  "version": 1,
+  "excluded_mechanics": ["suction_core", "push_pulse_core"],
+  "inactive_provider_ids": ["carried-speed-gate"],
+  "scope": ["candidate_generation", "selection", "variation", "composition", "family_admission"],
+  "historical_records": "Preserve immutable records and read/list/validate access; recorded qualification does not imply active eligibility",
+  "user_instruction": "吸力推力核心先不加 之后也不参加排列组合哈",
+  "source_message_id": "Sentinel_7fe700e822e48191a0ab334b1bb2ab3e"
+}

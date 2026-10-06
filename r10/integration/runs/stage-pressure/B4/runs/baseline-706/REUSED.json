@@ -1,0 +1,19 @@
+{
+  "sourceDir": "integration/runs/stage-pressure/B3/runs/candidate-706",
+  "sourceFiles": {
+    "result.json": "507bfb1921f4eed10b773b0ac50c61b992999721690327b596c56e4c7a8a43a5",
+    "trace.json.gz": "33c3464d3fafd77eaf0aafc2dfe1045594cacbe45fb423520bb8b1c4b32041d0",
+    "inputs.json": "d02d13e1cf8e6f4b9121bfa41e4fbdc7196be75f986266af1d2a494708cd3fd3",
+    "map.json": "57739f6138977f272d5f000d5ed580aa8fa777935c427e132b940e5bd2cc829d"
+  },
+  "hashBound": true,
+  "horizonTicks": 3600,
+  "request": {
+    "seed": 706,
+    "duration_s": 31,
+    "difficulty": "medium",
+    "theme": "signal",
+    "experimental": true,
+    "holdout": false
+  }
+}

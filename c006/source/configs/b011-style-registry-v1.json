@@ -1,0 +1,14 @@
+{
+  "version": "b011-cumulative-patrol-reception-v1",
+  "module": "source/b011-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "parent": {
+    "acceptedPointerFile": "outer/b011/accepted-before.json",
+    "acceptedPointerSHA256": "a75d1eaf07b1350960c271a35e67f19cb3bcd50ec25931721a32fe8503e575ab",
+    "module": "source/b010-style-registry.cjs",
+    "config": "source/configs/b010-style-registry-v1.json",
+    "moduleSHA256": "d780ac9cb5cf27fc716815a065c249e192bbbadea4d846b940fd84f520473b53",
+    "configSHA256": "1e066ced7c788f02da1380d87cf4c3fce374e09fbf6e502b8720ba3720233af9"
+  },
+  "explicitCandidate": "diagonal-patrol-common-reception"
+}

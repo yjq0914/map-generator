@@ -1,0 +1,19 @@
+{
+  "sourceDir": "integration/runs/four-loops/B2/runs/candidate-705",
+  "sourceFiles": {
+    "result.json": "2880e2137a1b2c5bf2caf5ac6532d922a4577711e314a2bbd3444b71b4232ad4",
+    "trace.json.gz": "dcf6ab1da8ab123c8dfaca3b5b4403529883e1bc0759e8cce4d7684f78e53c79",
+    "inputs.json": "3ebe1d4b5d1a32ca60c2aad73706129e157d49f30482d7c5fa88d161d7735e8b",
+    "map.json": "ec4c81511a6ef0f4b60555de98815b04ee1a60bcf5c39b2725d67e4a227278c7"
+  },
+  "hashBound": true,
+  "horizonTicks": 3600,
+  "request": {
+    "seed": 705,
+    "duration_s": 31.5,
+    "difficulty": "easy",
+    "theme": "foundry",
+    "experimental": true,
+    "holdout": false
+  }
+}

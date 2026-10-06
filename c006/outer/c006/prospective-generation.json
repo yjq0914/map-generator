@@ -1,0 +1,1086 @@
+{
+  "sourceIdentity": "e4569d8bbeec61c5c1bfb150343aaf72fe3f520f862b5cb3821edbac4f352bfc",
+  "generation": [
+    {
+      "id": "control-00",
+      "group": "control",
+      "adjacency": "upper-after",
+      "parentMapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+      "candidateMapHash": "4c9ab04e1aaa5fa83d33ca27522853806ef7fa1f60442be1b09a27d0289a2d21",
+      "selectedNormalForm": "HLT",
+      "requestHash": "9d9a5d977f14db2881ee258b339ed8ed720d4a2deadcbb63140d7e4a3df5f386",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": 36,
+      "firstRecoverySeconds": 2,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 8100,
+          "endTick": 9900,
+          "forceSourceIds": [
+            "c7-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "control-01",
+      "group": "control",
+      "adjacency": "upper-after",
+      "parentMapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+      "candidateMapHash": "249ba3d452d43f70f79043ad8af93ba13b458a5bb289636e61d8bd24a479ba30",
+      "selectedNormalForm": "HLT",
+      "requestHash": "55b25eb41dba9edf830eb3b16a8cd84aa090cfc5c23ae628225af22232e168d9",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": 60,
+      "firstRecoverySeconds": 2,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 8100,
+          "endTick": 9900,
+          "forceSourceIds": [
+            "c7-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "control-02",
+      "group": "control",
+      "adjacency": "upper-after",
+      "parentMapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+      "candidateMapHash": "6ed68dfef4f67c8d0a3ebfc0ad795d2ac23c474e5063c6d9853091d501a2ec06",
+      "selectedNormalForm": "HLT",
+      "requestHash": "75ce71ba5d4c86bb4d40cc9c5935e5df4438e397041b0cc711a26c5ac91407ba",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": -60,
+      "firstRecoverySeconds": 1.2,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 8100,
+          "endTick": 9900,
+          "forceSourceIds": [
+            "c7-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "control-03",
+      "group": "control",
+      "adjacency": "upper-after",
+      "parentMapHash": "f040eb22255a190a38d20e8aec57f629db44eb8f90936d3d42fd175ff465fe8e",
+      "candidateMapHash": "8f424fddd81f670f252af633267d93c48da03bb7ba6a63a68f659c9945129173",
+      "selectedNormalForm": "HLT",
+      "requestHash": "c0151a8e135475fdddf0b7b42cdf2ad0f3482576e257e95828141b62f4a0d4fa",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": -12,
+      "firstRecoverySeconds": 1.6,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 8100,
+          "endTick": 9900,
+          "forceSourceIds": [
+            "c7-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "control-04",
+      "group": "control",
+      "adjacency": "lower-before",
+      "parentMapHash": "da7605dbe0faa53e0917d9a34b62dd15eb29a0d49f58bbe0d9be8370bffac6e2",
+      "candidateMapHash": "a8b7c68a0713b976afc64d424c003c6f811d1b9304c62160226a0f9835caa3ca",
+      "selectedNormalForm": "HJT",
+      "requestHash": "dbebcc1d751333100bbdf4a0db906b7f72c3755437c2f77f762f8a579229a87d",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": 0,
+      "firstRecoverySeconds": 1.6,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1309,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "control-05",
+      "group": "control",
+      "adjacency": "lower-before",
+      "parentMapHash": "da7605dbe0faa53e0917d9a34b62dd15eb29a0d49f58bbe0d9be8370bffac6e2",
+      "candidateMapHash": "21e4224e35dea28c72624c16bb720e702fc7645d5389d7b1a21789529fac73e1",
+      "selectedNormalForm": "HJT",
+      "requestHash": "8840d5009dd7bf4b2e14601f7e1715218bd32ff7255204b212682c991132c017",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": -12,
+      "firstRecoverySeconds": 1.6,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1309,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "control-06",
+      "group": "control",
+      "adjacency": "upper-after",
+      "parentMapHash": "5160c5f625f83b207ce8132c3c82737a9f4e285d05801d9a1196d96706c0b77b",
+      "candidateMapHash": "91d46a89a51f4beb9a6307e292868792db3337bdde29e51377bce385e82df274",
+      "selectedNormalForm": "LT",
+      "requestHash": "6f7f27889ec5bdc5cd3aac70ae8e721605a3e94c6c6a350e723bb3355894c705",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": 24,
+      "firstRecoverySeconds": 1.9,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1497,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "control-07",
+      "group": "control",
+      "adjacency": "lower-before",
+      "parentMapHash": "dad175e11a3fc99476c52fa1384facd0583ccfce17ce4750f3b1f529a749d43c",
+      "candidateMapHash": "05b4d8122ca8ba5e19b5267fdadfbff94001c59bcf8050e0bc8224da2868038a",
+      "selectedNormalForm": "L",
+      "requestHash": "63514d78a2e94ba944afa2295c955a4cd51635cfe208a9e5b8a258e85fafd00d",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": -48,
+      "firstRecoverySeconds": 1.3,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1309,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "explore-00",
+      "group": "explore",
+      "adjacency": "upper-after",
+      "parentMapHash": "cfd327cb3fc7e318f513e87e80234f4c28c6c81409f2a2718d1690751bf805d1",
+      "candidateMapHash": "14a813c903bab847ac878ba34d131d216f07209a70747e3164530bc8d68b831c",
+      "selectedNormalForm": "B",
+      "requestHash": "4143bf566b36470ca2c786896ee26116794f6484f618ea4132fbfeeef8bf860a",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": 24,
+      "firstRecoverySeconds": 1.9,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "explore-01",
+      "group": "explore",
+      "adjacency": "lower-before",
+      "parentMapHash": "a72aa1b57049797d0d5b2b1db57c555dd4eb4d464f2a3450d51ea8368d874969",
+      "candidateMapHash": "0c32ee58bb9562c163b4afa597ae371d875eada53fa9640b2ed2d8a3d32142d7",
+      "selectedNormalForm": "H",
+      "requestHash": "b14eaa55ac4cf2a1f6adc3bc7aa759e56a2f73a8475698d30feb4dca5e363520",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": -36,
+      "firstRecoverySeconds": 1.3,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 5520,
+          "endTick": 7320,
+          "forceSourceIds": [
+            "c5-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9840,
+          "endTick": 13440
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "explore-02",
+      "group": "explore",
+      "adjacency": "upper-after",
+      "parentMapHash": "396e6c42b0cda01c78b72f5c72e5255c7be916a161586073f2898b2d7685a311",
+      "candidateMapHash": "56e9cf48ee498170d1af95f2cb8e95e070d856c339f3a78d9c7a4eb0778bcc66",
+      "selectedNormalForm": "T",
+      "requestHash": "d4ddcbb2ae7b2f968958dfd89e824fb55de641e79ab865a4e37932d2505c8212",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": 48,
+      "firstRecoverySeconds": 1.9,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "explore-03",
+      "group": "explore",
+      "adjacency": "lower-before",
+      "parentMapHash": "9bee4501cf5f5f822e0b72cdabe17deca52621a82c8ece325553cc0dc403313e",
+      "candidateMapHash": "80c9d21bcdbc7a9bc4bf3b82cd1006656a945cbce41a8db472f88aa901aed8cb",
+      "selectedNormalForm": "J",
+      "requestHash": "21b6329da0fbc354cdb2d44d6bcdee9bb128b655e8cbfac8043c3a23f56b372d",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": -24,
+      "firstRecoverySeconds": 1.3,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1322,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "explore-04",
+      "group": "explore",
+      "adjacency": "upper-after",
+      "parentMapHash": "f1104f6b9a1b4792861ffed0ac7490f1536a1a58158565bb1ac7436914eb51ad",
+      "candidateMapHash": "1d036e2d47aa09459b36b0912c758f6cf489bbcc88e4dc560b9f6deb87c5ab65",
+      "selectedNormalForm": "HT",
+      "requestHash": "9402057ab25a873d2c8d38ed511980fe6e9c967d957e8b5f7177fe080b564bbc",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": 36,
+      "firstRecoverySeconds": 1.9,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 7020,
+          "endTick": 8820,
+          "forceSourceIds": [
+            "c6-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "explore-05",
+      "group": "explore",
+      "adjacency": "lower-before",
+      "parentMapHash": "96f72e3b2d996a42d6e0579ae57cc923d4583ec17115d5401ac0b672afc24459",
+      "candidateMapHash": "faa89c714514c339a9dcd0158f585ebdfd2b5a4154aaad189450fa3404e944b0",
+      "selectedNormalForm": "HJ",
+      "requestHash": "0ab04f65ca650dcd778ab6261bd0d4c4f87af78794f1a68c3c500478b08cbdc2",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": -24,
+      "firstRecoverySeconds": 1.3,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1303,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "explore-06",
+      "group": "explore",
+      "adjacency": "upper-after",
+      "parentMapHash": "d5f3259b3b496b64da4baccaab71453f641bc2b3482aa8374368bb8fb48d9e10",
+      "candidateMapHash": "7d8ac1adef01b839a17efc2f5cac37b3d0cb98a316109e8cf050dd02880dcc78",
+      "selectedNormalForm": "JT",
+      "requestHash": "ac92464d8ee5f3034bcf7c579f882498f5f71bd1eea65aca7e0bf06a0bcd54df",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": 36,
+      "firstRecoverySeconds": 1.9,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1502,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-press-0-top",
+            "c1-press-0-bottom"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "explore-07",
+      "group": "explore",
+      "adjacency": "lower-before",
+      "parentMapHash": "3ecef2ee7add6f2700b506e88bdcd5ea2cd224fb202db332d7e297c641fa6350",
+      "candidateMapHash": "67030bc869a6dccaf037e1cf6109c6b1c55bc405a3239344eeda8403549e8bc8",
+      "selectedNormalForm": "HL",
+      "requestHash": "4165547c2d3a8940e0a61e4cf5c24198315a1afd04239172f0845b9206614b05",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": -36,
+      "firstRecoverySeconds": 1.3,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1309,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "holdout-00",
+      "group": "holdout",
+      "adjacency": "upper-after",
+      "parentMapHash": "1edb038429cab2992eff35d089941a4003aabd7e657fdb7b19a1098a7dfc9bc1",
+      "candidateMapHash": "92e6f44c758c80df309fb442a489ae842216ee97babde9395a038334f81eb9f6",
+      "selectedNormalForm": "L",
+      "requestHash": "402aa0028c8f25010bd6c7aa581653b3d413add6639c7eb838bf5690edf17b1c",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": -40,
+      "firstRecoverySeconds": 1.3666666666666667,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1507,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "holdout-01",
+      "group": "holdout",
+      "adjacency": "lower-before",
+      "parentMapHash": "8e2374573fa37e73f731ca9290de1ba145d6ddf355553203e94bb7423d14cc1a",
+      "candidateMapHash": "15e9b5bd1f46fc1cbfde1351406e25f415b26c03fb965550d34773a42327da87",
+      "selectedNormalForm": "HL",
+      "requestHash": "4c10cf2941459c20b900c786da5749ce9e37f0968ab9d0b31515840a726d0254",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": -5,
+      "firstRecoverySeconds": 1.4583333333333333,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1316,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 6840,
+          "endTick": 8640,
+          "forceSourceIds": [
+            "c6-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "holdout-02",
+      "group": "holdout",
+      "adjacency": "upper-after",
+      "parentMapHash": "9c7e36b14e51a543c475c776c637425c1e4880afb048694a078e40728494f65c",
+      "candidateMapHash": "323bff6ac283b1c27deb83b9e2f1bf465cbacb337bd7b3ddea28314a6c60a990",
+      "selectedNormalForm": "LT",
+      "requestHash": "31264bb74c09fc477ee1de8071f795269dfb59dc0d4d9a40274df391486a8fec",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": 25,
+      "firstRecoverySeconds": 1.8083333333333333,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1506,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 1200,
+          "endTick": 2401,
+          "forceSourceIds": [
+            "c1-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "holdout-03",
+      "group": "holdout",
+      "adjacency": "lower-before",
+      "parentMapHash": "9c812c2967cf57e740f9701d055362ad6f4cc05c5cc8fb01fe9d9dce2e629179",
+      "candidateMapHash": "75fd744100c5511cf99f07a7411e2894ce2f91e3010b5c05390b5a276f21a0fe",
+      "selectedNormalForm": "HLT",
+      "requestHash": "fbfabd4ade2a4cb13f47fccb771366376e0575f61bfa820aa3b9527cb31bbbc7",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": 0,
+      "firstRecoverySeconds": 1.5,
+      "currentLaserRoutesRebound": true,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "laser",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1323,
+          "forceSourceIds": [
+            "c0-wave-island-0"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "holdout-04",
+      "group": "holdout",
+      "adjacency": "upper-after",
+      "parentMapHash": "79b2177c02c9eaaefa6f7fb04ef76722eaa65dafba37a4ba8c8571cba6e376b4",
+      "candidateMapHash": "5fd6ea20759944f13ed00ab46cad17d7afe5a2f9794fc2905b56104101d598db",
+      "selectedNormalForm": "B",
+      "requestHash": "73e168bdbe744078db9b31996d0568b141f20ef53dd00cca3804e4ee4ace93ac",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": 30,
+      "firstRecoverySeconds": 1.75,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "holdout-05",
+      "group": "holdout",
+      "adjacency": "lower-before",
+      "parentMapHash": "ea44bc145de9bcecae19621d38a33018f7dd37ef8ca1c02ce3199f3e64de6d0b",
+      "candidateMapHash": "988ed521b5aef51b98569a2fe63af2a4a0beb9023098cac99bf628c546eee997",
+      "selectedNormalForm": "HJ",
+      "requestHash": "cafbba3eadd66cd6ec605ee04390867be68d982bcd87accc536c63b6eb622bf3",
+      "macroOrder": [
+        9,
+        10
+      ],
+      "transferTicks": 18,
+      "firstRecoverySeconds": 1.75,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1298,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "holdout-06",
+      "group": "holdout",
+      "adjacency": "upper-after",
+      "parentMapHash": "005dc3f2b3a873916cccca4292a76ad9e0b981863e6082e308e8a4c8ea8d3fe3",
+      "candidateMapHash": "25423326735a7a384b5ad5e8fcb738deab283d92e70e35debb68af3e9593d167",
+      "selectedNormalForm": "JT",
+      "requestHash": "8bd95c81e03b4771bef8425816d5ff1b38fb37e363971eb9e8b1a83cc707be0e",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": 35,
+      "firstRecoverySeconds": 1.7916666666666667,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1483,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-press-0-top",
+            "c1-press-0-bottom"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 10320,
+          "endTick": 14160
+        }
+      ],
+      "generationError": null
+    },
+    {
+      "id": "holdout-07",
+      "group": "holdout",
+      "adjacency": "lower-before",
+      "parentMapHash": "f95ddfbd5a407750cbd790518518be2dce42274f20c3e680e1dadd3393561a81",
+      "candidateMapHash": "042a1c555ca39b6204912fe7ba1a1e860c6d37cd19231d54c8eec93b1f7a2dff",
+      "selectedNormalForm": "HJT",
+      "requestHash": "4162540ddcd51c96273c03d97f9e211a18101ff3ee9363a551c3b28b3ec639a6",
+      "macroOrder": [
+        10,
+        9
+      ],
+      "transferTicks": 4,
+      "firstRecoverySeconds": 1.6333333333333333,
+      "currentLaserRoutesRebound": false,
+      "completeOldIntent": "unsupported",
+      "windows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1311,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-adj-lower"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        },
+        {
+          "name": "hammer",
+          "layer": "combo",
+          "startTick": 4380,
+          "endTick": 6180,
+          "forceSourceIds": [
+            "c4-wave-island-0"
+          ]
+        },
+        {
+          "name": "late-macro-stage",
+          "layer": "stage",
+          "startTick": 9960,
+          "endTick": 13560
+        }
+      ],
+      "generationError": null
+    }
+  ],
+  "physics": {
+    "blockedDynamicEngineExports": 45,
+    "forbiddenCalls": 0,
+    "physicalExecutions": 0,
+    "physicalTicks": 0
+  },
+  "heldoutOutcomesObserved": false,
+  "excludedAllC005RevealedPhysicalInputs": true
+}

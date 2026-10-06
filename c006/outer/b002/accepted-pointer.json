@@ -1,0 +1,83 @@
+{
+  "schema": "lean-cumulative-accepted-pointer/1",
+  "version": "lean-cumulative-with-hammer-v1",
+  "round": "b002",
+  "updatedAt": "2026-10-05T04:22:30.231Z",
+  "generator": "source/b002-style-registry.cjs",
+  "config": "source/configs/b002-style-registry-v1.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    },
+    {
+      "id": "phase-through-or-bypass",
+      "generator": "source/a007-phase-generator-v2.cjs",
+      "config": "source/configs/a007-phase-v2.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a007/decision.json"
+    },
+    {
+      "id": "horizontal-phase-composition",
+      "generator": "source/a009-composed-generator.cjs",
+      "config": "source/configs/a009-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12phaseentrysingle-commandprofiles;explicit only",
+      "decision": "outer/a009/decision.json"
+    },
+    {
+      "id": "phase-late-horizontal-composition",
+      "generator": "source/a010-composed-generator.cjs",
+      "config": "source/configs/a010-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;4target-entry single-command +/-1tick sensitivities; explicit only",
+      "decision": "outer/a010/decision.json"
+    },
+    {
+      "id": "late-phase-late-horizontal-composition",
+      "generator": "source/a012-composed-generator.cjs",
+      "config": "source/configs/a012-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes; prospective collision-footprint usage; zero routine perturbations or replays; explicit only",
+      "decision": "outer/a012/decision.json"
+    },
+    {
+      "id": "pinned-contact-relation-composition",
+      "generator": "source/b001-relation-grammar.cjs",
+      "config": "source/configs/b001-relation-grammar-v1.json",
+      "qualification": "finite24conditions/48assignedroutes/new-neighbour physical-action evidence",
+      "decision": "outer/b001/decision.json"
+    },
+    {
+      "id": "early-swinging-hammer",
+      "generator": "source/b002-swing-hammer.cjs",
+      "config": "source/configs/b002-swing-hammer-v1.json",
+      "qualification": "finite24conditions/48assignedroutes/actual circle-capsule demand in8pairedroutes; unprompted human reaction unknown",
+      "decision": "outer/b002/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "lean-cumulative-relation-grammar-v1",
+    "immutablePointer": "outer/b002/accepted-before.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/b002/decision.json",
+  "sourceFreeze": "protocols/freezes/b002-formal-v1.json",
+  "sourceManifestHash": "65c6c4f4a9b16a02f15bfc803a8b55e893ecb1d1d88d252958d10144faa2f2d4",
+  "artifactManifest": "outer/b002/artifact-manifest.json",
+  "artifactManifestHash": "c81026bc3c45e28f89c14ab6b192408197b107266c5e510b23b7d9befa37f0cf",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_83afd8ee05748191a75e118ec90e3a7a",
+    "libraryVersion": 15,
+    "sha256": "ec8eb103c68b9e909cd7b0cefff4e54e139c92fafc4c4320075acebaacbf361d",
+    "receipt": "protocols/receipts/b002-qualified-v2.json"
+  },
+  "qualification": "Add an explicit early swinging hammer style, using an existing runtime disk and lethal capsule arm. Preserve seven old style choices exactly. Full24condition/48route physical recovery evidence; changed-action plus old-path geometric overlap only in8pairedroutes. Not a human-fun or universal-necessity claim.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/b002/accepted-pointer.json"
+}

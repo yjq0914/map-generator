@@ -1,0 +1,15 @@
+test_actual_full_map_and_reproducibility (test_generator.GeneratorTests.test_actual_full_map_and_reproducibility) ... ok
+test_difficulty_changes_geometry (test_generator.GeneratorTests.test_difficulty_changes_geometry) ... ok
+test_explicit_experimental (test_generator.GeneratorTests.test_explicit_experimental) ... ok
+test_gate_origin_only (test_generator.GeneratorTests.test_gate_origin_only) ... ok
+test_no_intermediate_state_reset (test_generator.GeneratorTests.test_no_intermediate_state_reset) ... ok
+test_phase_translation (test_generator.GeneratorTests.test_phase_translation) ... ok
+test_policy_recursive (test_generator.GeneratorTests.test_policy_recursive) ... ok
+test_provider_hashes_and_variants (test_generator.GeneratorTests.test_provider_hashes_and_variants) ... ok
+test_theme_changes_choice (test_generator.GeneratorTests.test_theme_changes_choice) ... ok
+test_unsupported_duration_no_truncation (test_generator.GeneratorTests.test_unsupported_duration_no_truncation) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.222s
+
+OK

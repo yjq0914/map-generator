@@ -1,0 +1,953 @@
+{
+  "schema": "flappy-loop-lab/1",
+  "id": "lower-slider-carry-in",
+  "seed": 1,
+  "width": 2135,
+  "height": 540,
+  "route_id": "main",
+  "units": {
+    "distance": "px",
+    "time": "s",
+    "velocity": "px/s"
+  },
+  "obstacles": [
+    {
+      "id": "m01-solid-crown-1",
+      "mechanic_kind": "hero_rotor",
+      "x": 320,
+      "y": 245,
+      "collider": {
+        "shape": "circle",
+        "w": 140,
+        "h": 140
+      },
+      "motion": {
+        "angular_speed_rad_s": 1.2
+      },
+      "route_id": "main",
+      "effect_region": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m01-solid-crown-1",
+      "stage_id": "m01-R02",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m01-cloister-compressed-flush-v2"
+    },
+    {
+      "id": "m01-joined-plinth-1",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 355,
+      "y": 383,
+      "collider": {
+        "shape": "rectangle",
+        "w": 70,
+        "h": 157
+      },
+      "route_id": "main",
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m01-joined-plinth-1",
+      "stage_id": "m01-R02",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m01-cloister-compressed-flush-v2"
+    },
+    {
+      "id": "m01-canopy-1",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 310,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 160,
+        "h": 85
+      },
+      "route_id": "main",
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m01-canopy-1",
+      "stage_id": "m01-R02",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m01-cloister-compressed-flush-v2"
+    },
+    {
+      "id": "m01-solid-crown-2",
+      "mechanic_kind": "hero_rotor",
+      "x": 580,
+      "y": 135,
+      "collider": {
+        "shape": "circle",
+        "w": 140,
+        "h": 140
+      },
+      "motion": {
+        "angular_speed_rad_s": 1.2
+      },
+      "route_id": "main",
+      "effect_region": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m01-solid-crown-2",
+      "stage_id": "m01-R02",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m01-cloister-compressed-flush-v2"
+    },
+    {
+      "id": "m01-joined-hanger-2",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 615,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 70,
+        "h": 137
+      },
+      "route_id": "main",
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m01-joined-hanger-2",
+      "stage_id": "m01-R02",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m01-cloister-compressed-flush-v2"
+    },
+    {
+      "id": "m01-floor-loft-2",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 535,
+      "y": 430,
+      "collider": {
+        "shape": "rectangle",
+        "w": 230,
+        "h": 110
+      },
+      "route_id": "main",
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m01-floor-loft-2",
+      "stage_id": "m01-R02",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m01-cloister-compressed-flush-v2"
+    },
+    {
+      "id": "m01-solid-crown-3",
+      "mechanic_kind": "hero_rotor",
+      "x": 940,
+      "y": 245,
+      "collider": {
+        "shape": "circle",
+        "w": 140,
+        "h": 140
+      },
+      "motion": {
+        "angular_speed_rad_s": 1.2
+      },
+      "route_id": "main",
+      "effect_region": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m01-solid-crown-3",
+      "stage_id": "m01-R02",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m01-cloister-compressed-flush-v2"
+    },
+    {
+      "id": "m01-joined-plinth-3",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 975,
+      "y": 383,
+      "collider": {
+        "shape": "rectangle",
+        "w": 70,
+        "h": 157
+      },
+      "route_id": "main",
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m01-joined-plinth-3",
+      "stage_id": "m01-R02",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m01-cloister-compressed-flush-v2"
+    },
+    {
+      "id": "m01-canopy-3",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "x": 945,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 130,
+        "h": 85
+      },
+      "route_id": "main",
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m01-canopy-3",
+      "stage_id": "m01-R02",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m01-cloister-compressed-flush-v2"
+    },
+    {
+      "id": "m02-entry-top",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 1180,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 40,
+        "h": 90
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m02-entry-top",
+      "stage_id": "m02-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m02-mixed01-v2"
+    },
+    {
+      "id": "m02-entry-bottom",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 1180,
+      "y": 280,
+      "collider": {
+        "shape": "rectangle",
+        "w": 40,
+        "h": 260
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m02-entry-bottom",
+      "stage_id": "m02-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m02-mixed01-v2"
+    },
+    {
+      "id": "m02-corridor-top",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 1360,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 605,
+        "h": 70
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m02-corridor-top",
+      "stage_id": "m02-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m02-mixed01-v2"
+    },
+    {
+      "id": "m02-corridor-bottom",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 1360,
+      "y": 470,
+      "collider": {
+        "shape": "rectangle",
+        "w": 605,
+        "h": 70
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m02-corridor-bottom",
+      "stage_id": "m02-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m02-mixed01-v2"
+    },
+    {
+      "id": "m02-slider",
+      "mechanic_kind": "vertical_armor_slider",
+      "route_id": "main",
+      "x": 1510,
+      "y": 185,
+      "collider": {
+        "shape": "rectangle",
+        "w": 56,
+        "h": 170
+      },
+      "effect_region": null,
+      "motion": {
+        "type": "sine",
+        "amplitude_px": 75,
+        "period_s": 5.2,
+        "phase_rad": -7.209552371699655
+      },
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m02-slider",
+      "stage_id": "m02-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m02-mixed01-v2"
+    },
+    {
+      "id": "m02-island",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 1600,
+      "y": 245,
+      "collider": {
+        "shape": "rectangle",
+        "w": 135,
+        "h": 110
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m02-island",
+      "stage_id": "m02-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m02-mixed01-v2"
+    },
+    {
+      "id": "m02-receiver-top",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 1920,
+      "y": 0,
+      "collider": {
+        "shape": "rectangle",
+        "w": 45,
+        "h": 210
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m02-receiver-top",
+      "stage_id": "m02-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m02-mixed01-v2"
+    },
+    {
+      "id": "m02-receiver-bottom",
+      "mechanic_kind": "fixed_armor_or_spike",
+      "route_id": "main",
+      "x": 1920,
+      "y": 340,
+      "collider": {
+        "shape": "rectangle",
+        "w": 45,
+        "h": 200
+      },
+      "effect_region": null,
+      "motion": null,
+      "timeline": null,
+      "interaction": {
+        "lethal": true
+      },
+      "mount": "world",
+      "group_id": "m02-receiver-bottom",
+      "stage_id": "m02-mixed01-v2",
+      "sprint_id": "isolated-short-trace",
+      "template_instance_id": "m02-mixed01-v2"
+    }
+  ],
+  "integration": {
+    "schema": "geometry-v5-probe/1",
+    "status": "experimental",
+    "guide": [
+      {
+        "x": 60,
+        "until_x": 160,
+        "target_y": 298,
+        "module_id": "m01"
+      },
+      {
+        "x": 160,
+        "until_x": 480.0,
+        "target_y": 200,
+        "module_id": "m01"
+      },
+      {
+        "x": 480.0,
+        "until_x": 765.0,
+        "target_y": 390,
+        "module_id": "m01"
+      },
+      {
+        "x": 765.0,
+        "until_x": 1090,
+        "target_y": 200,
+        "module_id": "m01"
+      },
+      {
+        "x": 1090,
+        "until_x": 1295,
+        "target_y": 210,
+        "module_id": "m02"
+      },
+      {
+        "x": 1295,
+        "until_x": 1480,
+        "target_y": 360,
+        "target_y_end": 435,
+        "module_id": "m02"
+      },
+      {
+        "x": 1480,
+        "until_x": 1746,
+        "target_y": 435,
+        "module_id": "m02"
+      },
+      {
+        "x": 1746,
+        "until_x": 1975,
+        "target_y": 298,
+        "module_id": "m02"
+      },
+      {
+        "x": 1975,
+        "until_x": 2135,
+        "target_y": 298,
+        "module_id": "m02",
+        "policy": "terminal-recovery"
+      }
+    ],
+    "modules": [
+      {
+        "id": "m01",
+        "family": "cloister",
+        "variant": "alternate",
+        "start_x": 60,
+        "active_start_x": 300,
+        "active_end_x": 1090,
+        "end_x": 1090,
+        "shift_x": 0,
+        "time_shift_s": 0.0,
+        "body_ids": [
+          "m01-solid-crown-1",
+          "m01-joined-plinth-1",
+          "m01-canopy-1",
+          "m01-solid-crown-2",
+          "m01-joined-hanger-2",
+          "m01-floor-loft-2",
+          "m01-solid-crown-3",
+          "m01-joined-plinth-3",
+          "m01-canopy-3"
+        ],
+        "source_metadata": {
+          "schema": "candidate-generated-output/1",
+          "status": "unqualified_candidate_output",
+          "provider": "cloister-full-circle@1.0.0",
+          "source": {
+            "path": "sources/1ca1b89da4dcbcf9/emitter.py",
+            "sha256": "1ca1b89da4dcbcf9793cf0c79a05d14fd008d15a94176a1e547be2fa1136b9e3"
+          },
+          "dependencies": [],
+          "active_eligibility": {
+            "policy": "exclude-force-cores@1",
+            "sha256": "ee3ffa9968b7cc6a07be5e790aec4da2f61c593ce8b8af972be6d8efa9155931",
+            "excluded_mechanics": [
+              "suction_core",
+              "push_pulse_core"
+            ],
+            "inactive_provider_ids": [
+              "carried-speed-gate"
+            ],
+            "active": true,
+            "excluded_mechanics_present": []
+          },
+          "requested_spec": {
+            "answer_advance_px": 60
+          },
+          "resolved_spec": {
+            "schema": "cloister-placement-spec/1",
+            "disk_radius_px": 70,
+            "support_width_ratio": 1,
+            "node_span_px": 620,
+            "answer_advance_px": 60,
+            "spin_rad_s": 1.2,
+            "spin_pattern": "uniform"
+          },
+          "resolved_spec_sha256": "098b0c098f476bbfef1b5319ac7dba0ea8ad05d5130b2a192617d9d20070861c",
+          "native_map_sha256": "7e1d5eacb015ba676a2a651bf864108e6256b5b3993c2926edcca148744e00d0",
+          "parameter_effects": {
+            "spin_rad_s": "visual rotation only; full-circle collision unchanged",
+            "spin_pattern": "visual direction pattern only",
+            "disk_radius_px": "collision/profile change; supports and caps resize, center heights compensate to retain passage apertures",
+            "support_width_ratio": "collision/support-width change; any claimed retained corridor must be bounded explicitly, not global visual equivalence",
+            "node_span_px": "collision/spacing change; both center gaps and final reception position derive from it",
+            "answer_advance_px": "collision/placement change; move middle circle+hanger+floor together, reallocating descent/re-lift bays with outer stations fixed"
+          },
+          "variant_effect": "collision-placement-change",
+          "restricted_collision_signature_sha256": "14fe0fdcdc610d75d07bcf3aac41203660368b7039f10c251ce6049359d4a133",
+          "historical_exact_map_matches": [],
+          "historical_match_scope": "Exact native-map bytes only; not a new run, accepted entry/tape/state or family qualification. Collision signature is never an evidence lookup key.",
+          "provider_metadata": {
+            "schema": "cloister-placement-emission/1",
+            "provider_id": "cloister-full-circle",
+            "provider_version": "1.0.0",
+            "grammar_id": "cloister-compressed-flush-v2",
+            "parameterization": "full-circle-placement-factory",
+            "classification": "candidate",
+            "spec": {
+              "schema": "cloister-placement-spec/1",
+              "disk_radius_px": 70,
+              "support_width_ratio": 1,
+              "node_span_px": 620,
+              "answer_advance_px": 60,
+              "spin_rad_s": 1.2,
+              "spin_pattern": "uniform"
+            },
+            "parameter_effects": {
+              "spin_rad_s": "visual rotation only; full-circle collision unchanged",
+              "spin_pattern": "visual direction pattern only",
+              "disk_radius_px": "collision/profile change; supports and caps resize, center heights compensate to retain passage apertures",
+              "support_width_ratio": "collision/support-width change; any claimed retained corridor must be bounded explicitly, not global visual equivalence",
+              "node_span_px": "collision/spacing change; both center gaps and final reception position derive from it",
+              "answer_advance_px": "collision/placement change; move middle circle+hanger+floor together, reallocating descent/re-lift bays with outer stations fixed"
+            },
+            "variant_effect": "collision-placement-change",
+            "changed_spec": {
+              "answer_advance_px": 60
+            },
+            "derived": {
+              "disk_centers": [
+                [
+                  390,
+                  315
+                ],
+                [
+                  650,
+                  205
+                ],
+                [
+                  1010,
+                  315
+                ]
+              ],
+              "center_gaps_px": [
+                260.0,
+                360.0
+              ],
+              "constant_outer_span_px": 620,
+              "full_radius_disk_free_bays_px": [
+                100.0,
+                200.0
+              ],
+              "full_radius_disk_free_bays_s": [
+                0.6666666666666666,
+                1.3333333333333333
+              ],
+              "conservative_opposed_slab_free_bays_px": [
+                45.0,
+                160.0
+              ],
+              "center_slice_open_bands_y": [
+                [
+                  95,
+                  235
+                ],
+                [
+                  285,
+                  420
+                ],
+                [
+                  95,
+                  235
+                ]
+              ],
+              "band_bounds_exclusive": true,
+              "minimum_center_height_change_between_station_slices_px": 50,
+              "support_extremum_overlap_px": 2,
+              "support_width_px": 70,
+              "upper_physical_passage_px": 160,
+              "lower_physical_passage_px": 155,
+              "exit_if_alive_s": 8.0,
+              "station_center_times_s": [
+                2.2,
+                3.933333333333333,
+                6.333333333333333
+              ],
+              "actual_new_run_state": null
+            },
+            "relations": {
+              "centers": "C1.x390; C2.x390+span/2+10\u2212advance; C3.x390+span. Seed center gaps320/300.",
+              "profile": "upper circle center y85+160+r; lower center y430\u2212155\u2212r; full passage widths160/155 remain intact",
+              "flush_support": "support width=r*ratio, centered under/above full circle; extremum overlaps2px, so no artificial seam",
+              "cap_widths": "first roof2r+20; lower floor2r+90; last roof2r\u221210, all centered on their associated disk",
+              "action": "above \u2192 below \u2192 above stays the sentence; advancing the middle answer trades descent preparation for re-lift preparation",
+              "rotation": "whole disks remain filled and lethal at all angles. Decorative spokes, if drawn, are paint only. Zero is rejected because native||2 fallback is not stationary."
+            },
+            "collision_signature_sha256": "14fe0fdcdc610d75d07bcf3aac41203660368b7039f10c251ce6049359d4a133",
+            "native_map_sha256": "7e1d5eacb015ba676a2a651bf864108e6256b5b3993c2926edcca148744e00d0",
+            "semantic_map_sha256": "7e410cce5fc401f30dced36284eeb9e751098b7d5dd247845b2a8180db99edff",
+            "seed_identity": {
+              "reconstruction_expected": false,
+              "exact_map_bytes_match": false,
+              "reference_map_path": "../../physics/cloister-v2-attempt01-map.json",
+              "reference_map_sha256": "18b18d7dbc21bf953cbf386a11f62bb7f5887bc083193f70ebe9ab03373143fb",
+              "reference_input_path": "../../physics/cloister-v2-attempt01-inputs.json",
+              "reference_tape_sha256": "dff3598abcba9926ba23b98bc021c0ae94d9d6a5f89331bb9459d2da3ec50c76",
+              "old_evidence_applies_to_exact_map_only": true
+            },
+            "old_measured_evidence": {
+              "linked_exact_seed_only": true,
+              "not_new_measurement": true,
+              "map_sha256": "18b18d7dbc21bf953cbf386a11f62bb7f5887bc083193f70ebe9ab03373143fb",
+              "entry": {
+                "tick": 0,
+                "x": 60,
+                "y": 270,
+                "vx": 150,
+                "vy": 0
+              },
+              "exit": {
+                "tick": 960,
+                "time_s": 8,
+                "x": 1260,
+                "y": 251.41249999999965,
+                "vy": 51.66666666666654,
+                "vx": 150
+              },
+              "flaps": 13,
+              "observed_substep_minimum_clearance_px": 28.394444444444616,
+              "not_a_general_safe_box": true,
+              "new_variant_replay_performed": false
+            },
+            "entry": {
+              "native_default": {
+                "x": 60,
+                "y": 270,
+                "vx": 150,
+                "vy": 0
+              },
+              "accepted_box": null
+            },
+            "exit": {
+              "actual_new_run_state": null,
+              "desired_y": [
+                220,
+                330
+              ],
+              "desired_vy": [
+                -150,
+                150
+              ],
+              "preserve": [
+                "absolute time",
+                "actual y/vy",
+                "all full-circle collision geometry"
+              ],
+              "one_old_seed_tuple_is_not_an_exit_range": true
+            },
+            "input_question": "Does moving the middle full disk group60px earlier require an earlier release or changed re-lift cadence, while changing signed spin alone leaves all collision geometry identical?",
+            "preview_contract": {
+              "lookahead_px": 520,
+              "renderer_verified": false,
+              "rule": "show each full disk boundary and its joined support. Rotation may change appearance, never advertise gaps between painted spokes."
+            },
+            "risks": [
+              "new structural placement has no input witness",
+              "old seed tape was a route-guided existence witness, not first-sight play",
+              "visual-only changes can affect readability but cannot create physical blade windows",
+              "conservative free-bay reserves are not a latest flap time or reachability proof"
+            ],
+            "new_physics_run": false,
+            "measured_bounds": null
+          },
+          "physics_executed": false,
+          "qualification_transferred": false,
+          "limitations": [
+            "Full filled circles; spin parameters are visual only, support width/radius/span/advance alter collision.",
+            "Coupled reserves are authored geometry conditions, not input ranges. Spin0 is rejected, not a visual freeze.",
+            "Historical exact map reference is not a new run or qualification. Spatial analysis wrapper is not another generation provider."
+          ],
+          "integration_refinements": [
+            {
+              "id": "cloister-first-disk-release-v1",
+              "first_revision": 4,
+              "changed_bodies": [],
+              "changed_guide_boundary": {
+                "from_x": 420,
+                "to_x": 480.0
+              },
+              "relation": "first upper-to-lower cue >= first full disk right + player radius + 10 px; independent of middle answer advance",
+              "first_disk_radius_clear_x": 470.0,
+              "release_reserve_px": 10.0,
+              "evidence_basis": "L2B new-2701 tick324 first-disk clearance 0.476734666 px; alternate cue advanced to420 despite unchanged first disk",
+              "qualification": "experimental authored correction; not a measured safe state box or inherited qualification"
+            }
+          ]
+        }
+      },
+      {
+        "id": "m02",
+        "family": "slider-island",
+        "variant": "alternate",
+        "start_x": 1090,
+        "active_start_x": 1170,
+        "active_end_x": 1975,
+        "end_x": 1975,
+        "shift_x": 1000,
+        "time_shift_s": 6.666666666666667,
+        "body_ids": [
+          "m02-entry-top",
+          "m02-entry-bottom",
+          "m02-corridor-top",
+          "m02-corridor-bottom",
+          "m02-slider",
+          "m02-island",
+          "m02-receiver-top",
+          "m02-receiver-bottom"
+        ],
+        "source_metadata": {
+          "schema": "candidate-generated-output/1",
+          "status": "unqualified_candidate_output",
+          "provider": "mixed01-slider-fixed-route@1.0.0",
+          "source": {
+            "path": "sources/6510ee3ec22bd802/emitter.py",
+            "sha256": "6510ee3ec22bd802e2275b1f2d5df16fa63b511e5e31153ca6d6658b742f69ba"
+          },
+          "dependencies": [],
+          "active_eligibility": {
+            "policy": "exclude-force-cores@1",
+            "sha256": "ee3ffa9968b7cc6a07be5e790aec4da2f61c593ce8b8af972be6d8efa9155931",
+            "excluded_mechanics": [
+              "suction_core",
+              "push_pulse_core"
+            ],
+            "inactive_provider_ids": [
+              "carried-speed-gate"
+            ],
+            "active": true,
+            "excluded_mechanics_present": []
+          },
+          "requested_spec": {
+            "branch": "lower",
+            "core_shift_px": 60
+          },
+          "resolved_spec": {
+            "schema": "mixed01-slider-route-spec/1",
+            "branch": "lower",
+            "core_shift_px": 60,
+            "entry_connector": "included"
+          },
+          "resolved_spec_sha256": "7d39af3bb5107735da047083a27f6fdd984e43e43b681f79b9e2ce262611fc1e",
+          "native_map_sha256": "19b217ecf60e7933c46b0d36b42f852065264b06a90460dc9f895d6b3a3e7ba5",
+          "parameter_effects": {},
+          "variant_effect": "unclassified-by-provider",
+          "restricted_collision_signature_sha256": null,
+          "historical_exact_map_matches": [],
+          "historical_match_scope": "Exact native-map bytes only; not a new run, accepted entry/tape/state or family qualification. Collision signature is never an evidence lookup key.",
+          "provider_metadata": {
+            "schema": "mixed01-slider-route-emission/1",
+            "grammar_id": "mixed01-slider-fixed-route",
+            "emitter_version": "v1",
+            "normalized_spec": {
+              "schema": "mixed01-slider-route-spec/1",
+              "branch": "lower",
+              "core_shift_px": 60,
+              "entry_connector": "included"
+            },
+            "classification": "candidate",
+            "native_map_sha256": "19b217ecf60e7933c46b0d36b42f852065264b06a90460dc9f895d6b3a3e7ba5",
+            "semantic_sha256": "cd5a9d8bd1f60b3f9c75c956f4a528e3db11b02f6db0dbd51d86fd5332ce8287",
+            "relationship": {
+              "formula": "x_core_new=x_core_seed+delta; phi_new=phi_seed-(2*pi/5.2)*(delta/150)",
+              "fixed_values": {
+                "vx_reference": 150,
+                "period_s": 5.2,
+                "amplitude_px": 75,
+                "slider_to_island_raw_gap_px": 34,
+                "island_to_receiver_raw_gap_px": 185
+              },
+              "derived": {
+                "translation_delay_s": 0.4,
+                "favored_extremum_s": 3.1999999999999997,
+                "phase_rad": 0.8458134067357137,
+                "throat_to_corridor_raw_gap_px": 140
+              },
+              "what_it_preserves": "At t_new=t_seed+delta/150, slider pose equals seed pose at t_seed, for an unchanged horizontal-speed reference.",
+              "what_it_does_not_preserve": "Gravity, flap history, entry state, connector recovery or controller behavior are not time-translated by this identity."
+            },
+            "entry_connector": {
+              "mode": "included",
+              "condition": "Included throat is conditional: omit only when caller supplies a separately justified state contract. It is not proven required.",
+              "entry_player_if_new_episode": {
+                "x": 60,
+                "y": 270,
+                "vx": 150,
+                "vy": 0
+              },
+              "accepted_entry_box": null
+            },
+            "clock_contract": {
+              "geometry_clock": "runtime absolute tick; never renormalize a supplied continuation tick",
+              "required_start_tick": 0,
+              "createState_auto_injects_contract": false
+            },
+            "authored_bounds": {
+              "proposed_exit_goal": {
+                "y": [
+                  245,
+                  305
+                ],
+                "vy": [
+                  -100,
+                  160
+                ]
+              },
+              "status": "design target only, not accepted or guaranteed",
+              "grammar_constraints": [
+                "included throat right220 to corridor start must exceed2R=20",
+                "slider/island/receiver move together; relative gaps fixed",
+                "phase cannot be independently supplied"
+              ]
+            },
+            "measured_bounds": null,
+            "historical_seed_evidence": {
+              "source_map": "../../physics/mixed01-v2-lower-attempt01-map.json",
+              "source_result": "../../physics/mixed01-v2-lower-attempt01-result.json",
+              "source_map_sha256": "ff6d52c609d8de5d1edc91842fde49cc7dfb4c9b65393367b2c06de0eb7189bd",
+              "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+              "applies_to_this_exact_map": false,
+              "entry": {
+                "x": 60,
+                "y": 270,
+                "vx": 150,
+                "vy": 0
+              },
+              "ticks": 804,
+              "time_s": 6.7,
+              "exit_state": {
+                "x": 1065,
+                "local_x": 1005,
+                "y": 263.8541666666667,
+                "vy": 154.16666666666654,
+                "vx": 150
+              },
+              "authored_exit_goal_met_by_seed": true,
+              "upper_vy_mismatch": "upper measured vy\u2248161 exceeds proposed +160, with no tolerance added",
+              "scope": "One historical route-guided existence witness only; no entry/exit box, human readability or family transfer guarantee. Not rerun."
+            },
+            "new_physics_run": false,
+            "transformed_candidate_has_no_inherited_success": true,
+            "render_contract": {
+              "use": "map.obstacles and actual emitted slider equation; no hand-copied geometry",
+              "player_trajectory": "none unless separately linked to exact historical trace"
+            }
+          },
+          "physics_executed": false,
+          "qualification_transferred": false,
+          "limitations": [
+            "Included connector and nominal fresh entry only in this entrypoint; external_entry_contract and entry_player are not exposed.",
+            "Core shift couples corridor/slider/receiver and phase; no independent phase. Unqualified lower/new shifts are not qualified recipes.",
+            "Even a map matching an approved recipe is only candidate output here; select/vary retain their independent exact contracts."
+          ],
+          "integration_refinements": [
+            {
+              "id": "slider-lower-answer-v1",
+              "first_revision": 5,
+              "previous_source_native_map_sha256": "ffbfa52bd52ea91a646cabe333c375f9150ac807f07495f6d3b959e6d4120ecd",
+              "changed_bodies": [
+                "entry-top",
+                "entry-bottom",
+                "island"
+              ],
+              "branch": "lower",
+              "source_relation": "existing provider derives lower favored phase; core geometry and phase shift covary",
+              "inlet_aperture_y": [
+                240,
+                440
+              ],
+              "island_drop_px": 30,
+              "minimum_island_to_receiver_rise_px": 35,
+              "island_radius_clear_x": 745,
+              "rise_to_receiver_x": 746,
+              "cloister_inlet_requirement": "retain upper carry-in aperture90..280 and target210 until lower_start; keep lower phase and subsequent lower/merge cues",
+              "qualification": "experimental alternative, no transferred historical lower-branch success or entry state box"
+            }
+          ]
+        }
+      }
+    ],
+    "seams": [
+      {
+        "from": "m01",
+        "to": "m02",
+        "from_family": "cloister",
+        "to_family": "slider-island",
+        "x": 1090,
+        "next_active_x": 1170,
+        "spatial_reserve_px": 80
+      }
+    ],
+    "plan": {
+      "actual_duration_s": 13.833333333333334
+    },
+    "state_policy": "one native initialization; no resets, restore, hazard deletion or forced contact"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "b006-diagonal-patrol-turn-encounter-v2",
+  "module": "source/b006-patrol-encounter-v2.cjs",
+  "constructionParent": {
+    "module": "source/a012-style-registry.cjs",
+    "config": "source/configs/a012-style-registry-v1.json",
+    "call": "generate(CONFIG, sixFieldCondition)",
+    "version": "recovery-cumulative-with-late-phase-composition-v1"
+  },
+  "activation": "explicit-candidate-only",
+  "operation": {
+    "type": "hold-diagonal-patrol-opposite-receiver",
+    "selector": "first-consecutive-hold-island-with-opposite-side-receiver",
+    "diameterPx": 56,
+    "horizontalTravelPx": 120,
+    "periodSeconds": 3.6,
+    "laneEndpoints": "upper-target-to-lower-target",
+    "phaseAlignment": "downward-midtrack-at-nominal-source-center-plus-public-phase"
+  },
+  "registryBinding": null,
+  "qualification": "unqualified finite explicit recipe; tentative b006 preparation, not an outer decision",
+  "humanFun": null
+}

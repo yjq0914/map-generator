@@ -1,0 +1,31 @@
+{
+  "version": "b011-diagonal-patrol-common-reception-v1",
+  "module": "source/b011-patrol-reception.cjs",
+  "constructionParent": {
+    "module": "source/b006-patrol-encounter-v2.cjs",
+    "config": "source/configs/b006-patrol-encounter-v2.json",
+    "version": "b006-diagonal-patrol-turn-encounter-v2",
+    "status": "REJECTED",
+    "ancestry": "exact rejected b006-v2 output; unchanged original patrol recipe; fresh complete revalidation mandatory"
+  },
+  "scientificParent": "exact rejected b006-v2; isolates physical reception relationship",
+  "activation": "prospective explicit candidate only; never register rejected b006 style",
+  "registryBinding": null,
+  "qualification": "unqualified; static preparation only",
+  "operation": {
+    "receiver": "replace resolved solid receiver by two real fixed bodies at original x/width",
+    "opening": "midpoint bisectors between both inherited receiver lane targets and their midpoint, expanded by player radius",
+    "routes": "both corresponding approach targets and receiver segment/checkpoint describe real central aperture"
+  },
+  "dependencies": {
+    "source/b006-patrol-encounter-v2.cjs": "cf1f9093185f615ed9c41cedf772615d4568f193f26fb7a485fa263127431437",
+    "source/configs/b006-patrol-encounter-v2.json": "b94ebe3806b679231420bb089131e1b818fe343e2f9aa026068f94d80f43d220",
+    "source/a012-style-registry.cjs": "1dfdb2b94a5d254dd5e7a0d379d4ebb62585e4bdedbce4d78f5d4c0934274901",
+    "source/configs/a012-style-registry-v1.json": "0a0d1745a6c047e88ab83046b599aa12cc1e864bf8dcbcf97d432ed31ee5170e",
+    "source/b004-island-effect-patch.cjs": "885904a8993f38f43b7bc27f9a16a2220a150771027878b3f0834614b8b2d0f9",
+    "source/vendor/route-controller-v5.cjs": "0bde43645180813df950ff2777fad328da3f9858870d1b01129809b0277a1476",
+    "source/vendor/route-controller-v6.cjs": "9e5324e81a640583d3f9c13f7edfcfe9aa2de66778a70fd92d437ccbb2505fa3",
+    "source/vendor/engine/core.js": "374dbce7990c8ca84772ef983d13225336b7d841a899e4c605b3f5163a48a6d4",
+    "source/vendor/contract.cjs": "ccccc4d0583a81e25ba03e44f42269eec51c0607cc9e69e3d309f4a51b25b881"
+  }
+}

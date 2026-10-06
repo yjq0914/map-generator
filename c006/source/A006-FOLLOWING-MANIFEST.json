@@ -1,0 +1,76 @@
+{
+  "schema": "a006-following-source-provenance/1",
+  "version": "a006-following-v1",
+  "status": "new unpublished explicitly activated branch; static verification only",
+  "constructionParent": "recovery-cumulative-v1",
+  "parentSourceFreeze": "protocols/freezes/a005-recovery-formal-v1.json",
+  "parentSourceManifestHash": "4e3d0e91a5bd2d0dc0cd098458f4247d5c0065734b75d1917fccd7cf14433352",
+  "newFiles": {
+    "source/a006-following-generator.cjs": {
+      "sha256": "bade0b7ffc25a4f9ee7ccc97a2904d6b440010634f9b80773dcdcd267367ad34",
+      "bytes": 9672
+    },
+    "source/configs/a006-following-v1.json": {
+      "sha256": "11b91794da34d98576c75cfa7b79c78d09f2b3a1da9743f5085330b1e83e7375",
+      "bytes": 399
+    },
+    "source/configs/a006-following-frozen-v1.json": {
+      "sha256": "10c7d568929d3b807aedfb773d9431a454c557d5de65d5808625c5479bfa7783",
+      "bytes": 408
+    },
+    "source/tests/a006-following-static.cjs": {
+      "sha256": "40f5f1e1f7481f53444786b882a79a14d845390ad4334a9d343ea5890b92adfc",
+      "bytes": 11961
+    },
+    "source/tests/a006-following-static-results.json": {
+      "sha256": "45663600f8410d99a25152d482a2ad31603af6c873c9534b4754a5f2dd16f1e2",
+      "bytes": 784
+    },
+    "source/A006-FOLLOWING.md": {
+      "sha256": "5ee5ad9d073f39a98b7d6485b76b8353cb5445b40db24383b85593b583d9e78f",
+      "bytes": 6377
+    }
+  },
+  "unchangedDependencies": {
+    "design/following-gate-post-length.cjs": {
+      "sha256": "d71001cc4f6ef83f2672026b8fada39f76ee01c7849705156362ffe8c59f2ab5",
+      "bytes": 16723
+    },
+    "design/following-observations-v2.cjs": {
+      "sha256": "954d7defac987d0760584df7273c703d9a90ff10af43c298f75c7e05659617ff",
+      "bytes": 12180
+    },
+    "design/static-engine-guard.cjs": {
+      "sha256": "19720ac74cfe81024365192ff324a7b77999c35ccd3b9d546324fb73f5caac0c",
+      "bytes": 852
+    },
+    "design/calibration-proposal.json": {
+      "sha256": "33c5483d27dd272fa4e9b56280400486170ef19dd2ff38d14bc0f5adf1a11970",
+      "bytes": 2141
+    },
+    "source/recovery-generator.cjs": {
+      "sha256": "cfa95700b8c47bd91fce42c1bfc739792c8f8244eee91ced9348b30b128814ed",
+      "bytes": 3657
+    },
+    "source/configs/recovery-cumulative-v1.json": {
+      "sha256": "3a395ff05906af147f1d7dba5da306efe6cf408ef5a9ddeab5179f7d3b6d1082",
+      "bytes": 557
+    },
+    "outer/a005-recovery/accepted-pointer.json": {
+      "sha256": "04eb78a963e38432c4268465f02a1de30b904ea2512bf2ecfe1aea40f0e58efc",
+      "bytes": 1538
+    }
+  },
+  "additionalRuntimeFreezePaths": [
+    "design/following-gate-post-length.cjs",
+    "design/following-observations-v2.cjs"
+  ],
+  "additionalStaticFreezePaths": [
+    "design/static-engine-guard.cjs",
+    "design/calibration-proposal.json"
+  ],
+  "staticResult": "source/tests/a006-following-static-results.json",
+  "physicalExecutions": 0,
+  "physicalTicks": 0,
+  "limitations": "No physics or acceptance work performed; no global dispatcher edits. Parent and candidate/control qualification belongs to central coordinator."
+}

@@ -1,0 +1,1 @@
+81/81 result→trace hashes validated; rows=actualTicks+1; runtime/controller pinned; each1 native init,0 restore/reset/deletion. 96 panel scenarios=72 fresh+24 exact reused. Original historical40 evidence runs remain separate.

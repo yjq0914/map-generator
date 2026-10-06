@@ -1,0 +1,12 @@
+test_invalid_arguments_and_missing_reserve_fail (test_receipt_v7.ReceiptV7Tests.test_invalid_arguments_and_missing_reserve_fail) ... ok
+test_only_two_gate_clock_fields_change (test_receipt_v7.ReceiptV7Tests.test_only_two_gate_clock_fields_change) ... ok
+test_original_tail_squeeze_and_ballistic_reserve (test_receipt_v7.ReceiptV7Tests.test_original_tail_squeeze_and_ballistic_reserve) ... ok
+test_probe_map_is_exactly_two_clock_changes (test_receipt_v7.ReceiptV7Tests.test_probe_map_is_exactly_two_clock_changes) ... ok
+test_revision_gate_and_unaffected_families (test_receipt_v7.ReceiptV7Tests.test_revision_gate_and_unaffected_families) ... ok
+test_rule_source_frozen (test_receipt_v7.ReceiptV7Tests.test_rule_source_frozen) ... ok
+test_single_preregistered_probe_full_evidence_retained (test_receipt_v7.ReceiptV7Tests.test_single_preregistered_probe_full_evidence_retained) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.168s
+
+OK

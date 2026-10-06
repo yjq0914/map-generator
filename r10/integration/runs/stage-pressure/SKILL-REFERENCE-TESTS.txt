@@ -1,0 +1,7 @@
+test_exported_project_guide_is_real_and_legacy_entry_resolves (test_project_skill_reference.ProjectSkillReferenceTests.test_exported_project_guide_is_real_and_legacy_entry_resolves) ... ok
+test_read_reference_tracks_actual_body_and_preserves_old_snapshot (test_project_skill_reference.ProjectSkillReferenceTests.test_read_reference_tracks_actual_body_and_preserves_old_snapshot) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK

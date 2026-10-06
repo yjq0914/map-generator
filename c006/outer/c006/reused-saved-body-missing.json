@@ -1,0 +1,129 @@
+{
+  "schema": "neighbor-public-saved-body-missing-fixtures/1",
+  "rows": [
+    {
+      "id": "control-00",
+      "runId": "c002-candidate-control-00-assigned_main",
+      "mapHash": "65f9aaaa23ca360d0e5bb5fb34d93d65547a1dac5bfe5fd45a4861734f7f33ed",
+      "traceSHA256": "c7228a7421c5bf94b911fade99a666be8234f38f4b2a83a984541b689b2d2202",
+      "adjacency": "upper-after",
+      "previousWindows": [
+        {
+          "name": "burst",
+          "layer": "combo",
+          "startTick": 0,
+          "endTick": 1503,
+          "forceSourceIds": [
+            "c0-wave-island-1",
+            "c0-wave-island-0",
+            "c0-wave-island-2",
+            "c1-press-0-top",
+            "c1-press-0-bottom"
+          ]
+        },
+        {
+          "name": "aperture",
+          "layer": "combo",
+          "startTick": 3600,
+          "endTick": 4801,
+          "forceSourceIds": [
+            "c3-aperture-1"
+          ]
+        }
+      ],
+      "requiredWindow": {
+        "name": "late-macro-stage",
+        "layer": "stage",
+        "startTick": 10320,
+        "endTick": 14160
+      },
+      "actualBodySampleCount": 3041,
+      "status": "missing",
+      "continuousFromTickZero": true,
+      "auxiliary": [
+        {
+          "slot": 9,
+          "bodyId": "c9-adj-upper",
+          "relation": "after-primary-before-bridge",
+          "requiredSide": "lower",
+          "passed": false,
+          "ordered": false,
+          "beforeBridge": false
+        },
+        {
+          "slot": 10,
+          "bodyId": "c10-adj-upper",
+          "relation": "after-primary-before-bridge",
+          "requiredSide": "lower",
+          "passed": false,
+          "ordered": false,
+          "beforeBridge": false
+        }
+      ],
+      "firstPrimarySuccessorBodyIds": [
+        "c11-press-0-top",
+        "c11-press-0-bottom"
+      ],
+      "nextDemandBodyIds": [
+        "c11-press-0-top",
+        "c11-press-0-bottom",
+        "c11-adj-upper"
+      ],
+      "restoredStateFixtureRejected": true,
+      "qualification": false
+    },
+    {
+      "id": "control-02",
+      "runId": "c002-candidate-control-02-assigned_main",
+      "mapHash": "967470949ce3895a007ef149d60d48702ec82ba8645e4daac30673d6e489b64c",
+      "traceSHA256": "d935a8db0f4d2bce9484061a9177709ed0a0b07fd80f6c08218e1fba1c002a97",
+      "adjacency": "lower-before",
+      "previousWindows": [],
+      "requiredWindow": {
+        "name": "late-macro-stage",
+        "layer": "stage",
+        "startTick": 9960,
+        "endTick": 13560
+      },
+      "actualBodySampleCount": 359,
+      "status": "missing",
+      "continuousFromTickZero": true,
+      "auxiliary": [
+        {
+          "slot": 9,
+          "bodyId": "c9-adj-lower",
+          "relation": "before-primary",
+          "requiredSide": "upper",
+          "passed": false,
+          "ordered": false,
+          "beforeBridge": false
+        },
+        {
+          "slot": 10,
+          "bodyId": "c10-adj-lower",
+          "relation": "before-primary",
+          "requiredSide": "upper",
+          "passed": false,
+          "ordered": false,
+          "beforeBridge": false
+        }
+      ],
+      "firstPrimarySuccessorBodyIds": [
+        "c11-wave-island-0"
+      ],
+      "nextDemandBodyIds": [
+        "c11-wave-island-0",
+        "c11-adj-lower"
+      ],
+      "restoredStateFixtureRejected": true,
+      "qualification": false
+    }
+  ],
+  "blockedDynamicEngineExports": 45,
+  "forbiddenCalls": 0,
+  "physicalExecutions": 0,
+  "physicalTicks": 0,
+  "sourceDataChanged": false,
+  "posesSynthesized": false,
+  "newDynamicsQualified": false
+}

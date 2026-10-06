@@ -1,0 +1,622 @@
+{
+  "schema": "adaptive-fresh-holdout/1",
+  "round": "c006",
+  "nonce": "29692b33b03342d09df89abe2f57de5b95a951f1375bd953",
+  "createdAt": "2026-10-05T15:24:06.290Z",
+  "rows": [
+    {
+      "id": "holdout-00",
+      "group": "holdout",
+      "seed": 2548093622,
+      "y": 258.6288474977482,
+      "vy": -55.157686257734895,
+      "lead": 12.546812277287245,
+      "phase": -0.352815251913853,
+      "adjacency": "upper-after",
+      "briefId": "fresh-neighbor-0",
+      "brief": {
+        "schema": "neighbor-late-macro-request/1",
+        "parentRequest": {
+          "schema": "flappy-laser-companion-request/1",
+          "prefix": {
+            "schema": "flappy-action-theme-request/1",
+            "plannedActions": [
+              {
+                "kind": "read-warning",
+                "stage": 0
+              },
+              {
+                "kind": "maintain-side",
+                "stage": 0
+              },
+              {
+                "kind": "receive",
+                "stage": 0
+              }
+            ],
+            "routeRelation": "preserve-both",
+            "theme": {
+              "warning": 0,
+              "periodicMotion": 0,
+              "projectileRhythm": 0,
+              "apertureVariation": 0
+            },
+            "constraints": {
+              "minRecipes": 1,
+              "maxRecipes": 1,
+              "projectiles": "forbid",
+              "encounterWindowSeconds": [
+                0,
+                15
+              ]
+            }
+          },
+          "companion": {
+            "schema": "flappy-prefix-and-late-macro-request/1",
+            "prefix": {
+              "schema": "flappy-action-theme-request/1",
+              "plannedActions": [],
+              "routeRelation": "preserve-both",
+              "theme": {
+                "warning": 0,
+                "periodicMotion": 0,
+                "projectileRhythm": 0,
+                "apertureVariation": 0
+              },
+              "constraints": {
+                "minRecipes": 0,
+                "maxRecipes": 0,
+                "projectiles": "allow",
+                "encounterWindowSeconds": [
+                  0,
+                  120
+                ]
+              }
+            },
+            "macro": null
+          }
+        },
+        "macro": {
+          "schema": "late-macro-request/1",
+          "firstDemand": "any",
+          "firstRecoverySeconds": 1.3666666666666667,
+          "theme": {
+            "staggerGradient": -0.05325608141720295,
+            "pairSymmetryGradient": 0.8648965703323483
+          }
+        }
+      }
+    },
+    {
+      "id": "holdout-01",
+      "group": "holdout",
+      "seed": 3751081589,
+      "y": 269.88943663658574,
+      "vy": 21.02551484014839,
+      "lead": 9.204165935516357,
+      "phase": -0.2214618285186589,
+      "adjacency": "lower-before",
+      "briefId": "fresh-neighbor-1",
+      "brief": {
+        "schema": "neighbor-late-macro-request/1",
+        "parentRequest": {
+          "schema": "flappy-laser-companion-request/1",
+          "prefix": {
+            "schema": "flappy-action-theme-request/1",
+            "plannedActions": [
+              {
+                "kind": "read-warning",
+                "stage": 0
+              },
+              {
+                "kind": "maintain-side",
+                "stage": 0
+              },
+              {
+                "kind": "receive",
+                "stage": 0
+              },
+              {
+                "kind": "cross-moving-boundary",
+                "stage": 1
+              },
+              {
+                "kind": "receive",
+                "stage": 1
+              }
+            ],
+            "routeRelation": "preserve-both",
+            "theme": {
+              "warning": 0,
+              "periodicMotion": 0,
+              "projectileRhythm": 0,
+              "apertureVariation": 0
+            },
+            "constraints": {
+              "minRecipes": 2,
+              "maxRecipes": 2,
+              "projectiles": "forbid",
+              "encounterWindowSeconds": [
+                0,
+                120
+              ]
+            }
+          },
+          "companion": {
+            "schema": "flappy-prefix-and-late-macro-request/1",
+            "prefix": {
+              "schema": "flappy-action-theme-request/1",
+              "plannedActions": [
+                {
+                  "kind": "cross-moving-boundary",
+                  "stage": 1
+                },
+                {
+                  "kind": "receive",
+                  "stage": 1
+                }
+              ],
+              "routeRelation": "preserve-both",
+              "theme": {
+                "warning": 0,
+                "periodicMotion": 0,
+                "projectileRhythm": 0,
+                "apertureVariation": 0
+              },
+              "constraints": {
+                "minRecipes": 1,
+                "maxRecipes": 1,
+                "projectiles": "forbid",
+                "encounterWindowSeconds": [
+                  0,
+                  120
+                ]
+              }
+            },
+            "macro": null
+          }
+        },
+        "macro": {
+          "schema": "late-macro-request/1",
+          "firstDemand": "any",
+          "firstRecoverySeconds": 1.4583333333333333,
+          "theme": {
+            "staggerGradient": 0.5142996883951128,
+            "pairSymmetryGradient": -0.22699279012158513
+          }
+        }
+      }
+    },
+    {
+      "id": "holdout-02",
+      "group": "holdout",
+      "seed": 2720323046,
+      "y": 270.8100602054037,
+      "vy": 64.66773432912305,
+      "lead": 12.06934329122305,
+      "phase": -0.1067237390438095,
+      "adjacency": "upper-after",
+      "briefId": "fresh-neighbor-2",
+      "brief": {
+        "schema": "neighbor-late-macro-request/1",
+        "parentRequest": {
+          "schema": "flappy-laser-companion-request/1",
+          "prefix": {
+            "schema": "flappy-action-theme-request/1",
+            "plannedActions": [
+              {
+                "kind": "read-warning",
+                "stage": 0
+              },
+              {
+                "kind": "maintain-side",
+                "stage": 0
+              },
+              {
+                "kind": "receive",
+                "stage": 0
+              },
+              {
+                "kind": "cross-changing-gap",
+                "stage": 0
+              },
+              {
+                "kind": "receive",
+                "stage": 0
+              }
+            ],
+            "routeRelation": "preserve-both",
+            "theme": {
+              "warning": 0,
+              "periodicMotion": 0,
+              "projectileRhythm": 0,
+              "apertureVariation": 0
+            },
+            "constraints": {
+              "minRecipes": 2,
+              "maxRecipes": 2,
+              "projectiles": "forbid",
+              "encounterWindowSeconds": [
+                0,
+                120
+              ]
+            }
+          },
+          "companion": {
+            "schema": "flappy-prefix-and-late-macro-request/1",
+            "prefix": {
+              "schema": "flappy-action-theme-request/1",
+              "plannedActions": [
+                {
+                  "kind": "cross-changing-gap",
+                  "stage": 0
+                },
+                {
+                  "kind": "receive",
+                  "stage": 0
+                }
+              ],
+              "routeRelation": "preserve-both",
+              "theme": {
+                "warning": 0,
+                "periodicMotion": 0,
+                "projectileRhythm": 0,
+                "apertureVariation": 0
+              },
+              "constraints": {
+                "minRecipes": 1,
+                "maxRecipes": 1,
+                "projectiles": "forbid",
+                "encounterWindowSeconds": [
+                  0,
+                  120
+                ]
+              }
+            },
+            "macro": null
+          }
+        },
+        "macro": {
+          "schema": "late-macro-request/1",
+          "firstDemand": "any",
+          "firstRecoverySeconds": 1.8083333333333333,
+          "theme": {
+            "staggerGradient": 0.07192506873980165,
+            "pairSymmetryGradient": -0.6382676921784878
+          }
+        }
+      }
+    },
+    {
+      "id": "holdout-03",
+      "group": "holdout",
+      "seed": 946218930,
+      "y": 278.9702703326475,
+      "vy": -12.371545927599072,
+      "lead": 18.607081035152078,
+      "phase": 0.25033645690418777,
+      "adjacency": "lower-before",
+      "briefId": "fresh-neighbor-3",
+      "brief": {
+        "schema": "neighbor-late-macro-request/1",
+        "parentRequest": {
+          "schema": "flappy-laser-companion-request/1",
+          "prefix": {
+            "schema": "flappy-action-theme-request/1",
+            "plannedActions": [
+              {
+                "kind": "read-warning",
+                "stage": 0
+              },
+              {
+                "kind": "maintain-side",
+                "stage": 0
+              },
+              {
+                "kind": "receive",
+                "stage": 0
+              },
+              {
+                "kind": "cross-changing-gap",
+                "stage": 0
+              },
+              {
+                "kind": "receive",
+                "stage": 0
+              },
+              {
+                "kind": "cross-moving-boundary",
+                "stage": 1
+              },
+              {
+                "kind": "receive",
+                "stage": 1
+              }
+            ],
+            "routeRelation": "preserve-both",
+            "theme": {
+              "warning": 0,
+              "periodicMotion": 0,
+              "projectileRhythm": 0,
+              "apertureVariation": 0
+            },
+            "constraints": {
+              "minRecipes": 3,
+              "maxRecipes": 3,
+              "projectiles": "forbid",
+              "encounterWindowSeconds": [
+                0,
+                120
+              ]
+            }
+          },
+          "companion": {
+            "schema": "flappy-prefix-and-late-macro-request/1",
+            "prefix": {
+              "schema": "flappy-action-theme-request/1",
+              "plannedActions": [
+                {
+                  "kind": "cross-changing-gap",
+                  "stage": 0
+                },
+                {
+                  "kind": "receive",
+                  "stage": 1
+                }
+              ],
+              "routeRelation": "preserve-both",
+              "theme": {
+                "warning": 0,
+                "periodicMotion": 0,
+                "projectileRhythm": 0,
+                "apertureVariation": 0
+              },
+              "constraints": {
+                "minRecipes": 2,
+                "maxRecipes": 2,
+                "projectiles": "forbid",
+                "encounterWindowSeconds": [
+                  0,
+                  120
+                ]
+              }
+            },
+            "macro": null
+          }
+        },
+        "macro": {
+          "schema": "late-macro-request/1",
+          "firstDemand": "any",
+          "firstRecoverySeconds": 1.5,
+          "theme": {
+            "staggerGradient": 0.2721112505532801,
+            "pairSymmetryGradient": -0.3002814380452037
+          }
+        }
+      }
+    },
+    {
+      "id": "holdout-04",
+      "group": "holdout",
+      "seed": 2758950501,
+      "y": 296.3128493214026,
+      "vy": -3.002478163689375,
+      "lead": 12.151631563901901,
+      "phase": 0.00011855741031469025,
+      "adjacency": "upper-after",
+      "briefId": "fresh-neighbor-4",
+      "brief": {
+        "schema": "neighbor-late-macro-request/1",
+        "parentRequest": {
+          "schema": "flappy-prefix-and-late-macro-request/1",
+          "prefix": {
+            "schema": "flappy-action-theme-request/1",
+            "plannedActions": [],
+            "routeRelation": "preserve-both",
+            "theme": {
+              "warning": 0,
+              "periodicMotion": 0,
+              "projectileRhythm": 0,
+              "apertureVariation": 0
+            },
+            "constraints": {
+              "minRecipes": 0,
+              "maxRecipes": 0,
+              "projectiles": "allow",
+              "encounterWindowSeconds": [
+                0,
+                120
+              ]
+            }
+          },
+          "macro": null
+        },
+        "macro": {
+          "schema": "late-macro-request/1",
+          "firstDemand": "any",
+          "firstRecoverySeconds": 1.75,
+          "theme": {
+            "staggerGradient": 0.27871791925281286,
+            "pairSymmetryGradient": 0.5798337128944695
+          }
+        }
+      }
+    },
+    {
+      "id": "holdout-05",
+      "group": "holdout",
+      "seed": 1000894899,
+      "y": 285.3992267069407,
+      "vy": -12.72356720874086,
+      "lead": -12.901272140443325,
+      "phase": 0.20643238232005384,
+      "adjacency": "lower-before",
+      "briefId": "fresh-neighbor-5",
+      "brief": {
+        "schema": "neighbor-late-macro-request/1",
+        "parentRequest": {
+          "schema": "flappy-prefix-and-late-macro-request/1",
+          "prefix": {
+            "schema": "flappy-action-theme-request/1",
+            "plannedActions": [
+              {
+                "kind": "maintain-side",
+                "stage": 0
+              },
+              {
+                "kind": "receive",
+                "stage": 1
+              }
+            ],
+            "routeRelation": "preserve-both",
+            "theme": {
+              "warning": 0,
+              "periodicMotion": 0,
+              "projectileRhythm": 0,
+              "apertureVariation": 0
+            },
+            "constraints": {
+              "minRecipes": 2,
+              "maxRecipes": 2,
+              "projectiles": "require",
+              "encounterWindowSeconds": [
+                0,
+                120
+              ]
+            }
+          },
+          "macro": null
+        },
+        "macro": {
+          "schema": "late-macro-request/1",
+          "firstDemand": "any",
+          "firstRecoverySeconds": 1.75,
+          "theme": {
+            "staggerGradient": 0.3459123456850648,
+            "pairSymmetryGradient": 0.41069027688354254
+          }
+        }
+      }
+    },
+    {
+      "id": "holdout-06",
+      "group": "holdout",
+      "seed": 2303228268,
+      "y": 297.5072228186764,
+      "vy": 63.93337523331866,
+      "lead": -17.361404560506344,
+      "phase": 0.19852608782239262,
+      "adjacency": "upper-after",
+      "briefId": "fresh-neighbor-6",
+      "brief": {
+        "schema": "neighbor-late-macro-request/1",
+        "parentRequest": {
+          "schema": "flappy-prefix-and-late-macro-request/1",
+          "prefix": {
+            "schema": "flappy-action-theme-request/1",
+            "plannedActions": [
+              {
+                "kind": "maintain-side",
+                "stage": 0
+              },
+              {
+                "kind": "cross-changing-gap",
+                "stage": 0
+              },
+              {
+                "kind": "receive",
+                "stage": 0
+              }
+            ],
+            "routeRelation": "preserve-both",
+            "theme": {
+              "warning": 0,
+              "periodicMotion": 0,
+              "projectileRhythm": 0,
+              "apertureVariation": 0
+            },
+            "constraints": {
+              "minRecipes": 2,
+              "maxRecipes": 2,
+              "projectiles": "require",
+              "encounterWindowSeconds": [
+                0,
+                120
+              ]
+            }
+          },
+          "macro": null
+        },
+        "macro": {
+          "schema": "late-macro-request/1",
+          "firstDemand": "any",
+          "firstRecoverySeconds": 1.7916666666666667,
+          "theme": {
+            "staggerGradient": -0.17722204327583313,
+            "pairSymmetryGradient": -0.34966724226251245
+          }
+        }
+      }
+    },
+    {
+      "id": "holdout-07",
+      "group": "holdout",
+      "seed": 3631374558,
+      "y": 256.29350987961516,
+      "vy": 9.809317947365344,
+      "lead": 3.2184667512774467,
+      "phase": 0.1313939226558432,
+      "adjacency": "lower-before",
+      "briefId": "fresh-neighbor-7",
+      "brief": {
+        "schema": "neighbor-late-macro-request/1",
+        "parentRequest": {
+          "schema": "flappy-prefix-and-late-macro-request/1",
+          "prefix": {
+            "schema": "flappy-action-theme-request/1",
+            "plannedActions": [
+              {
+                "kind": "maintain-side",
+                "stage": 0
+              },
+              {
+                "kind": "cross-changing-gap",
+                "stage": 0
+              },
+              {
+                "kind": "receive",
+                "stage": 1
+              }
+            ],
+            "routeRelation": "preserve-both",
+            "theme": {
+              "warning": 0,
+              "periodicMotion": 0,
+              "projectileRhythm": 0,
+              "apertureVariation": 0
+            },
+            "constraints": {
+              "minRecipes": 3,
+              "maxRecipes": 3,
+              "projectiles": "allow",
+              "encounterWindowSeconds": [
+                0,
+                120
+              ]
+            }
+          },
+          "macro": null
+        },
+        "macro": {
+          "schema": "late-macro-request/1",
+          "firstDemand": "any",
+          "firstRecoverySeconds": 1.6333333333333333,
+          "theme": {
+            "staggerGradient": 0.29452142864465714,
+            "pairSymmetryGradient": -0.7596711339429021
+          }
+        }
+      }
+    }
+  ]
+}

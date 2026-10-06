@@ -1,0 +1,36 @@
+{
+  "schema": "c006-semantic-review/1",
+  "parent": "c005 durable conditional adopted",
+  "sourceIdentity": "e4569d8bbeec61c5c1bfb150343aaf72fe3f520f862b5cb3821edbac4f352bfc",
+  "inheritedStaticChecksReused": 95,
+  "publicBindings": 16,
+  "generationErrors": 0,
+  "forms": [
+    "B",
+    "H",
+    "T",
+    "J",
+    "HT",
+    "HJ",
+    "JT",
+    "HJT",
+    "L",
+    "HL",
+    "LT",
+    "HLT"
+  ],
+  "oldSourcesChanged": false,
+  "oldObserversChanged": false,
+  "thresholdsChanged": false,
+  "localRiskStartsMax": 4,
+  "localRiskTicksMax": 6036,
+  "sourceRiskSeparateFromMacroVerdict": true,
+  "heldoutDrawsBeforeSemanticSave": 0,
+  "scientificBlockers": [],
+  "requiredBeforePhysics": [
+    "semantic Git and Library durability",
+    "one-time fresh heldout excluding c005 physical inputs",
+    "formal slots/windows freeze",
+    "formal Library receipt"
+  ]
+}

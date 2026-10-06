@@ -1,0 +1,52 @@
+{
+  "schema": "combo-map-renderer/1",
+  "physics_reruns": 0,
+  "clock": "authored",
+  "geometry_contract": "Canonical E.obstacles evaluated separately at each descriptor arrival; not a simultaneous snapshot",
+  "runtime": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/vendor/flappy-runtime.js",
+  "runtime_sha256": "58c19ff5f258bfc05ff2a4b1b9f8edbbf7742fc57fa1c0c294b1ddfda668e987",
+  "files": [
+    "contact-sheet.png",
+    "detail-baseline-701.png",
+    "seams-baseline-701.png",
+    "terminal-baseline-701.png"
+  ],
+  "legend": {
+    "full_filled_circles": "solid whole-circle colliders, with no invented windows",
+    "navy_solid": "stored measured player trace",
+    "gold_dashed": "authored guide only",
+    "inactive_outline": "non-colliding at sampled clock; may be active at other times"
+  },
+  "family_palette": {
+    "bellows-question-answer": "#16788a",
+    "cloister": "#bd6438",
+    "light-cavity": "#7069a9",
+    "slider-island": "#528843",
+    "spring-reception": "#a35387",
+    "tidal-staircase": "#b69632"
+  },
+  "maps": [
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B1/runs/baseline-701/map.json",
+      "sha256": "2094c7f47cda88c8154dff3e4ffbafd54a3779fbb15e0c09f036c9aea2b02ec7",
+      "seed": 701,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B1/runs/baseline-701/trace.json.gz",
+      "trace_sha256": "3502e8a8bbd1f2316ef09f744b85b9f2e25f859f34797a1140e62a2693b7620e",
+      "trace_points": 1691,
+      "nominal_extent_s": 31.599796747967478,
+      "geometry": "geometry-baseline-701.json",
+      "warnings": []
+    },
+    {
+      "map": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B1/runs/baseline-702/map.json",
+      "sha256": "d5bd9c44cc3982787cdbfedfbfce7f62a3fc27fed40b69ff833a905d558de256",
+      "seed": 702,
+      "trace": "/workspace/scratch/910473b420a7/combo-map-integration-four-loops/integration/runs/four-loops/B1/runs/baseline-702/trace.json.gz",
+      "trace_sha256": "984b43620427e6588b5fd625f8bf07c13332094faa68ae8094fa517142bd6ec3",
+      "trace_points": 817,
+      "nominal_extent_s": 31.5360569105691,
+      "geometry": "geometry-baseline-702.json",
+      "warnings": []
+    }
+  ]
+}

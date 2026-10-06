@@ -1,0 +1,13 @@
+{
+  "version": "b008-registry-candidate-v1",
+  "module": "source/b008-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "parent": {
+    "module": "source/b007-style-registry.cjs",
+    "config": "source/configs/b007-style-registry-v1.json",
+    "moduleSHA256": "9d4acbb177d64978dc30acce9a946ac7e3a97868417e83a75e1d7417f0ab27de",
+    "configSHA256": "9be8c6df2e882c7d59aef4a70d7ce7d29e01eb5a87a66f98f577804c1e0e0618"
+  },
+  "explicitCandidate": "timed-aperture-opposite-receiver",
+  "qualification": "Finite exact-b005 timed aperture candidate pending terminal; all current cumulative calls delegated exactly"
+}

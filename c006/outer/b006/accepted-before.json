@@ -1,0 +1,104 @@
+{
+  "schema": "lean-cumulative-accepted-pointer/1",
+  "version": "lean-cumulative-with-stage-recovery-v1",
+  "round": "b005",
+  "updatedAt": "2026-10-05T05:53:46.089Z",
+  "generator": "source/b005-style-registry.cjs",
+  "config": "source/configs/b005-style-registry-v1.json",
+  "defaultStyle": "vertical-default",
+  "defaultVersion": "recovery-cumulative-v1",
+  "explicitStyles": [
+    {
+      "id": "long-horizontal-occupation",
+      "generator": "source/a006-following-generator.cjs",
+      "config": "source/configs/a006-following-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a006/decision.json"
+    },
+    {
+      "id": "phase-through-or-bypass",
+      "generator": "source/a007-phase-generator-v2.cjs",
+      "config": "source/configs/a007-phase-v2.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12targetentrysinglecommand±1tickprofiles;explicit only",
+      "decision": "outer/a007/decision.json"
+    },
+    {
+      "id": "horizontal-phase-composition",
+      "generator": "source/a009-composed-generator.cjs",
+      "config": "source/configs/a009-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;32inherited+12phaseentrysingle-commandprofiles;explicit only",
+      "decision": "outer/a009/decision.json"
+    },
+    {
+      "id": "phase-late-horizontal-composition",
+      "generator": "source/a010-composed-generator.cjs",
+      "config": "source/configs/a010-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes;4target-entry single-command +/-1tick sensitivities; explicit only",
+      "decision": "outer/a010/decision.json"
+    },
+    {
+      "id": "late-phase-late-horizontal-composition",
+      "generator": "source/a012-composed-generator.cjs",
+      "config": "source/configs/a012-composed-v1.json",
+      "qualification": "finite24conditions/twoassignedroutes; prospective collision-footprint usage; zero routine perturbations or replays; explicit only",
+      "decision": "outer/a012/decision.json"
+    },
+    {
+      "id": "pinned-contact-relation-composition",
+      "generator": "source/b001-relation-grammar.cjs",
+      "config": "source/configs/b001-relation-grammar-v1.json",
+      "qualification": "finite24conditions/48assignedroutes/new-neighbour physical-action evidence",
+      "decision": "outer/b001/decision.json"
+    },
+    {
+      "id": "early-swinging-hammer",
+      "generator": "source/b002-swing-hammer.cjs",
+      "config": "source/configs/b002-swing-hammer-v1.json",
+      "qualification": "finite24conditions/48assignedroutes/actual circle-capsule demand in8pairedroutes; unprompted human reaction unknown",
+      "decision": "outer/b002/decision.json"
+    },
+    {
+      "id": "early-diagonal-warning-laser",
+      "generator": "source/b003-warning-laser-v2.cjs",
+      "config": "source/configs/b003-warning-laser-v2.json",
+      "qualification": "finite24conditions/48assignedroutes/first visible warning and actual lethal capsule action demand; human cue response unknown",
+      "decision": "outer/b003/decision.json"
+    },
+    {
+      "id": "hammer-warning-turn-relay",
+      "generator": "source/b004-mechanic-relay.cjs",
+      "config": "source/configs/b004-mechanic-relay-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; continuous hammer→warning→laser→opposite-side receiver; human cue response unknown",
+      "decision": "outer/b004/decision.json"
+    },
+    {
+      "id": "relation-conditioned-stage-recovery",
+      "generator": "source/b005-stage-recovery.cjs",
+      "config": "source/configs/b005-stage-recovery-v1.json",
+      "qualification": "finite24conditions/48assignedroutes; exact-b001 same-order one-stage75px recovery allocation, actual connector state/input and next body-demand evidence; human recovery ease unknown",
+      "decision": "outer/b005/decision.json"
+    }
+  ],
+  "parent": {
+    "version": "lean-cumulative-with-hammer-laser-relay-v1",
+    "immutablePointer": "outer/b005/accepted-before.json"
+  },
+  "constructionParent": "r012-fractional-entry-generation-robustness",
+  "historicalLastAccepted": "a004-semantic-bounded-composition",
+  "originalA004SourceRestored": false,
+  "decision": "outer/b005/decision.json",
+  "sourceFreeze": "protocols/freezes/b005-formal-v1.json",
+  "sourceManifestHash": "099b1fb76bad5a701aa19f6f2379181b509fcf3b4c1100f9f346d3b372e95a77",
+  "artifactManifest": "outer/b005/artifact-manifest.json",
+  "artifactManifestHash": "fb8b5250a14abd3781647e6c61b23a181d4aad92e1277c8216c41ae182389e91",
+  "qualifiedArchive": {
+    "libraryFileId": "libfile_83afd8ee05748191a75e118ec90e3a7a",
+    "libraryVersion": 41,
+    "sha256": "1de2fee9d1809ccd095fc3ea7bca18258663c3e22ac66c5755d734068f9eae36",
+    "receipt": "protocols/receipts/b005-qualified.json"
+  },
+  "qualification": "Finite exact-b001 one-stage recovery allocation only; ten old calls preserved exactly, default3 and optional union7 mechanisms unchanged. No arbitrary variable-length compiler, b004 composition or human experience claim.",
+  "publication": "unpublished experimental",
+  "mutableAlias": "ACCEPTED.json",
+  "immutableRoundSnapshot": "outer/b005/accepted-pointer.json"
+}

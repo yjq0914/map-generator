@@ -1,0 +1,9 @@
+{
+  "version": "b002-registry-candidate-v1",
+  "module": "source/b002-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "inheritedRegistry": "source/b001-style-registry.cjs",
+  "inheritB001": true,
+  "explicitCandidate": "early-swinging-hammer",
+  "qualification": "candidate routing; acceptance remains coordinator-owned"
+}

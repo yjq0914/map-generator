@@ -1,0 +1,11 @@
+{
+  "version": "recovery-cumulative-with-horizontal-phase-phrase-styles-v1",
+  "module": "source/a008-style-registry.cjs",
+  "defaultStyle": "vertical-default",
+  "explicitStyles": [
+    "long-horizontal-occupation",
+    "phase-through-or-bypass",
+    "interface-hold-then-turn"
+  ],
+  "composition": "separate choices; no implicit combination"
+}
