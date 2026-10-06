@@ -24,6 +24,17 @@ python -X utf8 integration/generator.py --experimental --revision 10 --seed 7703
 
 ## 导入范围与复现限制
 
+### 完整原始压缩包
+
+`archives/` 通过 Git LFS 保存以下两个完整原始包，未删减包内内容。文件大小与 SHA-256 见 `archives/SHA256.json`。
+
+- `archives/Flappy-adaptive-general-c006-interrupted-evidence.tar.gz`
+- `archives/combo-stage-pressure-r10-9e8e288-available-source-evidence.zip`
+
+安装 Git LFS 后可在本仓库运行 `git lfs pull` 下载完整字节，再解压使用。原包包含此前精简目录未提交的轨迹、图片、账本、大型分析记录和其他归档成员。完整原包保留原有资料缺口与资格限制，不代表所有历史依赖已经恢复。
+
+### 可直接浏览的源码目录
+
 来源归档：
 
 - `Flappy-adaptive-general-c006-interrupted-evidence.tar.gz`
